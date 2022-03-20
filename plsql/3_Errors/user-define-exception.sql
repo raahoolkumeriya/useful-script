@@ -1,0 +1,53 @@
+-- USER DEFINE EXCEPTION
+
+CREATE TABLE DEMO ( COL1 NUMBER CHECK ( COL1 <= 10 ));
+
+-- INSERT WILL FAIL
+BEGIN 
+    INSERT INTO DEMO
+    VALUES(11);
+END;
+/
+
+-- INSERT WITH EXPLICIT EXCEPTION CAUGHT
+DECLARE
+    e_not_less_than_ten EXCEPTION;
+    PRAGMA EXCEPTION_INIT(e_not_less_than_ten,-2290);
+BEGIN
+    INSERT INTO DEMO
+    VALUES(11);
+EXCEPTION
+    WHEN e_not_less_than_ten THEN
+        DBMS_OUTPUT.PUT_LINE('PLEASE USE VALUE LESS THAN 10.');
+END;
+/
+
+
+-- DONT DEFINE EXECEPTION FOR ERRORS THAT DONT REALY MATCH UP
+DECLARE
+    e_too_big EXCEPTION;
+    PRAGMA EXCEPTION_INIT(e_too_big,-1);
+    v_number NUMBER := 12;
+BEGIN
+    IF v_number > 10 THEN
+        RAISE e_too_big;
+    END IF;
+END;
+/
+
+
+--then define execption based on that
+DECLARE
+    v_number NUMBER := 12;
+    e_too_big EXCEPTION;
+    PRAGMA EXCEPTION_INIT(e_too_big,-20000);
+BEGIN
+    IF v_number > 10 THEN
+        RAISE_APPLICATION_ERROR(-20000,'VALUE TO BIG');
+    END IF;
+EXCEPTION
+   WHEN e_too_big THEN
+       DBMS_OUTPUT.PUT_LINE('SERIOUSLY IT TOO BIG');
+END;
+/
+
