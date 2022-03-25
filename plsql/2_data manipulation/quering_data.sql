@@ -1,4 +1,4 @@
--- Sql Query - in the case the sql developre
+-- Sql Query - in the case the sql developer
 -- enviroenment takes care of acceptiong and displaying
 -- teh return values
 
