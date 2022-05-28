@@ -1,6 +1,9 @@
-----------------------
---      Cursors
-----------------------
+-----------------------
+--      CURSORS      --
+-------------------------
+--        A cursor is a provate memory area, temporily allocated in UGA that use for processing SQL statements. 
+--        A cursor is a reference to a row of data in a table.
+
 -- EXPLICITS 
 --IMPLICITS 
 --VARIABLE 

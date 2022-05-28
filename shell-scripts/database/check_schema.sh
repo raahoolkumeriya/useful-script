@@ -1,0 +1,31 @@
+#!/bin/bash
+
+sqlplus -S $ORAUSER/$ORAPWD@$ORACONNECT <<EOF
+set heading off;
+set SERVEROUTPUT on;
+
+/*
+SELECT SYS_CONTEXT('USERENV','CURRENT_SCHEMA') FROM DUAL;
+ALTER SESSION SET CURRENT_SCHEMA=AXIOMUS;
+SELECT SYS_CONTEXT('USERENV','CURRENT_SCHEMA') FROM DUAL;
+*/
+
+-- ALTER SESSION SET CURRENT_SCHEMA=AXIOMUS;
+
+SET ECHO ON;
+
+DECALRE 
+    current_schema VARCHAR2(30);
+BEGIN
+    SELECT SYS_CONTEXT('USERENV','CURRENT_SCHEMA') INTO current_schema FROM DUAL;
+    IF current_schema = 'AXIOMUS' THEN
+        DBMS_OUTPUT.PUT_LINE('Current schema is '||current_schema);
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Current schema is ' || current_schema);
+    END IF;
+END;
+/
+EXIT;
+EOF
+
+echo "EXECUTED"

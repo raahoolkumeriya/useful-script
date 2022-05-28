@@ -1,3 +1,23 @@
+/*
+-------------------------------------------------
+    - PROGRAM HEADER
+        < required for Stored subprograms only > 
+    - DECLARE
+        < local variables declaration >
+    - BEGIN
+        < Executable statements >
+    - EXCEPTION
+        <  Exception handling Statements >
+    END;
+-------------------------------------------------
+- Anonymous PL/SQL Block
+    < no name, DECLARE-BEGIN-END Skeleton, cannot stored in database >
+- Named
+    < name, can be store as schema object, function, procedure, trigger or package >
+- Nested
+    < block within anohter block >
+*/
+
 --- WORLD Simplest block
 BEGIN
     -- sinmple block on sql
