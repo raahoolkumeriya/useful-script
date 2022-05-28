@@ -1,0 +1,14 @@
+[22-05-27 11:09:57]: INFO: Log File name: /u01/profiler/LOGS_ORACLE_COLLECTIONS/run_axiomus_conn_3_composite_datatype_270522110957.log
+[22-05-27 11:09:57]: INFO: Starting the script
+[22-05-27 11:09:57]: INFO: Script Directory: /u01/profiler
+[22-05-27 11:09:57]: INFO: Query Directory: /u01/profiler/oracle_collections
+[22-05-27 11:09:57]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-27 11:09:57]: ----------------------------------------------------
+[22-05-27 11:09:57]:  DATABASE QUERY STARTS 
+[22-05-27 11:09:57]: 
+Employee name : SCOTT
+Employee Job : ANALYST
+Employee Sal : 3000
+
+PL/SQL procedure successfully completed.
+

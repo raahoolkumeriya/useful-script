@@ -1,0 +1,58 @@
+[22-05-27 23:41:37]: INFO: Log File name: /u01/profiler/LOGS_TUNNING/run_axiomus_conn_7.2_types_of_binding_270522234137.log
+[22-05-27 23:41:37]: INFO: Starting the script
+[22-05-27 23:41:37]: INFO: Script Directory: /u01/profiler
+[22-05-27 23:41:37]: INFO: Query Directory: /u01/profiler/tunning
+[22-05-27 23:41:37]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-27 23:41:37]: ----------------------------------------------------
+[22-05-27 23:41:37]:  DATABASE QUERY STARTS 
+[22-05-27 23:41:37]: 
+----------------------------------------------------------
+IN-BIND : When an INSERT, UPDATE or MERGE operation and if you are using an collection variable to transfer content from DML statement into a Table the bind operation happens is IN-BINDing.
+----------------------------------------------------------
+--- to achive this binding we have reseve keyword is FORALL
+DECLARE
+TYPE t_num_list_type IS TABLE OF NUMBER
+lv_num_list t_num_list_type := t_num_list_type(1,2,3,4,5)
+BEGIN
+FORALL i IN lv_num_list.FIRST .. lv_num_list.LAST
+INSERT INTO A values(lv_num_list(i))
+END
+----------------------------------------------------------
+OUT-BIND : Whereve we do a DML operation and if you want to get the modified data into a Collection.
+>>>> That means you are taking the result of DML statemtn into a Collection is called OUT-BINDing.
+----------------------------------------------------------
+-- Tp acheive this we haev RETURNING clause
+DECLARE
+TYPE t_num_list_type IS TABLE OF NUMBER
+lv_num_list t_num_list_type := t_num_list_type()
+BEGIN
+UPDATE A
+SET COL=COL+100
+RETURNING COL
+BULK COLLECT INTO lv_num_list
+END
+----------------------------------------------------------
+DEFINE : Whenever we want to hold the output of SELECt statement into a PLSQL collection variable with a minimual contact switch. The method we use is called DEFINE.
+----------------------------------------------------------
+-- to achive this we have BULK COLLECT keyword
+DECLARE
+TYPE t_num_list_type IS TABLE OF NUMBER
+lv_num_list t_num_list_type := t_num_list_type()
+BEGIN
+SELECT COL
+BULK COLLECT INTO lv_num_list
+FROM A
+END
+-------------------------
+As part of CURSOR
+-------------------------
+DEFINE
+TYPE t_num_list_type IS TABLE OF NUMBER
+lv_num_list t_num_list_type := t_num_list_type()
+CURSOR cur is SELECT * FROM A
+BEGIN
+OPEN cur
+FETCH cur
+BULK COLLECT INTO lv_num_list
+CLOSE cur
+END

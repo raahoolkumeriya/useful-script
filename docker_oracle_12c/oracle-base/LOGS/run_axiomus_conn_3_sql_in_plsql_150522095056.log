@@ -1,0 +1,44 @@
+[22-05-15 09:50:56]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_3_sql_in_plsql_150522095056.log
+[22-05-15 09:50:56]: INFO: Starting the script
+[22-05-15 09:50:56]: INFO: Script Directory: /u01/docker
+[22-05-15 09:50:56]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-15 09:50:56]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-15 09:50:56]: ----------------------------------------------------
+[22-05-15 09:50:56]:  DATABASE QUERY STARTS 
+[22-05-15 09:50:56]: 
+1
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------
+Retrive data from sql--> implicit Cursor
+---------------------------------------
+l_description = One
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------
+Retrive data from sql--> Explicit Cursor
+---------------------------------------
+l_description from Cursor = One
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------
+Multiple queries from table
+---------------------------------------
+Id : 1 --> One
+Id : 2 --> Two
+Id : 3 --> Three
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------
+Multiple queries from table with Cursor
+---------------------------------------
+One
+Two
+Three
+
+PL/SQL procedure successfully completed.
+

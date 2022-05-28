@@ -1,0 +1,17 @@
+[22-05-08 05:29:55]: INFO: Log File name: /u01/scripts/LOGS/execute_query_17_index_by_table_080522052955.log
+[22-05-08 05:29:55]: INFO: Starting the script
+[22-05-08 05:29:55]: INFO: Script Directory: /u01/scripts
+[22-05-08 05:29:55]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-08 05:29:55]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-08 05:29:55]: ----------------------------------------------------
+[22-05-08 05:29:55]:  DATABASE QUERY STARTS 
+[22-05-08 05:29:55]: 
+Coustmer(1) = Ramesh
+Coustmer(2) = Khilan
+Coustmer(3) = kaushik
+Coustmer(4) = Chaitali
+Coustmer(5) = Hardik
+Coustmer(6) = Komal
+
+PL/SQL procedure successfully completed.
+

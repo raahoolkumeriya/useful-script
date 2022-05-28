@@ -1,0 +1,27 @@
+[22-04-21 16:14:33]: INFO: Log File name: /u01/scripts/LOGS/execute_query_10_database_triggers_210422161433.log
+[22-04-21 16:14:33]: INFO: Starting the script
+[22-04-21 16:14:33]: INFO: Script Directory: /u01/scripts
+[22-04-21 16:14:33]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-21 16:14:33]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-04-21 16:14:33]: ----------------------------------------------------
+[22-04-21 16:14:33]:  DATABASE QUERY STARTS 
+[22-04-21 16:14:33]: 
+>>> DATABASE TRIGGERS <<<<
+> : 5 type of triggers
+>  - Data defination Language ( DDL ) triggers: Fire when you CREATE, ALTER, RENAME, or DROP object in databse schema.
+to monitor poor programming practices creation or drop temporary tabels rather than use Oracle collections effectively in memory
+Temporary tables can framant disk space and over tiem degrade perfomrance
+
+> - Data Manipulation Language (DML ) or row-level triggers: Fire when you INSERT, UPDATE, or DELETE data from table
+to audit, check, save and replace values before they changed.
+Automatic numbering of pseudonumeric primary keys is frequently done using DML triggers
+
+> - Compound triggers: Act as both statement- and row-level triggers when you INSERT, UPDATE or DELETE data form a table
+Capture information at four points - BEFORE 1. firing statement 2. each row change from firing statement
+AFTER  3. Each row change from the firing statement 4. firing statement
+to audit, check, save and replace values before they changes
+
+> - Instead of triggers: Enable you to stop performance of a DML statement and redirect the DML statement. Often use with Not updatable views
+
+> - System or database event triggers: Fire when a system activity occurs in database
+login and logoff events, enable you to track system events and map them to users

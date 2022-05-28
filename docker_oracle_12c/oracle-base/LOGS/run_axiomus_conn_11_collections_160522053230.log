@@ -1,0 +1,33 @@
+[22-05-16 05:32:30]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_11_collections_160522053230.log
+[22-05-16 05:32:30]: INFO: Starting the script
+[22-05-16 05:32:30]: INFO: Script Directory: /u01/docker
+[22-05-16 05:32:30]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-16 05:32:30]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 05:32:30]: ----------------------------------------------------
+[22-05-16 05:32:30]:  DATABASE QUERY STARTS 
+[22-05-16 05:32:30]: 
+-----Index-By Tables (Associative array)---------
+The numebr 1
+The numebr 2
+The numebr 4
+The numebr 5
+
+PL/SQL procedure successfully completed.
+
+------ NESTED TABLE COLLECTION -----------
+The number 1
+The number 2
+The number 4
+The number 5
+
+PL/SQL procedure successfully completed.
+
+------ VARRAY Collections ----------
+The number 1
+The number 2
+The number 3
+The number 4
+The number 5
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,29 @@
+[22-05-16 09:04:20]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_1.3_in_vs_exists_vs_join_160522090420.log
+[22-05-16 09:04:20]: INFO: Starting the script
+[22-05-16 09:04:20]: INFO: Script Directory: /u01/docker
+[22-05-16 09:04:20]: INFO: Query Directory: /u01/docker/sql-plsql
+[22-05-16 09:04:20]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 09:04:20]: ----------------------------------------------------
+[22-05-16 09:04:20]:  DATABASE QUERY STARTS 
+[22-05-16 09:04:20]: 
+
+EMPLOYEE_ID EMPLOYEE_N HIREDATE
+----------- ---------- ---------
+       7369 SMITH      17-DEC-80
+       7499 ALLEN      20-FEB-81
+       7521 WARD       22-FEB-81
+       7566 JONES      02-APR-81
+       7654 MARTIN     28-SEP-81
+       7698 BLAKE      01-MAY-81
+       7782 CLARK      09-JUN-81
+       7788 SCOTT      19-APR-87
+       7839 KING       17-NOV-81
+       7844 TURNER     08-SEP-81
+       7876 ADAMS      23-MAY-87
+       7900 JAMES      03-DEC-81
+       7902 FORD       03-DEC-81
+       7934 MILLER     23-JAN-82
+
+14 rows selected.
+
+Elapsed: 00:00:00.02

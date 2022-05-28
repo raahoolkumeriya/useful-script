@@ -1,0 +1,19 @@
+[22-05-15 17:38:08]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_6_stored_procedure_150522173808.log
+[22-05-15 17:38:08]: INFO: Starting the script
+[22-05-15 17:38:08]: INFO: Script Directory: /u01/docker
+[22-05-15 17:38:08]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-15 17:38:08]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-15 17:38:08]: ----------------------------------------------------
+[22-05-15 17:38:08]:  DATABASE QUERY STARTS 
+[22-05-15 17:38:08]: 
+
+Procedure created.
+
+2
+3
+4
+5
+6
+
+PL/SQL procedure successfully completed.
+

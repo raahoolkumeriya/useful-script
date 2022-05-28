@@ -1,0 +1,40 @@
+[22-05-28 04:05:54]: INFO: Log File name: /u01/profiler/oracle_collections/LOGS_ORACLE_COLLECTIONS/run_axiomus_conn_8_collection_methods_280522040554.log
+[22-05-28 04:05:54]: INFO: Starting the script
+[22-05-28 04:05:54]: INFO: Script Directory: /u01/profiler
+[22-05-28 04:05:54]: INFO: Query Directory: /u01/profiler/oracle_collections
+[22-05-28 04:05:54]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 04:05:54]: ----------------------------------------------------
+[22-05-28 04:05:54]:  DATABASE QUERY STARTS 
+[22-05-28 04:05:54]: 
+monday tuesday wednesday
+Limit will get value for VARRAY(7) from define part
+LIMIT : 7
+Count will get value for the initlization v_array_type(NULL,NULL,NULL)
+COUNT : 3
+First will give the subscript of first element
+FIRST : 1
+Last will give the subscript of Last element initliazed
+LAST : 3
+TRIM will delete the last elements base on the parameter to trim()
+COUNT : 3
+COUNT : 1
+
+PL/SQL procedure successfully completed.
+
+COUNT : 3
+Delete will delete all the elements from arrray
+COUNT : 0
+
+PL/SQL procedure successfully completed.
+
+----------------------------------------------------
+We CANNOT delete specific element from VAARAY
+LIMIT is specific to VAARRAY
+----------------------------------------------------
+COUNT : 3
+COUNT : 5
+PRIOR : 1
+NEXT : 3
+
+PL/SQL procedure successfully completed.
+

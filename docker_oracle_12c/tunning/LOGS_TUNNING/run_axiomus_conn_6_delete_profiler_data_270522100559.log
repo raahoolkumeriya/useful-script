@@ -1,0 +1,20 @@
+[22-05-27 10:05:59]: INFO: Log File name: /u01/profiler/LOGS/run_axiomus_conn_6_delete_profiler_data_270522100559.log
+[22-05-27 10:05:59]: INFO: Starting the script
+[22-05-27 10:05:59]: INFO: Script Directory: /u01/profiler
+[22-05-27 10:05:59]: INFO: Query Directory: /u01/profiler/tunning
+[22-05-27 10:05:59]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-27 10:05:59]: ----------------------------------------------------
+[22-05-27 10:06:00]:  DATABASE QUERY STARTS 
+[22-05-27 10:06:00]: 
+-----------------------------------------------------------
+Delete table in sequence as it contian foregin keys
+-----------------------------------------------------------
+
+Table truncated.
+
+
+8 rows deleted.
+
+
+1 row deleted.
+

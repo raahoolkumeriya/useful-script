@@ -1,0 +1,68 @@
+[22-05-04 05:03:54]: INFO: Log File name: /u01/scripts/LOGS/execute_query_2_user_define_exception_040522050354.log
+[22-05-04 05:03:54]: INFO: Starting the script
+[22-05-04 05:03:54]: INFO: Script Directory: /u01/scripts
+[22-05-04 05:03:54]: INFO: Query Directory: /u01/scripts/queryspace
+[22-05-04 05:03:54]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-04 05:03:54]: ----------------------------------------------------
+[22-05-04 05:03:54]:  DATABASE QUERY STARTS 
+[22-05-04 05:03:54]: 
+-----------------------------------------------------------------------------
+Exception management Built-in Functions
+User-Define Execptions :  2 Types - 1) Declare in EXCEPTION variable in Declaration block
+2) Build dynamic exception in exception block by calling RAISE_APPLICATION_ERROR function
+-----------------------------------------------------------------------------
+-- TWO - STEP declaration process let you declare and map it to a number
+This is a [User-Defined Exception]
+
+PL/SQL procedure successfully completed.
+
+-- THE SECOND step declares a PRAGMA. It a COmpiler directive. EXCEPTION_INIT diectove to map to an error code
+ORA-02003: invalid USERENV parameter
+
+PL/SQL procedure successfully completed.
+
+-- DYNAMIC user-define Exceptions
+-- Raising Dynamic exception without previously declaring a user defined EXCEPTION variable
+ORA-20001: A not too original message.
+
+PL/SQL procedure successfully completed.
+
+-- Declaring, mapping a user-defined error code to an EXCEPTION variable, and settign message dynamically
+ORA-20001: A less than original message.
+
+PL/SQL procedure successfully completed.
+
+--- Exception Stack Functions
+----- Exception stack management
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+BEGIN
+*
+ERROR at line 1:
+ORA-06502: PL/SQL: numeric or value error: character string buffer too small
+ORA-06512: at "AXIOMUS.HANDLE_ERRORS", line 48
+ORA-06512: at "AXIOMUS.ERROR_LEVEL1", line 10
+ORA-06502: PL/SQL: numeric or value error: character string buffer too small
+ORA-06512: at "AXIOMUS.HANDLE_ERRORS", line 48
+ORA-06512: at "AXIOMUS.ERROR_LEVEL2", line 10
+ORA-06502: PL/SQL: numeric or value error: character string buffer too small
+ORA-06512: at "AXIOMUS.HANDLE_ERRORS", line 48
+ORA-06512: at "AXIOMUS.ERROR_LEVEL3", line 12
+ORA-06502: PL/SQL: numeric or value error: character string buffer too small
+ORA-06512: at "AXIOMUS.ERROR_LEVEL3", line 9
+ORA-06512: at "AXIOMUS.ERROR_LEVEL2", line 7
+ORA-06512: at "AXIOMUS.ERROR_LEVEL1", line 7
+ORA-06512: at line 2
+
+
+[22-05-04 05:03:54]: SQLERROR: Query error 102 in 2_user_define_exception.sql

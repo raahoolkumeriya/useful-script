@@ -1,0 +1,46 @@
+[22-05-28 08:26:49]: INFO: Log File name: /u01/profiler/pratice_questions/LOGS_PRATICE_QUESTIONS/run_axiomus_conn_3_without_not_280522082649.log
+[22-05-28 08:26:49]: INFO: Starting the script
+[22-05-28 08:26:49]: INFO: Script Directory: /u01/profiler
+[22-05-28 08:26:49]: INFO: Query Directory: /u01/profiler/pratice_questions
+[22-05-28 08:26:49]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 08:26:49]: ----------------------------------------------------
+[22-05-28 08:26:49]:  DATABASE QUERY STARTS 
+[22-05-28 08:26:49]: 
+---------------------------------------------------
+--						 --
+---------------------------------------------------
+
+0 rows deleted.
+
+
+0 rows deleted.
+
+
+Commit complete.
+
+
+CO CO
+-- --
+A  A
+B  A
+C  A
+D  A
+E  A
+A  C
+B  C
+C  C
+D  C
+E  C
+A  E
+B  E
+C  E
+D  E
+E  E
+A  G
+B  G
+C  G
+D  G
+E  G
+
+20 rows selected.
+

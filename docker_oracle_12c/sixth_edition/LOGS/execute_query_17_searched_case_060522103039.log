@@ -1,0 +1,12 @@
+[22-05-06 10:30:39]: INFO: Log File name: /u01/scripts/LOGS/execute_query_17_searched_case_060522103039.log
+[22-05-06 10:30:39]: INFO: Starting the script
+[22-05-06 10:30:39]: INFO: Script Directory: /u01/scripts
+[22-05-06 10:30:39]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 10:30:39]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 10:30:39]: ----------------------------------------------------
+[22-05-06 10:30:39]:  DATABASE QUERY STARTS 
+[22-05-06 10:30:39]: 
+8289191 will get bonus of ammont : 1500
+
+PL/SQL procedure successfully completed.
+

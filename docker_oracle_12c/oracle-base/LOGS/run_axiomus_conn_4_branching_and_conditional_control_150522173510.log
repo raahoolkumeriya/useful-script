@@ -1,0 +1,19 @@
+[22-05-15 17:35:10]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_4_branching_and_conditional_control_150522173510.log
+[22-05-15 17:35:10]: INFO: Starting the script
+[22-05-15 17:35:10]: INFO: Script Directory: /u01/docker
+[22-05-15 17:35:10]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-15 17:35:10]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-15 17:35:10]: ----------------------------------------------------
+[22-05-15 17:35:10]:  DATABASE QUERY STARTS 
+[22-05-15 17:35:10]: 
+The weekend is nearly over!
+
+PL/SQL procedure successfully completed.
+
+-----------------------------------
+case statements
+-----------------------------------
+The weekend nearly over!
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,41 @@
+[22-05-01 14:35:04]: INFO: Log File name: /u01/scripts/LOGS/execute_query_1_error_mangement_010522143504.log
+[22-05-01 14:35:04]: INFO: Starting the script
+[22-05-01 14:35:04]: INFO: Script Directory: /u01/scripts
+[22-05-01 14:35:04]: INFO: Query Directory: /u01/scripts/queryspace
+[22-05-01 14:35:04]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-01 14:35:04]: ----------------------------------------------------
+[22-05-01 14:35:04]:  DATABASE QUERY STARTS 
+[22-05-01 14:35:04]: 
+>>> PLSQL has two types of Errors: COMPILATION and RUN-TIME errors
+--- COMPILATION ERROR occurs when you make an error typing the program or defining the program
+-- RUN-TIME ERROR occurs when actual data fails to meet the rules defined by your program unit
+"------Exception handling"
+You can't put [AB] in one character string.
+
+PL/SQL procedure successfully completed.
+
+------Local Error handling
+Caught in outer block [ORA-01403: no data found].
+
+PL/SQL procedure successfully completed.
+
+-------Manually raise a User-define exception
+Caught in outer block [-6502].
+
+PL/SQL procedure successfully completed.
+
+---- Dynamic assignment problem in stored programming unit
+-----------------------------------------------------------------------------
+Good PL/SQL coding practices avoid dynamic assignments in declaration blocks.
+-----------------------------------------------------------------------------
+
+Function created.
+
+SELECT runtime_error ('AB') FROM DUAL
+       *
+ERROR at line 1:
+ORA-06502: PL/SQL: numeric or value error: character string buffer too small
+ORA-06512: at "AXIOMUS.RUNTIME_ERROR", line 3
+
+
+[22-05-01 14:35:04]: SQLERROR: Query error 102 in 1_error_mangement.sql

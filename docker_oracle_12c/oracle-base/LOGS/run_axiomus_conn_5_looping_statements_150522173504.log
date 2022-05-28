@@ -1,0 +1,44 @@
+[22-05-15 17:35:04]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_5_looping_statements_150522173504.log
+[22-05-15 17:35:04]: INFO: Starting the script
+[22-05-15 17:35:04]: INFO: Script Directory: /u01/docker
+[22-05-15 17:35:04]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-15 17:35:04]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-15 17:35:04]: ----------------------------------------------------
+[22-05-15 17:35:04]:  DATABASE QUERY STARTS 
+[22-05-15 17:35:04]: 
+-------- Simple loop ----------------
+1
+2
+3
+4
+5
+
+PL/SQL procedure successfully completed.
+
+-------- FOR-LOOP ----------------
+1
+2
+3
+4
+5
+
+PL/SQL procedure successfully completed.
+
+-------- WHILE-LOOP ----------------
+1
+2
+3
+4
+5
+
+PL/SQL procedure successfully completed.
+
+---------- GOTO -------------------
+1
+2
+3
+4
+5
+
+PL/SQL procedure successfully completed.
+

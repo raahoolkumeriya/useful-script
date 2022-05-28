@@ -1,0 +1,54 @@
+[22-05-07 06:42:32]: INFO: Log File name: /u01/scripts/LOGS/execute_query_1_data_types_070522064232.log
+[22-05-07 06:42:32]: INFO: Starting the script
+[22-05-07 06:42:32]: INFO: Script Directory: /u01/scripts
+[22-05-07 06:42:32]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-07 06:42:32]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-07 06:42:32]: ----------------------------------------------------
+[22-05-07 06:42:32]:  DATABASE QUERY STARTS 
+[22-05-07 06:42:32]: 
+Data-types in PLSQL
+Category
+--> Scalar ( Single value with no internal component such as NUMBER, DATE or BOOLEAN )
+|-----> Numeric
+|--------------------------> PLS_INTEGER
+|--------------------------> BINARY_RANGE
+|--------------------------> BINARY_FLOAT
+|--------------------------> BINARY_DOUBLE
+|--------------------------> NUMBER(prec, scale)
+|--------------------------> DEC(prec, scale)
+|--------------------------> DECIMAL(prec,scale)
+|--------------------------> NUMERIC(prec, scale)
+|--------------------------> DOUBLE PRECISION
+|--------------------------> FLOAT
+|--------------------------> INT
+|--------------------------> INTEGER
+|--------------------------> SMALLINT
+|--------------------------> REAL
+|-----> Charater
+|--------------------------> CHAR
+|--------------------------> VARCHAR2
+|--------------------------> RAW
+|--------------------------> NCHAR
+|--------------------------> NVARCHAR2
+|--------------------------> LONG
+|--------------------------> LONG RAW
+|--------------------------> ROWID
+|--------------------------> UROWID
+|-----> Boolean
+|--------------------------> BOOLEAN
+|-----> Datetime
+|--------------------------> DATE
+--> large Objects (LOB) : (Pointer to large objects taht are stored seperately from other data items such as text,graphic image, video clips and sound waveforms)
+|-----> BFILE
+|-----> BLOB
+|-----> CLOB
+|-----> NCLOB
+--> Composite : Internal components that can be access indivilly. eg. Collections and records
+|----->
+--> Reference: Pointer to other data items
+|----->
+PLSQL User-Defined Subtypes
+Hello Reader		  , Welcome to the world of PLSQL
+
+PL/SQL procedure successfully completed.
+

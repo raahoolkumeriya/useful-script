@@ -1,0 +1,52 @@
+[22-05-08 04:00:21]: INFO: Log File name: /u01/scripts/LOGS/execute_query_14_packages_080522040021.log
+[22-05-08 04:00:21]: INFO: Starting the script
+[22-05-08 04:00:21]: INFO: Script Directory: /u01/scripts
+[22-05-08 04:00:21]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-08 04:00:21]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-08 04:00:21]: ----------------------------------------------------
+[22-05-08 04:00:21]:  DATABASE QUERY STARTS 
+[22-05-08 04:00:21]: 
+---------------------------------------------------------
+---> Package Specification: Interface to the Package.
+----------> It just DECLAREs the TYPEs, VARIABLEs, CONSTANTs, EXCEPTIONs, CURSORs and Subprograms taht can be reference outside the package.
+----------> All objects place in hte specification are called public onjects.
+----------> Any subprogam not in the package specification but coded in package body is called Private object.
+---------------------------------------------------------
+
+Package created.
+
+---------------------------------------------------------
+---> Package Body or deifinition
+-------------> codes of various methods declared in pacakge specification and other private declarations, which are hidden from the code outside the package
+---------------------------------------------------------
+
+Package body created.
+
+Customer Salary : 3000
+
+PL/SQL procedure successfully completed.
+
+----------------------------------------------------------------------
+
+Warning: Package created with compilation errors.
+
+Errors for PACKAGE TP_CUSTOMER_PKG:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+4/2	 PL/SQL: Declaration ignored
+5/9	 PLS-00201: identifier 'TP_CUSTOMER.ID' must be declared
+11/2	 PL/SQL: Declaration ignored
+11/29	 PLS-00201: identifier 'TP_CUSTOMER.ID' must be declared
+
+Warning: Package Body created with compilation errors.
+
+Errors for PACKAGE BODY TP_CUSTOMER_PKG:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+0/0	 PL/SQL: Compilation unit analysis terminated
+1/14	 PLS-00304: cannot compile body of 'TP_CUSTOMER_PKG' without its
+	 specification
+
+1/14	 PLS-00905: object AXIOMUS.TP_CUSTOMER_PKG is invalid

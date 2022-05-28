@@ -1,0 +1,70 @@
+[22-05-15 08:31:40]: INFO: Log File name: /u01/docker/LOGS/admin_conn_switch-to-pdb_150522083140.log
+[22-05-15 08:31:40]: INFO: Starting the script
+[22-05-15 08:31:40]: INFO: Script Directory: /u01/docker
+[22-05-15 08:31:40]: INFO: Query Directory: /u01/docker/.
+[22-05-15 08:31:40]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-15 08:31:41]: ----------------------------------------------------
+[22-05-15 08:31:41]:  DATABASE QUERY STARTS 
+[22-05-15 08:31:41]: 
+
+NAME			  PDB
+------------------------- ------------------------------
+ORCLCDB.localdomain	  CDB$ROOT
+ORCLCDBXDB		  CDB$ROOT
+SYS$BACKGROUND		  CDB$ROOT
+SYS$USERS		  CDB$ROOT
+orclpdb1.localdomain	  ORCLPDB1
+
+
+CON_NAME
+------------------------------
+CDB$ROOT
+
+Session altered.
+
+
+CON_NAME
+------------------------------
+ORCLPDB1
+CREATE USER axiomus IDENTIFIED BY axiomus123 CONTAINER=CURRENT
+            *
+ERROR at line 1:
+ORA-01920: user name 'AXIOMUS' conflicts with another user or role name
+
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+GRANT INSERT, UPDATE, DELETE TO axiomus CONTAINER=CURRENT
+                      *
+ERROR at line 1:
+ORA-01919: role 'DELETE' does not exist
+
+
+GRANT REFERENCES TO axiomus CONTAINER=CURRENT
+      *
+ERROR at line 1:
+ORA-01919: role 'REFERENCES' does not exist
+
+
+GRANT INDEX TO axiomus CONTAINER=CURRENT
+      *
+ERROR at line 1:
+ORA-01919: role 'INDEX' does not exist
+
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+

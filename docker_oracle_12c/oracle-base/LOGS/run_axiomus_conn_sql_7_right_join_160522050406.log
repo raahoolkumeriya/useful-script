@@ -1,0 +1,42 @@
+[22-05-16 05:04:06]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_sql_7_right_join_160522050406.log
+[22-05-16 05:04:06]: INFO: Starting the script
+[22-05-16 05:04:06]: INFO: Script Directory: /u01/docker
+[22-05-16 05:04:06]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-16 05:04:06]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 05:04:06]: ----------------------------------------------------
+[22-05-16 05:04:06]:  DATABASE QUERY STARTS 
+[22-05-16 05:04:06]: 
+---- RIGHT [OUTER] JOIN ------
+--- Opposite of LEFT JOIN --
+--- Return all valid from the tabels on the right side of JOIN Keyword, along with the values from the table on left side or NULL if a matching rows doesnt exists
+--- ASCI RIGHT JOIN -----
+
+DEPARTMENT_NAM EMPLOYEE_N
+-------------- ----------
+OPERATIONS
+SALES	       ALLEN
+SALES	       BLAKE
+SALES	       JAMES
+SALES	       MARTIN
+SALES	       TURNER
+SALES	       WARD
+
+7 rows selected.
+
+---- NON ASCI equivalents ------
+
+DEPARTMENT_NAM EMPLOYEE_N
+-------------- ----------
+OPERATIONS
+SALES	       ALLEN
+SALES	       BLAKE
+SALES	       JAMES
+SALES	       MARTIN
+SALES	       TURNER
+SALES	       WARD
+
+7 rows selected.
+
+-------------------------------------------------
+Remember, the non-ANSI outer join syntax is not dependent on table order, so there is no real concept of right or left outer joins, just outer joins.
+-------------------------------------------------

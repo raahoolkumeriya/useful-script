@@ -1,0 +1,43 @@
+[22-05-15 07:19:04]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_1_blocks_150522071904.log
+[22-05-15 07:19:04]: INFO: Starting the script
+[22-05-15 07:19:04]: INFO: Script Directory: /u01/docker
+[22-05-15 07:19:04]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-15 07:19:04]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-15 07:19:04]: ----------------------------------------------------
+[22-05-15 07:19:04]:  DATABASE QUERY STARTS 
+[22-05-15 07:19:04]: 
+-------------------------------------
+Simplest valid PLSQL block
+-------------------------------------
+
+PL/SQL procedure successfully completed.
+
+-------------------------------------
+Variable scope
+-------------------------------------
+Outer block --> 1
+Inner block --> 2
+Outer block --> 2
+
+PL/SQL procedure successfully completed.
+
+-------------------------------------
+Importance of Exception for trapping errors
+-------------------------------------
+No records retruns form query!
+
+PL/SQL procedure successfully completed.
+
+-------------------------------------
+Variables and COnstatnts
+-------------------------------------
+	l_con_string := 'This will fail';
+	*
+ERROR at line 8:
+ORA-06550: line 8, column 2:
+PLS-00363: expression 'L_CON_STRING' cannot be used as an assignment target
+ORA-06550: line 8, column 2:
+PL/SQL: Statement ignored
+
+
+[22-05-15 07:19:05]: SQLERROR: Query error 150 in 1_blocks.sql

@@ -1,0 +1,45 @@
+[22-05-27 10:21:16]: INFO: Log File name: /u01/profiler/LOGS/run_axiomus_conn_7.1.tunning_bulk_binding_270522102115.log
+[22-05-27 10:21:16]: INFO: Starting the script
+[22-05-27 10:21:16]: INFO: Script Directory: /u01/profiler
+[22-05-27 10:21:16]: INFO: Query Directory: /u01/profiler/tunning
+[22-05-27 10:21:16]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-27 10:21:16]: ----------------------------------------------------
+[22-05-27 10:21:16]:  DATABASE QUERY STARTS 
+[22-05-27 10:21:16]: 
+-----------------------------------
+--	    Binding		 --
+-----------------------------------
+---- how BULK Binding imporove PLSQL performance ?
+> how PLSQL code is getting executed?
+> PLSQL Engine ( execute all the procedureal code ) and SQL Engine (execute all the sql statements )
+---------------------------------------------------
+> PLSQL and SQL communicate as follows: To run a SELECT INTO or DML statement, the PLSQL engine sends the query or DML statement to the SQL Engine.
+>> The SQL engine runs the query or DML statement and returns the result to the PLSQL engine.
+> Asssigning values to PLSQL variable that appers in SQL statements is called binding.
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+----------------------------------------
+--	 Context Switching	      --
+----------------------------------------
+-- Switch between PLSQL Engine and SQL Engine is called Context Switching.
+-- Context switching has huge imapct in term of performance
+----------------------------------------
+--	  BULK Binding		     --
+----------------------------------------
+> Bulk bindind is a process in which instead of doing binding one by one because of context switching, the
+>> entire information from the SQL statement will be binded back to the PLSQL variable either in a single switch
+>>> or fewer numebr of switches. This is called BULK Binding.
+----------------------------------------
+-- Types of Binding availables	     --
+----------------------------------------
+>> In-Bind : The value form the PLSQL engine assignt the SQL engine, it happend wherever we INSERT, UPDATE or MERGE statements executes.
+>> Out-bind : From the SQL statement information returning back to PLSQL variable. When and RETURNNGN INTO clause of an INSERT, UPDATE or DELETE statements
+>> DEFINE : When a SELECT or FETCH statements assign a databse value to the PLSQL or host variable
+----- TO implement Bulk binding ----
+>>>>> FORALL
+>>>>> BULK COLLECT clause
+------------------------------------

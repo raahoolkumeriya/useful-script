@@ -1,0 +1,49 @@
+[22-05-08 02:12:22]: INFO: Log File name: /u01/scripts/LOGS/execute_query_11_records_080522021222.log
+[22-05-08 02:12:22]: INFO: Starting the script
+[22-05-08 02:12:22]: INFO: Script Directory: /u01/scripts
+[22-05-08 02:12:22]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-08 02:12:22]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-08 02:12:22]: ----------------------------------------------------
+[22-05-08 02:12:22]:  DATABASE QUERY STARTS 
+[22-05-08 02:12:22]: 
+RECORD: Data Structure that cna hold data items of different kinds. Records of differnt fields, similar to a row of a database
+--> Table-Based RECORD
+--> Cursor-Based Records
+--> User-defined records
+------------------------ prompt %ROWTYPE attribute enables a programer to create table-based and Cursorbased records
+------------------------
+Customer Id : 5
+Customer Name : Hardik
+Customer Address : Bhopal
+Customer Salary : 9500
+
+PL/SQL procedure successfully completed.
+
+---------------------------
+Cursor-based record
+---------------------------
+1 Ramesh Ahmedabad		   3000
+2 Khilan Delhi			   2500
+3 kaushik Kota			    3000
+4 Chaitali Mumbai		     7500
+5 Hardik Bhopal 		   9500
+6 Komal MP			  5500
+
+PL/SQL procedure successfully completed.
+
+---------------------------
+User-Define record
+---------------------------
+Book 1 : C Programming is written by Nuha Ali. Book Code is 6495407 and name is
+C Programming Tutorial
+Book 2 : Telecom Billing is written by Zara Ali. Book Code is 6495700 and name
+is Telecom Billing Tutorial
+
+PL/SQL procedure successfully completed.
+
+--------- RECORDs as Subprogram Parameters
+Book Information : C Programming is written by Nuha Ali. Book Code is 6495407
+and name is C Programming Tutorial
+
+PL/SQL procedure successfully completed.
+

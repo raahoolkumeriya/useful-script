@@ -1,0 +1,25 @@
+[22-04-22 06:57:08]: INFO: Log File name: /u01/scripts/LOGS/execute_query_4_sys_ref_cursor_220422065708.log
+[22-04-22 06:57:08]: INFO: Starting the script
+[22-04-22 06:57:08]: INFO: Script Directory: /u01/scripts
+[22-04-22 06:57:08]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-22 06:57:08]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-04-22 06:57:08]: ----------------------------------------------------
+[22-04-22 06:57:08]:  DATABASE QUERY STARTS 
+[22-04-22 06:57:08]: 
+>>>>  System reference Cursors <<<<<
+>>> 	- are Pointer to result sets in query work area. A query work area is a memory region ( k/as Context Area) in PGA ( process global area)
+- You use reference cursors when you want to query data in one program and process it in another
+- 	Stronlgy typed(has return) and Weakly typed
+
+PL/SQL procedure successfully completed.
+
+
+:REFCUR
+--------------------
+CURSOR STATEMENT : 1
+
+CURSOR STATEMENT : 1
+
+no rows selected
+
+

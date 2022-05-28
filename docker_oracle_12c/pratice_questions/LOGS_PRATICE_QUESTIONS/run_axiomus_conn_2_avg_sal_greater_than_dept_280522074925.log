@@ -1,0 +1,31 @@
+[22-05-28 07:49:25]: INFO: Log File name: /u01/profiler/pratice_questions/LOGS_PRATICE_QUESTIONS/run_axiomus_conn_2_avg_sal_greater_than_dept_280522074925.log
+[22-05-28 07:49:25]: INFO: Starting the script
+[22-05-28 07:49:25]: INFO: Script Directory: /u01/profiler
+[22-05-28 07:49:25]: INFO: Query Directory: /u01/profiler/pratice_questions
+[22-05-28 07:49:25]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 07:49:25]: ----------------------------------------------------
+[22-05-28 07:49:25]:  DATABASE QUERY STARTS 
+[22-05-28 07:49:25]: 
+---------------------------------------------------
+--						 --
+---------------------------------------------------
+
+EMPLOYEE_N
+----------
+ALLEN
+JONES
+FORD
+CLARK
+MILLER
+SMITH
+WARD
+MARTIN
+SCOTT
+TURNER
+ADAMS
+BLAKE
+KING
+JAMES
+
+14 rows selected.
+

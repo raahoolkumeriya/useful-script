@@ -1,0 +1,12 @@
+[22-05-06 16:50:52]: INFO: Log File name: /u01/scripts/LOGS/execute_query_20_built_in_error_functions_060522165052.log
+[22-05-06 16:50:52]: INFO: Starting the script
+[22-05-06 16:50:52]: INFO: Script Directory: /u01/scripts
+[22-05-06 16:50:52]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 16:50:52]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 16:50:52]: ----------------------------------------------------
+[22-05-06 16:50:52]:  DATABASE QUERY STARTS 
+[22-05-06 16:50:52]: 
+ORA-01403: no data found
+
+PL/SQL procedure successfully completed.
+

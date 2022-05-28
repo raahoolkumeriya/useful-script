@@ -1,0 +1,16 @@
+[22-05-06 05:54:59]: INFO: Log File name: /u01/scripts/LOGS/execute_query_11_scope_060522055459.log
+[22-05-06 05:54:59]: INFO: Starting the script
+[22-05-06 05:54:59]: INFO: Script Directory: /u01/scripts
+[22-05-06 05:54:59]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 05:54:59]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 05:54:59]: ----------------------------------------------------
+[22-05-06 05:54:59]:  DATABASE QUERY STARTS 
+[22-05-06 05:54:59]: 
+
+PL/SQL procedure successfully completed.
+
+No errors.
+10
+
+PL/SQL procedure successfully completed.
+

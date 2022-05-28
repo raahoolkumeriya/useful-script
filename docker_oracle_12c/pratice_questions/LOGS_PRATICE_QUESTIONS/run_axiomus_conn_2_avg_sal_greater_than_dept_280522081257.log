@@ -1,0 +1,71 @@
+[22-05-28 08:12:57]: INFO: Log File name: /u01/profiler/pratice_questions/LOGS_PRATICE_QUESTIONS/run_axiomus_conn_2_avg_sal_greater_than_dept_280522081257.log
+[22-05-28 08:12:57]: INFO: Starting the script
+[22-05-28 08:12:57]: INFO: Script Directory: /u01/profiler
+[22-05-28 08:12:57]: INFO: Query Directory: /u01/profiler/pratice_questions
+[22-05-28 08:12:57]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 08:12:57]: ----------------------------------------------------
+[22-05-28 08:12:57]:  DATABASE QUERY STARTS 
+[22-05-28 08:12:57]: 
+---------------------------------------------------
+--   Department wise AVG salary 		 --
+---------------------------------------------------
+
+DEPARTMENT_ID AVG_SALARY
+------------- ----------
+	   30	    1566
+		    1300
+	   20	    2175
+	   10	    2916
+
+
+EMPLOYEE_ID EMPLOYEE_N JOB	 MANAGER_ID HIREDATE	  SALARY COMMISSION DEPARTMENT_ID DEPARTMENT_ID AVG_SALARY
+----------- ---------- --------- ---------- --------- ---------- ---------- ------------- ------------- ----------
+       7499 ALLEN      SALESMAN        7698 20-FEB-81	    1600	300	       30	     30       1566
+       7566 JONES      MANAGER	       7839 02-APR-81	    2975		       20	     20       2175
+       7698 BLAKE      MANAGER	       7839 01-MAY-81	    2850		       30	     30       1566
+       7788 SCOTT      ANALYST	       7566 19-APR-87	    3000		       20	     20       2175
+       7839 KING       PRESIDENT	    17-NOV-81	    5000		       10	     10       2916
+       7902 FORD       ANALYST	       7566 03-DEC-81	    3000		       20	     20       2175
+
+6 rows selected.
+
+---------------------------------------------------
+--    COrrelated Query				 --
+---------------------------------------------------
+
+EMPLOYEE_ID EMPLOYEE_N JOB	 MANAGER_ID HIREDATE	  SALARY COMMISSION DEPARTMENT_ID
+----------- ---------- --------- ---------- --------- ---------- ---------- -------------
+       7499 ALLEN      SALESMAN        7698 20-FEB-81	    1600	300	       30
+       7566 JONES      MANAGER	       7839 02-APR-81	    2975		       20
+       7698 BLAKE      MANAGER	       7839 01-MAY-81	    2850		       30
+       7788 SCOTT      ANALYST	       7566 19-APR-87	    3000		       20
+       7839 KING       PRESIDENT	    17-NOV-81	    5000		       10
+       7902 FORD       ANALYST	       7566 03-DEC-81	    3000		       20
+
+6 rows selected.
+
+---------------------------------------------------
+--	  ANalaytical function			 --
+---------------------------------------------------
+
+EMPLOYEE_N JOB	     MANAGER_ID HIREDATE      SALARY COMMISSION DEPARTMENT_ID AVG_SALARY
+---------- --------- ---------- --------- ---------- ---------- ------------- ----------
+KING	   PRESIDENT		17-NOV-81	5000			   10 2916.66667
+JONES	   MANAGER	   7839 02-APR-81	2975			   20	    2175
+SCOTT	   ANALYST	   7566 19-APR-87	3000			   20	    2175
+FORD	   ANALYST	   7566 03-DEC-81	3000			   20	    2175
+ALLEN	   SALESMAN	   7698 20-FEB-81	1600	    300 	   30 1566.66667
+BLAKE	   MANAGER	   7839 01-MAY-81	2850			   30 1566.66667
+
+6 rows selected.
+
+---------------------------------------------------
+--	  WITH clause support to 12c		 --
+---------------------------------------------------
+SELECT employee_id,employee_name, job,manger_id,salary,DEPARTMENT_ID
+                                      *
+ERROR at line 12:
+ORA-00904: "MANGER_ID": invalid identifier
+
+
+[22-05-28 08:12:58]: SQLERROR: Query error 136 in 2_avg_sal_greater_than_dept.sql

@@ -1,0 +1,13 @@
+[22-05-06 06:00:12]: INFO: Log File name: /u01/scripts/LOGS/execute_query_12_visibility_060522060012.log
+[22-05-06 06:00:12]: INFO: Starting the script
+[22-05-06 06:00:12]: INFO: Script Directory: /u01/scripts
+[22-05-06 06:00:12]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 06:00:12]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 06:00:12]: ----------------------------------------------------
+[22-05-06 06:00:12]:  DATABASE QUERY STARTS 
+[22-05-06 06:00:12]: 
+First Day date :06-MAY-22
+06-NOV-22
+
+PL/SQL procedure successfully completed.
+

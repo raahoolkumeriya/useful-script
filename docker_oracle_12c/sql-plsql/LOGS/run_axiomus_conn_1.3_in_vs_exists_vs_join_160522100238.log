@@ -1,0 +1,71 @@
+[22-05-16 10:02:38]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_1.3_in_vs_exists_vs_join_160522100238.log
+[22-05-16 10:02:38]: INFO: Starting the script
+[22-05-16 10:02:38]: INFO: Script Directory: /u01/docker
+[22-05-16 10:02:38]: INFO: Query Directory: /u01/docker/sql-plsql
+[22-05-16 10:02:38]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 10:02:38]: ----------------------------------------------------
+[22-05-16 10:02:39]:  DATABASE QUERY STARTS 
+[22-05-16 10:02:39]: 
+
+EMPLOYEE_ID EMPLOYEE_N HIREDATE
+----------- ---------- ---------
+       7369 SMITH      17-DEC-80
+       7499 ALLEN      20-FEB-81
+       7521 WARD       22-FEB-81
+       7566 JONES      02-APR-81
+       7654 MARTIN     28-SEP-81
+       7698 BLAKE      01-MAY-81
+       7782 CLARK      09-JUN-81
+       7788 SCOTT      19-APR-87
+       7839 KING       17-NOV-81
+       7844 TURNER     08-SEP-81
+       7876 ADAMS      23-MAY-87
+       7900 JAMES      03-DEC-81
+       7902 FORD       03-DEC-81
+       7934 MILLER     23-JAN-82
+
+14 rows selected.
+
+Elapsed: 00:00:00.04
+
+EMPLOYEE_ID EMPLOYEE_N HIREDATE
+----------- ---------- ---------
+       7369 SMITH      17-DEC-80
+       7499 ALLEN      20-FEB-81
+       7521 WARD       22-FEB-81
+       7566 JONES      02-APR-81
+       7654 MARTIN     28-SEP-81
+       7698 BLAKE      01-MAY-81
+       7782 CLARK      09-JUN-81
+       7788 SCOTT      19-APR-87
+       7839 KING       17-NOV-81
+       7844 TURNER     08-SEP-81
+       7876 ADAMS      23-MAY-87
+       7900 JAMES      03-DEC-81
+       7902 FORD       03-DEC-81
+       7934 MILLER     23-JAN-82
+
+14 rows selected.
+
+Elapsed: 00:00:00.00
+
+EMPLOYEE_ID EMPLOYEE_N JOB	 MANAGER_ID HIREDATE	  SALARY COMMISSION DEPARTMENT_ID DEPARTMENT_ID DEPARTMENT_NAM LOCATION
+----------- ---------- --------- ---------- --------- ---------- ---------- ------------- ------------- -------------- -------------
+       7782 CLARK      MANAGER	       7839 09-JUN-81	    2450		       10	     10 ACCOUNTING     NEW YORK
+       7934 MILLER     CLERK	       7782 23-JAN-82	    1300		       10	     10 ACCOUNTING     NEW YORK
+       7839 KING       PRESIDENT	    17-NOV-81	    5000		       10	     10 ACCOUNTING     NEW YORK
+       7566 JONES      MANAGER	       7839 02-APR-81	    2975		       20	     20 RESEARCH       DALLAS
+       7369 SMITH      CLERK	       7902 17-DEC-80	     800		       20	     20 RESEARCH       DALLAS
+       7788 SCOTT      ANALYST	       7566 19-APR-87	    3000		       20	     20 RESEARCH       DALLAS
+       7902 FORD       ANALYST	       7566 03-DEC-81	    3000		       20	     20 RESEARCH       DALLAS
+       7876 ADAMS      CLERK	       7788 23-MAY-87	    1100		       20	     20 RESEARCH       DALLAS
+       7521 WARD       SALESMAN        7698 22-FEB-81	    1250	500	       30	     30 SALES	       CHICAGO
+       7844 TURNER     SALESMAN        7698 08-SEP-81	    1500	  0	       30	     30 SALES	       CHICAGO
+       7499 ALLEN      SALESMAN        7698 20-FEB-81	    1600	300	       30	     30 SALES	       CHICAGO
+       7900 JAMES      CLERK	       7698 03-DEC-81	     950		       30	     30 SALES	       CHICAGO
+       7654 MARTIN     SALESMAN        7698 28-SEP-81	    1250       1400	       30	     30 SALES	       CHICAGO
+       7698 BLAKE      MANAGER	       7839 01-MAY-81	    2850		       30	     30 SALES	       CHICAGO
+
+14 rows selected.
+
+Elapsed: 00:00:00.19

@@ -1,0 +1,13 @@
+[22-05-27 11:05:48]: INFO: Log File name: /u01/profiler/LOGS_ORACLE_COLLECTIONS/run_axiomus_conn_2_scalar_datatypes_270522110548.log
+[22-05-27 11:05:48]: INFO: Starting the script
+[22-05-27 11:05:48]: INFO: Script Directory: /u01/profiler
+[22-05-27 11:05:48]: INFO: Query Directory: /u01/profiler/oracle_collections
+[22-05-27 11:05:48]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-27 11:05:48]: ----------------------------------------------------
+[22-05-27 11:05:48]:  DATABASE QUERY STARTS 
+[22-05-27 11:05:48]: 
+Employee name : SCOTT
+Employee salary : 3000
+
+PL/SQL procedure successfully completed.
+

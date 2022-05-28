@@ -1,0 +1,18 @@
+[22-05-28 08:30:57]: INFO: Log File name: /u01/profiler/pratice_questions/LOGS_PRATICE_QUESTIONS/run_axiomus_conn_3_without_not_280522083057.log
+[22-05-28 08:30:57]: INFO: Starting the script
+[22-05-28 08:30:57]: INFO: Script Directory: /u01/profiler
+[22-05-28 08:30:57]: INFO: Query Directory: /u01/profiler/pratice_questions
+[22-05-28 08:30:57]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 08:30:57]: ----------------------------------------------------
+[22-05-28 08:30:57]:  DATABASE QUERY STARTS 
+[22-05-28 08:30:57]: 
+---------------------------------------------------
+--    Straingh forward solution 		 --
+---------------------------------------------------
+SELECT * form tab2 where COL2 NOT in ( SELECT * from  tab2)
+         *
+ERROR at line 1:
+ORA-00923: FROM keyword not found where expected
+
+
+[22-05-28 08:30:58]: SQLERROR: Query error 155 in 3_without_not.sql

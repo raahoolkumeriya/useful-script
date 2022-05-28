@@ -1,0 +1,17 @@
+[22-05-05 11:58:04]: INFO: Log File name: /u01/scripts/LOGS/execute_query_3_create_tables_050522115804.log
+[22-05-05 11:58:04]: INFO: Starting the script
+[22-05-05 11:58:04]: INFO: Script Directory: /u01/scripts
+[22-05-05 11:58:04]: INFO: Query Directory: /u01/scripts/oracleSQL
+[22-05-05 11:58:05]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-05 11:58:05]: ----------------------------------------------------
+[22-05-05 11:58:05]:  DATABASE QUERY STARTS 
+[22-05-05 11:58:05]: 
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+

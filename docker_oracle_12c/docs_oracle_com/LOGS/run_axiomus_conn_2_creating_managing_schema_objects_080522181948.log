@@ -1,0 +1,26 @@
+[22-05-08 18:19:48]: INFO: Log File name: /u01/scripts/LOGS/run_axiomus_conn_2_creating_managing_schema_objects_080522181948.log
+[22-05-08 18:19:48]: INFO: Starting the script
+[22-05-08 18:19:48]: INFO: Script Directory: /u01/scripts
+[22-05-08 18:19:48]: INFO: Query Directory: /u01/scripts/docs_oracle_com
+[22-05-08 18:19:48]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-08 18:19:48]: ----------------------------------------------------
+[22-05-08 18:19:48]:  DATABASE QUERY STARTS 
+[22-05-08 18:19:49]: 
+
+Table created.
+
+
+Table created.
+
+Crate primary key
+
+Table altered.
+
+create foreign key
+
+Table altered.
+
+adding indeces
+
+Index created.
+

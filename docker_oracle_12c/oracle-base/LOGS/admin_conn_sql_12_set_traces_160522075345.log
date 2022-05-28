@@ -1,0 +1,33 @@
+[22-05-16 07:53:45]: INFO: Log File name: /u01/docker/LOGS/admin_conn_sql_12_set_traces_160522075345.log
+[22-05-16 07:53:45]: INFO: Starting the script
+[22-05-16 07:53:45]: INFO: Script Directory: /u01/docker
+[22-05-16 07:53:45]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-16 07:53:45]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 07:53:45]: ----------------------------------------------------
+[22-05-16 07:53:45]:  DATABASE QUERY STARTS 
+[22-05-16 07:53:45]: 
+
+Session altered.
+
+
+CON_NAME
+------------------------------
+ORCLPDB1
+
+Session altered.
+
+
+DEPARTMENT_NAM EMPLOYEE_N
+-------------- ----------
+SALES	       ALLEN
+SALES	       WARD
+SALES	       JAMES
+SALES	       BLAKE
+SALES	       TURNER
+SALES	       MARTIN
+
+6 rows selected.
+
+
+Session altered.
+

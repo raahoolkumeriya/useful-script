@@ -1,0 +1,35 @@
+[22-05-07 10:27:48]: INFO: Log File name: /u01/scripts/LOGS/execute_query_7_procedure_070522102748.log
+[22-05-07 10:27:48]: INFO: Starting the script
+[22-05-07 10:27:48]: INFO: Script Directory: /u01/scripts
+[22-05-07 10:27:48]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-07 10:27:48]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-07 10:27:48]: ----------------------------------------------------
+[22-05-07 10:27:48]:  DATABASE QUERY STARTS 
+[22-05-07 10:27:48]: 
+A Subprogram can be created at 1. Schema level, 2. Inside a Package, 3. Inside a PL/SQL block
+--> At Schema Level: Subprogam is called as Standalone subporgram.
+--------------------> It is created with CREATE PROCEDURE or CREATE FUNCTION statements.
+--------------------> It can be deleted with DROP PROCEDURE or DROP FUNCTION statements.
+--> Inside A Package: Subprogram is called as Packaged Subprogram.
+--------------------> It is stored in Database and can be deleted only when the package is deleted with DROP PACKAGE statement.
+--> PL/SQL block: Subprogram are called PL/SQL Subprograms
+--------------------> FUNCTION: Subprogram return Single value; mainly use to compute and return value
+--------------------> PROCEDURE: Subprogram does not return a value direclty; mainly used to perform action.
+PArt of PLSQL Subprograms
+---> Header, declaration, execution , exception block
+
+Procedure created.
+
+Hello world!
+
+PL/SQL procedure successfully completed.
+
+Enter value for out: IN     exit; mode
+Minimum number : 99
+
+PL/SQL procedure successfully completed.
+
+Squared number : 144
+
+PL/SQL procedure successfully completed.
+

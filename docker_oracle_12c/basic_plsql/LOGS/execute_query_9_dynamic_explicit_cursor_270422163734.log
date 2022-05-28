@@ -1,0 +1,17 @@
+[22-04-27 16:37:34]: INFO: Log File name: /u01/scripts/LOGS/execute_query_9_dynamic_explicit_cursor_270422163734.log
+[22-04-27 16:37:34]: INFO: Starting the script
+[22-04-27 16:37:34]: INFO: Script Directory: /u01/scripts
+[22-04-27 16:37:34]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-27 16:37:34]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-04-27 16:37:34]: ----------------------------------------------------
+[22-04-27 16:37:34]:  DATABASE QUERY STARTS 
+[22-04-27 16:37:34]: 
+Dynamic Explicit Cursors : Accepting local variable
+Items [DUAL]
+
+PL/SQL procedure successfully completed.
+
+Accept formal parameters
+
+PL/SQL procedure successfully completed.
+

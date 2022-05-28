@@ -1,0 +1,34 @@
+[22-05-05 17:01:11]: INFO: Log File name: /u01/scripts/LOGS/execute_query_3_other_sql_task_050522170111.log
+[22-05-05 17:01:11]: INFO: Starting the script
+[22-05-05 17:01:11]: INFO: Script Directory: /u01/scripts
+[22-05-05 17:01:11]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-05 17:01:11]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-05 17:01:11]: ----------------------------------------------------
+[22-05-05 17:01:11]:  DATABASE QUERY STARTS 
+[22-05-05 17:01:11]: 
+SHOW ALL
+
+DEFINE X	       = "the answer is 10" (CHAR)
+old   1: SELECT '&x' FROM dual
+new   1: SELECT 'the answer is 10' FROM dual
+
+'THEANSWERIS10'
+----------------
+the answer is 10
+
+Bind variable
+
+PL/SQL procedure successfully completed.
+
+
+X
+--------------------------------
+hullo
+
+old   1: SELECT :x, '&x' FROM DUAL
+new   1: SELECT :x, 'the answer is 10' FROM DUAL
+
+:X				 'THEANSWERIS10'
+-------------------------------- ----------------
+hullo				 the answer is 10
+

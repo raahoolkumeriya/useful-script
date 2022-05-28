@@ -1,0 +1,19 @@
+[22-05-04 08:46:18]: INFO: Log File name: /u01/scripts/LOGS/execute_query_3_error_stack_formating_040522084618.log
+[22-05-04 08:46:18]: INFO: Starting the script
+[22-05-04 08:46:18]: INFO: Script Directory: /u01/scripts
+[22-05-04 08:46:18]: INFO: Query Directory: /u01/scripts/queryspace
+[22-05-04 08:46:18]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-04 08:46:18]: ----------------------------------------------------
+[22-05-04 08:46:18]:  DATABASE QUERY STARTS 
+[22-05-04 08:46:18]: 
+Error Stack Formatting
+----------------------------------------------------
+"DBMS_UTILITY package"
+
+Procedure created.
+
+
+LINE TEXT
+---- ------------------------------------------------------------
+   9 	one_charater := two_charater;
+

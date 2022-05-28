@@ -1,0 +1,30 @@
+[22-05-06 17:00:29]: INFO: Log File name: /u01/scripts/LOGS/execute_query_21_format_error_backtrace_060522170029.log
+[22-05-06 17:00:29]: INFO: Starting the script
+[22-05-06 17:00:29]: INFO: Script Directory: /u01/scripts
+[22-05-06 17:00:29]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 17:00:29]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 17:00:29]: ----------------------------------------------------
+[22-05-06 17:00:29]:  DATABASE QUERY STARTS 
+[22-05-06 17:00:29]: 
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+Proc3 -> Proc2 -> Proc1 backtrace
+calling proc2
+calling proc1
+running proc1
+Error stack at top level:
+ORA-06512: at "AXIOMUS.PROC1", line 4
+ORA-06512: at "AXIOMUS.PROC2", line
+5
+ORA-06512: at "AXIOMUS.PROC3", line 4
+
+
+PL/SQL procedure successfully completed.
+

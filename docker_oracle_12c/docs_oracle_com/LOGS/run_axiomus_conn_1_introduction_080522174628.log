@@ -1,0 +1,309 @@
+[22-05-08 17:46:28]: INFO: Log File name: /u01/scripts/LOGS/run_axiomus_conn_1_introduction_080522174628.log
+[22-05-08 17:46:28]: INFO: Starting the script
+[22-05-08 17:46:28]: INFO: Script Directory: /u01/scripts
+[22-05-08 17:46:28]: INFO: Query Directory: /u01/scripts/docs_oracle_com
+[22-05-08 17:46:28]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-08 17:46:28]: ----------------------------------------------------
+[22-05-08 17:46:28]:  DATABASE QUERY STARTS 
+[22-05-08 17:46:28]: 
+Unlocking the HR Account
+View Schema Objects
+
+OBJECT_NAME		  OBJECT_TYPE
+------------------------- -------------------------
+ADD_THREE_NUMBERS	  FUNCTION
+JOIN_STRINGS		  FUNCTION
+PV			  FUNCTION
+RUNTIME_ERROR		  FUNCTION
+TOTALCUSTOMERS		  FUNCTION
+WORDCOUNT		  FUNCTION
+C_PK			  INDEX
+D_DNAME_UN		  INDEX
+D_PK			  INDEX
+E_PK			  INDEX
+H_PK			  INDEX
+O_PK			  INDEX
+PK_INVENTORIES		  INDEX
+PK_NCE			  INDEX
+PK_ORDER_ITEMS		  INDEX
+R_PK			  INDEX
+SYS_C0010980		  INDEX
+SYS_C0010982		  INDEX
+SYS_C0010986		  INDEX
+SYS_C0010989		  INDEX
+SYS_C0010998		  INDEX
+SYS_C0011002		  INDEX
+SYS_C0011006		  INDEX
+SYS_C0011010		  INDEX
+SYS_C0011015		  INDEX
+SYS_C0011021		  INDEX
+SYS_C0011123		  INDEX
+S_PK			  INDEX
+CALCULATOR		  PACKAGE
+CUST_SAL		  PACKAGE
+SCOPE_DEMO		  PACKAGE
+TP_CUSTOMER_PKG 	  PACKAGE
+CALCULATOR		  PACKAGE BODY
+CUST_SAL		  PACKAGE BODY
+SCOPE_DEMO		  PACKAGE BODY
+TP_CUSTOMER_PKG 	  PACKAGE BODY
+CALC_TOTALS		  PROCEDURE
+DELETE_EMPLOYEE 	  PROCEDURE
+DISPLAY_MULTIPLE_YEARS	  PROCEDURE
+DISPLAY_TOTAL_SALES	  PROCEDURE
+ERROR_LEVEL1		  PROCEDURE
+ERROR_LEVEL2		  PROCEDURE
+ERROR_LEVEL3		  PROCEDURE
+FORMAT_STRINGS		  PROCEDURE
+GREETING		  PROCEDURE
+HANDLE_ERRORS		  PROCEDURE
+PROC1			  PROCEDURE
+PROC2			  PROCEDURE
+PROC3			  PROCEDURE
+RECORDS_ERRORS		  PROCEDURE
+ISEQ$$_77192		  SEQUENCE
+ISEQ$$_77197		  SEQUENCE
+ISEQ$$_77200		  SEQUENCE
+ISEQ$$_77203		  SEQUENCE
+ISEQ$$_77206		  SEQUENCE
+ISEQ$$_77209		  SEQUENCE
+ISEQ$$_77212		  SEQUENCE
+ISEQ$$_77215		  SEQUENCE
+ISEQ$$_77218		  SEQUENCE
+NC_ERROR_S1		  SEQUENCE
+CONTACTS		  TABLE
+COUNTRIES		  TABLE
+COURSES 		  TABLE
+CUSTOMERS		  TABLE
+DEPARTMENTS		  TABLE
+EMPLOYEES		  TABLE
+EMPLOYEE_DETAILS	  TABLE
+HISTORY 		  TABLE
+INVENTORIES		  TABLE
+LOCATIONS		  TABLE
+NC_ERROR		  TABLE
+OFFERINGS		  TABLE
+ORDERS			  TABLE
+ORDER_ITEMS		  TABLE
+PRODUCTS		  TABLE
+PRODUCT_CATEGORIES	  TABLE
+REGIONS 		  TABLE
+REGISTRATIONS		  TABLE
+SALGRADES		  TABLE
+TP_CUSTOMERS		  TABLE
+WAREHOUSES		  TABLE
+ADDRESS 		  TYPE
+CUSTOMER		  TYPE
+RECTANGLE		  TYPE
+RECTANGLE		  TYPE BODY
+
+85 rows selected.
+
+Rounding Numeric Data
+
+name		      Daily Pay Daily pay 2
+-------------------- ---------- -----------
+Harriet Ferguson	 328.77 	328
+Olivia Ford		 394.52 	394
+Isla Graham		 394.52 	394
+Emily Hamilton		 394.52 	394
+Thea Hawkins		 328.77 	328
+Amelia Myers		 394.52 	394
+Amber Rose		 328.77 	328
+Bella Stone		 328.77 	328
+
+8 rows selected.
+
+Diplay the number of years between dates
+
+LAST_NAME		  Years Employed
+------------------------- --------------
+Ferguson			       6
+Rose				       6
+Stone				       6
+Hawkins 			       6
+Hamilton			       6
+Ford				       6
+Myers				       6
+Graham				       6
+
+8 rows selected.
+
+Display system date and time
+
+System Time and Date
+------------------------------------------------------------------------------------------------------------------------------------
+17:46:30, 5/8/2022
+
+Converting Dates to Characters using a format tempate
+
+LAST_NAME		  HIRE_DATE Date Started
+------------------------- --------- --------------------------------------------
+Ferguson		  24-APR-16 April 24 2016
+Ford			  29-JAN-16 January 29 2016
+Graham			  09-JUL-16 July 9 2016
+Hamilton		  15-MAR-16 March 15 2016
+Hawkins 		  13-JAN-16 January 13 2016
+Myers			  17-OCT-16 October 17 2016
+Rose			  23-MAY-16 May 23 2016
+Stone			  21-JUN-16 June 21 2016
+
+8 rows selected.
+
+Counting the Number of rows in each groups
+
+    Manger Number of Reports
+---------- -----------------
+	 1		  14
+	 2		   5
+	 3		   1
+	 4		   4
+	 9		   5
+	15		   5
+	21		   8
+	22		   8
+	23		   8
+	24		   8
+	25		   8
+	46		   6
+	47		   6
+	48		   6
+	49		   6
+	50		   6
+       102		   1
+       106		   1
+			   1
+
+19 rows selected.
+
+Limiitng Aggregate functions to rows that statify condition
+
+   Manager All Salries
+---------- -----------
+	       6000000
+	 1     7260000
+	47     2232000
+	 2     2292000
+	46     2232000
+	48     2232000
+	50     2232000
+	49     2232000
+
+8 rows selected.
+
+Using aggregate function for statistical information
+
+MANAGER_ID	    #	 Minimum    Average	Median	  Maximum    Std dev
+---------- ---------- ---------- ---------- ---------- ---------- ----------
+	 1	   14	   10000      43214	 20000	   200000      66541
+	 2	    5	   12000      38200	 20000	   123000      47547
+	 3	    1	   30000      30000	 30000	    30000	   0
+	 4	    4	   30000      30000	 30000	    30000	   0
+	 9	    5	   30000      30000	 30000	    30000	   0
+	15	    5	   11000      11000	 11000	    11000	   0
+	21	    8	   10000      11000	 11000	    12000	1069
+	22	    8	   10000      11000	 11000	    12000	1069
+	23	    8	   10000      11000	 11000	    12000	1069
+	24	    8	   10000      11000	 11000	    12000	1069
+	25	    8	   10000      11000	 11000	    12000	1069
+	46	    6	   31000      31000	 31000	    31000	   0
+	47	    6	   31000      31000	 31000	    31000	   0
+	48	    6	   31000      31000	 31000	    31000	   0
+	49	    6	   31000      31000	 31000	    31000	   0
+	50	    6	   31000      31000	 31000	    31000	   0
+       102	    1	   10000      10000	 10000	    10000	   0
+       106	    1	   23000      23000	 23000	    23000	   0
+		    1	  500000     500000	500000	   500000	   0
+
+19 rows selected.
+
+Using NULL- related function in Queries
+
+LAST_NAME		  COMMISSION
+------------------------- ----------------------------------------
+Bailey			  .15
+Barnes			  .15
+Bennett 		  .15
+Black			  Not Applicable
+Boyd			  Not Applicable
+Brooks			  .15
+Bryant			  .2
+Burns			  Not Applicable
+Butler			  .2
+
+9 rows selected.
+
+Specifuing Different Expression for NULL and NOT NULL values
+
+LAST_NAME		      SALARY	 INCOME
+------------------------- ---------- ----------
+Bailey			      500000	 575000
+Barnes			       11000	  12650
+Bennett 		       11000	  12650
+Black			       10000	  10000
+Boyd			       31000	  31000
+Brooks			       30000	  34500
+Bryant			       12000	  14400
+Burns			       10000	  10000
+Butler			       12000	  14400
+
+9 rows selected.
+
+Using a Simple CASE Expression in a Query
+
+ID COUNTRY
+-- --------------
+AU Australia
+BR Brazil
+CA Canada
+CH Switzerland
+CN China
+DE Germany
+IN India
+IT Italy
+JP Japan
+MX Mexico
+NL Netherlands
+SG Singapore
+UK United Kingdom
+US United States
+
+14 rows selected.
+
+Using searched case Expression in a query
+
+Name		     Started	   Salary Proposed Salary
+-------------------- --------- ---------- ---------------
+Wallace 	     05-JAN-16	    14000	    16100
+Cooper		     13-JAN-16	   200000	   230000
+West		     29-JAN-16	    14000	    16100
+Perkins 	     17-FEB-16	    25000	    28750
+Woods		     10-MAR-16	    14000	    16100
+Henderson	     10-APR-16	    20000	    23000
+Coleman 	     01-MAY-16	    20000	    23000
+Ross		     18-JUL-16	    20000	    23000
+Rivera		     21-SEP-16	   200000	   220000
+Sullivan	     01-OCT-16	    14000	    15400
+Jenkins 	     10-OCT-16	    20000	    22000
+Cole		     15-OCT-16	    14000	    15400
+Perry		     16-NOV-16	    20000	    22000
+Kelly		     07-DEC-16	    10000	    11500
+
+14 rows selected.
+
+Using DECODE function in queries
+
+LAST_NAME		  JOB_TITLE			     SALARY Proposed Salary
+------------------------- ------------------------------ ---------- ---------------
+Alexander		  Stock Clerk			      12000	      14400
+Barnes			  Purchasing Clerk		      11000	      12100
+Bennett 		  Purchasing Clerk		      11000	      12100
+Black			  Shipping Clerk		      10000	      11500
+Bryant			  Stock Clerk			      12000	      14400
+Burns			  Shipping Clerk		      10000	      11500
+Butler			  Stock Clerk			      12000	      14400
+Daniels 		  Shipping Clerk		      10000	      11500
+Diaz			  Stock Clerk			      12000	      14400
+
+9 rows selected.
+

@@ -1,0 +1,26 @@
+[22-05-08 03:13:32]: INFO: Log File name: /u01/scripts/LOGS/execute_query_13_triggers_080522031332.log
+[22-05-08 03:13:32]: INFO: Starting the script
+[22-05-08 03:13:32]: INFO: Script Directory: /u01/scripts
+[22-05-08 03:13:32]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-08 03:13:32]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-08 03:13:32]: ----------------------------------------------------
+[22-05-08 03:13:32]:  DATABASE QUERY STARTS 
+[22-05-08 03:13:32]: 
+DML ( INSERT, UPDATE, DELETE )
+DDL ( CREATE, DELETE, DROP )
+database Operation Triggers ( SERVERERROR, LOGON, LOGOFF, STARTUP, SHUTDOWN)
+----------------------------------------------------------------- prompt -- Generating some derived column values automatically
+-- Enforcing referential integrity
+-- Event logging and storing information on table access
+-- Auditing
+-- Synchronus replication of tables
+-- Imposing security authorization
+-- preventing invalid transaction
+-----------------------------------------------------------------
+BEFORE INSERT OR UPDATE OR DELETE ON tp_customers
+                                     *
+ERROR at line 2:
+ORA-01031: insufficient privileges
+
+
+[22-05-08 03:13:33]: SQLERROR: Query error 7 in 13_triggers.sql

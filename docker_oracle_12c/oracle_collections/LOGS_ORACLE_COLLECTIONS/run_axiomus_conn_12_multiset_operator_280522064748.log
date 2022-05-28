@@ -1,0 +1,100 @@
+[22-05-28 06:47:48]: INFO: Log File name: /u01/profiler/oracle_collections/LOGS_ORACLE_COLLECTIONS/run_axiomus_conn_12_multiset_operator_280522064748.log
+[22-05-28 06:47:48]: INFO: Starting the script
+[22-05-28 06:47:48]: INFO: Script Directory: /u01/profiler
+[22-05-28 06:47:48]: INFO: Query Directory: /u01/profiler/oracle_collections
+[22-05-28 06:47:48]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 06:47:48]: ----------------------------------------------------
+[22-05-28 06:47:48]:  DATABASE QUERY STARTS 
+[22-05-28 06:47:48]: 
+---------------------------------------------------
+--	  MULTISET Operator			 --
+---------------------------------------------------
+-- Combine elements of various collections into a single one
+-- check common elements present accross the collections
+-- Multiset operator is very much similar to SET operator in SQL
+-- Multiser oeprator oeprate on collection of same type
+----------------------------------------------------
+Multiset Union ---------\
+'Multiset Interset	==>	ALL | DISTINCT'
+Multiset Except --------/
+----------------------------------------------------
+UNION -> Combine the two sets, remove duplicates, sort and return the set
+UNIONALL -> Combine the two sets, DOES NOT remove duplicated, DOES NOT sort and return the set
+INTERSECT -> It just return the common rows present between two sets
+MINUS -> This return the value set which not present in otehr set
+----------------------------------------------------
+---------------------------------------------------
+--	   MULTISET Union/MULTISET Union AL	 --
+---------------------------------------------------
+1
+1
+2
+2
+3
+4
+5
+8
+8
+9
+1
+1
+2
+6
+7
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--	     MULTISET Union DISTINCT		 --
+---------------------------------------------------
+1
+2
+3
+4
+5
+8
+9
+6
+7
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--MULTISET INTERSECT/MULTISET INTERSECT ALL	 --
+---------------------------------------------------
+1
+1
+2
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--	     MULTISET INTERSECT DISTINCT	     --
+---------------------------------------------------
+1
+2
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+-- MULTISET EXPECT/MULTISET EXCEPT ALL	    --
+---------------------------------------------------
+2
+3
+4
+5
+8
+8
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--	     MULTISET EXCEPT DISTINCT		  --
+---------------------------------------------------
+3
+4
+5
+8
+
+PL/SQL procedure successfully completed.
+

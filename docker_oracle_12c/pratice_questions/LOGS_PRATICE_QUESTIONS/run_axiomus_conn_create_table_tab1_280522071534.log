@@ -1,0 +1,15 @@
+[22-05-28 07:15:34]: INFO: Log File name: /u01/profiler/pratice_questions/LOGS_PRATICE_QUESTIONS/run_axiomus_conn_create_table_tab1_280522071534.log
+[22-05-28 07:15:34]: INFO: Starting the script
+[22-05-28 07:15:34]: INFO: Script Directory: /u01/profiler
+[22-05-28 07:15:34]: INFO: Query Directory: /u01/profiler/pratice_questions
+[22-05-28 07:15:34]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 07:15:34]: ----------------------------------------------------
+[22-05-28 07:15:34]:  DATABASE QUERY STARTS 
+[22-05-28 07:15:35]: 
+	s_no NUMBER,
+	*
+ERROR at line 2:
+ORA-00922: missing or invalid option
+
+
+[22-05-28 07:15:36]: SQLERROR: Query error 154 in create_table_tab1.sql

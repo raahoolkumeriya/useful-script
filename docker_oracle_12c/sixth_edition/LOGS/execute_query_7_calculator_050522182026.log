@@ -1,0 +1,22 @@
+[22-05-05 18:20:26]: INFO: Log File name: /u01/scripts/LOGS/execute_query_7_calculator_050522182026.log
+[22-05-05 18:20:26]: INFO: Starting the script
+[22-05-05 18:20:26]: INFO: Script Directory: /u01/scripts
+[22-05-05 18:20:26]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-05 18:20:26]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-05 18:20:27]: ----------------------------------------------------
+[22-05-05 18:20:27]:  DATABASE QUERY STARTS 
+[22-05-05 18:20:27]: 
+
+Package created.
+
+
+Package body created.
+
+-- ERROR -
+No errors.
+-- TESTING -
+
+CALCULATOR.ADDITION(100,123) CALCULATOR.SUBSTRACTION(100,25) CALCULATOR.MULTIPLY(12,12) CALCULATOR.DIVISION(100,2)
+---------------------------- ------------------------------- -------------------------- --------------------------
+			 223				  75			    144 			50
+

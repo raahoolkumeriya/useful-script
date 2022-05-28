@@ -1,0 +1,21 @@
+[22-05-06 10:11:42]: INFO: Log File name: /u01/scripts/LOGS/execute_query_15_pragma_keyword_060522101142.log
+[22-05-06 10:11:42]: INFO: Starting the script
+[22-05-06 10:11:42]: INFO: Script Directory: /u01/scripts
+[22-05-06 10:11:42]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 10:11:42]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 10:11:42]: ----------------------------------------------------
+[22-05-06 10:11:42]:  DATABASE QUERY STARTS 
+[22-05-06 10:11:42]: 
+PRAGMA Keyword
+--------> A line od source code prescribing an action you want the compiler to take
+--------> PLSQL Compilier will accept such directivies anywhere in the Declaration Section
+--> AUTONOMOUS_TRANSACTION: Tells the PL/SQL runtime engine to commit or rollback any changes made to the database
+---------------------------> inside the current block without affecting the main or outer transaction.
+--> EXCEPTION_INIT: Tells the compiler to associate a particular error number with an identifier you have declared
+------------------>  as an exception in your program.
+--> RESTRICT_REFERENCES: Tells the compiler the purity level (freedom from side effects) of a packaged program.
+--> SERIALLY_REUSABLE: Tells the PL/SQL runtime engine that package-level data should not persist between references to that data.
+Sequence not defined
+
+PL/SQL procedure successfully completed.
+

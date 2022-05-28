@@ -1,0 +1,14 @@
+[25-03-2022 17:16:31]: ------ Archiving tables ------
+[25-03-2022 17:16:31]:  Script Directory: /Users/raahool/applications/github/useful-script/shell-scripts
+[25-03-2022 17:16:31]:  Current Date: 25Mar2022
+[25-03-2022 17:16:31]:  List of tables: /Users/raahool/applications/github/useful-script/shell-scripts/list_of_tables.txt
+[25-03-2022 17:16:31]:  One week ago: 18Mar2022
+[25-03-2022 17:16:31]: --------------------------------
+[25-03-2022 17:16:31]: Connecting to database  
+[25-03-2022 17:16:31]: ------- TABLE SUMMARY ---------
+[25-03-2022 17:16:31]:  Original Table : AXIOM.CODELOCKED
+[25-03-2022 17:16:31]:  OLD Backup Table : AXIOM.CODELOCKED_18Mar2022
+[25-03-2022 17:16:31]:  NEW Backup Table : AXIOM.CODELOCKED_25Mar2022
+[25-03-2022 17:16:31]: ---------------------------------
+./archive_tables.sh: line 80: /bin/sqlplus: No such file or directory
+[25-03-2022 17:16:31]: Error while executing SQL

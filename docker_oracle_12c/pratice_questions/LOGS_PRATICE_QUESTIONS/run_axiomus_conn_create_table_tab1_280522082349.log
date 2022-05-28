@@ -1,0 +1,71 @@
+[22-05-28 08:23:49]: INFO: Log File name: /u01/profiler/pratice_questions/LOGS_PRATICE_QUESTIONS/run_axiomus_conn_create_table_tab1_280522082349.log
+[22-05-28 08:23:49]: INFO: Starting the script
+[22-05-28 08:23:49]: INFO: Script Directory: /u01/profiler
+[22-05-28 08:23:49]: INFO: Query Directory: /u01/profiler/pratice_questions
+[22-05-28 08:23:49]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 08:23:49]: ----------------------------------------------------
+[22-05-28 08:23:49]:  DATABASE QUERY STARTS 
+[22-05-28 08:23:49]: 
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+CO
+--
+C1
+A
+B
+C
+D
+E
+
+6 rows selected.
+
+
+CO
+--
+C1
+A
+C
+E
+G
+

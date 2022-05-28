@@ -1,0 +1,33 @@
+[22-04-21 15:23:44]: INFO: Log File name: /u01/scripts/LOGS/execute_query_9_stored_procedures_210422152344.log
+[22-04-21 15:23:44]: INFO: Starting the script
+[22-04-21 15:23:44]: INFO: Script Directory: /u01/scripts
+[22-04-21 15:23:44]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-21 15:23:44]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-04-21 15:23:44]: ----------------------------------------------------
+[22-04-21 15:23:44]:  DATABASE QUERY STARTS 
+[22-04-21 15:23:44]: 
+>>> FORMAT STRINGS - STOIRED PROCEDURE <<<<
+
+Procedure created.
+
+>>>> CALL statement into bind variable <<<<
+
+Call completed.
+
+
+Call completed.
+
+
+:SESSION_VAR
+--------------------------------------------------------------------------------
+[Hello World.]
+
+>>>>> EXECUTE statement with stored procedure <<<<<
+
+PL/SQL procedure successfully completed.
+
+
+:SESSION_VAR
+--------------------------------------------------------------------------------
+[[Hello World.]]
+

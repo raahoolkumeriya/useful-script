@@ -1,0 +1,65 @@
+[22-05-16 05:32:55]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_sql_10_natural_join_160522053255.log
+[22-05-16 05:32:55]: INFO: Starting the script
+[22-05-16 05:32:55]: INFO: Script Directory: /u01/docker
+[22-05-16 05:32:55]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-16 05:32:55]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 05:32:55]: ----------------------------------------------------
+[22-05-16 05:32:55]:  DATABASE QUERY STARTS 
+[22-05-16 05:32:55]: 
+
+EMPLOYEE_N DEPARTMENT_NAM
+---------- --------------
+ADAMS	   RESEARCH
+ALLEN	   SALES
+BLAKE	   SALES
+CLARK	   ACCOUNTING
+FORD	   RESEARCH
+JAMES	   SALES
+JONES	   RESEARCH
+KING	   ACCOUNTING
+MARTIN	   SALES
+MILLER	   ACCOUNTING
+SCOTT	   RESEARCH
+SMITH	   RESEARCH
+TURNER	   SALES
+WARD	   SALES
+
+14 rows selected.
+
+-----------------------------------------------
+Using a NATURAL JOIN is a bad idea. If someone adds a new column to one of the tables that happens to have the same name as a column in the other table, they may break any existing natural joins. It is effectively a bug waiting to happen.
+-----------------------------------------------
+You can't apply any aliased filters to columns used in natural joins,
+-----------------------------------------------
+ORA-25155: column used in NATURAL join cannot have qualifier
+-----------------------------------------------
+
+EMPLOYEE_N DEPARTMENT_NAM
+---------- --------------
+ADAMS	   RESEARCH
+FORD	   RESEARCH
+JONES	   RESEARCH
+SCOTT	   RESEARCH
+SMITH	   RESEARCH
+
+------ USING ----------
+
+EMPLOYEE_N DEPARTMENT_NAM
+---------- --------------
+ADAMS	   RESEARCH
+ALLEN	   SALES
+BLAKE	   SALES
+CLARK	   ACCOUNTING
+FORD	   RESEARCH
+JAMES	   SALES
+JONES	   RESEARCH
+KING	   ACCOUNTING
+MARTIN	   SALES
+MILLER	   ACCOUNTING
+SCOTT	   RESEARCH
+SMITH	   RESEARCH
+TURNER	   SALES
+WARD	   SALES
+
+14 rows selected.
+

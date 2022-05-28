@@ -1,0 +1,63 @@
+[22-05-28 02:42:27]: INFO: Log File name: /u01/profiler/oracle_collections/LOGS_ORACLE_COLLECTIONS/run_axiomus_conn_6_record_type_280522024227.log
+[22-05-28 02:42:27]: INFO: Starting the script
+[22-05-28 02:42:27]: INFO: Script Directory: /u01/profiler
+[22-05-28 02:42:27]: INFO: Query Directory: /u01/profiler/oracle_collections
+[22-05-28 02:42:27]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 02:42:27]: ----------------------------------------------------
+[22-05-28 02:42:27]:  DATABASE QUERY STARTS 
+[22-05-28 02:42:27]: 
+---------------------------
+--  	RECORD Type	--
+---------------------------
+It can be define in PLSQL block as a local type. and it will be available only in block.
+It can be defien in Package specification as a Public item. Can be called in different programs with pacakge name. It is stored in database until you drop the package.
+You CANNOT create RECORD Type at Schema level.
+------------------------------------------------
+RECORD is similar to C structures
+------------------------------------------------
+emp_rec.employee_name: Raahool
+emp_rec.emp_salary: 1000000
+
+PL/SQL procedure successfully completed.
+
+-------------------------------------------
+Different ways to assign values : Constructor
+-------------------------------------------
+DECLARE
+TYPE emp_rec_type IS RECORD ( employee_name 	VARCHAR2(100),
+salary		NUMBER)
+emp_rec emp_rec_type := emp_rec_type('Raahool', 100000);  		-- Constuctor is a method name
+BEGIN
+dbms_output.put_line('emp_rec.employee_name: '||emp_rec.employee_name)
+dbms_output.put_line('emp_rec.salary: '||emp_rec.salary)
+END
+-------------------------------------------
+Assigning value from SELECT statement
+-------------------------------------------
+emp_rec.employee_name: SCOTT
+emp_rec.salary: 3000
+
+PL/SQL procedure successfully completed.
+
+-------------------------------------------
+NOT NULL constraint on the record fields
+-------------------------------------------
+emp_rec.employee_name:
+emp_rec.salary: 1000000
+
+PL/SQL procedure successfully completed.
+
+--------------------------------------
+Difference between TYPE and %TYPE
+--------------------------------------
+emp_rec.employee_name: SCOTT
+lv_enmae: SCOTT
+emp_rec.empsal: 3000
+
+PL/SQL procedure successfully completed.
+
+------------------------------------------------------------
+-- TYPE     : To define our Custom Record defination  	 --
+-- %TYPE    : To define datatype of a field or variable	 --
+-- %ROWTYPE : to defien a record of table row type	 --
+------------------------------------------------------------

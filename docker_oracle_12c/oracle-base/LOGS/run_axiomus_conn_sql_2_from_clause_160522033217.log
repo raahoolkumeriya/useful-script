@@ -1,0 +1,108 @@
+[22-05-16 03:32:17]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_sql_2_from_clause_160522033217.log
+[22-05-16 03:32:17]: INFO: Starting the script
+[22-05-16 03:32:17]: INFO: Script Directory: /u01/docker
+[22-05-16 03:32:17]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-16 03:32:17]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 03:32:17]: ----------------------------------------------------
+[22-05-16 03:32:17]:  DATABASE QUERY STARTS 
+[22-05-16 03:32:17]: 
+----------- Inline views ------------
+Subquires in FROM clause also known as inline views
+------------------------------------------------------
+
+EMPLOYEE_N DEPARTMENT_NAM
+---------- --------------
+ADAMS	   RESEARCH
+ALLEN	   SALES
+BLAKE	   SALES
+CLARK	   ACCOUNTING
+FORD	   RESEARCH
+JAMES	   SALES
+JONES	   RESEARCH
+KING	   ACCOUNTING
+MARTIN	   SALES
+MILLER	   ACCOUNTING
+SCOTT	   RESEARCH
+SMITH	   RESEARCH
+TURNER	   SALES
+WARD	   SALES
+
+14 rows selected.
+
+-------- WITH clause --------------
+Alternaticve to inline views is to move subquery out with WITH clause.
+------------------------------------------------------
+
+EMPLOYEE_N DEPARTMENT_NAM
+---------- --------------
+ADAMS	   RESEARCH
+ALLEN	   SALES
+BLAKE	   SALES
+CLARK	   ACCOUNTING
+FORD	   RESEARCH
+JAMES	   SALES
+JONES	   RESEARCH
+KING	   ACCOUNTING
+MARTIN	   SALES
+MILLER	   ACCOUNTING
+SCOTT	   RESEARCH
+SMITH	   RESEARCH
+TURNER	   SALES
+WARD	   SALES
+
+14 rows selected.
+
+---------- VIEWS -----------------
+Another alternative to create a conventional views based on the subquery
+Views hides complexity of the query
+------------------------------------------------------
+
+View created.
+
+
+EMPLOYEE_N DEPARTMENT_NAM
+---------- --------------
+ADAMS	   RESEARCH
+ALLEN	   SALES
+BLAKE	   SALES
+CLARK	   ACCOUNTING
+FORD	   RESEARCH
+JAMES	   SALES
+JONES	   RESEARCH
+KING	   ACCOUNTING
+MARTIN	   SALES
+MILLER	   ACCOUNTING
+SCOTT	   RESEARCH
+SMITH	   RESEARCH
+TURNER	   SALES
+WARD	   SALES
+
+14 rows selected.
+
+---- Pipelined Table Functions -----------------
+
+Type created.
+
+
+Function created.
+
+
+EMPLOYEE_N
+----------
+ADAMS
+ALLEN
+BLAKE
+CLARK
+FORD
+JAMES
+JONES
+KING
+MARTIN
+MILLER
+SCOTT
+SMITH
+TURNER
+WARD
+
+14 rows selected.
+

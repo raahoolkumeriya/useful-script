@@ -1,0 +1,15 @@
+[22-05-06 07:26:54]: INFO: Log File name: /u01/scripts/LOGS/execute_query_14_clever_code_060522072654.log
+[22-05-06 07:26:54]: INFO: Starting the script
+[22-05-06 07:26:54]: INFO: Script Directory: /u01/scripts
+[22-05-06 07:26:54]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 07:26:54]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 07:26:54]: ----------------------------------------------------
+[22-05-06 07:26:54]:  DATABASE QUERY STARTS 
+[22-05-06 07:26:54]: 
+pi: 3.141592654
+PI: 3.141592623423423454354345
+2 pi:6.283185308
+
+PL/SQL procedure successfully completed.
+
+No errors.

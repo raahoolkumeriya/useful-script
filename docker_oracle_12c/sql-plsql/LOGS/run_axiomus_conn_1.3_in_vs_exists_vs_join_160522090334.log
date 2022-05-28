@@ -1,0 +1,26 @@
+[22-05-16 09:03:34]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_1.3_in_vs_exists_vs_join_160522090334.log
+[22-05-16 09:03:34]: INFO: Starting the script
+[22-05-16 09:03:34]: INFO: Script Directory: /u01/docker
+[22-05-16 09:03:34]: INFO: Query Directory: /u01/docker/sql-plsql
+[22-05-16 09:03:34]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 09:03:34]: ----------------------------------------------------
+[22-05-16 09:03:34]:  DATABASE QUERY STARTS 
+[22-05-16 09:03:34]: 
+ Name													      Null?    Type
+ ------------------------------------------------------------------------------------------------------------ -------- -------------------------------------------------------------------------
+ EMPLOYEE_ID												      NOT NULL NUMBER(4)
+ EMPLOYEE_NAME													       VARCHAR2(10)
+ JOB														       VARCHAR2(9)
+ MANAGER_ID													       NUMBER(4)
+ HIREDATE													       DATE
+ SALARY 													       NUMBER(7,2)
+ COMMISSION													       NUMBER(7,2)
+ DEPARTMENT_ID													       NUMBER(2)
+
+SELECT employee_id, first_name, hire_date
+                                *
+ERROR at line 1:
+ORA-00904: "HIRE_DATE": invalid identifier
+
+
+[22-05-16 09:03:35]: SQLERROR: Query error 136 in 1.3_in_vs_exists_vs_join.sql

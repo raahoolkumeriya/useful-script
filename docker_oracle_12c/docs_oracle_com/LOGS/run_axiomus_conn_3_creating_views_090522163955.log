@@ -1,0 +1,55 @@
+[22-05-09 16:39:55]: INFO: Log File name: /u01/scripts/LOGS/run_axiomus_conn_3_creating_views_090522163955.log
+[22-05-09 16:39:55]: INFO: Starting the script
+[22-05-09 16:39:55]: INFO: Script Directory: /u01/scripts
+[22-05-09 16:39:55]: INFO: Query Directory: /u01/scripts/docs_oracle_com
+[22-05-09 16:39:55]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-09 16:39:56]: ----------------------------------------------------
+[22-05-09 16:39:56]:  DATABASE QUERY STARTS 
+[22-05-09 16:39:56]: 
+
+View created.
+
+
+EMPLOYEE_ID Name			   DEPARTMENT		CITY			       COUNTRY
+----------- ------------------------------ -------------------- ------------------------------ ------------------------------
+	 49 Cole, Isabella		   SALES		Roma			       Italy
+	 23 Coleman, Jackson		   SALES		Roma			       Italy
+	  3 Cooper, Blake		   SALES		Roma			       Italy
+	 22 Henderson, Liam		   SALES		Roma			       Italy
+	 24 Jenkins, Callum		   SALES		Roma			       Italy
+	 15 Kelly, Rory 		   SALES		Roma			       Italy
+	102 Perkins, Emma		   SALES		Roma			       Italy
+	 25 Perry, Ronnie		   SALES		Roma			       Italy
+	  2 Rivera, Jude		   SALES		Roma			       Italy
+	 21 Ross, Jaxon 		   SALES		Roma			       Italy
+	 46 Sullivan, Ava		   SALES		Roma			       Italy
+	 47 Wallace, Ella		   SALES		Roma			       Italy
+	 50 West, Mia			   SALES		Roma			       Italy
+	 48 Woods, Jessica		   SALES		Roma			       Italy
+
+14 rows selected.
+
+Changing VIEW name with REPLACE tool
+
+Table renamed.
+
+
+EMPLOYEE_ID Name			   DEPARTMENT		CITY			       COUNTRY
+----------- ------------------------------ -------------------- ------------------------------ ------------------------------
+	 49 Cole, Isabella		   SALES		Roma			       Italy
+	 23 Coleman, Jackson		   SALES		Roma			       Italy
+	  3 Cooper, Blake		   SALES		Roma			       Italy
+	 22 Henderson, Liam		   SALES		Roma			       Italy
+	 24 Jenkins, Callum		   SALES		Roma			       Italy
+	 15 Kelly, Rory 		   SALES		Roma			       Italy
+	102 Perkins, Emma		   SALES		Roma			       Italy
+	 25 Perry, Ronnie		   SALES		Roma			       Italy
+	  2 Rivera, Jude		   SALES		Roma			       Italy
+	 21 Ross, Jaxon 		   SALES		Roma			       Italy
+	 46 Sullivan, Ava		   SALES		Roma			       Italy
+	 47 Wallace, Ella		   SALES		Roma			       Italy
+	 50 West, Mia			   SALES		Roma			       Italy
+	 48 Woods, Jessica		   SALES		Roma			       Italy
+
+14 rows selected.
+

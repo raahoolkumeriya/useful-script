@@ -1,0 +1,42 @@
+[22-04-22 04:00:29]: INFO: Log File name: /u01/scripts/LOGS/execute_query_1_language_fundamentals_220422040029.log
+[22-04-22 04:00:29]: INFO: Starting the script
+[22-04-22 04:00:30]: INFO: Script Directory: /u01/scripts
+[22-04-22 04:00:30]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-22 04:00:30]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-04-22 04:00:30]: ----------------------------------------------------
+[22-04-22 04:00:30]:  DATABASE QUERY STARTS 
+[22-04-22 04:00:30]: 
+>>> Lexical Delimiters <<<
+Assignment :=
+Association : & % => . @
+Concatenation ||
+Comparison  =  -  <>  !=  ^=  >  <  >=	<=
+delimiter ' (  ) ,  <<	>>  --	/*  */	"
+Math 	+  /  ** *   prompt   Statement
+
+
+PL/SQL procedure successfully completed.
+
+
+:MY_STRING
+--------------------------------------------------------------------------------
+A string literal.
+
+Inside another PLSQL block program :A string literal.
+
+PL/SQL procedure successfully completed.
+
+>>> LITERALS  <<<
+Charater Literals : a
+String literals : some "quoted" strings
+Numeric literals : 25200
+NUmeric literals - binary double : 2.0E+000
+Numeric literals - binary float : 2.0E+000
+Date and time literals
+01-JUN-07
+01-JUN-07
+01-JUN-07
+01-JUN-07
+
+PL/SQL procedure successfully completed.
+

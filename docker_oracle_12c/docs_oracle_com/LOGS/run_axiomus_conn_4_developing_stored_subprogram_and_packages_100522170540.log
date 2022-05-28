@@ -1,0 +1,54 @@
+[22-05-10 17:05:40]: INFO: Log File name: /u01/scripts/LOGS/run_axiomus_conn_4_developing_stored_subprogram_and_packages_100522170540.log
+[22-05-10 17:05:40]: INFO: Starting the script
+[22-05-10 17:05:40]: INFO: Script Directory: /u01/scripts
+[22-05-10 17:05:40]: INFO: Query Directory: /u01/scripts/docs_oracle_com
+[22-05-10 17:05:40]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-10 17:05:40]: ----------------------------------------------------
+[22-05-10 17:05:40]:  DATABASE QUERY STARTS 
+[22-05-10 17:05:40]: 
+---------------------------------
+Creating a standalone Procedure
+---------------------------------
+
+Procedure created.
+
+
+Procedure created.
+
+-----------------------------------------------
+Creating Standalone Functions
+-----------------------------------------------
+
+Function created.
+
+-----------------------------------------------
+Testing Standalone Function
+-----------------------------------------------
+
+CALCULATE_SCORE(CAT=>'CAT',SCORE=>24,WEIGHT=>10)
+------------------------------------------------
+					     240
+
+-----------------------------------------------
+Creating and Managing Package
+-----------------------------------------------
+
+Package created.
+
+
+Warning: Package Body created with compilation errors.
+
+Errors for PACKAGE BODY EMP_EVAL:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+5/11	 PLS-00323: subprogram or cursor 'CALCULATE_SCORE' is declared in
+	 a package specification and must be defined in the package body
+
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------

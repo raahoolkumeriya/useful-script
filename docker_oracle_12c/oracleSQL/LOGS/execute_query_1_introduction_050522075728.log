@@ -1,0 +1,61 @@
+[22-05-05 07:57:28]: INFO: Log File name: /u01/scripts/LOGS/execute_query_1_introduction_050522075728.log
+[22-05-05 07:57:28]: INFO: Starting the script
+[22-05-05 07:57:28]: INFO: Script Directory: /u01/scripts
+[22-05-05 07:57:28]: INFO: Query Directory: /u01/scripts/oracleSQL
+[22-05-05 07:57:28]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-05 07:57:28]: ----------------------------------------------------
+[22-05-05 07:57:28]:  DATABASE QUERY STARTS 
+[22-05-05 07:57:28]: 
+Relational Database System and Oracle
+----- CAT -- Synonym for USER_CATALOG --- SELECT * FROM cat
+------------ Describe -------- describe ALL_USERS
+------------ dict_columns --------
+
+COLUMN_NAME	     COMMENTS
+-------------------- --------------------
+USERNAME
+USER_ID
+CREATED
+COMMON
+ORACLE_MAINTAINED
+INHERITED
+DEFAULT_COLLATION
+IMPLICIT
+ALL_SHARD
+
+9 rows selected.
+
+Elapsed: 00:00:00.02
+---- NLS_SESSION_PARAMETERS -------
+
+PARAMETER		       VALUE
+------------------------------ ------------------------------
+NLS_LANGUAGE		       AMERICAN
+NLS_TERRITORY		       AMERICA
+NLS_CURRENCY		       $
+NLS_ISO_CURRENCY	       AMERICA
+NLS_NUMERIC_CHARACTERS	       .,
+NLS_CALENDAR		       GREGORIAN
+NLS_DATE_FORMAT 	       DD-MON-RR
+NLS_DATE_LANGUAGE	       AMERICAN
+NLS_SORT		       BINARY
+NLS_TIME_FORMAT 	       HH.MI.SSXFF AM
+NLS_TIMESTAMP_FORMAT	       DD-MON-RR HH.MI.SSXFF AM
+NLS_TIME_TZ_FORMAT	       HH.MI.SSXFF AM TZR
+NLS_TIMESTAMP_TZ_FORMAT        DD-MON-RR HH.MI.SSXFF AM TZR
+NLS_DUAL_CURRENCY	       $
+NLS_COMP		       BINARY
+NLS_LENGTH_SEMANTICS	       BYTE
+NLS_NCHAR_CONV_EXCP	       FALSE
+
+17 rows selected.
+
+Elapsed: 00:00:00.01
+CAT --- Synonym for USER_CATALOG
+COLS --- Synonym for USER_TAB_COLUMNS
+DICT ---Synonym for DICTIONARY
+DUAL --- Dummy table, with one row and one column
+IND  --- Synonym for USER_INDEXES
+OBJ  ---- Synonym for USER_OBJECTS
+SYN  ---- Synonym for USER_SYNONYMS
+TABS ---- Synonym for USER_TABLES

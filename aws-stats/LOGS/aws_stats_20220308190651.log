@@ -1,0 +1,19 @@
+[22-03-08 19:06:51] [MAIN]: -------------------------------------------------------------------
+[22-03-08 19:06:51] [MAIN]:                AWS Stats Report: 2022-03-08
+[22-03-08 19:06:51] [MAIN]: Script running for Account [1234] and BSCI [MSG] value
+[22-03-08 19:06:51] [MAIN]: -------------------------------------------------------------------
+[22-03-08 19:06:51] [MAIN]: Executing describe-instances command
+[22-03-08 19:06:51] [MAIN]: Executing list-buckets command
+[22-03-08 19:06:51] [MAIN]: Executing firehouse command
+[22-03-08 19:06:51] [MAIN]: Executing list-funcions command
+[22-03-08 19:06:51] [MAIN]: Executing elb-describe-load-balancers command
+[22-03-08 19:06:51] [MAIN]: Executing elbv2-describe-load-balancers command
+[22-03-08 19:06:51] [MAIN]: File /Users/raahool/applications/github/useful-script/aws-stats/writing_date_excel.py exists
+[22-03-08 19:06:51] [MAIN]: File /Users/raahool/applications/github/useful-script/aws-stats/ec2-accounts-1234-MSG-2022-03-08.csv exists
+[22-03-08 19:06:51] [MAIN]: File /Users/raahool/applications/github/useful-script/aws-stats/s3-buckets-1234-2022-03-08.csv exists
+[22-03-08 19:06:51] [MAIN]: File /Users/raahool/applications/github/useful-script/aws-stats/firehose-streams-1234-2022-03-08.csv exists
+[22-03-08 19:06:51] [MAIN]: File /Users/raahool/applications/github/useful-script/aws-stats/lambda-functions-1234-2022-03-08.csv exists
+[22-03-08 19:06:51] [MAIN]: File /Users/raahool/applications/github/useful-script/aws-stats/load3-balancers-1234-2022-03-08.csv exists
+[22-03-08 19:06:51] [MAIN]: File /Users/raahool/applications/github/useful-script/aws-stats/target-groups-1234-2022-03-08.csv exists
+[22-03-08 19:06:51] [MAIN]: All file exists in output directory
+[22-03-08 19:06:51] [MAIN]: Successfully write to final output file: /Users/raahool/applications/github/useful-script/aws-stats/stats-1234-MSG-2022-03-08.xls
