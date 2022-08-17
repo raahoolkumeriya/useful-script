@@ -1,0 +1,25 @@
+[22-06-14 18:21:44]: INFO: Log File name: /u01/playground/dba/LOGS_DBA/run_axiomus_conn_4_comparision_140622182144.log
+[22-06-14 18:21:44]: INFO: Starting the script
+[22-06-14 18:21:44]: INFO: Script Directory: /u01/playground
+[22-06-14 18:21:44]: INFO: Query Directory: /u01/playground/dba
+[22-06-14 18:21:44]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 18:21:44]: ----------------------------------------------------
+[22-06-14 18:21:44]:  DATABASE QUERY STARTS 
+[22-06-14 18:21:44]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+--     		dual vs xdual			--
+---------------------------------------------------
+----- on DUAL TABLE ------
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:01.29
+----- on xDUAL TABLE ------
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:01.62

@@ -1,0 +1,42 @@
+[22-06-14 08:51:13]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_34_COLLECT_pseudofunction_140622085113.log
+[22-06-14 08:51:13]: INFO: Starting the script
+[22-06-14 08:51:13]: INFO: Script Directory: /u01/playground
+[22-06-14 08:51:13]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 08:51:13]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 08:51:13]: ----------------------------------------------------
+[22-06-14 08:51:13]:  DATABASE QUERY STARTS 
+[22-06-14 08:51:13]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+--     	The COLLECT pseudofunction		--
+---------------------------------------------------
+
+Type created.
+
+Elapsed: 00:00:00.08
+No errors.
+----> Calling COLLECT and ordering the result ---->
+
+DEPARTMENT_ID BY_HIRE_DATE
+------------- ----------------------------------------------------------------------------------------------------
+	   10 STRINGS_NT('CLARK', 'KING', 'MILLER')
+	   20 STRINGS_NT('SMITH', 'JONES', 'FORD', 'SCOTT', 'ADAMS')
+	   30 STRINGS_NT('ALLEN', 'WARD', 'BLAKE', 'TURNER', 'MARTIN', 'JAMES')
+	   50 STRINGS_NT('STALIN')
+	      STRINGS_NT('JONES')
+
+Elapsed: 00:00:00.05
+---> Remove duplicate in the aggregration process --->
+
+DEPARTMENT_ID UNIQUES_JOBS
+------------- ----------------------------------------------------------------------------------------------------
+	   10 STRINGS_NT('CLERK', 'MANAGER', 'PRESIDENT')
+	   20 STRINGS_NT('ANALYST', 'CLERK', 'MANAGER')
+	   30 STRINGS_NT('CLERK', 'MANAGER', 'SALESMAN')
+	   50 STRINGS_NT('COMPUTER')
+	      STRINGS_NT('DBA')
+
+Elapsed: 00:00:00.01

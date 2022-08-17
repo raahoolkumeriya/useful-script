@@ -1,0 +1,21 @@
+[22-05-07 06:42:44]: INFO: Log File name: /u01/scripts/LOGS/execute_query_3_constant_and_literals_070522064244.log
+[22-05-07 06:42:44]: INFO: Starting the script
+[22-05-07 06:42:44]: INFO: Script Directory: /u01/scripts
+[22-05-07 06:42:44]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-07 06:42:44]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-07 06:42:44]: ----------------------------------------------------
+[22-05-07 06:42:44]:  DATABASE QUERY STARTS 
+[22-05-07 06:42:44]: 
+Constants
+Decalring a Constant
+Radius : 9.5
+Diameter : 19
+Circumference : 59.77
+Area : 283.92
+
+PL/SQL procedure successfully completed.
+
+That's tutorialspoint.com!
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,30 @@
+[22-06-02 15:58:03]: INFO: Log File name: /u01/advancePlsql/googleSearch/ADMIN_LOGS/admin_conn_setup_020622155803.log
+[22-06-02 15:58:03]: INFO: Starting the script
+[22-06-02 15:58:03]: INFO: Script Directory: /u01/advancePlsql
+[22-06-02 15:58:03]: INFO: Query Directory: /u01/advancePlsql/googleSearch
+[22-06-02 15:58:03]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 15:58:03]: ----------------------------------------------------
+[22-06-02 15:58:03]:  DATABASE QUERY STARTS 
+[22-06-02 15:58:03]: 
+---------------------------------------------------
+--    	Building a Google-search 		--
+---------------------------------------------------
+
+Session altered.
+
+
+CON_NAME
+------------------------------
+ORCLPDB1
+	FROM AXIOMUS.employee e,
+	             *
+ERROR at line 5:
+ORA-00942: table or view does not exist
+
+
+FROM AXIOMUS.bigtab
+             *
+ERROR at line 2:
+ORA-00942: table or view does not exist
+
+

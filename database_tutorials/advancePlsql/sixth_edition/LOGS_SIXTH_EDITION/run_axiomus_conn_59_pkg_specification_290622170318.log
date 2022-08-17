@@ -1,0 +1,24 @@
+[22-06-29 17:03:18]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_59_pkg_specification_290622170318.log
+[22-06-29 17:03:18]: INFO: Starting the script
+[22-06-29 17:03:18]: INFO: Script Directory: /u01/playground
+[22-06-29 17:03:18]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-29 17:03:18]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-29 17:03:18]: ----------------------------------------------------
+[22-06-29 17:03:18]:  DATABASE QUERY STARTS 
+[22-06-29 17:03:18]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+Package Specification			
+---------------------------------------------------
+
+SP2-0808: Package created with compilation warnings
+
+Elapsed: 00:00:00.76
+Errors for PACKAGE EMPLOYEES_PKG:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+15/15	 PLW-06026: package specification exposes global variable

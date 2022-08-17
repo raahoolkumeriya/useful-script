@@ -1,0 +1,27 @@
+[22-05-29 16:50:51]: INFO: Log File name: /u01/profiler/asktom/LOGS_ASKTOM/run_axiomus_conn_1_execution_plan_autotrace_290522165051.log
+[22-05-29 16:50:51]: INFO: Starting the script
+[22-05-29 16:50:51]: INFO: Script Directory: /u01/profiler
+[22-05-29 16:50:51]: INFO: Query Directory: /u01/profiler/asktom
+[22-05-29 16:50:51]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-29 16:50:51]: ----------------------------------------------------
+[22-05-29 16:50:51]:  DATABASE QUERY STARTS 
+[22-05-29 16:50:51]: 
+---------------------------------------------------
+--	    Autotrace				 --
+---------------------------------------------------
+
+
+Statistics
+----------------------------------------------------------
+	  0  recursive calls
+	  0  db block gets
+	  3  consistent gets
+	  0  physical reads
+	  0  redo size
+	538  bytes sent via SQL*Net to client
+	608  bytes received via SQL*Net from client
+	  2  SQL*Net roundtrips to/from client
+	  0  sorts (memory)
+	  0  sorts (disk)
+	  1  rows processed
+

@@ -1,0 +1,26 @@
+[22-06-07 02:58:23]: INFO: Log File name: /u01/advancePlsql/geek4geeks/LOGS_GEEK4GEEKS/run_axiomus_conn_math.pkg_070622025823.log
+[22-06-07 02:58:23]: INFO: Starting the script
+[22-06-07 02:58:23]: INFO: Script Directory: /u01/advancePlsql
+[22-06-07 02:58:23]: INFO: Query Directory: /u01/advancePlsql/geek4geeks
+[22-06-07 02:58:23]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-07 02:58:23]: ----------------------------------------------------
+[22-06-07 02:58:23]:  DATABASE QUERY STARTS 
+[22-06-07 02:58:23]: 
+---------------------------------------------------
+--     Geeks4Geeks - Math package		--
+---------------------------------------------------
+
+Package created.
+
+No errors.
+
+Warning: Package Body created with compilation errors.
+
+Errors for PACKAGE BODY MATH:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+1/19	 PLS-00103: Encountered the symbol "AUTHID" when expecting one of
+	 the following:
+	 is as compress compiled wrapped
+

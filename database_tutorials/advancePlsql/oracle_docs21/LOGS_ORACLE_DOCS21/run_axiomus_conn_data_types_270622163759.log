@@ -1,0 +1,21 @@
+[22-06-27 16:37:59]: INFO: Log File name: /u01/playground/oracle_docs21/LOGS_ORACLE_DOCS21/run_axiomus_conn_data_types_270622163759.log
+[22-06-27 16:37:59]: INFO: Starting the script
+[22-06-27 16:37:59]: INFO: Script Directory: /u01/playground
+[22-06-27 16:37:59]: INFO: Query Directory: /u01/playground/oracle_docs21
+[22-06-27 16:37:59]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-27 16:37:59]: ----------------------------------------------------
+[22-06-27 16:37:59]:  DATABASE QUERY STARTS 
+[22-06-27 16:37:59]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+Data types			
+---------------------------------------------------
+*nikki	   *
+*dikki *
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.14

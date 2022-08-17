@@ -1,0 +1,31 @@
+[22-05-05 17:01:05]: INFO: Log File name: /u01/scripts/LOGS/execute_query_2_running_plsql_code_050522170105.log
+[22-05-05 17:01:05]: INFO: Starting the script
+[22-05-05 17:01:05]: INFO: Script Directory: /u01/scripts
+[22-05-05 17:01:05]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-05 17:01:05]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-05 17:01:05]: ----------------------------------------------------
+[22-05-05 17:01:05]:  DATABASE QUERY STARTS 
+[22-05-05 17:01:05]: 
+
+PL/SQL procedure successfully completed.
+
+Again ... Hello Codelocked!!!
+
+PL/SQL procedure successfully completed.
+
+Hello there Codelocked!!
+
+PL/SQL procedure successfully completed.
+
+-- Execute local directory plsql code with @
+Employee table has 107 employees.
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.01
+-- Execute local code with SATRT
+Employee table has 107 employees.
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.01

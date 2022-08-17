@@ -1,0 +1,12 @@
+[22-05-06 04:52:02]: INFO: Log File name: /u01/scripts/LOGS/execute_query_9_anonymous_procedure_060522045202.log
+[22-05-06 04:52:02]: INFO: Starting the script
+[22-05-06 04:52:02]: INFO: Script Directory: /u01/scripts
+[22-05-06 04:52:02]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 04:52:02]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 04:52:02]: ----------------------------------------------------
+[22-05-06 04:52:02]:  DATABASE QUERY STARTS 
+[22-05-06 04:52:02]: 
+--- Anonymous Blocks are Anonymous Procedure --
+---> Database triggers execute anonymous blocks when certain event occurs
+---> Adhoc-commnads or scripts : EXECUTE command tanslate its arguments into an anonymous block by enclosing it between BEGIN and END statements.
+---> Compile 3GL ( third generation language ) Program: In Pro*C or OCI, anonymous blocks can be the mean by whihc you can embed calls to stored programs.

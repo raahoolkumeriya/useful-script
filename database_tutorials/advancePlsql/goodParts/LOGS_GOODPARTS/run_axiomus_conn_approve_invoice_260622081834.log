@@ -1,0 +1,25 @@
+[22-06-26 08:18:34]: INFO: Log File name: /u01/playground/goodParts/LOGS_GOODPARTS/run_axiomus_conn_approve_invoice_260622081834.log
+[22-06-26 08:18:35]: INFO: Starting the script
+[22-06-26 08:18:35]: INFO: Script Directory: /u01/playground
+[22-06-26 08:18:35]: INFO: Query Directory: /u01/playground/goodParts
+[22-06-26 08:18:35]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-26 08:18:35]: ----------------------------------------------------
+[22-06-26 08:18:35]:  DATABASE QUERY STARTS 
+[22-06-26 08:18:35]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+testing of assert pacakge		
+---------------------------------------------------
+	appl_error_pkg.assert(
+	*
+ERROR at line 14:
+ORA-06550: line 14, column 2:
+PLS-00201: identifier 'APPL_ERROR_PKG.ASSERT' must be declared
+ORA-06550: line 14, column 2:
+PL/SQL: Statement ignored
+
+
+[22-06-26 08:18:35]: SQLERROR: Query error 150 in approve_invoice.sql

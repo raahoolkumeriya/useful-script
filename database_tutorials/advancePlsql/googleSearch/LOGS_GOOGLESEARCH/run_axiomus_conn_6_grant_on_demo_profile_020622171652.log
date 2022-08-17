@@ -1,0 +1,21 @@
+[22-06-02 17:16:52]: INFO: Log File name: /u01/advancePlsql/googleSearch/LOGS_GOOGLESEARCH/run_axiomus_conn_6_grant_on_demo_profile_020622171652.log
+[22-06-02 17:16:52]: INFO: Starting the script
+[22-06-02 17:16:52]: INFO: Script Directory: /u01/advancePlsql
+[22-06-02 17:16:52]: INFO: Query Directory: /u01/advancePlsql/googleSearch
+[22-06-02 17:16:52]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 17:16:52]: ----------------------------------------------------
+[22-06-02 17:16:52]:  DATABASE QUERY STARTS 
+[22-06-02 17:16:52]: 
+---------------------------------------------------
+--   GRANT all on DEMO_PROFILE		  --
+---------------------------------------------------
+ERROR:
+ORA-31608: specified object of type ROLE_GRANT not found
+ORA-06512: at "SYS.DBMS_METADATA", line 6478
+ORA-06512: at "SYS.DBMS_SYS_ERROR", line 86
+ORA-06512: at "SYS.DBMS_METADATA", line 6469
+ORA-06512: at "SYS.DBMS_METADATA", line 9353
+ORA-06512: at line 1
+
+
+[22-06-02 17:16:55]: SQLERROR: Query error 120 in 6_grant_on_demo_profile.sql

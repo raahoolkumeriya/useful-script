@@ -1,0 +1,31 @@
+;;; 
+Import: Release 12.2.0.1.0 - Production on Tue Jun 7 17:00:38 2022
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+;;; **************************************************************************
+;;; Parfile values:
+;;;  parfile:  remap_table=axiomus.employees:employees_bk
+;;;  parfile:  logfile=employees_imp.log
+;;;  parfile:  dumpfile=employees_exp%U.dmp
+;;;  parfile:  directory=axiom_external
+;;;  parfile:  userid=axiomus/********@ORCLPDB1
+;;; **************************************************************************
+Master table "AXIOMUS"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "AXIOMUS"."SYS_IMPORT_FULL_01":  axiomus/********@ORCLPDB1 parfile=employees_imp.par 
+Processing object type TABLE_EXPORT/TABLE/TABLE
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+. . imported "AXIOMUS"."EMPLOYEES_BK"                    8.851 KB      15 rows
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+ORA-31684: Object type CONSTRAINT:"AXIOMUS"."EMPLOYEE_PK" already exists
+Processing object type TABLE_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+ORA-39083: Object type REF_CONSTRAINT:"AXIOMUS"."EMP_DEPARTMENT_ID_FK" failed to create with error:
+ORA-02264: name already used by an existing constraint
+
+Failing sql is:
+ALTER TABLE "AXIOMUS"."EMPLOYEES_BK" ADD CONSTRAINT "EMP_DEPARTMENT_ID_FK" FOREIGN KEY ("DEPARTMENT_ID") REFERENCES "AXIOMUS"."DEPARTMENTS" ("DEPARTMENT_ID") ENABLE
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/MARKER
+Job "AXIOMUS"."SYS_IMPORT_FULL_01" completed with 2 error(s) at Tue Jun 7 17:02:02 2022 elapsed 0 00:01:20

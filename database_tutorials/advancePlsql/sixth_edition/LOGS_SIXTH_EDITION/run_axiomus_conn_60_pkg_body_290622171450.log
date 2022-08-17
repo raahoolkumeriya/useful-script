@@ -1,0 +1,20 @@
+[22-06-29 17:14:50]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_60_pkg_body_290622171450.log
+[22-06-29 17:14:50]: INFO: Starting the script
+[22-06-29 17:14:50]: INFO: Script Directory: /u01/playground
+[22-06-29 17:14:51]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-29 17:14:51]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-29 17:14:51]: ----------------------------------------------------
+[22-06-29 17:14:51]:  DATABASE QUERY STARTS 
+[22-06-29 17:14:51]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+Package body			
+---------------------------------------------------
+
+Package body created.
+
+Elapsed: 00:00:00.39
+No errors.

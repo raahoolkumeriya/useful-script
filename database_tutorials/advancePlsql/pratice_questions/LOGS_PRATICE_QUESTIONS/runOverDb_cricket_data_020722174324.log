@@ -1,0 +1,65 @@
+[22-07-02 17:43:24]: INFO: Log File name: /home/raahool.linux/database_tutorials/pratice_questions/LOGS_PRATICE_QUESTIONS/runOverDb_cricket_data_020722174324.log
+[22-07-02 17:43:24]: INFO: Starting the script
+[22-07-02 17:43:24]: INFO: Script Directory: /home/raahool.linux/database_tutorials
+[22-07-02 17:43:24]: INFO: Query Directory: /home/raahool.linux/database_tutorials/pratice_questions
+[22-07-02 17:43:24]: INFO: Spinning Connection with AXIOMUS@ORCLPDB1
+[22-07-02 17:43:24]: ----------------------------------------------------
+[22-07-02 17:43:24]:  DATABASE QUERY STARTS 
+[22-07-02 17:43:24]: 
+
+Session altered.
+
+---------------------------------------------------
+-- Create and Insert Cricket data 		--
+---------------------------------------------------
+
+Table dropped.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+

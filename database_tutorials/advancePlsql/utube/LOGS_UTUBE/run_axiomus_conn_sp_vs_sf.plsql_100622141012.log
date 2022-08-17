@@ -1,0 +1,22 @@
+[22-06-10 14:10:12]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_sp_vs_sf.plsql_100622141012.log
+[22-06-10 14:10:12]: INFO: Starting the script
+[22-06-10 14:10:12]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 14:10:12]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 14:10:12]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 14:10:12]: ----------------------------------------------------
+[22-06-10 14:10:12]:  DATABASE QUERY STARTS 
+[22-06-10 14:10:12]: 
+---------------------------------------------------
+--  Stored Procedure Vs Stored Functions   	--
+---------------------------------------------------
+o PROCEDURE:
+----> May or May not return Values
+----> Can't call from SQL statements
+----> can't be use in expression direclty
+----> May or may not have RETURN keyword
+o FUNCTION:
+----> Should return a value
+----> Can be called form SQl statements
+----> can be used in expression direcrtly
+----> should have RETRUN keyword
+---------------------------------------------------

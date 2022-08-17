@@ -1,0 +1,27 @@
+[22-05-29 06:45:53]: INFO: Log File name: /u01/profiler/11g_oracle_docs/LOGS_11G_ORACLE_DOCS/run_axiomus_conn_3_assigning_values_to_variables_290522064553.log
+[22-05-29 06:45:53]: INFO: Starting the script
+[22-05-29 06:45:53]: INFO: Script Directory: /u01/profiler
+[22-05-29 06:45:53]: INFO: Query Directory: /u01/profiler/11g_oracle_docs
+[22-05-29 06:45:53]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-29 06:45:53]: ----------------------------------------------------
+[22-05-29 06:45:53]:  DATABASE QUERY STARTS 
+[22-05-29 06:45:53]: 
+---------------------------------------------------
+--  Assigning Values to Variables		 --
+---------------------------------------------------
+-- With Asignment Statement --
+Raahool working in INDIA erans hourly : 1050
+
+PL/SQL procedure successfully completed.
+
+-- Assigning Value to Variable with SELECT INTO Statement --
+bonus = 300
+
+PL/SQL procedure successfully completed.
+
+--- Assigning Value to Variable as IN OUT Subprogram Parameter ---
+Before invoking procedure, employee_salary : 3000
+After invoking procedure, employee_salary : 4000
+
+PL/SQL procedure successfully completed.
+

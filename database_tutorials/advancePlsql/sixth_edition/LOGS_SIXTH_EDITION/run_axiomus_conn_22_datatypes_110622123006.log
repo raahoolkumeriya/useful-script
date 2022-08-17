@@ -1,0 +1,24 @@
+[22-06-11 12:30:06]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_22_datatypes_110622123006.log
+[22-06-11 12:30:06]: INFO: Starting the script
+[22-06-11 12:30:06]: INFO: Script Directory: /u01/playground
+[22-06-11 12:30:06]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-11 12:30:06]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-11 12:30:06]: ----------------------------------------------------
+[22-06-11 12:30:06]:  DATABASE QUERY STARTS 
+[22-06-11 12:30:06]: 
+
+Session altered.
+
+---------------------------------------------------
+--     		Declaring Variables		--
+---------------------------------------------------
+	l_rahul CONSTANT person_ot := person_ot('HUMAN','Rahul Kumeriya',175, TO_DATE('01-01-2000','MM-DD-YYYY'));
+	                 *
+ERROR at line 32:
+ORA-06550: line 32, column 19:
+PLS-00201: identifier 'PERSON_OT' must be declared
+ORA-06550: line 32, column 10:
+PL/SQL: Item ignored
+
+
+[22-06-11 12:30:07]: SQLERROR: Query error 150 in 22_datatypes.sql

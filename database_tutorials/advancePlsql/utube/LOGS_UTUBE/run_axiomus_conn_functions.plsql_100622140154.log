@@ -1,0 +1,38 @@
+[22-06-10 14:01:54]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_functions.plsql_100622140154.log
+[22-06-10 14:01:54]: INFO: Starting the script
+[22-06-10 14:01:54]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 14:01:54]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 14:01:54]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 14:01:54]: ----------------------------------------------------
+[22-06-10 14:01:54]:  DATABASE QUERY STARTS 
+[22-06-10 14:01:54]: 
+---------------------------------------------------
+--     		Stored Functions		--
+---------------------------------------------------
+-- resuable program and it should return one value
+-- WIth OUT parameter we can output multiple values
+-- return null when no value is returning
+---------------------------------------------------
+
+Function created.
+
+---------------------------------------------------
+Unit testing				--
+---------------------------------------------------
+SCOTT
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+-- RERURN multiples values from function		--
+---------------------------------------------------
+
+Function created.
+
+---------------------------------------------------
+Unit testing for Multiple values 	--
+---------------------------------------------------
+3000 - SCOTT - ANALYST
+
+PL/SQL procedure successfully completed.
+

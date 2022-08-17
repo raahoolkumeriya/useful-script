@@ -1,0 +1,22 @@
+[22-07-22 12:01:32]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/10_get_db_metadata_220722120132.log
+[22-07-22 12:01:32]: INFO: Starting the script
+[22-07-22 12:01:32]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-07-22 12:01:33]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-07-22 12:01:33]: INFO: Spinning Connection with SYS@ORA.world
+[22-07-22 12:01:33]: +---------------------------------+
+[22-07-22 12:01:33]: | database query execution begins |
+[22-07-22 12:01:33]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--		Get DB Metadata			--
+---------------------------------------------------
+
+Session altered.
+
+
+;ORCLCDB;12.2.0.1.0;PRIMARY;FALSE;ORCLCDB;OPEN;ORCLCDB
+[22-07-22 12:01:33]: +---------------------------------+
+[22-07-22 12:01:33]: |     database query ends here    |
+[22-07-22 12:01:33]: +---------------------------------+

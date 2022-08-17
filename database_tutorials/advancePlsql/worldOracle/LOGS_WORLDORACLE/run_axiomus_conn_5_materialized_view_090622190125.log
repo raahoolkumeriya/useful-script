@@ -1,0 +1,69 @@
+[22-06-09 19:01:25]: INFO: Log File name: /u01/advancePlsql/worldOracle/LOGS_WORLDORACLE/run_axiomus_conn_5_materialized_view_090622190125.log
+[22-06-09 19:01:25]: INFO: Starting the script
+[22-06-09 19:01:25]: INFO: Script Directory: /u01/advancePlsql
+[22-06-09 19:01:25]: INFO: Query Directory: /u01/advancePlsql/worldOracle
+[22-06-09 19:01:25]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-09 19:01:26]: ----------------------------------------------------
+[22-06-09 19:01:26]:  DATABASE QUERY STARTS 
+[22-06-09 19:01:26]: 
+---------------------------------------------------
+--    Materialized Views / Sanpshots		 --
+---------------------------------------------------
+As we know Normal Views we use for security purpose
+o also called as Snapshots
+o Database object which physically store the output of query and help us in Performance improvement.
+o Store the o/p of a query
+o Refresh on its own whenever base table gets affected
+---------------------------------------------------
+------	 Intervals of Refresh ----------------------
+---------------------------------------------------
+o Manual Refresh : --> refresh on demand
+--------> Manual refresh can be done with DBMS_SNAPSHOT.REFRESH_MVIEW package
+o Automatic Refresh : --> refresh on commit
+---------------------------------------------------
+---------------------------------------------------
+--	 Types of Refresh			 --
+---------------------------------------------------
+o Complete (full) Refresh: --> When base table modified Mview get truncated first and then it again reloaded
+o Fast Refresh: Updated record in base only those are updated. To fast refresh mvlog file is mandatory. If it is corrupted fast refresh will not work.
+o Force Refresh: In case of Fast refresh fails, Force refresh first will try fast refresh it fails then it will do the complete refresh.
+---------------------------------------------------
+Creating Mview
+---------------------------------------------------
+
+Materialized view created.
+
+---------------------------------------------------
+Checking Mview content
+---------------------------------------------------
+
+DEPARTMENT_ID SUM(SALARY)
+------------- -----------
+	   30	     9400
+	   20	    10875
+	   10	     8750
+
+---------------------------------------------------
+insert into original table
+---------------------------------------------------
+
+1 row created.
+
+---------------------------------------------------
+Commit original table insert
+---------------------------------------------------
+
+Commit complete.
+
+---------------------------------------------------
+Checking Mview content after Commit which is automatically udpated
+---------------------------------------------------
+
+DEPARTMENT_ID SUM(SALARY)
+------------- -----------
+	   30	     9400
+	   20	    10875
+	   50	    10000
+	   10	     8750
+
+

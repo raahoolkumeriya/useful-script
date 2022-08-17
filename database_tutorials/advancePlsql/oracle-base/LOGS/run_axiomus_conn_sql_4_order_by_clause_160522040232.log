@@ -1,0 +1,72 @@
+[22-05-16 04:02:32]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_sql_4_order_by_clause_160522040232.log
+[22-05-16 04:02:32]: INFO: Starting the script
+[22-05-16 04:02:32]: INFO: Script Directory: /u01/docker
+[22-05-16 04:02:32]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-16 04:02:32]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 04:02:32]: ----------------------------------------------------
+[22-05-16 04:02:32]:  DATABASE QUERY STARTS 
+[22-05-16 04:02:32]: 
+
+    SALARY COMMISSION EMPLOYEE_N
+---------- ---------- ----------
+       950	      JAMES
+      1250	  500 WARD
+      1250	 1400 MARTIN
+      1500	    0 TURNER
+      1600	  300 ALLEN
+      2850	      BLAKE
+
+6 rows selected.
+
+--- order by with expression --------
+
+    SALARY COMMISSION EMPLOYEE_N
+---------- ---------- ----------
+       950	      JAMES
+      1500	    0 TURNER
+      1250	  500 WARD
+      1600	  300 ALLEN
+      1250	 1400 MARTIN
+      2850	      BLAKE
+
+6 rows selected.
+
+--- handling NULLs ---------------
+
+COMMISSION EMPLOYEE_N
+---------- ----------
+	 0 TURNER
+       300 ALLEN
+       500 WARD
+      1400 MARTIN
+	   JAMES
+	   BLAKE
+
+6 rows selected.
+
+----- NULLS FIRST ---------
+
+COMMISSION EMPLOYEE_N
+---------- ----------
+	   JAMES
+	   BLAKE
+	 0 TURNER
+       300 ALLEN
+       500 WARD
+      1400 MARTIN
+
+6 rows selected.
+
+---- NULLS LAST ---------
+
+COMMISSION EMPLOYEE_N
+---------- ----------
+	   JAMES
+      1400 MARTIN
+       500 WARD
+	 0 TURNER
+       300 ALLEN
+	   BLAKE
+
+6 rows selected.
+

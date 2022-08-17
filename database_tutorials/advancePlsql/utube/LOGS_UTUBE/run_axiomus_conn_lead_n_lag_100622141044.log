@@ -1,0 +1,107 @@
+[22-06-10 14:10:44]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_lead_n_lag_100622141044.log
+[22-06-10 14:10:44]: INFO: Starting the script
+[22-06-10 14:10:44]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 14:10:44]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 14:10:44]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 14:10:44]: ----------------------------------------------------
+[22-06-10 14:10:44]:  DATABASE QUERY STARTS 
+[22-06-10 14:10:44]: 
+---------------------------------------------------
+--     		LEAD				--
+---------------------------------------------------
+-- Lead is used to find next row value within th same table
+SYNTAX: lead(column,context,default) OVER partition caluse
+
+DEPARTMENT_ID HIREDATE	NEXT_HIRE
+------------- --------- ---------
+	   20 17-DEC-80 20-FEB-81
+	   30 20-FEB-81 22-FEB-81
+	   30 22-FEB-81 02-APR-81
+	   20 02-APR-81 01-MAY-81
+	   30 01-MAY-81 09-JUN-81
+	   10 09-JUN-81 08-SEP-81
+	   30 08-SEP-81 28-SEP-81
+	   30 28-SEP-81 17-NOV-81
+	   10 17-NOV-81 03-DEC-81
+	   20 03-DEC-81 03-DEC-81
+	   30 03-DEC-81 02-JAN-82
+	      02-JAN-82 23-JAN-82
+	   10 23-JAN-82 19-APR-87
+	   20 19-APR-87 23-MAY-87
+	   20 23-MAY-87 03-MAR-14
+	   50 03-MAR-14
+
+16 rows selected.
+
+
+DEPARTMENT_ID HIREDATE	NEXT_HIRE
+------------- --------- ---------
+	   20 17-DEC-80 22-FEB-81
+	   30 20-FEB-81 02-APR-81
+	   30 22-FEB-81 01-MAY-81
+	   20 02-APR-81 09-JUN-81
+	   30 01-MAY-81 08-SEP-81
+	   10 09-JUN-81 28-SEP-81
+	   30 08-SEP-81 17-NOV-81
+	   30 28-SEP-81 03-DEC-81
+	   10 17-NOV-81 03-DEC-81
+	   20 03-DEC-81 02-JAN-82
+	   30 03-DEC-81 23-JAN-82
+	      02-JAN-82 19-APR-87
+	   10 23-JAN-82 23-MAY-87
+	   20 19-APR-87 03-MAR-14
+	   20 23-MAY-87
+	   50 03-MAR-14
+
+16 rows selected.
+
+
+DEPARTMENT_ID HIREDATE	NEXT_HIRE
+------------- --------- ---------
+	   10 09-JUN-81 17-NOV-81
+	   10 17-NOV-81 23-JAN-82
+	   10 23-JAN-82
+	   20 17-DEC-80 02-APR-81
+	   20 02-APR-81 03-DEC-81
+	   20 03-DEC-81 19-APR-87
+	   20 19-APR-87 23-MAY-87
+	   20 23-MAY-87
+	   30 20-FEB-81 22-FEB-81
+	   30 22-FEB-81 01-MAY-81
+	   30 01-MAY-81 08-SEP-81
+	   30 08-SEP-81 28-SEP-81
+	   30 28-SEP-81 03-DEC-81
+	   30 03-DEC-81
+	   50 03-MAR-14
+	      02-JAN-82
+
+16 rows selected.
+
+---------------------------------------------------
+--     		LAG				--
+---------------------------------------------------
+-- Lag is used to find previous row value within th same table
+SYNATX: LAG(column,context,default) over partition clause
+
+
+EMPLOYEE_N     SALARY LAG(SALARY,1)OVER(ORDERBYSALARY) SALARY-LAG(SALARY,1)OVER(ORDERBYSALARY)
+---------- ---------- -------------------------------- ---------------------------------------
+SMITH		  800
+JAMES		  950				   800					   150
+ADAMS		 1100				   950					   150
+WARD		 1250				  1100					   150
+MARTIN		 1250				  1250					     0
+JONES		 1300				  1250					    50
+MILLER		 1300				  1300					     0
+TURNER		 1500				  1300					   200
+ALLEN		 1600				  1500					   100
+CLARK		 2450				  1600					   850
+BLAKE		 2850				  2450					   400
+JONES		 2975				  2850					   125
+FORD		 3000				  2975					    25
+SCOTT		 3000				  3000					     0
+KING		 5000				  3000					  2000
+STALIN		10000				  5000					  5000
+
+16 rows selected.
+

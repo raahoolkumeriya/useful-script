@@ -1,0 +1,88 @@
+[22-06-02 15:14:41]: INFO: Log File name: /u01/profiler/advancePLSQL/ADMIN_LOGS/admin_conn_10_explain_plan_020622151441.log
+[22-06-02 15:14:41]: INFO: Starting the script
+[22-06-02 15:14:41]: INFO: Script Directory: /u01/profiler
+[22-06-02 15:14:41]: INFO: Query Directory: /u01/profiler/advancePLSQL
+[22-06-02 15:14:41]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 15:14:41]: ----------------------------------------------------
+[22-06-02 15:14:41]:  DATABASE QUERY STARTS 
+[22-06-02 15:14:42]: 
+---------------------------------------------------
+--     		Explain plan			--
+---------------------------------------------------
+
+Table created.
+
+Elapsed: 00:00:04.76
+
+  COUNT(*)
+----------
+     75491
+
+Elapsed: 00:00:00.17
+
+OBJECT_TYPE		STATUS	  COUNT(*)
+----------------------- ------- ----------
+CLUSTER 		VALID		10
+CONSUMER GROUP		VALID		18
+CONTEXT 		VALID		19
+DESTINATION		VALID		 2
+DIRECTORY		VALID		12
+EDITION 		VALID		 1
+EVALUATION CONTEXT	VALID		13
+FUNCTION		VALID	       373
+INDEX			VALID	      3556
+INDEX PARTITION 	VALID	       391
+INDEXTYPE		VALID		11
+JAVA CLASS		VALID	     38201
+JAVA DATA		VALID	       413
+JAVA RESOURCE		VALID	      1730
+JAVA SOURCE		VALID		 2
+JOB			VALID		26
+JOB CLASS		VALID		15
+LIBRARY 		VALID	       237
+LOB			VALID	       260
+LOB PARTITION		VALID		23
+LOCKDOWN PROFILE	VALID		 3
+OPERATOR		VALID		62
+PACKAGE 		VALID	      1336
+PACKAGE BODY		VALID	      1278
+PROCEDURE		VALID	       240
+PROGRAM 		VALID		11
+QUEUE			VALID		19
+RESOURCE PLAN		VALID		11
+RULE			VALID		 1
+RULE SET		VALID		19
+SCHEDULE		VALID		 4
+SCHEDULER GROUP 	VALID		 4
+SEQUENCE		VALID	       311
+SYNONYM 		VALID	     12514
+TABLE			VALID	      2629
+TABLE PARTITION 	VALID	       480
+TABLE SUBPARTITION	VALID		32
+TRIGGER 		VALID	       643
+TYPE			VALID	      2952
+TYPE BODY		VALID	       276
+UNDEFINED		VALID		18
+UNIFIED AUDIT POLICY	VALID		 9
+VIEW			VALID	      7274
+WINDOW			VALID		 9
+XML SCHEMA		VALID		43
+
+45 rows selected.
+
+Elapsed: 00:00:00.12
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL_ID	9babjv8yq8ru3, child number 2
+
+BEGIN DBMS_OUTPUT.GET_LINES(:LINES, :NUMLINES); END;
+
+NOTE: cannot fetch plan for SQL_ID: 9babjv8yq8ru3, CHILD_NUMBER: 2
+      Please verify value of SQL_ID and CHILD_NUMBER;
+      It could also be that the plan is no longer in cursor cache (check v$sql_plan)
+
+
+8 rows selected.
+
+Elapsed: 00:00:00.04

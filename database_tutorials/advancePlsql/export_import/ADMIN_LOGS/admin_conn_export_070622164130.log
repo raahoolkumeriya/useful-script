@@ -1,0 +1,52 @@
+[22-06-07 16:41:30]: INFO: Log File name: /u01/advancePlsql/export_import/ADMIN_LOGS/admin_conn_export_070622164130.log
+[22-06-07 16:41:30]: INFO: Starting the script
+[22-06-07 16:41:30]: INFO: Script Directory: /u01/advancePlsql
+[22-06-07 16:41:30]: INFO: Query Directory: /u01/advancePlsql/export_import
+[22-06-07 16:41:30]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-07 16:41:30]: ----------------------------------------------------
+[22-06-07 16:41:30]:  DATABASE QUERY STARTS 
+[22-06-07 16:41:30]: 
+---------------------------------------------------
+--     	   EXPORT table with expdp		--
+---------------------------------------------------
+
+Directory created.
+
+
+OWNER		     DIRECTORY_NAME		    DIRECTORY_PATH								     ORIGIN_CON_ID
+-------------------- ------------------------------ -------------------------------------------------------------------------------- -------------
+SYS		     AXIOM_EXTERNAL		    /u01/STUFF										##########
+SYS		     XMLDIR			    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/xml					##########
+SYS		     XSDDIR			    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/xml/schema				##########
+SYS		     ORA_DBMS_FCP_LOGDIR	    /u01/app/oracle/product/12.2.0/dbhome_1/cfgtoollogs 				##########
+SYS		     ORA_DBMS_FCP_ADMINDIR	    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/admin 				##########
+SYS		     OPATCH_INST_DIR		    /u01/app/oracle/product/12.2.0/dbhome_1/OPatch					##########
+SYS		     ORACLE_OCM_CONFIG_DIR	    /u01/app/oracle/product/12.2.0/dbhome_1/ccr/state					##########
+SYS		     DATA_PUMP_DIR		    /u01/app/oracle/admin/ORCL/dpdump/							##########
+SYS		     ORACLE_OCM_CONFIG_DIR2	    /u01/app/oracle/product/12.2.0/dbhome_1/ccr/state					##########
+SYS		     OPATCH_SCRIPT_DIR		    /u01/app/oracle/product/12.2.0/dbhome_1/QOpatch					##########
+SYS		     OPATCH_LOG_DIR		    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/log					##########
+SYS		     ORACLE_BASE		    /u01/app/oracle									##########
+SYS		     ORACLE_HOME		    /u01/app/oracle/product/12.2.0/dbhome_1						##########
+
+13 rows selected.
+
+
+OWNER		     DIRECTORY_NAME		    DIRECTORY_PATH								     ORIGIN_CON_ID
+-------------------- ------------------------------ -------------------------------------------------------------------------------- -------------
+SYS		     AXIOM_EXTERNAL		    /u01/STUFF										##########
+SYS		     XMLDIR			    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/xml					##########
+SYS		     XSDDIR			    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/xml/schema				##########
+SYS		     ORA_DBMS_FCP_LOGDIR	    /u01/app/oracle/product/12.2.0/dbhome_1/cfgtoollogs 				##########
+SYS		     ORA_DBMS_FCP_ADMINDIR	    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/admin 				##########
+SYS		     OPATCH_INST_DIR		    /u01/app/oracle/product/12.2.0/dbhome_1/OPatch					##########
+SYS		     ORACLE_OCM_CONFIG_DIR	    /u01/app/oracle/product/12.2.0/dbhome_1/ccr/state					##########
+SYS		     DATA_PUMP_DIR		    /u01/app/oracle/admin/ORCL/dpdump/							##########
+SYS		     ORACLE_OCM_CONFIG_DIR2	    /u01/app/oracle/product/12.2.0/dbhome_1/ccr/state					##########
+SYS		     OPATCH_SCRIPT_DIR		    /u01/app/oracle/product/12.2.0/dbhome_1/QOpatch					##########
+SYS		     OPATCH_LOG_DIR		    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/log					##########
+SYS		     ORACLE_BASE		    /u01/app/oracle									##########
+SYS		     ORACLE_HOME		    /u01/app/oracle/product/12.2.0/dbhome_1						##########
+
+13 rows selected.
+

@@ -1,0 +1,112 @@
+[22-05-30 18:53:46]: INFO: Log File name: /u01/profiler/devgym/LOGS_DEVGYM/run_axiomus_conn_7_returning_multiple_columns_300522185346.log
+[22-05-30 18:53:46]: INFO: Starting the script
+[22-05-30 18:53:46]: INFO: Script Directory: /u01/profiler
+[22-05-30 18:53:46]: INFO: Query Directory: /u01/profiler/devgym
+[22-05-30 18:53:46]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-30 18:53:46]: ----------------------------------------------------
+[22-05-30 18:53:46]:  DATABASE QUERY STARTS 
+[22-05-30 18:53:46]: 
+---------------------------------------------------
+--   Returning mUltiple columns			--
+---------------------------------------------------
+
+Function created.
+
+No errors.
+
+NAME	   SPECIES		DATE_OF_B
+---------- -------------------- ---------
+Hoppy	   RABBIT		15-JAN-21
+Hippy	   RABBIT		03-AUG-21
+BABY1	   RABBIT		28-FEB-22
+BABY2	   RABBIT		30-APR-22
+BABY3	   RABBIT		30-JAN-22
+BABY4	   RABBIT		28-FEB-22
+BABY5	   RABBIT		30-APR-22
+BABY6	   RABBIT		30-APR-22
+BABY7	   RABBIT		30-DEC-21
+BABY8	   RABBIT		30-APR-22
+BABY9	   RABBIT		30-DEC-21
+BABY10	   RABBIT		30-MAR-22
+BABY11	   RABBIT		30-JAN-22
+BABY12	   RABBIT		30-DEC-21
+
+14 rows selected.
+
+
+Rollback complete.
+
+
+NAME	   SPECIES		DATE_OF_B
+---------- -------------------- ---------
+Hoppy	   RABBIT		15-JAN-21
+Hippy	   RABBIT		03-AUG-21
+BABY1	   RABBIT		30-DEC-21
+BABY2	   RABBIT		30-JAN-22
+BABY3	   RABBIT		30-APR-22
+BABY4	   RABBIT		30-APR-22
+BABY5	   RABBIT		30-APR-22
+BABY6	   RABBIT		30-MAR-22
+BABY7	   RABBIT		30-DEC-21
+BABY8	   RABBIT		28-FEB-22
+BABY9	   RABBIT		30-DEC-21
+BABY10	   RABBIT		30-DEC-21
+BABY11	   RABBIT		28-FEB-22
+BABY12	   RABBIT		30-APR-22
+Hoppy	   RABBIT		15-JAN-21
+Hippy	   RABBIT		03-AUG-21
+BABY1	   RABBIT		30-APR-22
+BABY2	   RABBIT		30-APR-22
+BABY3	   RABBIT		30-DEC-21
+BABY4	   RABBIT		30-MAR-22
+BABY5	   RABBIT		28-FEB-22
+BABY6	   RABBIT		30-DEC-21
+BABY7	   RABBIT		30-MAR-22
+BABY8	   RABBIT		28-FEB-22
+BABY9	   RABBIT		30-MAR-22
+BABY10	   RABBIT		30-JAN-22
+BABY11	   RABBIT		30-DEC-21
+BABY12	   RABBIT		30-JAN-22
+
+28 rows selected.
+
+
+3 rows created.
+
+
+NAME	   SPECIES		DATE_OF_B
+---------- -------------------- ---------
+Hoppy	   RABBIT		15-JAN-21
+Hippy	   RABBIT		03-AUG-21
+BABY1	   RABBIT		30-DEC-21
+BABY2	   RABBIT		30-JAN-22
+BABY3	   RABBIT		30-APR-22
+BABY4	   RABBIT		30-APR-22
+BABY5	   RABBIT		30-APR-22
+BABY6	   RABBIT		30-MAR-22
+BABY7	   RABBIT		30-DEC-21
+BABY8	   RABBIT		28-FEB-22
+BABY9	   RABBIT		30-DEC-21
+BABY10	   RABBIT		30-DEC-21
+BABY11	   RABBIT		28-FEB-22
+BABY12	   RABBIT		30-APR-22
+Bod	   KANGAROO		15-JAN-21
+Sally	   KANGAROO		03-AUG-21
+BABY1	   KANGAROO		30-APR-22
+Hoppy	   RABBIT		15-JAN-21
+Hippy	   RABBIT		03-AUG-21
+BABY1	   RABBIT		30-APR-22
+BABY2	   RABBIT		30-APR-22
+BABY3	   RABBIT		30-DEC-21
+BABY4	   RABBIT		30-MAR-22
+BABY5	   RABBIT		28-FEB-22
+BABY6	   RABBIT		30-DEC-21
+BABY7	   RABBIT		30-MAR-22
+BABY8	   RABBIT		28-FEB-22
+BABY9	   RABBIT		30-MAR-22
+BABY10	   RABBIT		30-JAN-22
+BABY11	   RABBIT		30-DEC-21
+BABY12	   RABBIT		30-JAN-22
+
+31 rows selected.
+

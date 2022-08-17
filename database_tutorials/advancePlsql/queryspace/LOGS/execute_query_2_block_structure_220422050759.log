@@ -1,0 +1,21 @@
+[22-04-22 05:07:59]: INFO: Log File name: /u01/scripts/LOGS/execute_query_2_block_structure_220422050759.log
+[22-04-22 05:07:59]: INFO: Starting the script
+[22-04-22 05:07:59]: INFO: Script Directory: /u01/scripts
+[22-04-22 05:07:59]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-22 05:07:59]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-04-22 05:07:59]: ----------------------------------------------------
+[22-04-22 05:07:59]:  DATABASE QUERY STARTS 
+[22-04-22 05:07:59]: 
+>>> BUffer and Outputting to the Condole <<<
+Line One.
+Line Two.
+
+PL/SQL procedure successfully completed.
+
+>>> Characters and Strings <<<
+c is [32767]
+c is [1]
+c is [2]
+
+PL/SQL procedure successfully completed.
+

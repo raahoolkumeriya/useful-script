@@ -1,0 +1,20 @@
+[22-07-22 10:38:02]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/7_asm_report_220722103802.log
+[22-07-22 10:38:02]: INFO: Starting the script
+[22-07-22 10:38:02]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-07-22 10:38:02]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-07-22 10:38:02]: INFO: Spinning Connection with SYS@ORA.world
+[22-07-22 10:38:02]: +---------------------------------+
+[22-07-22 10:38:02]: | database query execution begins |
+[22-07-22 10:38:02]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--					--
+---------------------------------------------------
+
+no rows selected
+
+[22-07-22 10:38:04]: +---------------------------------+
+[22-07-22 10:38:04]: |     database query ends here    |
+[22-07-22 10:38:04]: +---------------------------------+

@@ -1,0 +1,55 @@
+[22-07-09 16:12:03]: INFO: Log File name: /home/raahool.linux/database_tutorials/devgym/LOGS_DEVGYM/view_table_stats_090722161203.log
+[22-07-09 16:12:03]: INFO: Starting the script
+[22-07-09 16:12:03]: INFO: Script Directory: /home/raahool.linux/database_tutorials
+[22-07-09 16:12:03]: INFO: Query Directory: /home/raahool.linux/database_tutorials/devgym
+[22-07-09 16:12:03]: INFO: Spinning Connection with HR@ORCLPDB1
+[22-07-09 16:12:04]: ----------------------------------------------------
+[22-07-09 16:12:04]:  DATABASE QUERY STARTS 
+[22-07-09 16:12:04]: 
+
+Session altered.
+
+---------------------------------------------------
+--	Viewing table stats			--
+---------------------------------------------------
+
+TABLE_NAME			 NUM_ROWS COLUMN_NAME			 NUM_DISTINCT LOW_VAL				       HIGH_VAL
+------------------------------ ---------- ------------------------------ ------------ ---------------------------------------- ----------------------------------------
+COUNTRIES			       25 COUNTRY_ID				   25
+COUNTRIES			       25 COUNTRY_NAME				   25 Argentina 			       Zimbabwe
+COUNTRIES			       25 REGION_ID				    4 1 				       4
+DEPARTMENTS			       27 DEPARTMENT_ID 			   27 10				       270
+DEPARTMENTS			       27 DEPARTMENT_NAME			   27 Accounting			       Treasury
+DEPARTMENTS			       27 LOCATION_ID				    7 1400				       2700
+DEPARTMENTS			       27 MANAGER_ID				   11 100				       205
+EMPLOYEES			      107 COMMISSION_PCT			    7 .1				       .4
+EMPLOYEES			      107 DEPARTMENT_ID 			   11 10				       110
+EMPLOYEES			      107 EMAIL 				  107 ABANDA				       WTAYLOR
+EMPLOYEES			      107 EMPLOYEE_ID				  107 100				       206
+EMPLOYEES			      107 FIRST_NAME				   91 Adam				       Winston
+EMPLOYEES			      107 HIRE_DATE				   98
+EMPLOYEES			      107 JOB_ID				   19 AC_ACCOUNT			       ST_MAN
+EMPLOYEES			      107 LAST_NAME				  102 Abel				       Zlotkey
+EMPLOYEES			      107 MANAGER_ID				   18 100				       205
+EMPLOYEES			      107 PHONE_NUMBER				  107 011.44.1343.329268		       650.509.4876
+EMPLOYEES			      107 SALARY				   58 2100				       24000
+JOBS				       19 JOB_ID				   19 AC_ACCOUNT			       ST_MAN
+JOBS				       19 JOB_TITLE				   19 Accountant			       Stock Manager
+JOBS				       19 MAX_SALARY				   13 5000				       40000
+JOBS				       19 MIN_SALARY				   14 2008				       20080
+JOB_HISTORY			       10 DEPARTMENT_ID 			    6 20				       110
+JOB_HISTORY			       10 EMPLOYEE_ID				    7 101				       201
+JOB_HISTORY			       10 END_DATE				    7
+JOB_HISTORY			       10 JOB_ID				    8 AC_ACCOUNT			       ST_CLERK
+JOB_HISTORY			       10 START_DATE				    8
+LOCATIONS			       23 CITY					   23 Beijing				       Whitehorse
+LOCATIONS			       23 COUNTRY_ID				   14
+LOCATIONS			       23 LOCATION_ID				   23 1000				       3200
+LOCATIONS			       23 POSTAL_CODE				   22 00989				       YSW 9T2
+LOCATIONS			       23 STATE_PROVINCE			   17 BE				       Yukon
+LOCATIONS			       23 STREET_ADDRESS			   23 12-98 Victoria Street		       Schwanthalerstr. 7031
+REGIONS 				4 REGION_ID				    4 1 				       4
+REGIONS 				4 REGION_NAME				    4 Americas				       Middle East and Africa
+
+35 rows selected.
+

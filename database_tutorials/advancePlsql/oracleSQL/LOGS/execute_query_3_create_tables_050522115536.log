@@ -1,0 +1,15 @@
+[22-05-05 11:55:36]: INFO: Log File name: /u01/scripts/LOGS/execute_query_3_create_tables_050522115536.log
+[22-05-05 11:55:36]: INFO: Starting the script
+[22-05-05 11:55:36]: INFO: Script Directory: /u01/scripts
+[22-05-05 11:55:36]: INFO: Query Directory: /u01/scripts/oracleSQL
+[22-05-05 11:55:36]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-05 11:55:36]: ----------------------------------------------------
+[22-05-05 11:55:36]:  DATABASE QUERY STARTS 
+[22-05-05 11:55:36]: 
+		, location 	VARCHAR2(8)  constraint O_PK	    primary key (course,begindate)
+		           	                                                *
+ERROR at line 7:
+ORA-00907: missing right parenthesis
+
+
+[22-05-05 11:55:36]: SQLERROR: Query error 139 in 3_create_tables.sql

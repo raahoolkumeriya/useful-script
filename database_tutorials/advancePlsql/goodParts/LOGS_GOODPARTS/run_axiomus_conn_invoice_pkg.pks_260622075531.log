@@ -1,0 +1,35 @@
+[22-06-26 07:55:31]: INFO: Log File name: /u01/playground/goodParts/LOGS_GOODPARTS/run_axiomus_conn_invoice_pkg.pks_260622075531.log
+[22-06-26 07:55:31]: INFO: Starting the script
+[22-06-26 07:55:32]: INFO: Script Directory: /u01/playground
+[22-06-26 07:55:32]: INFO: Query Directory: /u01/playground/goodParts
+[22-06-26 07:55:32]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-26 07:55:32]: ----------------------------------------------------
+[22-06-26 07:55:32]:  DATABASE QUERY STARTS 
+[22-06-26 07:55:32]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+Assertion package	
+---------------------------------------------------
+
+Package created.
+
+Elapsed: 00:00:00.02
+No errors.
+
+Package body created.
+
+Elapsed: 00:00:00.01
+No errors.
+	p_amount    BOOLEAN IS NULL;
+	                    *
+ERROR at line 2:
+ORA-06550: line 2, column 22:
+PLS-00103: Encountered the symbol "IS" when expecting one of the following:
+:= . ( @ % ; not null range default character
+The symbol "IS" was ignored.
+
+
+[22-06-26 07:55:32]: SQLERROR: Query error 150 in invoice_pkg.pks

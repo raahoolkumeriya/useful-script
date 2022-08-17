@@ -1,0 +1,28 @@
+[22-05-31 04:17:47]: INFO: Log File name: /u01/profiler/devgym/LOGS_DEVGYM/run_axiomus_conn_11_squizing_rows_to_stocks_table_310522041747.log
+[22-05-31 04:17:47]: INFO: Starting the script
+[22-05-31 04:17:47]: INFO: Script Directory: /u01/profiler
+[22-05-31 04:17:47]: INFO: Query Directory: /u01/profiler/devgym
+[22-05-31 04:17:47]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-31 04:17:47]: ----------------------------------------------------
+[22-05-31 04:17:47]:  DATABASE QUERY STARTS 
+[22-05-31 04:17:47]: 
+---------------------------------------------------
+--     --
+---------------------------------------------------
+
+Type created.
+
+
+Type created.
+
+
+Function created.
+
+
+Table created.
+
+
+  COUNT(*)
+----------
+      2000
+

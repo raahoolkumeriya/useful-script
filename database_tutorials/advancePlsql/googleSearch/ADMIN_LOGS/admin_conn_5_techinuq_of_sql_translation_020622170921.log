@@ -1,0 +1,23 @@
+[22-06-02 17:09:21]: INFO: Log File name: /u01/advancePlsql/googleSearch/ADMIN_LOGS/admin_conn_5_techinuq_of_sql_translation_020622170921.log
+[22-06-02 17:09:21]: INFO: Starting the script
+[22-06-02 17:09:21]: INFO: Script Directory: /u01/advancePlsql
+[22-06-02 17:09:21]: INFO: Query Directory: /u01/advancePlsql/googleSearch
+[22-06-02 17:09:21]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 17:09:21]: ----------------------------------------------------
+[22-06-02 17:09:21]:  DATABASE QUERY STARTS 
+[22-06-02 17:09:21]: 
+---------------------------------------------------
+--     Technic to handle sql transalation	--
+---------------------------------------------------
+
+Package created.
+
+
+Package body created.
+
+No errors.
+
+PL/SQL procedure successfully completed.
+
+
+

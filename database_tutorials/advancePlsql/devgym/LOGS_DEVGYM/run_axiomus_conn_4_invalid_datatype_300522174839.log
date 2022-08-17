@@ -1,0 +1,41 @@
+[22-05-30 17:48:39]: INFO: Log File name: /u01/profiler/devgym/LOGS_DEVGYM/run_axiomus_conn_4_invalid_datatype_300522174839.log
+[22-05-30 17:48:39]: INFO: Starting the script
+[22-05-30 17:48:39]: INFO: Script Directory: /u01/profiler
+[22-05-30 17:48:39]: INFO: Query Directory: /u01/profiler/devgym
+[22-05-30 17:48:39]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-30 17:48:39]: ----------------------------------------------------
+[22-05-30 17:48:39]:  DATABASE QUERY STARTS 
+[22-05-30 17:48:39]: 
+---------------------------------------------------
+--  PLSQ Function can not be resolve by SLQ engine  --
+---------------------------------------------------
+-- Both engine are tightly intergeated but.
+
+Package created.
+
+No errors.
+
+Package body created.
+
+No errors.
+---------------------------------------------------
+-- Execute package function with SQL query 	--
+---------------------------------------------------
+
+JUST_NUMBER
+-----------
+	  1
+
+---------------------------------------------------
+SQL engine dosent knwo the collection define inside the package hence it raise invalid datatye
+we need to create teh collection type at schema level to handle this error
+---------------------------------------------------
+
+MY_STRING
+----------------------------------------------------------------------------------------------------
+WKBQQNQCHK
+HMZCQDMKEY
+QTZDWGWXTK
+HDPRDOZVEG
+ZDLRNLYOFL
+

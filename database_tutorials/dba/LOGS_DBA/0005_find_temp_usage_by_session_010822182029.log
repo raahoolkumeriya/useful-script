@@ -1,0 +1,33 @@
+[22-08-01 18:20:29]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/0005_find_temp_usage_by_session_010822182029.log
+[22-08-01 18:20:29]: INFO: Starting the script
+[22-08-01 18:20:29]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-08-01 18:20:29]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-08-01 18:20:29]: INFO: Spinning Connection with SYS@ORA.world
+[22-08-01 18:20:29]: +---------------------------------+
+[22-08-01 18:20:29]: | database query execution begins |
+[22-08-01 18:20:29]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--	Find the temp usage by sessions in Oracle --
+---------------------------------------------------
+--Check the temp usage by sessions
+
+no rows selected
+
+-- Find the temp tablespace usage
+
+TABLESPACE		       TEMP_TOTAL_MB TEMP_USED_MB TEMP_FREE_MB
+------------------------------ ------------- ------------ ------------
+TEMP					  64		0	    64
+
+--Check detail of size and free space in TEMP
+
+TABLESPACE_NAME 	       TABLESPACE_SIZE ALLOCATED_SPACE FREE_SPACE SHARED	   INST_ID
+------------------------------ --------------- --------------- ---------- ------------- ----------
+TEMP				      67108864	      12582912	 66060288 SHARED
+
+[22-08-01 18:20:32]: +---------------------------------+
+[22-08-01 18:20:32]: |     database query ends here    |
+[22-08-01 18:20:32]: +---------------------------------+

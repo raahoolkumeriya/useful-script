@@ -1,0 +1,37 @@
+[22-06-02 15:11:29]: INFO: Log File name: /u01/profiler/advancePLSQL/LOGS_ADVANCEPLSQL/run_axiomus_conn_9_bulk_operations_020622151129.log
+[22-06-02 15:11:29]: INFO: Starting the script
+[22-06-02 15:11:29]: INFO: Script Directory: /u01/profiler
+[22-06-02 15:11:29]: INFO: Query Directory: /u01/profiler/advancePLSQL
+[22-06-02 15:11:29]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 15:11:29]: ----------------------------------------------------
+[22-06-02 15:11:29]:  DATABASE QUERY STARTS 
+[22-06-02 15:11:29]: 
+---------------------------------------------------
+--   		ROW Fetch Operations		--
+---------------------------------------------------
+Time taken in row fetch : 239
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--   		BULK  Operations		--
+---------------------------------------------------
+Time taken in row fetch : 253
+
+PL/SQL procedure successfully completed.
+
+Time taken in bulk fetch:223
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--   	BULK Operations with LIMIT Clause	--
+---------------------------------------------------
+Time taken in bulk fetch:50
+
+PL/SQL procedure successfully completed.
+
+Time taken in controlled fetch:29
+
+PL/SQL procedure successfully completed.
+

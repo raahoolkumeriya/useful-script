@@ -1,0 +1,29 @@
+[22-06-11 09:53:50]: INFO: Log File name: /u01/playground/package_code/LOGS_PACKAGE_CODE/run_axiomus_conn_time_utility.pkg_110622095350.log
+[22-06-11 09:53:50]: INFO: Starting the script
+[22-06-11 09:53:50]: INFO: Script Directory: /u01/playground
+[22-06-11 09:53:50]: INFO: Query Directory: /u01/playground/package_code
+[22-06-11 09:53:50]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-11 09:53:50]: ----------------------------------------------------
+[22-06-11 09:53:50]:  DATABASE QUERY STARTS 
+[22-06-11 09:53:50]: 
+
+Session altered.
+
+---------------------------------------------------
+--	     Time Utility Package		 --
+---------------------------------------------------
+
+Package created.
+
+No errors.
+
+Package body created.
+
+No errors.
+---------------------------------------------------
+--	     Unit testing code 			--
+---------------------------------------------------
+90945573
+
+PL/SQL procedure successfully completed.
+

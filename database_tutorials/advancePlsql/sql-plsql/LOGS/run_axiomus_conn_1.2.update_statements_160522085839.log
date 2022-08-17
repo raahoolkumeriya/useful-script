@@ -1,0 +1,50 @@
+[22-05-16 08:58:39]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_1.2.update_statements_160522085839.log
+[22-05-16 08:58:39]: INFO: Starting the script
+[22-05-16 08:58:39]: INFO: Script Directory: /u01/docker
+[22-05-16 08:58:39]: INFO: Query Directory: /u01/docker/sql-plsql
+[22-05-16 08:58:39]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 08:58:39]: ----------------------------------------------------
+[22-05-16 08:58:39]:  DATABASE QUERY STARTS 
+[22-05-16 08:58:40]: 
+------------------------------------------
+sperate update for all rows
+------------------------------------------
+
+TU.SALARY+(TU.SALARY*UM.PER_INCR/100)
+-------------------------------------
+				  840
+				  840
+				 1840
+				 1840
+			       1437.5
+			       1437.5
+			      3123.75
+			      3123.75
+			       1437.5
+			       1437.5
+			       3277.5
+			       3277.5
+				 2695
+				 2695
+				 3150
+				 3150
+				 5500
+				 5500
+				 1725
+				 1725
+				 1155
+				 1155
+			       1092.5
+			       1092.5
+				 3150
+				 3150
+				 1430
+				 1430
+
+28 rows selected.
+
+  1  SELECT tu.salary + (tu.salary * um.per_incr / 100)
+  2  FROM test_update tu
+  3  	RIGHT JOIN update_mas um
+  4  	ON um.department_id = tu.department_id
+  5* WHERE EXISTS ( SELECT 1 FROM update_mas um WHERE um.department_id = tu.department_id)

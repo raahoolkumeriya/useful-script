@@ -1,0 +1,78 @@
+[22-06-10 03:44:14]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_extract_function_100622034414.log
+[22-06-10 03:44:14]: INFO: Starting the script
+[22-06-10 03:44:14]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 03:44:14]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 03:44:14]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 03:44:14]: ----------------------------------------------------
+[22-06-10 03:44:14]:  DATABASE QUERY STARTS 
+[22-06-10 03:44:14]: 
+---------------------------------------------------
+--     		EXTRACT Function		--
+---------------------------------------------------
+EXTRACT([year|month|day] from <column_name>)
+
+HIREDATE  EXTRACT(YEARFROMHIREDATE)
+--------- -------------------------
+17-DEC-80		       1980
+20-FEB-81		       1981
+22-FEB-81		       1981
+02-APR-81		       1981
+28-SEP-81		       1981
+01-MAY-81		       1981
+09-JUN-81		       1981
+19-APR-87		       1987
+17-NOV-81		       1981
+08-SEP-81		       1981
+23-MAY-87		       1987
+03-DEC-81		       1981
+03-DEC-81		       1981
+23-JAN-82		       1982
+03-MAR-14		       2014
+02-JAN-82		       1982
+
+16 rows selected.
+
+
+HIREDATE  EXTRACT(MONTHFROMHIREDATE)
+--------- --------------------------
+17-DEC-80			  12
+20-FEB-81			   2
+22-FEB-81			   2
+02-APR-81			   4
+28-SEP-81			   9
+01-MAY-81			   5
+09-JUN-81			   6
+19-APR-87			   4
+17-NOV-81			  11
+08-SEP-81			   9
+23-MAY-87			   5
+03-DEC-81			  12
+03-DEC-81			  12
+23-JAN-82			   1
+03-MAR-14			   3
+02-JAN-82			   1
+
+16 rows selected.
+
+
+HIREDATE  EXTRACT(DAYFROMHIREDATE)
+--------- ------------------------
+17-DEC-80			17
+20-FEB-81			20
+22-FEB-81			22
+02-APR-81			 2
+28-SEP-81			28
+01-MAY-81			 1
+09-JUN-81			 9
+19-APR-87			19
+17-NOV-81			17
+08-SEP-81			 8
+23-MAY-87			23
+03-DEC-81			 3
+03-DEC-81			 3
+23-JAN-82			23
+03-MAR-14			 3
+02-JAN-82			 2
+
+16 rows selected.
+

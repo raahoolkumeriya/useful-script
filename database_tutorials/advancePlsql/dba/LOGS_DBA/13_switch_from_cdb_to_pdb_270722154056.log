@@ -1,0 +1,39 @@
+[22-07-27 15:40:56]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/13_switch_from_cdb_to_pdb_270722154056.log
+[22-07-27 15:40:56]: INFO: Starting the script
+[22-07-27 15:40:57]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-07-27 15:40:57]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-07-27 15:40:57]: INFO: Spinning Connection with SYS@ORA.world
+[22-07-27 15:40:57]: +---------------------------------+
+[22-07-27 15:40:57]: | database query execution begins |
+[22-07-27 15:40:57]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--	Switch from CDB to PDB			--
+---------------------------------------------------
+
+CON_NAME
+------------------------------
+ORCLPDB1
+USER is "SYS"
+
+NAME
+----------
+ORCLPDB1
+
+
+OPEN_MODE
+----------
+READ WRITE
+
+
+Session altered.
+
+
+CON_NAME
+------------------------------
+ORCLPDB1
+[22-07-27 15:40:58]: +---------------------------------+
+[22-07-27 15:40:58]: |     database query ends here    |
+[22-07-27 15:40:58]: +---------------------------------+

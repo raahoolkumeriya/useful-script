@@ -1,0 +1,26 @@
+[22-05-30 18:07:02]: INFO: Log File name: /u01/profiler/devgym/LOGS_DEVGYM/run_axiomus_conn_5_pipelined_table_function_300522180702.log
+[22-05-30 18:07:02]: INFO: Starting the script
+[22-05-30 18:07:02]: INFO: Script Directory: /u01/profiler
+[22-05-30 18:07:02]: INFO: Query Directory: /u01/profiler/devgym
+[22-05-30 18:07:02]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-30 18:07:02]: ----------------------------------------------------
+[22-05-30 18:07:02]:  DATABASE QUERY STARTS 
+[22-05-30 18:07:02]: 
+---------------------------------------------------
+-- Creating and Invoking Pipelined Table Function --
+---------------------------------------------------
+
+Package created.
+
+
+Package body created.
+
+
+COLUMN_VALUE
+------------
+	   1
+	   2
+	   3
+	   4
+	   5
+

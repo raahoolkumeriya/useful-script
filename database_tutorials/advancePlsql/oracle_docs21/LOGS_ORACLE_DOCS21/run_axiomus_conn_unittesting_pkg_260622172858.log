@@ -1,0 +1,73 @@
+[22-06-26 17:28:58]: INFO: Log File name: /u01/playground/oracle_docs21/LOGS_ORACLE_DOCS21/run_axiomus_conn_unittesting_pkg_260622172858.log
+[22-06-26 17:28:58]: INFO: Starting the script
+[22-06-26 17:28:59]: INFO: Script Directory: /u01/playground
+[22-06-26 17:28:59]: INFO: Query Directory: /u01/playground/oracle_docs21
+[22-06-26 17:28:59]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-26 17:28:59]: ----------------------------------------------------
+[22-06-26 17:28:59]:  DATABASE QUERY STARTS 
+[22-06-26 17:28:59]: 
+
+Session altered.
+
+Elapsed: 00:00:00.01
+---------------------------------------------------
+UNIT TESTING package		
+---------------------------------------------------
+>>>>>> precessing_one_row_at_a_time <<<<<<<
+First Name = Steven, Last Name = King
+First Name = Neena, Last Name = Kochhar
+First Name = Lex, Last Name = De Haan
+First Name = Alexander, Last Name = Hunold
+First Name = Bruce, Last Name = Ernst
+First Name = David, Last Name = Austin
+First Name = Valli, Last Name = Pataballa
+First Name = Diana, Last Name = Lorentz
+First Name = Nancy, Last Name = Greenberg
+First Name = Daniel, Last Name = Faviet
+First Name = John, Last Name = Chen
+First Name = Ismael, Last Name = Sciarra
+First Name = Jose Manuel, Last Name = Urman
+First Name = Luis, Last Name = Popp
+First Name = Den, Last Name = Raphaely
+First Name = Alexander, Last Name = Khoo
+First Name = Shelli, Last Name = Baida
+First Name = Sigal, Last Name = Tobias
+First Name = Guy, Last Name = Himuro
+First Name = Karen, Last Name = Colmenares
+>>>>>> check_credit <<<<<<<
+Credit rating over limit (1).  Rating: 3
+>>>>> show_inquiry_directive <<<<<
+Inside show_inquiry_directive
+i = 53
+$$PLSQL_LINE = 55
+$$PLSQL_UNIT = LEARNING_PKG
+$$PLSQL_UNIT_OWNER = AXIOMUS
+$$PLSQL_UNIT_TYPE = PACKAGE BODY
+Outside show_inquiry_directive
+$$PLSQL_LINE = 9
+$$PLSQL_UNIT =
+$$PLSQL_UNIT_OWNER =
+$$PLSQL_UNIT_TYPE = ANONYMOUS BLOCK
+>>>> Displaying Values of PL/SQL Compilation Parameters <<<<
+$$PLSCOPE_SETTINGS = IDENTIFIERS:NONE
+$$PLSQL_CCFLAGS =
+$$PLSQL_CODE_TYPE = INTERPRETED
+$$PLSQL_OPTIMIZE_LEVEL = 2
+$$PLSQL_WARNINGS = ENABLE:ALL
+$$NLS_LENGTH_SEMANTICS = BYTE
+Release 12.2 is supoorted.
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.03
+
+Session altered.
+
+Elapsed: 00:00:00.00
+>>>> PLSQL_CCFLAGS Assigns Value to Itself <<<<<<<
+2
+99
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.01

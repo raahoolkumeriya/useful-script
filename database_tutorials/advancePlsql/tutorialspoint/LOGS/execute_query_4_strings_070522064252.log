@@ -1,0 +1,27 @@
+[22-05-07 06:42:52]: INFO: Log File name: /u01/scripts/LOGS/execute_query_4_strings_070522064252.log
+[22-05-07 06:42:52]: INFO: Starting the script
+[22-05-07 06:42:52]: INFO: Script Directory: /u01/scripts
+[22-05-07 06:42:52]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-07 06:42:52]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-07 06:42:52]: ----------------------------------------------------
+[22-05-07 06:42:52]:  DATABASE QUERY STARTS 
+[22-05-07 06:42:52]: 
+Raahool Kumeriya
+Codelocked
+Hello! I'm Raahool Kumeriya from CODELOCKED
+
+PL/SQL procedure successfully completed.
+
+CONCAT 	: Hello Codelocked .
+INSTR 	: 3
+INITCAP	: Hello Codelocked
+LENGTH	: 16
+LOWER	: hello codelocked
+UPPER	: HELLO CODELOCKED
+LTRIM	:  Codelocked
+REPLACE	: BOLLO Codelocked
+RTRIM	: Hello Codelock
+SUBSTR	: Code
+
+PL/SQL procedure successfully completed.
+

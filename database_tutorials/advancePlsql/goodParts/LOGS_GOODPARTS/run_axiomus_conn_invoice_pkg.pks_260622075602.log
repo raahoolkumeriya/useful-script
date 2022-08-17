@@ -1,0 +1,34 @@
+[22-06-26 07:56:02]: INFO: Log File name: /u01/playground/goodParts/LOGS_GOODPARTS/run_axiomus_conn_invoice_pkg.pks_260622075602.log
+[22-06-26 07:56:02]: INFO: Starting the script
+[22-06-26 07:56:02]: INFO: Script Directory: /u01/playground
+[22-06-26 07:56:02]: INFO: Query Directory: /u01/playground/goodParts
+[22-06-26 07:56:02]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-26 07:56:02]: ----------------------------------------------------
+[22-06-26 07:56:02]:  DATABASE QUERY STARTS 
+[22-06-26 07:56:02]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+Assertion package	
+---------------------------------------------------
+
+Package created.
+
+Elapsed: 00:00:00.02
+No errors.
+
+Package body created.
+
+Elapsed: 00:00:00.02
+No errors.
+DECLARE
+*
+ERROR at line 1:
+ORA-20000: Invoice amount must be specified!
+ORA-06512: at "AXIOMUS.ASSERT_PKG", line 7
+ORA-06512: at line 4
+
+
+[22-06-26 07:56:03]: SQLERROR: Query error 32 in invoice_pkg.pks

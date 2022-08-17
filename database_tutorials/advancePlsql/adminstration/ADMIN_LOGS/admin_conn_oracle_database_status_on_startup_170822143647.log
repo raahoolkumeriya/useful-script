@@ -1,0 +1,9 @@
+[22-08-17 14:36:47]: INFO: Log File name: /home/raahool.linux/codelocked/github/useful-script/database_tutorials/advancePlsql/adminstration/ADMIN_LOGS/admin_conn_oracle_database_status_on_startup_170822143647.log
+[22-08-17 14:36:47]: INFO: Starting the script
+[22-08-17 14:36:47]: INFO: Script Directory: /home/raahool.linux/codelocked/github/useful-script/database_tutorials/advancePlsql
+[22-08-17 14:36:47]: INFO: Query Directory: /home/raahool.linux/codelocked/github/useful-script/database_tutorials/advancePlsql/adminstration
+[22-08-17 14:36:47]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-08-17 14:36:47]: ----------------------------------------------------
+[22-08-17 14:36:47]:  DATABASE QUERY STARTS 
+[22-08-17 14:36:47]: 
+[22-08-17 14:36:48]: SQLERROR: Query error 127 in oracle_database_status_on_startup.sql

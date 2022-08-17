@@ -1,0 +1,28 @@
+[22-06-12 08:18:17]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_27_table_row_to_record_120622081817.log
+[22-06-12 08:18:18]: INFO: Starting the script
+[22-06-12 08:18:18]: INFO: Script Directory: /u01/playground
+[22-06-12 08:18:18]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-12 08:18:18]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-12 08:18:18]: ----------------------------------------------------
+[22-06-12 08:18:18]:  DATABASE QUERY STARTS 
+[22-06-12 08:18:18]: 
+
+Session altered.
+
+---------------------------------------------------
+--Move data directly from row in a table to a record--
+---------------------------------------------------
+1. Oracle PL/SQL Programming (1-56592-335-9) has pages 987
+2. Oracle PL/SQL Programming, Third Ed. (0-596-00381-1) has pages 1001
+3. Learning Oracle PL/SQL (0-596-00180-0) has pages 567
+4. Oracle PL/SQL Language Pocket Reference, Third Ed. (0-596-00680-2) has pages 1382
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--Programmer-Defined TYPE that matched data retrived by implicit cursor--
+---------------------------------------------------
+3 .Learning Oracle PL/SQL has total pages - 567
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,48 @@
+[22-06-15 06:06:24]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_44_cursor_basics_150622060624.log
+[22-06-15 06:06:24]: INFO: Starting the script
+[22-06-15 06:06:24]: INFO: Script Directory: /u01/playground
+[22-06-15 06:06:24]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-15 06:06:24]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-15 06:06:24]: ----------------------------------------------------
+[22-06-15 06:06:24]:  DATABASE QUERY STARTS 
+[22-06-15 06:06:24]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+--     		CURSOR basics			--
+---------------------------------------------------
+1^1-56592-335-9^Oracle PL/SQL Programming^Reference for PL/SQL developers,including examples and best practice recommendations.^Feuerstein,Steven, with Bill Pribyl^01-SEP-97^987
+2^0-596-00381-1^Oracle PL/SQL Programming, Third Ed.^Reference for PL/SQL developers,including examples and best practice recommendations. Third Edition^Feuerstein,Steven, with Bill
+Pribyl^01-DEC-00^1001
+3^0-596-00180-0^Learning Oracle PL/SQL^Basic PL/SQL developers,including examples and best practice recommendations.^Bill Pribyl with Steven Feuerstein^24-JAN-03^567
+4^0-596-00680-2^Oracle PL/SQL Language Pocket Reference, Third Ed.^Quick PL/SQL developers,including examples and best practice recommendations.^Bill Pribyl,Steven Feuerstein, Chip
+Dawas^10-AUG-07^1382
+4^0-596-00680-2^Oracle PL/SQL Language Pocket Reference, Third Ed.^Quick PL/SQL developers,including examples and best practice recommendations.^Bill Pribyl,Steven Feuerstein, Chip
+Dawas^10-AUG-07^1382
+Cur is CLOSED
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.02
+7369~SMITH~CLERK~7902~17-DEC-80~6075~~20
+7499~ALLEN~SALESMAN~7698~20-FEB-81~12150~300~30
+7521~WARD~SALESMAN~7698~22-FEB-81~9492.2~500~30
+7566~JONES~MANAGER~7839~02-APR-81~22591.43~~20
+7654~MARTIN~SALESMAN~7698~28-SEP-81~9492.2~1400~30
+7698~BLAKE~MANAGER~7839~01-MAY-81~21642.2~~30
+7782~CLARK~MANAGER~7839~09-JUN-81~18604.7~~10
+7788~SCOTT~ANALYST~7566~19-APR-87~22781.25~~20
+7839~KING~PRESIDENT~~17-NOV-81~37968.75~~10
+7844~TURNER~SALESMAN~7698~08-SEP-81~11390.63~0~30
+7876~ADAMS~CLERK~7788~23-MAY-87~8353.13~~20
+7900~JAMES~CLERK~7698~03-DEC-81~7214.07~~30
+7902~FORD~ANALYST~7566~03-DEC-81~22781.25~~20
+7934~MILLER~CLERK~7782~23-JAN-82~9871.88~~10
+1000~STALIN~COMPUTER~8989~03-MAR-14~75937.5~0~50
+8888~JONES~DBA~~02-JAN-82~9871.88~~
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.02

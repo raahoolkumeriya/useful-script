@@ -1,0 +1,49 @@
+/*
+|	Program: Time Utility
+|	Author: Raahool Kumeriya
+|	Change history:
+|		11-JUN-2022 - Program Created
+*/
+
+SET SERVEROUTPUT ON;
+SET PAGES 1000 LINES 192;
+ALTER SESSION SET plsql_warnings = 'enable:all';
+
+prompt ---------------------------------------------------;
+prompt --           Time Utility Package                --;
+prompt ---------------------------------------------------;
+
+CREATE OR REPLACE PACKAGE TimeUtility 
+	AUTHID DEFINER
+AS
+    /* procedure to get time */
+    PROCEDURE getTIme(p_time OUT NUMBER);
+END TimeUtility;
+/
+
+show errors;
+
+CREATE OR REPLACE PACKAGE BODY TimeUtility AS
+    PROCEDURE getTIme(p_time OUT NUMBER) IS
+        BEGIN
+            p_time := DBMS_UTILITY.get_time();
+	    DBMS_OUTPUT.put_line(p_time);
+        END getTIme;
+END TimeUtility;
+/
+
+show errors;
+
+prompt ---------------------------------------------------;
+prompt --           Unit testing code 	                --;
+prompt ---------------------------------------------------;
+
+DECLARE
+	count_in NUMBER;
+BEGIN
+	TimeUtility.getTIme(count_in);
+	DBMS_OUTPUT.put_line(count_in);
+END;
+/
+
+	

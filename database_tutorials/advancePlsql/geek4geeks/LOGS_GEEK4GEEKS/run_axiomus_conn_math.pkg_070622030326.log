@@ -1,0 +1,24 @@
+[22-06-07 03:03:26]: INFO: Log File name: /u01/advancePlsql/geek4geeks/LOGS_GEEK4GEEKS/run_axiomus_conn_math.pkg_070622030326.log
+[22-06-07 03:03:26]: INFO: Starting the script
+[22-06-07 03:03:26]: INFO: Script Directory: /u01/advancePlsql
+[22-06-07 03:03:26]: INFO: Query Directory: /u01/advancePlsql/geek4geeks
+[22-06-07 03:03:26]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-07 03:03:26]: ----------------------------------------------------
+[22-06-07 03:03:26]:  DATABASE QUERY STARTS 
+[22-06-07 03:03:26]: 
+---------------------------------------------------
+--     Geeks4Geeks - Math package		--
+---------------------------------------------------
+
+Package created.
+
+No errors.
+
+Package body created.
+
+No errors.
+12
+166
+
+PL/SQL procedure successfully completed.
+

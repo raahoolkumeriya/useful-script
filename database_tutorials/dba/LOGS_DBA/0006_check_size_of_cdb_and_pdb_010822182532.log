@@ -1,0 +1,77 @@
+[22-08-01 18:25:32]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/0006_check_size_of_cdb_and_pdb_010822182532.log
+[22-08-01 18:25:32]: INFO: Starting the script
+[22-08-01 18:25:32]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-08-01 18:25:32]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-08-01 18:25:32]: INFO: Spinning Connection with SYS@ORA.world
+[22-08-01 18:25:32]: +---------------------------------+
+[22-08-01 18:25:32]: | database query execution begins |
+[22-08-01 18:25:32]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+-- Check the Size of Oracle Database and PDB databases --
+---------------------------------------------------
+---Check the database size physical consume on disk.
+
+SIZE_IN_MB
+----------
+      2372
+
+--Check the total space used by the data.
+
+SIZE_IN_MB
+----------
+ 1137.8125
+
+---Check the size of the User or Schema in Oracle.
+
+OWNER																    SIZE_MB
+-------------------------------------------------------------------------------------------------------------------------------- ----------
+APEX_050000															     217.25
+MDSYS																      78.25
+CTXSYS																     2.8125
+HR																     1.5625
+SYSTEM																     1.3125
+DVSYS																     4.5625
+AUDSYS																      3.125
+DBSNMP																      .1875
+GSMADMIN_INTERNAL															  1
+OJVMSYS 															       .375
+ORDSYS																      .4375
+XDB																    60.8125
+ORDDATA 															      16.25
+AXIOMUS 																220
+SYS																   523.0625
+WMSYS																	6.5
+LBACSYS 															      .3125
+
+17 rows selected.
+
+---Check free space and used space in the database.
+
+Reserved_Space(MB) Used_Space(MB) Free_Space(MB)
+------------------ -------------- --------------
+	 2395.3925	 1234.455      1160.9375
+
+--Check overall size of database plus temp files plus redo file.
+
+Size in GB
+----------
+2.42602539
+
+--Check the PDB Size of the databases
+
+    CON_ID NAME 															    OPEN_MODE  PDB_SIZE_GB
+---------- -------------------------------------------------------------------------------------------------------------------------------- ---------- -----------
+	 3 ORCLPDB1															    READ WRITE	2.37890625
+
+--- Check the CDB Size of the databases
+
+SUM(BYTES)/1024/1024/1024
+-------------------------
+	       2.31640625
+
+[22-08-01 18:25:36]: +---------------------------------+
+[22-08-01 18:25:36]: |     database query ends here    |
+[22-08-01 18:25:36]: +---------------------------------+

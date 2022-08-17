@@ -1,0 +1,52 @@
+[22-05-16 05:05:15]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_sql_6_left_join_160522050515.log
+[22-05-16 05:05:15]: INFO: Starting the script
+[22-05-16 05:05:15]: INFO: Script Directory: /u01/docker
+[22-05-16 05:05:15]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-16 05:05:15]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 05:05:15]: ----------------------------------------------------
+[22-05-16 05:05:15]:  DATABASE QUERY STARTS 
+[22-05-16 05:05:15]: 
+---- LEFT [OUTER] JOIN ------
+--- Return all valid from the tabels on the left side of JOIN Keyword, along with the values from the table on rigth side or NULL if a matching rows doesnt exists
+--- ASCI LEFT JOIN -----
+
+DEPARTMENT_NAM EMPLOYEE_N
+-------------- ----------
+OPERATIONS
+SALES	       ALLEN
+SALES	       BLAKE
+SALES	       JAMES
+SALES	       MARTIN
+SALES	       TURNER
+SALES	       WARD
+
+7 rows selected.
+
+---- NON ASCI equivalents ------
+
+DEPARTMENT_NAM EMPLOYEE_N
+-------------- ----------
+OPERATIONS
+SALES	       ALLEN
+SALES	       BLAKE
+SALES	       JAMES
+SALES	       MARTIN
+SALES	       TURNER
+SALES	       WARD
+
+7 rows selected.
+
+--- adding filter condition returned from an outer joined table is a common case of confusion.
+
+DEPARTMENT_NAM EMPLOYEE_N
+-------------- ----------
+OPERATIONS
+SALES	       BLAKE
+
+--- Using NON-ASCI ----
+
+DEPARTMENT_NAM EMPLOYEE_N
+-------------- ----------
+OPERATIONS
+SALES	       BLAKE
+

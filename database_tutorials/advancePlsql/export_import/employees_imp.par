@@ -1,0 +1,5 @@
+userid=axiomus/axiomus123@ORCLPDB1
+directory=axiom_external
+dumpfile=employees_exp%U.dmp
+logfile=employees_imp.log
+remap_table=axiomus.employees:employees_bk

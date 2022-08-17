@@ -1,0 +1,41 @@
+[22-05-06 12:34:10]: INFO: Log File name: /u01/scripts/LOGS/execute_query_18_loop_examples_060522123410.log
+[22-05-06 12:34:10]: INFO: Starting the script
+[22-05-06 12:34:10]: INFO: Script Directory: /u01/scripts
+[22-05-06 12:34:10]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 12:34:10]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 12:34:10]: ----------------------------------------------------
+[22-05-06 12:34:10]:  DATABASE QUERY STARTS 
+[22-05-06 12:34:10]: 
+
+Procedure created.
+
+
+Procedure created.
+
+2002
+2003
+2004
+
+PL/SQL procedure successfully completed.
+
+FOR loop
+
+Procedure created.
+
+2022
+2021
+2020
+
+PL/SQL procedure successfully completed.
+
+Cursor FOR loop
+While Loop
+
+Procedure created.
+
+3000
+3001
+3002
+
+PL/SQL procedure successfully completed.
+

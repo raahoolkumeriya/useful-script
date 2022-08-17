@@ -1,0 +1,40 @@
+[22-06-10 03:33:35]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_trim_function_100622033335.log
+[22-06-10 03:33:35]: INFO: Starting the script
+[22-06-10 03:33:35]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 03:33:35]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 03:33:35]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 03:33:35]: ----------------------------------------------------
+[22-06-10 03:33:35]:  DATABASE QUERY STARTS 
+[22-06-10 03:33:35]: 
+---------------------------------------------------
+--     		TRIM Function			--
+---------------------------------------------------
+trim([leading:trailing:both] trimming_char from <string>)
+
+'TECHNICAL'
+------------
+  technical
+
+
+TRIM('TEC
+---------
+technical
+
+
+TRI
+---
+234
+
+
+TRI
+---
+123
+
+
+TRI
+---
+234
+
+
+no rows selected
+

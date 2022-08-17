@@ -1,0 +1,29 @@
+[22-06-01 03:50:52]: INFO: Log File name: /u01/profiler/advancePLSQL/LOGS_ADVANCEPLSQL/run_axiomus_conn_2_accessible_by_in_pkg_010622035052.log
+[22-06-01 03:50:53]: INFO: Starting the script
+[22-06-01 03:50:53]: INFO: Script Directory: /u01/profiler
+[22-06-01 03:50:53]: INFO: Query Directory: /u01/profiler/advancePLSQL
+[22-06-01 03:50:53]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-01 03:50:53]: ----------------------------------------------------
+[22-06-01 03:50:53]:  DATABASE QUERY STARTS 
+[22-06-01 03:50:53]: 
+---------------------------------------------------
+--    ACCESSIBLE BY in package			--
+---------------------------------------------------
+SP2-0734: unknown command beginning "promtp -- ..." - rest of line ignored.
+SP2-0103: Nothing in SQL buffer to run.
+
+Package created.
+
+
+Package created.
+
+   pkg_fin_proc.p_fin_qtr;
+   *
+ERROR at line 2:
+ORA-06550: line 2, column 4:
+PLS-00904: insufficient privilege to access object PKG_FIN_PROC
+ORA-06550: line 2, column 4:
+PL/SQL: Statement ignored
+
+
+[22-06-01 03:50:54]: SQLERROR: Query error 150 in 2_accessible_by_in_pkg.sql

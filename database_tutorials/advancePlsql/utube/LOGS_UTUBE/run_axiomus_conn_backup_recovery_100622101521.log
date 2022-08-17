@@ -1,0 +1,38 @@
+[22-06-10 10:15:21]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_backup_recovery_100622101521.log
+[22-06-10 10:15:21]: INFO: Starting the script
+[22-06-10 10:15:21]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 10:15:21]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 10:15:21]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 10:15:21]: ----------------------------------------------------
+[22-06-10 10:15:21]:  DATABASE QUERY STARTS 
+[22-06-10 10:15:21]: 
+---------------------------------------------------
+--     	BACKUP and Recovery 			--
+---------------------------------------------------
+-- Two Types of backup:
+o Physical Backup (physcially copying file from one location to other
+-----> Hot backup --> when database is active while taking backup
+-----> Cold backup --> database is down while doing backup
+---------> cp command and RMAN - recovery manager
+
+o Logical backup
+backing up Db objects (tables.views/...)
+--> database need to active while doing backup
+--->o traditional Backup
+SP2-0734: unknown command beginning "promtp ---..." - rest of line ignored.
+--->o datadump
+---------------------------------------------------
+Traditional Backup (import and export )
+---------------------------------------------------
+For Export table data run shell script tradition_backup.sh
+
+Table dropped.
+
+For import table data run shell script import_table.sh
+Select * from employees
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+[22-06-10 10:15:23]: SQLERROR: Query error 174 in backup_recovery.sql

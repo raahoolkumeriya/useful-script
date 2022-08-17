@@ -1,0 +1,29 @@
+[22-05-05 17:01:32]: INFO: Log File name: /u01/scripts/LOGS/execute_query_5_wordcount_fun_050522170132.log
+[22-05-05 17:01:33]: INFO: Starting the script
+[22-05-05 17:01:33]: INFO: Script Directory: /u01/scripts
+[22-05-05 17:01:33]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-05 17:01:33]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-05 17:01:33]: ----------------------------------------------------
+[22-05-05 17:01:33]:  DATABASE QUERY STARTS 
+[22-05-05 17:01:33]: 
+
+Warning: Function created with compilation errors.
+
+Errors for FUNCTION WORDCOUNT:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+14/5	 PL/SQL: Statement ignored
+14/5	 PLS-00201: identifier 'WORDS' must be declared
+21/2	 PL/SQL: Statement ignored
+21/9	 PLS-00201: identifier 'WORDS' must be declared
+
+Function created.
+
+There are 0 words in a tab
+
+PL/SQL procedure successfully completed.
+
+
+no rows selected
+

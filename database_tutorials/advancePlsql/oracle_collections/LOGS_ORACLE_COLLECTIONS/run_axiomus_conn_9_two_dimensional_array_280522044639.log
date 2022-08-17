@@ -1,0 +1,23 @@
+[22-05-28 04:46:39]: INFO: Log File name: /u01/profiler/oracle_collections/LOGS_ORACLE_COLLECTIONS/run_axiomus_conn_9_two_dimensional_array_280522044639.log
+[22-05-28 04:46:39]: INFO: Starting the script
+[22-05-28 04:46:39]: INFO: Script Directory: /u01/profiler
+[22-05-28 04:46:39]: INFO: Query Directory: /u01/profiler/oracle_collections
+[22-05-28 04:46:39]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 04:46:39]: ----------------------------------------------------
+[22-05-28 04:46:39]:  DATABASE QUERY STARTS 
+[22-05-28 04:46:39]: 
+Printing the First Array .....
+1  2  3
+4  5  6
+7  8  9
+Printing the Second Array .....
+11  12	13
+14  15	16
+17  18	19
+Printing the Addition of Two array .....
+12  14	16
+18  20	22
+24  26	28
+
+PL/SQL procedure successfully completed.
+

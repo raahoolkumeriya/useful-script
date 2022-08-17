@@ -1,0 +1,15 @@
+[22-05-29 07:07:06]: INFO: Log File name: /u01/profiler/11g_oracle_docs/LOGS_11G_ORACLE_DOCS/run_axiomus_conn_5_conditional_compilation_290522070706.log
+[22-05-29 07:07:06]: INFO: Starting the script
+[22-05-29 07:07:06]: INFO: Script Directory: /u01/profiler
+[22-05-29 07:07:06]: INFO: Query Directory: /u01/profiler/11g_oracle_docs
+[22-05-29 07:07:06]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-29 07:07:06]: ----------------------------------------------------
+[22-05-29 07:07:06]:  DATABASE QUERY STARTS 
+[22-05-29 07:07:06]: 
+---------------------------------------------------
+--     Code for Checking Database Version	 --
+---------------------------------------------------
+Release 12.2 is supported.
+
+PL/SQL procedure successfully completed.
+

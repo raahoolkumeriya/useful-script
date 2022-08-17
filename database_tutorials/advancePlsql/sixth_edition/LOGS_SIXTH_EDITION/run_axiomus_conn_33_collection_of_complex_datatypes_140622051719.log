@@ -1,0 +1,71 @@
+[22-06-14 05:17:19]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_33_collection_of_complex_datatypes_140622051719.log
+[22-06-14 05:17:19]: INFO: Starting the script
+[22-06-14 05:17:19]: INFO: Script Directory: /u01/playground
+[22-06-14 05:17:19]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 05:17:19]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 05:17:19]: ----------------------------------------------------
+[22-06-14 05:17:19]:  DATABASE QUERY STARTS 
+[22-06-14 05:17:19]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+--   Collections of Complex Datatypes	  	--
+---------------------------------------------------
+
+Package created.
+
+Elapsed: 00:00:00.07
+No errors.
+o Declare collection in other programs o
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.00
+------------------------------------------------------------------------
+-- copy data into collections and manipulate them within your program --
+------------------------------------------------------------------------
+--> Two approches:
+o Embed all collection code in your main porgram
+o Create a sperate package to emcapsulate access to the data in the collection
+------------------------------------------------------------------------
+
+Package created.
+
+Elapsed: 00:00:00.01
+-------------------------------------------------------------
+-- API to read througth the result set for employees table --
+-------------------------------------------------------------
+----------------------------------------------------
+-- Collections of objects and other complex types --
+----------------------------------------------------
+
+Type created.
+
+Elapsed: 00:00:00.31
+No errors.
+Sammy
+Mercury
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.10
+------------------------------------------------
+--	Multilevel Collections 		     --
+------------------------------------------------
+
+Type created.
+
+Elapsed: 00:00:00.02
+
+Type created.
+
+Elapsed: 00:00:00.10
+Mercury
+1
+2
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.03

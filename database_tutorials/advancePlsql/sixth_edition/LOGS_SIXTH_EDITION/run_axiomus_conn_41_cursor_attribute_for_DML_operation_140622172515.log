@@ -1,0 +1,75 @@
+[22-06-14 17:25:15]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_41_cursor_attribute_for_DML_operation_140622172515.log
+[22-06-14 17:25:15]: INFO: Starting the script
+[22-06-14 17:25:15]: INFO: Script Directory: /u01/playground
+[22-06-14 17:25:15]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 17:25:15]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 17:25:15]: ----------------------------------------------------
+[22-06-14 17:25:15]:  DATABASE QUERY STARTS 
+[22-06-14 17:25:15]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+-- Cursor Attributes for DML Operations    	--
+---------------------------------------------------
+
+BOOK_ID 	     TITLE						AUTHOR_LAST_NAME	       AUTHOR_FIRST_NAME		  RATING
+-------------------- -------------------------------------------------- ------------------------------ ------------------------------ ----------
+A1111		     Moby Dick						Melville		       Herman				      10
+A2222		     Get Rich Really Fast				Hammer			       Ima				       1
+A3333		     Finding Inner Peace				Blissford		       Serenity
+A4444		     Great Mystery Stories				Whodunit		       Rodney				       5
+A5555		     Software Wizardry					Abugov			       D.				      10
+
+Elapsed: 00:00:00.02
+
+Procedure created.
+
+Elapsed: 00:00:00.05
+No errors.
+----- Unit testing for procedure --->
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.02
+No errors.
+
+BOOK_ID 	     TITLE						AUTHOR_LAST_NAME	       AUTHOR_FIRST_NAME		  RATING
+-------------------- -------------------------------------------------- ------------------------------ ------------------------------ ----------
+A1111		     Moby Dick						Melville		       Herman				      10
+A2222		     Get Rich Really Fast				Hammer			       Ima				       1
+A3333		     Finding Inner Peace				Blissford		       Serenity
+A4444		     Great Mystery Stories				Whodunit		       Rodney				       5
+A5555		     Software Wizardry					Abugov			       D.				      10
+
+Elapsed: 00:00:00.00
+-----------------------------------------------
+-- RETURNING Information from DML Statements --
+-----------------------------------------------
+-- RETURNING clause to an DML retrieve that information direclty into variables
+-- With RETURNING clasue we can reduce network Round-trips
+-----------------------------------------------
+New salary for SMITH = 9112.5
+New salary for ALLEN = 18225
+New salary for WARD = 14238.3
+New salary for JONES = 33887.15
+New salary for MARTIN = 14238.3
+New salary for BLAKE = 32463.3
+New salary for CLARK = 27907.05
+New salary for SCOTT = 34171.88
+New salary for KING = 56953.13
+New salary for TURNER = 17085.95
+New salary for ADAMS = 12529.7
+New salary for JAMES = 10821.11
+New salary for FORD = 34171.88
+New salary for MILLER = 14807.82
+DECLARE
+*
+ERROR at line 1:
+ORA-01438: value larger than specified precision allowed for this column
+ORA-06512: at line 7
+ORA-06512: at line 7
+
+
+[22-06-14 17:25:16]: SQLERROR: Query error 158 in 41_cursor_attribute_for_DML_operation.sql

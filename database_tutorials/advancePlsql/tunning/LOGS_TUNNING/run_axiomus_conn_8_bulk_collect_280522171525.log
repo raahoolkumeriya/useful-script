@@ -1,0 +1,54 @@
+[22-05-28 17:15:25]: INFO: Log File name: /u01/profiler/tunning/LOGS_TUNNING/run_axiomus_conn_8_bulk_collect_280522171525.log
+[22-05-28 17:15:25]: INFO: Starting the script
+[22-05-28 17:15:25]: INFO: Script Directory: /u01/profiler
+[22-05-28 17:15:25]: INFO: Query Directory: /u01/profiler/tunning
+[22-05-28 17:15:25]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 17:15:25]: ----------------------------------------------------
+[22-05-28 17:15:25]:  DATABASE QUERY STARTS 
+[22-05-28 17:15:25]: 
+---------------------------------------------------
+--	   BULK COLLECT 			 --
+---------------------------------------------------
+Time taken by FOR loop = 0
+SMITH
+ALLEN
+WARD
+JONES
+MARTIN
+BLAKE
+CLARK
+SCOTT
+KING
+TURNER
+ADAMS
+JAMES
+FORD
+MILLER
+JONES
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.04
+-------------------------------------------------
+Above code execution is doing more numebr of context switching
+-------------------------------------------------
+Time taken by BULK COLLECT  = 0
+SMITH
+ALLEN
+WARD
+JONES
+MARTIN
+BLAKE
+CLARK
+SCOTT
+KING
+TURNER
+ADAMS
+JAMES
+FORD
+MILLER
+JONES
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.01

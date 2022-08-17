@@ -1,0 +1,30 @@
+[22-06-14 04:17:34]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_32_coll_index_as_intelligent_key_140622041734.log
+[22-06-14 04:17:34]: INFO: Starting the script
+[22-06-14 04:17:34]: INFO: Script Directory: /u01/playground
+[22-06-14 04:17:34]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 04:17:34]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 04:17:34]: ----------------------------------------------------
+[22-06-14 04:17:34]:  DATABASE QUERY STARTS 
+[22-06-14 04:17:34]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------------
+-- Advantage of nonsequential population of collection --
+---------------------------------------------------------
+
+Package created.
+
+Elapsed: 00:00:00.06
+No errors.
+
+Package body created.
+
+Elapsed: 00:00:00.02
+No errors.
+SCOTT
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.02

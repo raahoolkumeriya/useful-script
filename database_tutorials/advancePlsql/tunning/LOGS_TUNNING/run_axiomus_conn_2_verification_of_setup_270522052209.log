@@ -1,0 +1,15 @@
+[22-05-27 05:22:09]: INFO: Log File name: /u01/profiler/LOGS/run_axiomus_conn_verification_of_setup_270522052209.log
+[22-05-27 05:22:09]: INFO: Starting the script
+[22-05-27 05:22:09]: INFO: Script Directory: /u01/profiler
+[22-05-27 05:22:09]: INFO: Query Directory: /u01/profiler/tunning
+[22-05-27 05:22:09]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-27 05:22:09]: ----------------------------------------------------
+[22-05-27 05:22:09]:  DATABASE QUERY STARTS 
+[22-05-27 05:22:09]: 
+
+TABLE_NAME	     TABLESPACE_NAME		    STATUS   INSTANCES
+-------------------- ------------------------------ -------- ----------------------------------------
+PLSQL_PROFILER_DATA  USERS			    VALID	      1
+PLSQL_PROFILER_RUNS  USERS			    VALID	      1
+PLSQL_PROFILER_UNITS USERS			    VALID	      1
+

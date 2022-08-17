@@ -1,0 +1,20 @@
+[22-06-02 17:13:26]: INFO: Log File name: /u01/advancePlsql/googleSearch/ADMIN_LOGS/admin_conn_6_grant_on_demo_profile_020622171326.log
+[22-06-02 17:13:26]: INFO: Starting the script
+[22-06-02 17:13:26]: INFO: Script Directory: /u01/advancePlsql
+[22-06-02 17:13:26]: INFO: Query Directory: /u01/advancePlsql/googleSearch
+[22-06-02 17:13:26]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 17:13:26]: ----------------------------------------------------
+[22-06-02 17:13:26]:  DATABASE QUERY STARTS 
+[22-06-02 17:13:26]: 
+---------------------------------------------------
+--   GRANT all on DEMO_PROFILE		  --
+---------------------------------------------------
+Grant all on sql translation profile DEMO_PROFILE to AXIOMUS
+                                                     *
+ERROR at line 1:
+ORA-01917: user or role 'AXIOMUS' does not exist
+
+
+
+Session altered.
+

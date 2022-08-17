@@ -1,0 +1,26 @@
+[22-06-26 07:47:59]: INFO: Log File name: /u01/playground/goodParts/LOGS_GOODPARTS/run_axiomus_conn_invoice_pkg.pks_260622074759.log
+[22-06-26 07:47:59]: INFO: Starting the script
+[22-06-26 07:47:59]: INFO: Script Directory: /u01/playground
+[22-06-26 07:47:59]: INFO: Query Directory: /u01/playground/goodParts
+[22-06-26 07:47:59]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-26 07:47:59]: ----------------------------------------------------
+[22-06-26 07:47:59]:  DATABASE QUERY STARTS 
+[22-06-26 07:47:59]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+Assertion package	
+---------------------------------------------------
+
+SP2-0808: Package created with compilation warnings
+
+Elapsed: 00:00:00.73
+Errors for PACKAGE ASSERT_PKG:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+1/1	 PLW-05018: unit ASSERT_PKG omitted optional AUTHID clause;
+	 default value DEFINER used
+

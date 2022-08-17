@@ -1,0 +1,125 @@
+[22-07-22 07:04:56]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/5_tablespace_220722070456.log
+[22-07-22 07:04:56]: INFO: Starting the script
+[22-07-22 07:04:56]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-07-22 07:04:56]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-07-22 07:04:56]: INFO: Spinning Connection with SYS@ORA.world
+[22-07-22 07:04:56]: +---------------------------------+
+[22-07-22 07:04:56]: | database query execution begins |
+[22-07-22 07:04:56]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--  		Check Tablespace		--
+---------------------------------------------------
+
+TABLESPACE_NAME
+------------------------------
+SYSTEM
+SYSAUX
+UNDOTBS1
+TEMP
+USERS
+RAHUL
+
+6 rows selected.
+
+
+   FILE_ID FILE_NAME							TABLESPACE_NAME
+---------- ------------------------------------------------------------ ------------------------------
+	19 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/undotbs01.dbf	UNDOTBS1
+	18 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/sysaux01.dbf	SYSAUX
+	17 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/system01.dbf	SYSTEM
+	20 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users01.dbf 	USERS
+	21 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users02.dbf 	USERS
+	22 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/rahul01.dbf 	RAHUL
+
+6 rows selected.
+
+---------------------------------------------------
+--  		CREATE NEW TABLESPACE		--
+---------------------------------------------------
+
+Tablespace created.
+
+
+   FILE_ID FILE_NAME							TABLESPACE_NAME
+---------- ------------------------------------------------------------ ------------------------------
+	19 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/undotbs01.dbf	UNDOTBS1
+	18 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/sysaux01.dbf	SYSAUX
+	17 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/system01.dbf	SYSTEM
+	20 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users01.dbf 	USERS
+	21 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users02.dbf 	USERS
+	22 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/rahul01.dbf 	RAHUL
+
+6 rows selected.
+
+---------------------------------------------------
+--  		ALTER TABLESPACE		--
+---------------------------------------------------
+
+Tablespace altered.
+
+
+   FILE_ID FILE_NAME							TABLESPACE_NAME 		    in MB
+---------- ------------------------------------------------------------ ------------------------------ ----------
+	17 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/system01.dbf	SYSTEM				      290
+	18 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/sysaux01.dbf	SYSAUX				      660
+	19 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/undotbs01.dbf	UNDOTBS1			      180
+	20 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users01.dbf 	USERS				      232
+	21 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users02.dbf 	USERS				     1000
+	22 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/rahul01.dbf 	RAHUL				       10
+	23 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/rahul02.dbf 	RAHUL				       10
+
+7 rows selected.
+
+
+Database altered.
+
+
+   FILE_ID FILE_NAME							TABLESPACE_NAME 		    in MB
+---------- ------------------------------------------------------------ ------------------------------ ----------
+	17 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/system01.dbf	SYSTEM				      290
+	18 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/sysaux01.dbf	SYSAUX				      660
+	19 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/undotbs01.dbf	UNDOTBS1			      180
+	20 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users01.dbf 	USERS				      232
+	21 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users02.dbf 	USERS				     1000
+	22 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/rahul01.dbf 	RAHUL				       15
+	23 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/rahul02.dbf 	RAHUL				       10
+
+7 rows selected.
+
+
+Database altered.
+
+
+   FILE_ID FILE_NAME							TABLESPACE_NAME 		    in MB
+---------- ------------------------------------------------------------ ------------------------------ ----------
+	17 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/system01.dbf	SYSTEM				      290
+	18 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/sysaux01.dbf	SYSAUX				      660
+	19 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/undotbs01.dbf	UNDOTBS1			      180
+	20 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users01.dbf 	USERS				      232
+	21 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users02.dbf 	USERS				     1000
+	22 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/rahul01.dbf 	RAHUL				       20
+	23 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/rahul02.dbf 	RAHUL				       10
+
+7 rows selected.
+
+---------------------------------------------------
+--  		DROP TABLESPACE			--
+---------------------------------------------------
+
+Tablespace dropped.
+
+
+   FILE_ID FILE_NAME							TABLESPACE_NAME 		    in MB
+---------- ------------------------------------------------------------ ------------------------------ ----------
+	17 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/system01.dbf	SYSTEM				      290
+	18 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/sysaux01.dbf	SYSAUX				      660
+	19 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/undotbs01.dbf	UNDOTBS1			      180
+	20 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users01.dbf 	USERS				      232
+	21 /u02/app/oracle/oradata/ORCLCDB/orclpdb1/users02.dbf 	USERS				     1000
+
+[22-07-22 07:05:18]: +---------------------------------+
+[22-07-22 07:05:18]: |     database query ends here    |
+[22-07-22 07:05:18]: +---------------------------------+

@@ -1,0 +1,40 @@
+[22-05-28 05:31:25]: INFO: Log File name: /u01/profiler/oracle_collections/LOGS_ORACLE_COLLECTIONS/run_axiomus_conn_10_nested_tables_280522053125.log
+[22-05-28 05:31:25]: INFO: Starting the script
+[22-05-28 05:31:25]: INFO: Script Directory: /u01/profiler
+[22-05-28 05:31:25]: INFO: Query Directory: /u01/profiler/oracle_collections
+[22-05-28 05:31:25]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 05:31:25]: ----------------------------------------------------
+[22-05-28 05:31:25]:  DATABASE QUERY STARTS 
+[22-05-28 05:31:25]: 
+--------------------------
+--    NESTED TABLES	--
+--------------------------
+A nested table is a Column type that stores
+-- Difference between VARRAY and NESTED tables --
+> Number of elements it is going to store. Sparsing of elements. While defineing Varray has upper bound , where as NESTED tabel can hold N number of elements
+> In Varray we are not able to delete the within elements. Only able to delete end of elements. Varray will be continuous and NEStED tabel will be non-continuous.
+-------------------------------------------------
+Define
+Declare
+Initlilze
+assign
+Access
+v_day(1) : MON
+v_day.LIMIT :
+v_day.COUNT :3
+v_day.FIRST :1
+v_day.LAST :3
+v_day.COUNT :2
+DELETE will delete entire collection
+v_day.COUNT :0
+
+PL/SQL procedure successfully completed.
+
+v_day.COUNT :3
+v_day.COUNT :2
+v_day.PRIOR(3) :1
+v_day.NEXT(1) :3
+----- ELEMENT NOT EXISTS -------
+
+PL/SQL procedure successfully completed.
+

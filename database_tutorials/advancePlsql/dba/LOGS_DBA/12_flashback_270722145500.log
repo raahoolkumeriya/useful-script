@@ -1,0 +1,25 @@
+[22-07-27 14:55:00]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/12_flashback_270722145500.log
+[22-07-27 14:55:00]: INFO: Starting the script
+[22-07-27 14:55:00]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-07-27 14:55:00]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-07-27 14:55:00]: INFO: Spinning Connection with SYS@ORA.world
+[22-07-27 14:55:00]: +---------------------------------+
+[22-07-27 14:55:00]: | database query execution begins |
+[22-07-27 14:55:00]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--	Enable and Disable Flashback		--
+---------------------------------------------------
+-- Enable flashback --
+ALTER DATABASE flashback ON
+*
+ERROR at line 1:
+ORA-03001: unimplemented feature
+
+
+[22-07-27 14:55:01]: SQLERROR: Query error 185 in 12_flashback.sql
+[22-07-27 14:55:01]: +---------------------------------+
+[22-07-27 14:55:01]: |     database query ends here    |
+[22-07-27 14:55:01]: +---------------------------------+

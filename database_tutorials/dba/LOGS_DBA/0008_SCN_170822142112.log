@@ -1,0 +1,74 @@
+[22-08-17 14:21:12]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/0008_SCN_170822142112.log
+[22-08-17 14:21:12]: INFO: Starting the script
+[22-08-17 14:21:12]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-08-17 14:21:12]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-08-17 14:21:12]: INFO: Spinning Connection with SYS@ORA.world
+[22-08-17 14:21:12]: +---------------------------------+
+[22-08-17 14:21:12]: | database query execution begins |
+[22-08-17 14:21:13]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--	SCN system change Number 		--
+---------------------------------------------------
+
+       SCN
+----------
+   6145170
+
+
+USERNAME		       PROGRAM
+------------------------------ ------------------------------------------------
+			       oracle@7c1faf5df40c (PSP0)
+			       oracle@7c1faf5df40c (TT01)
+SYS			       oracle@7c1faf5df40c (OFSD)
+			       oracle@7c1faf5df40c (SVCB)
+			       oracle@7c1faf5df40c (LGWR)
+			       oracle@7c1faf5df40c (LG01)
+			       oracle@7c1faf5df40c (LREG)
+			       oracle@7c1faf5df40c (MMON)
+			       oracle@7c1faf5df40c (Q003)
+			       oracle@7c1faf5df40c (W004)
+			       oracle@7c1faf5df40c (W002)
+			       oracle@7c1faf5df40c (VKTM)
+			       oracle@7c1faf5df40c (GEN1)
+			       oracle@7c1faf5df40c (SCMN)
+			       oracle@7c1faf5df40c (PMAN)
+			       oracle@7c1faf5df40c (CKPT)
+			       oracle@7c1faf5df40c (SMCO)
+			       oracle@7c1faf5df40c (MMNL)
+			       oracle@7c1faf5df40c (TT02)
+			       oracle@7c1faf5df40c (QM02)
+			       oracle@7c1faf5df40c (CJQ0)
+			       oracle@7c1faf5df40c (W005)
+			       oracle@7c1faf5df40c (Q008)
+			       oracle@7c1faf5df40c (PMON)
+			       oracle@7c1faf5df40c (GEN0)
+			       oracle@7c1faf5df40c (SCMN)
+			       oracle@7c1faf5df40c (DBRM)
+			       oracle@7c1faf5df40c (DIA0)
+			       oracle@7c1faf5df40c (LG00)
+			       oracle@7c1faf5df40c (RECO)
+			       oracle@7c1faf5df40c (PXMN)
+			       oracle@7c1faf5df40c (AQPC)
+SYS			       sqlplus@lima-default (TNS V1-V3)
+			       oracle@7c1faf5df40c (W001)
+			       oracle@7c1faf5df40c (TT00)
+			       oracle@7c1faf5df40c (CLMN)
+			       oracle@7c1faf5df40c (MMAN)
+			       oracle@7c1faf5df40c (DIAG)
+			       oracle@7c1faf5df40c (VKRM)
+			       oracle@7c1faf5df40c (DBW0)
+			       oracle@7c1faf5df40c (SMON)
+			       oracle@7c1faf5df40c (TMON)
+			       oracle@7c1faf5df40c (W000)
+			       oracle@7c1faf5df40c (W007)
+			       oracle@7c1faf5df40c (W003)
+			       oracle@7c1faf5df40c (W006)
+
+46 rows selected.
+
+[22-08-17 14:21:13]: +---------------------------------+
+[22-08-17 14:21:13]: |     database query ends here    |
+[22-08-17 14:21:13]: +---------------------------------+

@@ -1,0 +1,16 @@
+[22-06-02 16:13:36]: INFO: Log File name: /u01/advancePlsql/googleSearch/LOGS_GOOGLESEARCH/run_axiomus_conn_2_execution_plan_020622161336.log
+[22-06-02 16:13:36]: INFO: Starting the script
+[22-06-02 16:13:36]: INFO: Script Directory: /u01/advancePlsql
+[22-06-02 16:13:36]: INFO: Query Directory: /u01/advancePlsql/googleSearch
+[22-06-02 16:13:36]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 16:13:36]: ----------------------------------------------------
+[22-06-02 16:13:36]:  DATABASE QUERY STARTS 
+[22-06-02 16:13:36]: 
+---------------------------------------------------
+--    	Check for execution plan		--
+---------------------------------------------------
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User has no SELECT privilege on V$SESSION
+

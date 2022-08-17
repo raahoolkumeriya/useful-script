@@ -1,0 +1,68 @@
+[22-06-14 08:57:07]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_35_MULTISET_pseudofunction_140622085707.log
+[22-06-14 08:57:07]: INFO: Starting the script
+[22-06-14 08:57:07]: INFO: Script Directory: /u01/playground
+[22-06-14 08:57:07]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 08:57:07]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 08:57:07]: ----------------------------------------------------
+[22-06-14 08:57:07]:  DATABASE QUERY STARTS 
+[22-06-14 08:57:07]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+--     	The MULTISET pseudofunction		--
+---------------------------------------------------
+
+Type dropped.
+
+Elapsed: 00:00:03.44
+
+Type created.
+
+Elapsed: 00:00:00.13
+
+Table created.
+
+Elapsed: 00:00:00.40
+
+Table created.
+
+Elapsed: 00:00:00.05
+
+4 rows created.
+
+Elapsed: 00:00:00.27
+
+
+Type created.
+
+Elapsed: 00:00:00.25
+
+GENUS			       SPECIES			      COLORS
+------------------------------ ------------------------------ ------------------------------
+Circus			       Black Harrier		      COLOR_TAB_T('BLACK', 'GRAY')
+
+Elapsed: 00:00:00.11
+
+GENUS			       SPECIES			      COUNTRY
+------------------------------ ------------------------------ ------------------------------------------------------------
+Circus			       Black Harrier		      South Africa
+Circus			       Black Harrier		      Botswana
+Circus			       Black Harrier		      Namibia
+
+Elapsed: 00:00:00.01
+
+GENUS			       SPECIES			      COUNTRY_COLLECTIONS
+------------------------------ ------------------------------ ----------------------------------------------------------------------
+Circus			       Black Harrier		      COUNTRY_TAB_T('South Africa', 'Botswana', 'Namibia')
+
+Elapsed: 00:00:00.21
+--- Handle Multiset in plsql --->
+
+Genus 	: Circus
+Species	: Black Harrier
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.20

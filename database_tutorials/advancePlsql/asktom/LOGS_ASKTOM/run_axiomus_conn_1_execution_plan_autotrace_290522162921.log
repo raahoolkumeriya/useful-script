@@ -1,0 +1,18 @@
+[22-05-29 16:29:21]: INFO: Log File name: /u01/profiler/asktom/LOGS_ASKTOM/run_axiomus_conn_1_execution_plan_autotrace_290522162921.log
+[22-05-29 16:29:21]: INFO: Starting the script
+[22-05-29 16:29:21]: INFO: Script Directory: /u01/profiler
+[22-05-29 16:29:21]: INFO: Query Directory: /u01/profiler/asktom
+[22-05-29 16:29:21]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-29 16:29:21]: ----------------------------------------------------
+[22-05-29 16:29:21]:  DATABASE QUERY STARTS 
+[22-05-29 16:29:21]: 
+---------------------------------------------------
+--	    Autotrace				 --
+---------------------------------------------------
+SP2-0618: Cannot find the Session Identifier.  Check PLUSTRACE role is enabled
+SP2-0611: Error enabling STATISTICS report
+
+D
+-
+X
+

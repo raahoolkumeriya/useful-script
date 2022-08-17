@@ -1,0 +1,122 @@
+[22-06-10 05:20:58]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_views_100622052058.log
+[22-06-10 05:20:58]: INFO: Starting the script
+[22-06-10 05:20:58]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 05:20:58]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 05:20:58]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 05:20:58]: ----------------------------------------------------
+[22-06-10 05:20:58]:  DATABASE QUERY STARTS 
+[22-06-10 05:20:58]: 
+---------------------------------------------------
+--     		VIEWS				--
+---------------------------------------------------
+-- It is database object, when we say database object it means it stored in database
+-- This database object will provide the restricted access on the table
+-- it is also called Virtual table
+
+View dropped.
+
+
+View created.
+
+---------------------------------------------------
+Whenever we query from view, actually query is fires against the base table, and fetch data from base table
+There is not data present in VIEW
+Each table can have N number of views
+Whenever we are dropping the VIEW, base tabel does not affected
+but when we drop the base table, VIEW become the INVALID
+Advantages :
+-----------: Security
+-----------: Does NOT store any data, so there is no any moemory consumption
+-----------: VIEW will provide to Column, row or table level access to the tabel data
+-----------: Any complex,long query can be stored in VIEW for easier references
+---------------------------------------------------
+
+EMPLOYEE_ID EMPLOYEE_N JOB	 MANAGER_ID HIREDATE	  SALARY COMMISSION DEPARTMENT_ID
+----------- ---------- --------- ---------- --------- ---------- ---------- -------------
+       7369 SMITH      CLERK	       7902 17-DEC-80	     800		       20
+       7566 JONES      MANAGER	       7839 02-APR-81	    2975		       20
+       7788 SCOTT      ANALYST	       7566 19-APR-87	    3000		       20
+       7876 ADAMS      CLERK	       7788 23-MAY-87	    1100		       20
+       7902 FORD       ANALYST	       7566 03-DEC-81	    3000		       20
+       9000 JONNY      CLERK	       7878 16-DEC-13	    5000	100	       20
+
+6 rows selected.
+
+---------------------------------------------------
+--		TYPEs of VIEW			--
+---------------------------------------------------
+-- o Updateble and Non-Updatebel View
+-- o Simple and Complex Views
+-- o Read only view
+-- o Force view
+---------------------------------------------------
+o Updateble View
+----> Whenever we are updating View that automaticcaly affect the base table, such views are called Updateble view.
+---------------------------------------------------
+
+1 row created.
+
+
+EMPLOYEE_ID EMPLOYEE_N JOB	 MANAGER_ID HIREDATE	  SALARY COMMISSION DEPARTMENT_ID
+----------- ---------- --------- ---------- --------- ---------- ---------- -------------
+       7369 SMITH      CLERK	       7902 17-DEC-80	     800		       20
+       7566 JONES      MANAGER	       7839 02-APR-81	    2975		       20
+       7788 SCOTT      ANALYST	       7566 19-APR-87	    3000		       20
+       7876 ADAMS      CLERK	       7788 23-MAY-87	    1100		       20
+       7902 FORD       ANALYST	       7566 03-DEC-81	    3000		       20
+       9000 JONNY      CLERK	       7878 16-DEC-13	    5000	100	       20
+
+6 rows selected.
+
+
+EMPLOYEE_ID EMPLOYEE_N JOB	 MANAGER_ID HIREDATE	  SALARY COMMISSION DEPARTMENT_ID
+----------- ---------- --------- ---------- --------- ---------- ---------- -------------
+       7369 SMITH      CLERK	       7902 17-DEC-80	     800		       20
+       7499 ALLEN      SALESMAN        7698 20-FEB-81	    1600	300	       30
+       7521 WARD       SALESMAN        7698 22-FEB-81	    1250	500	       30
+       7566 JONES      MANAGER	       7839 02-APR-81	    2975		       20
+       7654 MARTIN     SALESMAN        7698 28-SEP-81	    1250       1400	       30
+       7698 BLAKE      MANAGER	       7839 01-MAY-81	    2850		       30
+       7782 CLARK      MANAGER	       7839 09-JUN-81	    2450		       10
+       7788 SCOTT      ANALYST	       7566 19-APR-87	    3000		       20
+       7839 KING       PRESIDENT	    17-NOV-81	    5000		       10
+       7844 TURNER     SALESMAN        7698 08-SEP-81	    1500	  0	       30
+       7876 ADAMS      CLERK	       7788 23-MAY-87	    1100		       20
+       7900 JAMES      CLERK	       7698 03-DEC-81	     950		       30
+       7902 FORD       ANALYST	       7566 03-DEC-81	    3000		       20
+       7934 MILLER     CLERK	       7782 23-JAN-82	    1300		       10
+       1000 STALIN     COMPUTER        8989 03-MAR-14	   10000	  0	       50
+       9000 JONNY      CLERK	       7878 16-DEC-13	    5000	100	       20
+       9001 JOY        CLERK	       7878 16-DEC-13	    7000	100	       10
+
+17 rows selected.
+
+---------------------------------------------------
+o Non-Updateble View
+----> When View having GROUP BY, ORDER BY, DISTINCT, Complex JOINS then it does not afffect the base table
+---------------------------------------------------
+o Simple Views
+---> If a view is created with Simple view and by default simpe view is updatable view
+o Complex view
+----> If a view is created with compelx query and by default complex view are non-updateble views
+---------------------------------------------------
+o Read Only View
+---> When Updateble view can be made non-updateble view
+---------------------------------------------------
+
+View dropped.
+
+---------------------------------------------------
+-- 	CREATE READ ONLY VIEW 			--
+---------------------------------------------------
+
+View created.
+
+---------------------------------------------------
+-- 		FORCE view 			--
+---------------------------------------------------
+o Force view
+When view is created without base table
+
+Warning: View created with compilation errors.
+

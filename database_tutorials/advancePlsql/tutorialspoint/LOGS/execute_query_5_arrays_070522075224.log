@@ -1,0 +1,23 @@
+[22-05-07 07:52:24]: INFO: Log File name: /u01/scripts/LOGS/execute_query_5_arrays_070522075224.log
+[22-05-07 07:52:24]: INFO: Starting the script
+[22-05-07 07:52:24]: INFO: Script Directory: /u01/scripts
+[22-05-07 07:52:24]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-07 07:52:24]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-07 07:52:24]: ----------------------------------------------------
+[22-05-07 07:52:24]:  DATABASE QUERY STARTS 
+[22-05-07 07:52:24]: 
+PLSQL provides a data structure called the VARRAY, which can store a fixed-sized sequenctial collection of elements of the smae type.
+A VARRAY is used to store an ordered collection of data. As a Collection of variables of the same type.
+All VARRYs consist of contiguous memeory locations.
+Creating VARRY type
+--- Schema level
+PLSQL Block level
+Total 5 Students.
+Student : Kavita Marks : 98
+Student : Pritam Marks : 97
+Student : Ayan Marks : 95
+Student : Pintu Marks : 96
+Student : Anu Marks : 78
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,59 @@
+[22-06-14 18:17:45]: INFO: Log File name: /u01/playground/dba/LOGS_DBA/run_axiomus_conn_3_investigation_on_xdual_140622181745.log
+[22-06-14 18:17:45]: INFO: Starting the script
+[22-06-14 18:17:45]: INFO: Script Directory: /u01/playground
+[22-06-14 18:17:45]: INFO: Query Directory: /u01/playground/dba
+[22-06-14 18:17:45]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 18:17:45]: ----------------------------------------------------
+[22-06-14 18:17:45]:  DATABASE QUERY STARTS 
+[22-06-14 18:17:45]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+--     	Performance Enhancements 		--
+---------------------------------------------------
+---------------------------------------------------
+--  EXPLAIN PLAN for xdual table			--
+---------------------------------------------------
+
+Explained.
+
+Elapsed: 00:00:00.19
+---------------------------------------------------
+--  Display plan details with pkg function	 --
+---------------------------------------------------
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 3738369273
+
+----------------------------------------------------------------------------------
+| Id  | Operation	     | Name		 | Rows  | Cost (%CPU)| Time	 |
+----------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT     |			 |     1 |     2   (0)| 00:00:01 |
+|   1 |  INDEX FAST FULL SCAN| SYS_IOT_TOP_78425 |     1 |     2   (0)| 00:00:01 |
+----------------------------------------------------------------------------------
+
+Note
+-----
+   - dynamic statistics used: dynamic sampling (level=2)
+
+12 rows selected.
+
+Elapsed: 00:00:00.23
+
+Statistics
+----------------------------------------------------------
+	 20  recursive calls
+	  0  db block gets
+	 12  consistent gets
+	  0  physical reads
+	  0  redo size
+       1247  bytes sent via SQL*Net to client
+	607  bytes received via SQL*Net from client
+	  2  SQL*Net roundtrips to/from client
+	  1  sorts (memory)
+	  0  sorts (disk)
+	 12  rows processed
+

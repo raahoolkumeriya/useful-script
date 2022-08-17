@@ -1,0 +1,61 @@
+[22-06-28 18:26:53]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_57_standalone_proc_and_func_280622182653.log
+[22-06-28 18:26:53]: INFO: Starting the script
+[22-06-28 18:26:53]: INFO: Script Directory: /u01/playground
+[22-06-28 18:26:53]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-28 18:26:53]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-28 18:26:53]: ----------------------------------------------------
+[22-06-28 18:26:53]:  DATABASE QUERY STARTS 
+[22-06-28 18:26:53]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+Enter value for function: Standalone Procedure	 exit; Example		
+---------------------------------------------------
+
+Warning: Package created with compilation errors.
+
+Elapsed: 00:00:00.18
+Errors for PACKAGE ECOMM:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+8/22	 PLS-00103: Encountered the symbol "ORDER" when expecting one of
+	 the following:
+	 out <an identifier> <a double-quoted delimited-identifier>
+	 table columns long double ref char time timestamp interval
+	 date binary national character nchar
+	 The symbol "<an identifier> was inserted before "ORDER" to
+	 continue.
+
+
+Warning: Package Body created with compilation errors.
+
+Elapsed: 00:00:00.05
+Errors for PACKAGE BODY ECOMM:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+6/3	 PLS-00103: Encountered the symbol "NULL" when expecting one of
+	 the following:
+	 begin function pragma procedure subtype type <an identifier>
+	 <a double-quoted delimited-identifier> current cursor delete
+	 exists prior external language
+	 The symbol "begin" was substituted for "NULL" to continue.
+
+12/43	 PLS-00103: Encountered the symbol "ORDER" when expecting one of
+	 the following:
+	 out <an identifier> <a double-quoted delimited-identifier>
+	 table columns long double ref char time timestamp interval
+	 date binary national character nchar
+	 The symbol "<an identifier> was inserted before "ORDER" to
+	 continue.
+
+15/10	 PLS-00103: Encountered the symbol "1" when expecting one of the
+	 following:
+	 constant exception <an identifier>
+	 <a double-quoted delimited-identifier> table columns long
+	 double ref char time timestamp interval date binary national
+	 character nchar
+

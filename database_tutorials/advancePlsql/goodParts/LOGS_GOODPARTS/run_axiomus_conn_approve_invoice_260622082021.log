@@ -1,0 +1,19 @@
+[22-06-26 08:20:21]: INFO: Log File name: /u01/playground/goodParts/LOGS_GOODPARTS/run_axiomus_conn_approve_invoice_260622082021.log
+[22-06-26 08:20:21]: INFO: Starting the script
+[22-06-26 08:20:21]: INFO: Script Directory: /u01/playground
+[22-06-26 08:20:21]: INFO: Query Directory: /u01/playground/goodParts
+[22-06-26 08:20:21]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-26 08:20:21]: ----------------------------------------------------
+[22-06-26 08:20:21]:  DATABASE QUERY STARTS 
+[22-06-26 08:20:21]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+testing of assert pacakge		
+---------------------------------------------------
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.13

@@ -1,0 +1,19 @@
+[22-06-02 05:03:56]: INFO: Log File name: /u01/profiler/advancePLSQL/LOGS_ADVANCEPLSQL/run_axiomus_conn_8_bulk_operation_setup_020622050356.log
+[22-06-02 05:03:56]: INFO: Starting the script
+[22-06-02 05:03:56]: INFO: Script Directory: /u01/profiler
+[22-06-02 05:03:56]: INFO: Query Directory: /u01/profiler/advancePLSQL
+[22-06-02 05:03:56]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 05:03:56]: ----------------------------------------------------
+[22-06-02 05:03:56]:  DATABASE QUERY STARTS 
+[22-06-02 05:03:56]: 
+---------------------------------------------------
+--     --
+---------------------------------------------------
+
+Table created.
+
+
+  COUNT(*)
+----------
+     56963
+

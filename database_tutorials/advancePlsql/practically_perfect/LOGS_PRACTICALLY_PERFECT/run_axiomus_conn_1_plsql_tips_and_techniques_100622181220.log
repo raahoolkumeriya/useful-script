@@ -1,0 +1,34 @@
+[22-06-10 18:12:20]: INFO: Log File name: /u01/advancePlsql/practically_perfect/LOGS_PRACTICALLY_PERFECT/run_axiomus_conn_1_plsql_tips_and_techniques_100622181220.log
+[22-06-10 18:12:21]: INFO: Starting the script
+[22-06-10 18:12:21]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 18:12:21]: INFO: Query Directory: /u01/advancePlsql/practically_perfect
+[22-06-10 18:12:21]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 18:12:21]: ----------------------------------------------------
+[22-06-10 18:12:21]:  DATABASE QUERY STARTS 
+[22-06-10 18:12:21]: 
+
+Session altered.
+
+
+Session altered.
+
+---------------------------------------------------
+--     PL/SQL Tips and Techniques		--
+---------------------------------------------------
+o Use the compile-time warning features of PLSQL
+o Don't repeat anything -- Aim for a single point of definition for everthing in your application.
+o Keep your executabel section tiny
+o Key performance optimization tips
+---> Avoid row-by-row processing of non-query DML statements: Lowest hanging fruit for major performance imporovement.
+---> Leverage teh function result cache.
+---------------------------------------------------
+
+SP2-0804: Procedure created with compilation warnings
+
+Errors for PROCEDURE PLW6017:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+4/2	 PLW-06017: an operation will raise an exception
+7/2	 PLW-06002: Unreachable code
+7/2	 PLW-06017: an operation will raise an exception

@@ -1,0 +1,19 @@
+[22-05-30 15:33:29]: INFO: Log File name: /u01/profiler/devgym/LOGS_DEVGYM/run_axiomus_conn_1_nested_table_300522153329.log
+[22-05-30 15:33:29]: INFO: Starting the script
+[22-05-30 15:33:29]: INFO: Script Directory: /u01/profiler
+[22-05-30 15:33:29]: INFO: Query Directory: /u01/profiler/devgym
+[22-05-30 15:33:29]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-30 15:33:29]: ----------------------------------------------------
+[22-05-30 15:33:29]:  DATABASE QUERY STARTS 
+[22-05-30 15:33:29]: 
+---------------------------------------------------
+--    Grandparents program with NESTED tables	 --
+---------------------------------------------------
+
+Type created.
+
+Natthuji
+Kusum
+
+PL/SQL procedure successfully completed.
+

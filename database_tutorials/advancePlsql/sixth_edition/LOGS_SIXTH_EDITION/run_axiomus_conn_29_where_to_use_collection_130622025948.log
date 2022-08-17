@@ -1,0 +1,109 @@
+[22-06-13 02:59:48]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_29_where_to_use_collection_130622025948.log
+[22-06-13 02:59:48]: INFO: Starting the script
+[22-06-13 02:59:48]: INFO: Script Directory: /u01/playground
+[22-06-13 02:59:48]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-13 02:59:48]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-13 02:59:48]: ----------------------------------------------------
+[22-06-13 02:59:48]:  DATABASE QUERY STARTS 
+[22-06-13 02:59:48]: 
+
+Session altered.
+
+---------------------------------------------------
+--  	Where You Can Use Collections	   	--
+---------------------------------------------------
+o 	Collections as components of a record	 o
+---------------------------------------------------
+
+Type created.
+
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+o 	Collections as program parameter 	 o
+---------------------------------------------------
+---> Collection using a Schema-level type <--
+
+Type created.
+
+---> Collection using a parameter to Function or Procedure <--
+
+SP2-0804: Procedure created with compilation warnings
+
+---> Collection define in package specification <--
+
+Package created.
+
+No errors.
+---> Collection type reference from package <---
+
+Procedure created.
+
+No errors.
+----> Declaring Collection type in an outer block and then using in inner block <---
+
+PL/SQL procedure successfully completed.
+
+No errors.
+---------------------------------------------------
+o Collections as datatype of a function return value
+---------------------------------------------------
+
+Type created.
+
+
+Function created.
+
+No errors.
+---------------------------------------------------
+o Collections as Columns in a database tables	  o
+---------------------------------------------------
+
+Type created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+	ID NAME
+---------- --------------------------------------------------
+DEPENDENTS_AGES
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     10010 Zaphod Beeblebrox
+DEPENDENT_BIRTHDATE_T('12-JAN-63', '04-JUL-77', '22-MAR-21')
+
+     10020 Molly Squiggly
+DEPENDENT_BIRTHDATE_T('14-JUL-68', '22-MAR-21')
+
+     10030 Joseph Josephs
+DEPENDENT_BIRTHDATE_T()
+
+     10040 Zaphod Beeblebrox
+DEPENDENT_BIRTHDATE_T('12-JAN-63', '04-JUL-77', '22-MAR-21')
+
+     10050 Zaphod Beeblebrox
+DEPENDENT_BIRTHDATE_T('21-SEP-63')
+
+
+
+Table created.
+
+---------------------------------------------------
+o Collections as attributes of an Object Type	  o
+---------------------------------------------------

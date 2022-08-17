@@ -1,0 +1,46 @@
+
+
+ LOG file opened at 06/10/22 08:57:33
+
+Field Definitions for table ADMINS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    EMP_ID                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ENAME                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    DNAME                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+KUP-04021: field formatting error for field ENAME
+KUP-04023: field start is after end of record
+KUP-04101: record 4 rejected in file /u01/STUFF/names.txt
+
+
+ LOG file opened at 06/10/22 08:57:35
+
+Field Definitions for table ADMINS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    EMP_ID                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ENAME                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    DNAME                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+KUP-04021: field formatting error for field ENAME
+KUP-04023: field start is after end of record
+KUP-04101: record 4 rejected in file /u01/STUFF/names.txt

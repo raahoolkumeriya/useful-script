@@ -1,0 +1,61 @@
+[22-06-14 03:32:38]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_31_initialized_collection_var_140622033238.log
+[22-06-14 03:32:38]: INFO: Starting the script
+[22-06-14 03:32:38]: INFO: Script Directory: /u01/playground
+[22-06-14 03:32:38]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 03:32:38]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 03:32:38]: ----------------------------------------------------
+[22-06-14 03:32:38]:  DATABASE QUERY STARTS 
+[22-06-14 03:32:38]: 
+
+Session altered.
+
+---------------------------------------------------
+Declaring and Initializing Collection Variables  --
+---------------------------------------------------
+o Associate Array o
+
+PL/SQL procedure successfully completed.
+
+o Declartion and Initialized of NESTED TABLE or VARRAY	o
+
+PL/SQL procedure successfully completed.
+
+o Declartion, Initialized in execution section o
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--   Assigning rows from a relational table	--
+---------------------------------------------------
+SCOTThas salary of 3000
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+Cursor for loop for multiple rows into collection -
+---------------------------------------------------
+SMITH
+ALLEN
+WARD
+JONES
+MARTIN
+BLAKE
+CLARK
+SCOTT
+KING
+TURNER
+ADAMS
+JAMES
+FORD
+MILLER
+STALIN
+JONES
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+BULK collect to dump into collection 	--
+---------------------------------------------------
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,26 @@
+[22-06-26 17:28:52]: INFO: Log File name: /u01/playground/oracle_docs21/LOGS_ORACLE_DOCS21/run_axiomus_conn_programming_insight_pkg.pkb_260622172852.log
+[22-06-26 17:28:52]: INFO: Starting the script
+[22-06-26 17:28:52]: INFO: Script Directory: /u01/playground
+[22-06-26 17:28:52]: INFO: Query Directory: /u01/playground/oracle_docs21
+[22-06-26 17:28:52]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-26 17:28:52]: ----------------------------------------------------
+[22-06-26 17:28:52]:  DATABASE QUERY STARTS 
+[22-06-26 17:28:52]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+Oracle PLSQL Docs		
+---------------------------------------------------
+
+SP2-0810: Package Body created with compilation warnings
+
+Elapsed: 00:00:00.33
+Errors for PACKAGE BODY LEARNING_PKG:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+32/5	 PLW-07206: analysis suggests that the assignment to 'RATING' may
+	 be unnecessary
+

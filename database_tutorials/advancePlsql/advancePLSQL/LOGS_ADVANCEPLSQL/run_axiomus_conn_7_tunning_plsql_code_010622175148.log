@@ -1,0 +1,25 @@
+[22-06-01 17:51:48]: INFO: Log File name: /u01/profiler/advancePLSQL/LOGS_ADVANCEPLSQL/run_axiomus_conn_7_tunning_plsql_code_010622175148.log
+[22-06-01 17:51:48]: INFO: Starting the script
+[22-06-01 17:51:48]: INFO: Script Directory: /u01/profiler
+[22-06-01 17:51:48]: INFO: Query Directory: /u01/profiler/advancePLSQL
+[22-06-01 17:51:48]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-01 17:51:48]: ----------------------------------------------------
+[22-06-01 17:51:48]:  DATABASE QUERY STARTS 
+[22-06-01 17:51:48]: 
+---------------------------------------------------
+--Build secure applications using bind variables --
+---------------------------------------------------
+---------------------------------------------------
+-- 	without BIND Variable 			--
+---------------------------------------------------
+Execution time without bind variables : 233
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+-- 	with BIND Variable 			--
+---------------------------------------------------
+Execution time with bind variables : 355
+
+PL/SQL procedure successfully completed.
+

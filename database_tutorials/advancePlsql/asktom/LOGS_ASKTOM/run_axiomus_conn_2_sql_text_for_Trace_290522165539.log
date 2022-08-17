@@ -1,0 +1,18 @@
+[22-05-29 16:55:39]: INFO: Log File name: /u01/profiler/asktom/LOGS_ASKTOM/run_axiomus_conn_2_sql_text_for_Trace_290522165539.log
+[22-05-29 16:55:39]: INFO: Starting the script
+[22-05-29 16:55:39]: INFO: Script Directory: /u01/profiler
+[22-05-29 16:55:39]: INFO: Query Directory: /u01/profiler/asktom
+[22-05-29 16:55:39]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-29 16:55:39]: ----------------------------------------------------
+[22-05-29 16:55:39]:  DATABASE QUERY STARTS 
+[22-05-29 16:55:39]: 
+---------------------------------------------------
+--   TRACE with SQL query			--
+---------------------------------------------------
+select sql_id, sql_text from v$sql
+                             *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+[22-05-29 16:55:41]: SQLERROR: Query error 174 in 2_sql_text_for_Trace.sql

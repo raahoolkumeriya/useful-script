@@ -1,0 +1,49 @@
+[22-04-22 10:53:02]: INFO: Log File name: /u01/scripts/LOGS/execute_query_7_iterative_statements_220422105302.log
+[22-04-22 10:53:02]: INFO: Starting the script
+[22-04-22 10:53:02]: INFO: Script Directory: /u01/scripts
+[22-04-22 10:53:02]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-22 10:53:02]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-04-22 10:53:02]: ----------------------------------------------------
+[22-04-22 10:53:02]:  DATABASE QUERY STARTS 
+[22-04-22 10:53:02]: 
+>>>> ITERATIVE Statements <<<<
+---- Simple Loop statements
+Guard on ENtry
+Iteration [1]
+Iteration [2]
+
+PL/SQL procedure successfully completed.
+
+Guard on EXIT
+Iteration [1]
+Iteration [2]
+Iteration [3]
+
+PL/SQL procedure successfully completed.
+
+"Continue statement"
+Iteration [1]
+
+PL/SQL procedure successfully completed.
+
+>>> FOR Loop <<<<
+Iteration [1]
+Iteration [2]
+Iteration [3]
+
+PL/SQL procedure successfully completed.
+
+>>> Cursor FOR Loop
+Iteration [SYSTEM_PRIVILEGE_MAP]
+Iteration [TABLE_PRIVILEGE_MAP]
+Iteration [USER_PRIVILEGE_MAP]
+Iteration [STMT_AUDIT_OPTION_MAP]
+
+PL/SQL procedure successfully completed.
+
+>>> While loop statements
+Index[1]
+Index[2]
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,23 @@
+[22-06-07 02:57:16]: INFO: Log File name: /u01/advancePlsql/geek4geeks/LOGS_GEEK4GEEKS/run_axiomus_conn_citi.pkg_070622025716.log
+[22-06-07 02:57:16]: INFO: Starting the script
+[22-06-07 02:57:16]: INFO: Script Directory: /u01/advancePlsql
+[22-06-07 02:57:16]: INFO: Query Directory: /u01/advancePlsql/geek4geeks
+[22-06-07 02:57:16]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-07 02:57:16]: ----------------------------------------------------
+[22-06-07 02:57:16]:  DATABASE QUERY STARTS 
+[22-06-07 02:57:16]: 
+---------------------------------------------------
+--     		TESTING Package			--
+---------------------------------------------------
+
+Package created.
+
+No errors.
+
+Package body created.
+
+No errors.
+this is Codelocked!
+
+PL/SQL procedure successfully completed.
+

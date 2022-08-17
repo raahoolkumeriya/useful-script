@@ -1,0 +1,32 @@
+[22-06-15 06:42:53]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_46_explicit_cursors_150622064253.log
+[22-06-15 06:42:53]: INFO: Starting the script
+[22-06-15 06:42:53]: INFO: Script Directory: /u01/playground
+[22-06-15 06:42:53]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-15 06:42:53]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-15 06:42:53]: ----------------------------------------------------
+[22-06-15 06:42:53]:  DATABASE QUERY STARTS 
+[22-06-15 06:42:53]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+--     Working with Explicit Cursors		--
+---------------------------------------------------
+
+Package created.
+
+Elapsed: 00:00:00.06
+No errors.
+
+Warning: Package Body created with compilation errors.
+
+Elapsed: 00:00:00.20
+Errors for PACKAGE BODY BOOK_STUFF:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+15/4	 PL/SQL: Statement ignored
+15/16	 PLS-00225: subprogram or cursor 'BOOK_CUR' reference is out of
+	 scope
+

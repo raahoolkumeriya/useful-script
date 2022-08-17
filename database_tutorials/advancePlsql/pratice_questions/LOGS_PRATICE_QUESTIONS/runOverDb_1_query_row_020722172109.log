@@ -1,0 +1,63 @@
+[22-07-02 17:21:09]: INFO: Log File name: /home/raahool.linux/database_tutorials/pratice_questions/LOGS_PRATICE_QUESTIONS/runOverDb_1_query_row_020722172109.log
+[22-07-02 17:21:09]: INFO: Starting the script
+[22-07-02 17:21:09]: INFO: Script Directory: /home/raahool.linux/database_tutorials
+[22-07-02 17:21:09]: INFO: Query Directory: /home/raahool.linux/database_tutorials/pratice_questions
+[22-07-02 17:21:09]: INFO: Spinning Connection with AXIOMUS@ORCLPDB1
+[22-07-02 17:21:09]: ----------------------------------------------------
+[22-07-02 17:21:09]:  DATABASE QUERY STARTS 
+[22-07-02 17:21:09]: 
+---------------------------------------------------
+--	    With OR keywords			 --
+---------------------------------------------------
+
+      S_NO C C C C C
+---------- - - - - -
+	 1 A B C D E
+	 2   A B C D
+	 3 E	   A
+	 4   A E   D
+
+---------------------------------------------------
+--	 Without OR keywords			 --
+---------------------------------------------------
+
+      S_NO C C C C C
+---------- - - - - -
+	 1 A B C D E
+	 2   A B C D
+	 4   A E   D
+	 3 E	   A
+
+---------------------------------------------------
+Enter value for easiest: --  BEST way			 exit; way		       --
+---------------------------------------------------
+
+      S_NO C C C C C
+---------- - - - - -
+	 1 A B C D E
+	 2   A B C D
+	 3 E	   A
+	 4   A E   D
+
+---------------------------------------------------
+--	  Concatnate way			 --
+---------------------------------------------------
+
+      S_NO C C C C C
+---------- - - - - -
+	 1 A B C D E
+	 2   A B C D
+	 3 E	   A
+	 4   A E   D
+
+---------------------------------------------------
+--	  Concatnate way			 --
+---------------------------------------------------
+
+      S_NO C C C C C
+---------- - - - - -
+	 1 A B C D E
+	 2   A B C D
+	 3 E	   A
+	 4   A E   D
+

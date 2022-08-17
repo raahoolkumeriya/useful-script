@@ -1,0 +1,183 @@
+[22-05-30 17:37:34]: INFO: Log File name: /u01/profiler/devgym/LOGS_DEVGYM/run_axiomus_conn_2_generate_random_string_300522173734.log
+[22-05-30 17:37:34]: INFO: Starting the script
+[22-05-30 17:37:34]: INFO: Script Directory: /u01/profiler
+[22-05-30 17:37:34]: INFO: Query Directory: /u01/profiler/devgym
+[22-05-30 17:37:34]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-30 17:37:34]: ----------------------------------------------------
+[22-05-30 17:37:34]:  DATABASE QUERY STARTS 
+[22-05-30 17:37:34]: 
+---------------------------------------------------
+--    Generate Random Strings with NESTED Tables --
+---------------------------------------------------
+
+Type created.
+
+
+Function created.
+
+LREUSCIKSF
+RBTZUYMFHM
+YLMWVMBNJN
+VSALODJJJE
+SFIQDLMAGT
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--   Calling PLSQL Function  wiht SQL query	 --
+---------------------------------------------------
+
+MY_STRING
+-------------------------------------------------------------------------------------------------------------
+Random = UXXNNHEGIB
+Random = QECTRFFCJD
+Random = CFLPDBXYWC
+Random = GWLGBIZFSW
+Random = EZNLYKKNSM
+
+
+MY_STRING
+-------------------------------------------------------------------------------------------------------------
+Random = POFRJXZUMJ
+Random = JKCTIRMBYJ
+Random = CKBWPBPWCW
+Random = OMNBTPTKBO
+Random = SIPUQNRZNX
+
+
+EMPLOYEE_N
+----------
+KING
+KING
+KING
+WARD
+WARD
+WARD
+FORD
+FORD
+FORD
+BLAKE
+BLAKE
+BLAKE
+CLARK
+CLARK
+CLARK
+SCOTT
+SCOTT
+SCOTT
+JONES
+JONES
+JONES
+JONES
+JONES
+JONES
+SMITH
+SMITH
+SMITH
+ALLEN
+ALLEN
+ALLEN
+JAMES
+JAMES
+JAMES
+ADAMS
+ADAMS
+ADAMS
+MILLER
+MILLER
+MILLER
+MARTIN
+MARTIN
+MARTIN
+TURNER
+TURNER
+TURNER
+
+45 rows selected.
+
+
+EMPLOYEE_N
+----------
+KING
+KING
+KING
+WARD
+WARD
+WARD
+FORD
+FORD
+FORD
+BLAKE
+BLAKE
+BLAKE
+CLARK
+CLARK
+CLARK
+SCOTT
+SCOTT
+SCOTT
+JONES
+JONES
+JONES
+JONES
+JONES
+JONES
+SMITH
+SMITH
+SMITH
+ALLEN
+ALLEN
+ALLEN
+JAMES
+JAMES
+JAMES
+ADAMS
+ADAMS
+ADAMS
+MILLER
+MILLER
+MILLER
+MARTIN
+MARTIN
+MARTIN
+TURNER
+TURNER
+TURNER
+
+45 rows selected.
+
+
+EMPLOYEE_NAME
+----------------------------------------------------------------------------------------------------
+SMITH
+ALLEN
+WARD
+HPEXMKKYDI
+KBKCTTJWEW
+MVPBAKIPVE
+
+6 rows selected.
+
+
+EMPLOYEE_NAME
+----------------------------------------------------------------------------------------------------
+SMITH
+ALLEN
+WARD
+BYSAENYIHR
+MVQBWQQOUQ
+USQDGHZMMH
+
+6 rows selected.
+
+----------------------------------------------------------
+Rec coming from DBMS buffer and not SQL loader
+----------------------------------------------------------
+OMXWJOOILA
+LWRUXILGQU
+ACHLHIGSNQ
+VNVEOWJFKH
+RCLMKSBBKX
+
+PL/SQL procedure successfully completed.
+

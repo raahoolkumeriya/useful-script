@@ -1,0 +1,149 @@
+[22-06-12 17:09:33]: INFO: Log File name: /u01/playground/dataSetup/LOGS_DATASETUP/run_axiomus_conn_Create_tables_120622170933.log
+[22-06-12 17:09:33]: INFO: Starting the script
+[22-06-12 17:09:33]: INFO: Script Directory: /u01/playground
+[22-06-12 17:09:33]: INFO: Query Directory: /u01/playground/dataSetup
+[22-06-12 17:09:33]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-12 17:09:34]: ----------------------------------------------------
+[22-06-12 17:09:34]:  DATABASE QUERY STARTS 
+[22-06-12 17:09:34]: 
+
+Session altered.
+
+----------------------------------------------------------------
+-- Script for Creating and Using the Library Tutorial Objects --
+----------------------------------------------------------------
+-----------------------
+-- Create objects.   --
+-----------------------
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Sequence created.
+
+-----------------------------------------------
+-- The sequence for the transaction_id 	    --
+-- in the tutorial is created automatically, --
+-- and may have the name TRANSACTIONS_SEQ.   --
+-----------------------------------------------
+
+Sequence created.
+
+---------------------------------------------------------
+-- The before-insert trigger for transaction ID values --
+-- in the tutorial is created automatically,	       --
+-- and may have the name TRANSACTIONS_TRG.	      --
+---------------------------------------------------------
+
+Trigger created.
+
+
+View created.
+
+-------------------------------------------------------------------
+-- Procedure: List all librarybooks that have a specified rating.--
+-------------------------------------------------------------------
+
+SP2-0804: Procedure created with compilation warnings
+
+Errors for PROCEDURE LIST_A_RATING:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+1/1	 PLW-05018: unit LIST_A_RATING omitted optional AUTHID clause;
+	 default value DEFINER used
+
+-----------------------------
+-- Insert and query data.  --
+-----------------------------
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+--------------------------------------
+-- Test the view and the procedure. --
+--------------------------------------
+
+ PATRON_ID LAST_NAME			  FIRST_NAME			 TRANSACTION_TYPE TRANSACTI
+---------- ------------------------------ ------------------------------ ---------------- ---------
+       100 Smith			  Jane						1 12-JUN-22
+       100 Smith			  Jane						1 12-JUN-22
+       100 Smith			  Jane						2 12-JUN-22
+       101 Chen 			  William					1 12-JUN-22
+       101 Chen 			  William					1 12-JUN-22
+       101 Chen 			  William					3 12-JUN-22
+       102 Fernandez			  Maria 					1 12-JUN-22
+       102 Fernandez			  Maria 					1 12-JUN-22
+       102 Fernandez			  Maria 					2 12-JUN-22
+       103 Murphy			  Sam						2 12-JUN-22
+
+10 rows selected.
+
+All librarybooks with a rating of 10:
+Moby Dick
+Software Wizardry
+
+Call completed.
+

@@ -1,0 +1,33 @@
+[22-05-06 05:46:39]: INFO: Log File name: /u01/scripts/LOGS/execute_query_8_language_fundamentals_060522054639.log
+[22-05-06 05:46:39]: INFO: Starting the script
+[22-05-06 05:46:40]: INFO: Script Directory: /u01/scripts
+[22-05-06 05:46:40]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 05:46:40]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 05:46:40]: ----------------------------------------------------
+[22-05-06 05:46:40]:  DATABASE QUERY STARTS 
+[22-05-06 05:46:40]: 
+Struture of the PLSQL block
+--> HEADER
+IS
+--> Declaration Section
+BEGIN
+----> Execution section
+EXCEPTION
+----> Exception Section
+END
+-- Bare minimum Anonymous block
+Hello Codelocked!!!
+
+PL/SQL procedure successfully completed.
+
+-- Declration section
+06-MAY-22
+
+PL/SQL procedure successfully completed.
+
+-- with exception handling
+I bet l_right_now is too small for the default date format!
+
+PL/SQL procedure successfully completed.
+
+No errors.

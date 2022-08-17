@@ -1,0 +1,29 @@
+[22-05-27 11:32:30]: INFO: Log File name: /u01/profiler/LOGS_ORACLE_COLLECTIONS/run_axiomus_conn_4_collection_vs_record_270522113230.log
+[22-05-27 11:32:30]: INFO: Starting the script
+[22-05-27 11:32:30]: INFO: Script Directory: /u01/profiler
+[22-05-27 11:32:30]: INFO: Query Directory: /u01/profiler/oracle_collections
+[22-05-27 11:32:30]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-27 11:32:30]: ----------------------------------------------------
+[22-05-27 11:32:30]:  DATABASE QUERY STARTS 
+[22-05-27 11:32:30]: 
+------------------------------
+--	  Collections	    --
+------------------------------
+A collection is an ordered group of logically related elements
+COLLECTION vs RECORD
+-- In collection, the internal components always have the same data types and are called Elements.
+-- In record, the internal components can have different data types and are called Fields.
+raahool ,Nagar road
+
+PL/SQL procedure successfully completed.
+
+v_day (1) : MONDAY
+v_day (2) : TUESDAY
+v_day (3) : WEDNESDAY
+v_day (4) : THURSDAY
+v_day (5) : FRIDAY
+v_day (6) : SATURDAY
+v_day (7) : SUNDAY
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,24 @@
+[22-07-02 17:47:52]: INFO: Log File name: /home/raahool.linux/database_tutorials/pratice_questions/LOGS_PRATICE_QUESTIONS/runOverDb_4_cricket_dashboard_020722174752.log
+[22-07-02 17:47:52]: INFO: Starting the script
+[22-07-02 17:47:52]: INFO: Script Directory: /home/raahool.linux/database_tutorials
+[22-07-02 17:47:52]: INFO: Query Directory: /home/raahool.linux/database_tutorials/pratice_questions
+[22-07-02 17:47:52]: INFO: Spinning Connection with AXIOMUS@ORCLPDB1
+[22-07-02 17:47:52]: ----------------------------------------------------
+[22-07-02 17:47:52]:  DATABASE QUERY STARTS 
+[22-07-02 17:47:52]: 
+
+Session altered.
+
+---------------------------------------------------
+-- 	Cricket Dashboard			--
+---------------------------------------------------
+-- how many time each conuntry played in tournament
+
+TEAM_NAME			 COUNT(*)
+------------------------------ ----------
+INDIA					6
+AUSTRALIA				5
+WESTINDIES				8
+NEWZEALAND				2
+SRILANKA				7
+

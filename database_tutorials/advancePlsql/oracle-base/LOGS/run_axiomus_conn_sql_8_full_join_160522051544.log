@@ -1,0 +1,57 @@
+[22-05-16 05:15:44]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_sql_8_full_join_160522051544.log
+[22-05-16 05:15:44]: INFO: Starting the script
+[22-05-16 05:15:44]: INFO: Script Directory: /u01/docker
+[22-05-16 05:15:44]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-16 05:15:44]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 05:15:44]: ----------------------------------------------------
+[22-05-16 05:15:44]:  DATABASE QUERY STARTS 
+[22-05-16 05:15:44]: 
+----- FULL join -----
+-- Combines all rows from the tables on the left and right sides of the join. If either side has missing data, it is replaced by NULLs, rather than throwing the row away.
+
+EMPLOYEE_N DEPARTMENT_NAM
+---------- --------------
+ADAMS	   RESEARCH
+ALLEN	   SALES
+BLAKE	   SALES
+CLARK	   ACCOUNTING
+FORD	   RESEARCH
+JAMES	   SALES
+JONES	   RESEARCH
+JONES
+KING	   ACCOUNTING
+MARTIN	   SALES
+MILLER	   ACCOUNTING
+SCOTT	   RESEARCH
+SMITH	   RESEARCH
+TURNER	   SALES
+WARD	   SALES
+	   OPERATIONS
+
+16 rows selected.
+
+--------------------------------------------
+There is no direct equivalent of a full outer join using the non-ANSI join syntax, but we can recreate it by combining two outer join queries using a UNION ALL
+--------------------------------------------
+
+DEPARTMENT_NAM EMPLOYEE_N
+-------------- ----------
+ACCOUNTING     CLARK
+ACCOUNTING     KING
+ACCOUNTING     MILLER
+OPERATIONS
+RESEARCH       ADAMS
+RESEARCH       FORD
+RESEARCH       JONES
+RESEARCH       SCOTT
+RESEARCH       SMITH
+SALES	       ALLEN
+SALES	       BLAKE
+SALES	       JAMES
+SALES	       MARTIN
+SALES	       TURNER
+SALES	       WARD
+	       JONES
+
+16 rows selected.
+

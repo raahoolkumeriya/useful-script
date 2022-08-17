@@ -1,0 +1,22 @@
+[22-07-22 12:01:07]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/9_get_asm_metadata_220722120107.log
+[22-07-22 12:01:07]: INFO: Starting the script
+[22-07-22 12:01:07]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-07-22 12:01:07]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-07-22 12:01:07]: INFO: Spinning Connection with SYS@ORA.world
+[22-07-22 12:01:07]: +---------------------------------+
+[22-07-22 12:01:07]: | database query execution begins |
+[22-07-22 12:01:07]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--		Get ASm Metadata		--
+---------------------------------------------------
+
+Session altered.
+
+
+;ORCLCDB;12.2.0.1.0;FALSE;ORCLCDB;;7c1faf5df40c
+[22-07-22 12:01:08]: +---------------------------------+
+[22-07-22 12:01:08]: |     database query ends here    |
+[22-07-22 12:01:08]: +---------------------------------+

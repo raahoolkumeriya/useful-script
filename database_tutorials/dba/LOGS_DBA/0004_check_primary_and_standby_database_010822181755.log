@@ -1,0 +1,26 @@
+[22-08-01 18:17:55]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/0004_check_primary_and_standby_database_010822181755.log
+[22-08-01 18:17:55]: INFO: Starting the script
+[22-08-01 18:17:55]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-08-01 18:17:55]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-08-01 18:17:55]: INFO: Spinning Connection with SYS@ORA.world
+[22-08-01 18:17:55]: +---------------------------------+
+[22-08-01 18:17:55]: | database query execution begins |
+[22-08-01 18:17:55]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--Check primary and standby databases are in sync Dataguard--
+---------------------------------------------------
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+[22-08-01 18:17:56]: +---------------------------------+
+[22-08-01 18:17:56]: |     database query ends here    |
+[22-08-01 18:17:56]: +---------------------------------+

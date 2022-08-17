@@ -1,0 +1,29 @@
+[22-06-02 17:17:36]: INFO: Log File name: /u01/advancePlsql/googleSearch/ADMIN_LOGS/admin_conn_6_grant_on_demo_profile_020622171736.log
+[22-06-02 17:17:36]: INFO: Starting the script
+[22-06-02 17:17:36]: INFO: Script Directory: /u01/advancePlsql
+[22-06-02 17:17:36]: INFO: Query Directory: /u01/advancePlsql/googleSearch
+[22-06-02 17:17:36]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 17:17:36]: ----------------------------------------------------
+[22-06-02 17:17:36]:  DATABASE QUERY STARTS 
+[22-06-02 17:17:36]: 
+---------------------------------------------------
+--   GRANT all on DEMO_PROFILE		  --
+---------------------------------------------------
+select dbms_metadata.get_granted_ddl('ROLE_GRANT', axiomus)  from dual
+                                                   *
+ERROR at line 1:
+ORA-00904: "AXIOMUS": invalid identifier
+
+
+select dbms_metadata.get_granted_ddl('SYSTEM_GRANT', axiomus)
+                                                     *
+ERROR at line 1:
+ORA-00904: "AXIOMUS": invalid identifier
+
+
+select dbms_metadata.get_granted_ddl('OBJECT_GRANT', axiomus)
+                                                     *
+ERROR at line 1:
+ORA-00904: "AXIOMUS": invalid identifier
+
+

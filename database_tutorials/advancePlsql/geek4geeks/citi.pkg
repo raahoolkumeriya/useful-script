@@ -1,0 +1,38 @@
+/*
+|	Program: TESTING Package 
+|	Author: Raahool Kumeriya
+|	Change history:
+|		07-JUN-2022 - Program Created
+*/
+
+SET SERVEROUTPUT ON;
+SET PAGES 1000 LINES 192;
+
+prompt ---------------------------------------------------;
+prompt --     		TESTING Package			--;
+prompt ---------------------------------------------------;
+
+
+CREATE OR REPLACE PACKAGE citi AS 
+	FUNCTION p_string RETURN VARCHAR2;
+END citi;
+/
+
+show errors;
+
+CREATE OR REPLACE PACKAGE BODY citi AS 
+        FUNCTION p_string RETURN VARCHAR2
+	IS
+	BEGIN
+		RETURN 'this is Codelocked!';
+	END p_string;
+END citi;
+/
+show errors;
+
+BEGIN
+	DBMS_OUTPUT.PUT_LINE(citi.p_string);
+END;
+/
+
+

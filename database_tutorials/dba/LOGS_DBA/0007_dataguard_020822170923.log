@@ -1,0 +1,306 @@
+[22-08-02 17:09:23]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/0007_dataguard_020822170923.log
+[22-08-02 17:09:24]: INFO: Starting the script
+[22-08-02 17:09:24]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-08-02 17:09:24]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-08-02 17:09:24]: INFO: Spinning Connection with SYS@ORA.world
+[22-08-02 17:09:24]: +---------------------------------+
+[22-08-02 17:09:24]: | database query execution begins |
+[22-08-02 17:09:24]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--	DATAGUARD and SWITCH 			--
+---------------------------------------------------
+---------------------------------------------------
+[oracle@7c1faf5df40c /]$ dgmgrl								
+DGMGRL for Linux: Release 12.2.0.1.0 - Production on Tue Aug 2 16:26:32 2022		
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.		
+Welcome to DGMGRL, type "help" for information.							
+DGMGRL> connect sys@ORCLPDB1									
+Password:											
+Connected to "ORCLCDB"										
+Connected as SYSDBA.										
+DGMGRL>												
+DGMGRL>  show configuration;									
+Configuration - ORCLPDB1										
+Protection Mode: MaxPerformance								
+Members:											
+ORCLPDB1    - Primary database									
+ORCLPDB1_DG - Physical standby database							
+Fast-Start Failover: DISABLED									
+Configuration Status:										
+SUCCESS   (status updated 35 seconds ago)							
+DGMGRL>												
+DGMGRL> DISABLE CONFIGURATION; <----								
+Disabled.											
+DGMGRL>												
+DGMGRL> show configuration									
+SP2-0158: unknown COLUMN option "FOMRAT"
+
+NAME	  OPEN_MODE	       DATABASE_ROLE
+--------- -------------------- ----------------
+ORCLCDB   READ WRITE	       PRIMARY
+
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+dg_broker_start 		     boolean	 FALSE
+ALTER SYSTEM SET DG_BROKER_START=FALSE
+-----------------------------
+-- Verify INVALID OBJECTS ---
+-----------------------------
+
+  COUNT(*)
+----------
+	14
+
+-----------------------------
+-- Verify Protection mode  --
+-----------------------------
+
+NAME	  OPEN_MODE	       DATABASE_ROLE	PROTECTION_MODE
+--------- -------------------- ---------------- --------------------
+ORCLCDB   READ WRITE	       PRIMARY		MAXIMUM PERFORMANCE
+
+------------------------------------
+-- Verify fast_recovery_area size --
+------------------------------------
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+db_recovery_file_dest		     string	 /u03/app/oracle/fast_recovery_
+						 area
+db_recovery_file_dest_size	     big integer 17814M
+
+OWNER
+--------------------------------------------------
+ANONYMOUS
+APPQOSSYS
+AUDSYS
+CTXSYS
+DBSFWUSER
+DBSNMP
+DIP
+DVF
+DVSYS
+GGSYS
+GSMADMIN_INTERNAL
+GSMCATUSER
+GSMUSER
+LBACSYS
+MDSYS
+OJVMSYS
+OLAPSYS
+ORACLE_OCM
+ORDDATA
+ORDPLUGINS
+ORDSYS
+OUTLN
+REMOTE_SCHEDULER_AGENT
+SI_INFORMTN_SCHEMA
+SPATIAL_CSW_ADMIN_USR
+SYS
+SYS$UMF
+SYSBACKUP
+SYSDG
+SYSKM
+SYSRAC
+SYSTEM
+WMSYS
+XDB
+XS$NULL
+
+35 rows selected.
+
+--------------------------------------------
+-- Find list of objects are not supported --
+--------------------------------------------
+
+OWNER						   TABLE_NAME
+-------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------
+AXIOMUS 					   BIRDS
+AXIOMUS 					   EMPLOYEES_TAB
+AXIOMUS 					   FAMILY
+AXIOMUS 					   T_ID_COL
+
+--------------------------------------------
+-- Find list of objects are not supported --
+--------------------------------------------
+
+OWNER						   TABLE_NAME															    B
+-------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- -
+APEX_050000					   WWV_FLOW_UPGRADE_PROGRESS													    N
+APEX_050000					   WWV_FLOW_BANNER														    Y
+APEX_050000					   WWV_FLOW_SHORTCUT_USAGE_MAP													    N
+APEX_050000					   WWV_FLOW_WORKSHEET_GEOCACHE													    N
+APEX_050000					   WWV_FLOW_MAIL_LOG														    N
+APEX_050000					   WWV_FLOW_CLICKTHRU_LOG$													    N
+APEX_050000					   WWV_FLOW_CLICKTHRU_LOG2$													    N
+APEX_050000					   WWV_FLOW_ACTIVITY_LOG1$													    N
+APEX_050000					   WWV_FLOW_ACTIVITY_LOG2$													    N
+APEX_050000					   WWV_FLOW_USER_ACCESS_LOG1$													    N
+APEX_050000					   WWV_FLOW_USER_ACCESS_LOG2$													    N
+APEX_050000					   WWV_FLOW_LOG_HISTORY 													    N
+APEX_050000					   WWV_FLOW_FILE_OBJECTS$PART													    N
+APEX_050000					   WWV_FLOW_DATA_LOAD_BAD_LOG													    N
+APEX_050000					   APEX$_WS_HISTORY														    N
+APEX_050000					   APEX$_WS_WEBPG_SECTION_HISTORY												    Y
+APEX_050000					   WWV_MIG_RESERVED_WORDS													    N
+AXIOMUS 					   SQL_TEST															    N
+AXIOMUS 					   PEOPLE															    N
+AXIOMUS 					   TEST_UPDATE															    N
+AXIOMUS 					   UPDATE_MAS															    N
+AXIOMUS 					   EMPLOYEE_BACKUP														    N
+AXIOMUS 					   TAB1 															    N
+AXIOMUS 					   TAB2 															    N
+AXIOMUS 					   TAB3 															    N
+AXIOMUS 					   ANIMALS															    N
+AXIOMUS 					   STOCKS															    N
+AXIOMUS 					   TICKERS															    N
+AXIOMUS 					   MORE_STOCKS															    N
+AXIOMUS 					   LOCAL_OBJECTS														    N
+AXIOMUS 					   MY_OBJECTS															    N
+AXIOMUS 					   BIGTAB															    N
+AXIOMUS 					   ACCOUNTS															    N
+AXIOMUS 					   DEMO_READ_ONLY														    N
+AXIOMUS 					   TAB_SEQ_TEST 														    N
+AXIOMUS 					   BOOKS															    N
+AXIOMUS 					   PERSONALITY_INVENTORY													    Y
+AXIOMUS 					   BIRD_HABITATS														    N
+AXIOMUS 					   FAVORITE_AUTHORS														    N
+AXIOMUS 					   LOGTAB															    N
+AXIOMUS 					   SETUP_TAB_COMPARE_CONFIG													    Y
+AXIOMUS 					   CRICKET															    N
+AXIOMUS 					   BRICKS															    N
+AXIOMUS 					   COLOURS															    N
+AXIOMUS 					   CUDDLY_TOYS															    N
+AXIOMUS 					   PENS 															    N
+AXIOMUS 					   REP_DEPARTMENTS_DATA 													    N
+AXIOMUS 					   TEMP_SOURCE_TAB														    N
+AXIOMUS 					   TEMP_DEST_TAB														    N
+AXIOMUS 					   REP_EMPLOYEES_DATA														    N
+
+50 rows selected.
+
+
+OWNER						   TABLE_NAME
+-------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------
+APEX_050000					   APEX$_WS_HISTORY
+APEX_050000					   APEX$_WS_WEBPG_SECTION_HISTORY
+APEX_050000					   WWV_FLOW_ACTIVITY_LOG1$
+APEX_050000					   WWV_FLOW_ACTIVITY_LOG2$
+APEX_050000					   WWV_FLOW_BANNER
+APEX_050000					   WWV_FLOW_CLICKTHRU_LOG$
+APEX_050000					   WWV_FLOW_CLICKTHRU_LOG2$
+APEX_050000					   WWV_FLOW_DATA_LOAD_BAD_LOG
+APEX_050000					   WWV_FLOW_FILE_OBJECTS$PART
+APEX_050000					   WWV_FLOW_LOG_HISTORY
+APEX_050000					   WWV_FLOW_MAIL_LOG
+APEX_050000					   WWV_FLOW_SHORTCUT_USAGE_MAP
+APEX_050000					   WWV_FLOW_UPGRADE_PROGRESS
+APEX_050000					   WWV_FLOW_USER_ACCESS_LOG1$
+APEX_050000					   WWV_FLOW_USER_ACCESS_LOG2$
+APEX_050000					   WWV_FLOW_WORKSHEET_GEOCACHE
+APEX_050000					   WWV_MIG_RESERVED_WORDS
+AXIOMUS 					   ACCOUNTS
+AXIOMUS 					   ANIMALS
+AXIOMUS 					   BIGTAB
+AXIOMUS 					   BIRD_HABITATS
+AXIOMUS 					   BOOKS
+AXIOMUS 					   BRICKS
+AXIOMUS 					   COLOURS
+AXIOMUS 					   CRICKET
+AXIOMUS 					   CUDDLY_TOYS
+AXIOMUS 					   DEMO_READ_ONLY
+AXIOMUS 					   EMPLOYEE_BACKUP
+AXIOMUS 					   FAVORITE_AUTHORS
+AXIOMUS 					   LOCAL_OBJECTS
+AXIOMUS 					   LOGTAB
+AXIOMUS 					   MORE_STOCKS
+AXIOMUS 					   MY_OBJECTS
+AXIOMUS 					   PENS
+AXIOMUS 					   PEOPLE
+AXIOMUS 					   PERSONALITY_INVENTORY
+AXIOMUS 					   REP_DEPARTMENTS_DATA
+AXIOMUS 					   REP_EMPLOYEES_DATA
+AXIOMUS 					   SETUP_TAB_COMPARE_CONFIG
+AXIOMUS 					   SQL_TEST
+AXIOMUS 					   STOCKS
+AXIOMUS 					   TAB1
+AXIOMUS 					   TAB2
+AXIOMUS 					   TAB3
+AXIOMUS 					   TAB_SEQ_TEST
+AXIOMUS 					   TEMP_DEST_TAB
+AXIOMUS 					   TEMP_SOURCE_TAB
+AXIOMUS 					   TEST_UPDATE
+AXIOMUS 					   TICKERS
+AXIOMUS 					   UPDATE_MAS
+
+50 rows selected.
+
+------------------------------------------------------------
+-- Create Flashback Guaranteed Restore Point (On Primary) --
+------------------------------------------------------------
+
+no rows selected
+
+
+no rows selected
+
+-------------------------------
+-- Enable Flashback Database --
+-------------------------------
+
+FLASHBACK_ON
+------------------
+NO
+
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+db_flashback_retention_target	     integer	 1440
+----------------
+-- Verify GAP --
+----------------
+
+NAME		     OPEN_MODE		  DB_UNIQUE_NAME		 DATABASE_ROLE
+-------------------- -------------------- ------------------------------ ----------------
+ORCLCDB 	     READ WRITE 	  ORCLCDB			 PRIMARY
+
+
+no rows selected
+
+----------------
+-- Cancel MRP --
+----------------
+
+no rows selected
+
+---------------------------------------------
+-- Build the logminer dictionary (Primary) --
+---------------------------------------------
+
+no rows selected
+
+--------------------------
+-- Verify DATABASE_ROLE --
+--------------------------
+
+NAME		     OPEN_MODE		  DB_UNIQUE_NAME		 DATABASE_ROLE
+-------------------- -------------------- ------------------------------ ----------------
+ORCLCDB 	     READ WRITE 	  ORCLCDB			 PRIMARY
+
+
+GUARD_S
+-------
+NONE
+
+
+NAME		     OPEN_MODE		  DB_UNIQUE_NAME		 DATABASE_ROLE	  VERSION
+-------------------- -------------------- ------------------------------ ---------------- -----------------
+ORCLCDB 	     READ WRITE 	  ORCLCDB			 PRIMARY	  12.2.0.1.0
+
+[22-08-02 17:09:48]: +---------------------------------+
+[22-08-02 17:09:48]: |     database query ends here    |
+[22-08-02 17:09:48]: +---------------------------------+

@@ -1,0 +1,56 @@
+[22-06-02 16:50:18]: INFO: Log File name: /u01/advancePlsql/googleSearch/ADMIN_LOGS/admin_conn_4_function_base_index_020622165018.log
+[22-06-02 16:50:18]: INFO: Starting the script
+[22-06-02 16:50:18]: INFO: Script Directory: /u01/advancePlsql
+[22-06-02 16:50:18]: INFO: Query Directory: /u01/advancePlsql/googleSearch
+[22-06-02 16:50:18]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 16:50:18]: ----------------------------------------------------
+[22-06-02 16:50:18]:  DATABASE QUERY STARTS 
+[22-06-02 16:50:18]: 
+---------------------------------------------------
+--     --
+---------------------------------------------------
+
+Session altered.
+
+
+EMPLOYEE_ID EMPLOYEE_N JOB	 MANAGER_ID HIREDATE	  SALARY COMMISSION DEPARTMENT_ID DTE
+----------- ---------- --------- ---------- --------- ---------- ---------- ------------- ---------
+       7654 MARTIN     SALESMAN        7698 28-SEP-81	    1250       1400	       30 27-SEP-22
+       7698 BLAKE      MANAGER	       7839 01-MAY-81	    2850		       30 27-SEP-22
+       7782 CLARK      MANAGER	       7839 09-JUN-81	    2450		       10 27-SEP-22
+       7788 SCOTT      ANALYST	       7566 19-APR-87	    3000		       20 27-SEP-22
+
+
+Statistics
+----------------------------------------------------------
+	  0  recursive calls
+	  4  db block gets
+      23347  consistent gets
+      23334  physical reads
+	  0  redo size
+       1340  bytes sent via SQL*Net to client
+	608  bytes received via SQL*Net from client
+	  2  SQL*Net roundtrips to/from client
+	  0  sorts (memory)
+	  0  sorts (disk)
+	  4  rows processed
+
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL_ID	2s9mmb6g8kbqb, child number 0
+-------------------------------------
+SELECT DECODE('A','A','1','2') FROM SYS.DUAL
+
+Plan hash value: 1388734953
+
+-----------------------------------------------------------------
+| Id  | Operation	 | Name | Rows	| Cost (%CPU)| Time	|
+-----------------------------------------------------------------
+|   0 | SELECT STATEMENT |	|	|     2 (100)|		|
+|   1 |  FAST DUAL	 |	|     1 |     2   (0)| 00:00:01 |
+-----------------------------------------------------------------
+
+
+13 rows selected.
+

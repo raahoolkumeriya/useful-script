@@ -1,0 +1,22 @@
+[22-06-10 12:12:22]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_user_defined_exception.plsql_100622121222.log
+[22-06-10 12:12:22]: INFO: Starting the script
+[22-06-10 12:12:22]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 12:12:22]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 12:12:22]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 12:12:22]: ----------------------------------------------------
+[22-06-10 12:12:22]:  DATABASE QUERY STARTS 
+[22-06-10 12:12:22]: 
+---------------------------------------------------
+--     	USER Defined EXception			--
+---------------------------------------------------
+- Created by user
+- Begin block ----> varaible of excepition type
+- Declare block ---> Raise exce_name
+- exception block --> exception is handled
+---------------------------------------------------
+old   8: 	FROM employees WHERE employee_id = &l_dnum;
+new   8: 	FROM employees WHERE employee_id = 7788;
+The salary is low
+
+PL/SQL procedure successfully completed.
+

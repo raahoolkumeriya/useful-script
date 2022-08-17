@@ -1,0 +1,29 @@
+[22-06-07 02:59:23]: INFO: Log File name: /u01/advancePlsql/geek4geeks/LOGS_GEEK4GEEKS/run_axiomus_conn_math.pkg_070622025923.log
+[22-06-07 02:59:23]: INFO: Starting the script
+[22-06-07 02:59:23]: INFO: Script Directory: /u01/advancePlsql
+[22-06-07 02:59:23]: INFO: Query Directory: /u01/advancePlsql/geek4geeks
+[22-06-07 02:59:23]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-07 02:59:23]: ----------------------------------------------------
+[22-06-07 02:59:23]:  DATABASE QUERY STARTS 
+[22-06-07 02:59:23]: 
+---------------------------------------------------
+--     Geeks4Geeks - Math package		--
+---------------------------------------------------
+
+Package created.
+
+No errors.
+
+Package body created.
+
+No errors.
+	math.sum_of_two_numbers(2, 10);
+	*
+ERROR at line 2:
+ORA-06550: line 2, column 2:
+PLS-00221: 'SUM_OF_TWO_NUMBERS' is not a procedure or is undefined
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored
+
+
+[22-06-07 02:59:24]: SQLERROR: Query error 150 in math.pkg

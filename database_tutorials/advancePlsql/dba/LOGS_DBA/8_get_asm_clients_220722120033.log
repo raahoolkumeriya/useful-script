@@ -1,0 +1,20 @@
+[22-07-22 12:00:33]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/8_get_asm_clients_220722120033.log
+[22-07-22 12:00:33]: INFO: Starting the script
+[22-07-22 12:00:33]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-07-22 12:00:33]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-07-22 12:00:33]: INFO: Spinning Connection with SYS@ORA.world
+[22-07-22 12:00:33]: +---------------------------------+
+[22-07-22 12:00:33]: | database query execution begins |
+[22-07-22 12:00:33]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--		Get ASM Clients			--
+---------------------------------------------------
+
+Session altered.
+
+[22-07-22 12:00:34]: +---------------------------------+
+[22-07-22 12:00:34]: |     database query ends here    |
+[22-07-22 12:00:34]: +---------------------------------+

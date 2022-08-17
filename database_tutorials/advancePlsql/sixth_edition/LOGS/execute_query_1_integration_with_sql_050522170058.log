@@ -1,0 +1,13 @@
+[22-05-05 17:00:58]: INFO: Log File name: /u01/scripts/LOGS/execute_query_1_integration_with_sql_050522170058.log
+[22-05-05 17:00:58]: INFO: Starting the script
+[22-05-05 17:00:58]: INFO: Script Directory: /u01/scripts
+[22-05-05 17:00:58]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-05 17:00:58]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-05 17:00:58]: ----------------------------------------------------
+[22-05-05 17:00:58]:  DATABASE QUERY STARTS 
+[22-05-05 17:00:58]: 
+Employee table has 107 employees.
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.04

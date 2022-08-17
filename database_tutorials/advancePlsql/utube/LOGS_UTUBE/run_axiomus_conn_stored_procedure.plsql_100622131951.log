@@ -1,0 +1,30 @@
+[22-06-10 13:19:51]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_stored_procedure.plsql_100622131951.log
+[22-06-10 13:19:51]: INFO: Starting the script
+[22-06-10 13:19:51]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 13:19:51]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 13:19:51]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 13:19:51]: ----------------------------------------------------
+[22-06-10 13:19:51]:  DATABASE QUERY STARTS 
+[22-06-10 13:19:51]: 
+---------------------------------------------------
+--     		Stored Procedure		--
+---------------------------------------------------
+-- Resusible plsql program that may or may not return a value
+-- SP always have a name
+-- compile code stored in database that code is called a P-code or M-code
+---------------- Parameters to SP -----------------
+-- IN --> default type of paramter, that takes value form user. IT is READ only
+-- OUT --> Carry the value form SP to the calling program, It can be modifed, multiple OUT parameters allowed
+-- IN OUT --> has the same datatype
+-- Resusible plsql program that may or may not return a value
+---------------------------------------------------
+
+Procedure created.
+
+------------------------------------------------------
+Unit testing program
+------------------------------------------------------
+SCOTT has salary 3000 with job details : ANALYST
+
+PL/SQL procedure successfully completed.
+

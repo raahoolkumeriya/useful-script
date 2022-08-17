@@ -1,0 +1,105 @@
+[22-08-01 18:06:45]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/0002_check_status_enable_disable_audit_on_oracle_010822180645.log
+[22-08-01 18:06:45]: INFO: Starting the script
+[22-08-01 18:06:45]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-08-01 18:06:45]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-08-01 18:06:45]: INFO: Spinning Connection with SYS@ORA.world
+[22-08-01 18:06:45]: +---------------------------------+
+[22-08-01 18:06:45]: | database query execution begins |
+[22-08-01 18:06:45]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+-- Check status, enable and disable the Audit in Oracle --
+---------------------------------------------------
+
+NAME				     TYPE	 VALUE
+------------------------------------ ----------- ------------------------------
+audit_trail			     string	 DB
+--Check the parameter is enabled or disable for Audit
+
+PARAMETER
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+audit_sys_operations=TRUE
+unified_audit_sga_queue_size=1048576
+audit_file_dest=/u02/app/oracle/audit/ORCLCDB
+audit_syslog_level=
+audit_trail=DB
+
+--Statement Audits Enabled on this Database
+
+no rows selected
+
+--Privilege Audits Enabled on this Database
+
+no rows selected
+
+-- Object Audits Enabled on this Database
+
+OBJECT_NAME
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ALT	  AUD	    COM       DEL	GRA	  IND	    INS       LOC	REN	  SEL	    UPD       REF EXE
+--------- --------- --------- --------- --------- --------- --------- --------- --------- --------- --------- --- ---------
+LBACSYS.OLS$PROPS
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.IDENTITY$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.IDENTITY_MAP$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.MAC_POLICY$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.MAC_POLICY_FACTOR$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.POLICY_LABEL$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.REALM$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.REALM_AUTH$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.REALM_OBJECT$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.ROLE$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.RULE$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.RULE_SET$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.RULE_SET_RULE$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.FACTOR$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.FACTOR_LINK$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.FACTOR_TYPE$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.CODE$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.COMMAND_RULE$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    A/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+DVSYS.AUDIT_TRAIL$
+A/A	  A/A	    A/A       A/A	A/A	  A/A	    -/A       -/-	A/A	  -/A	    A/A       -/- -/-
+
+
+19 rows selected.
+
+[22-08-01 18:06:46]: +---------------------------------+
+[22-08-01 18:06:46]: |     database query ends here    |
+[22-08-01 18:06:46]: +---------------------------------+

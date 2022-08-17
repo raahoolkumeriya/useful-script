@@ -1,0 +1,28 @@
+[22-05-04 11:31:10]: INFO: Log File name: /u01/scripts/LOGS/execute_query_4_database_trigger_exception_management_040522113110.log
+[22-05-04 11:31:10]: INFO: Starting the script
+[22-05-04 11:31:10]: INFO: Script Directory: /u01/scripts
+[22-05-04 11:31:10]: INFO: Query Directory: /u01/scripts/queryspace
+[22-05-04 11:31:10]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-04 11:31:10]: ----------------------------------------------------
+[22-05-04 11:31:10]:  DATABASE QUERY STARTS 
+[22-05-04 11:31:10]: 
+Database Trigger Exception Mangement
+-----------------------------------
+-- Database Triggers are Event-driven programs. Trigger are activated when a transactional program unit calls a database object, like a table or view.
+-- Database Trigger may sometimes call otehr strored Functions, procedures and packages. When trigger call other objects, those programs units CANNOT contians any transaction control language TCL commands like SAVEPOINT, ROLLBACK or COMMIT.
+-- Critical and NON-Critical exception in Databse triggers
+------ Critical Error Database Triggers ----- prompt -- Any transaction that harm the data is a Critical error and must be stoped before it complete.
+Table nc_error already exists!
+
+PL/SQL procedure successfully completed.
+
+
+Warning: Procedure created with compilation errors.
+
+BEFORE INSERT ON contact
+                 *
+ERROR at line 2:
+ORA-00942: table or view does not exist
+
+
+[22-05-04 11:31:12]: SQLERROR: Query error 174 in 4_database_trigger_exception_management.sql

@@ -1,0 +1,15 @@
+[22-06-28 02:57:01]: INFO: Log File name: /u01/playground/oracle_docs21/LOGS_ORACLE_DOCS21/run_axiomus_conn_unittesting_pkg_280622025701.log
+[22-06-28 02:57:01]: INFO: Starting the script
+[22-06-28 02:57:01]: INFO: Script Directory: /u01/playground
+[22-06-28 02:57:01]: INFO: Query Directory: /u01/playground/oracle_docs21
+[22-06-28 02:57:02]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-28 02:57:02]: ----------------------------------------------------
+[22-06-28 02:57:02]:  DATABASE QUERY STARTS 
+[22-06-28 02:57:02]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+UNIT TESTING package		
+---------------------------------------------------

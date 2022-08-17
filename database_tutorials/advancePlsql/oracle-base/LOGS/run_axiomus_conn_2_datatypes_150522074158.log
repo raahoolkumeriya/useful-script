@@ -1,0 +1,26 @@
+[22-05-15 07:41:58]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_2_datatypes_150522074158.log
+[22-05-15 07:41:58]: INFO: Starting the script
+[22-05-15 07:41:58]: INFO: Script Directory: /u01/docker
+[22-05-15 07:41:58]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-15 07:41:58]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-15 07:41:58]: ----------------------------------------------------
+[22-05-15 07:41:58]:  DATABASE QUERY STARTS 
+[22-05-15 07:41:58]: 
+l_username = SYS
+l_all_users_row.username = SYS
+l_all_users_row.user_id = 0
+l_all_users_row.created = 26-JAN-17
+l_all_user_cursor_row.username = SYS
+l_all_user_cursor_row.created = 26-JAN-17
+
+PL/SQL procedure successfully completed.
+
+-----------------------------------
+Assignment methods
+-----------------------------------
+Direct assignment  way : 1
+Assignment via select way : 1
+procedure way : 3
+
+PL/SQL procedure successfully completed.
+

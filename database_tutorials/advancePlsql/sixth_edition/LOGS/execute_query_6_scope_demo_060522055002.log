@@ -1,0 +1,15 @@
+[22-05-06 05:50:02]: INFO: Log File name: /u01/scripts/LOGS/execute_query_6_scope_demo_060522055002.log
+[22-05-06 05:50:02]: INFO: Starting the script
+[22-05-06 05:50:02]: INFO: Script Directory: /u01/scripts
+[22-05-06 05:50:02]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 05:50:02]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 05:50:02]: ----------------------------------------------------
+[22-05-06 05:50:02]:  DATABASE QUERY STARTS 
+[22-05-06 05:50:02]: 
+
+Package created.
+
+
+Package body created.
+
+No errors.

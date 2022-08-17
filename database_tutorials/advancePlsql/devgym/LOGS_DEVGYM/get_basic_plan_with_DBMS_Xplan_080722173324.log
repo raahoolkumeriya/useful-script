@@ -1,0 +1,177 @@
+[22-07-08 17:33:25]: INFO: Log File name: /home/raahool.linux/database_tutorials/devgym/LOGS_DEVGYM/get_basic_plan_with_DBMS_Xplan_080722173324.log
+[22-07-08 17:33:25]: INFO: Starting the script
+[22-07-08 17:33:25]: INFO: Script Directory: /home/raahool.linux/database_tutorials
+[22-07-08 17:33:25]: INFO: Query Directory: /home/raahool.linux/database_tutorials/devgym
+[22-07-08 17:33:25]: INFO: Spinning Connection with AXIOMUS@ORCLPDB1
+[22-07-08 17:33:25]: ----------------------------------------------------
+[22-07-08 17:33:25]:  DATABASE QUERY STARTS 
+[22-07-08 17:33:25]: 
+
+Session altered.
+
+---------------------------------------------------
+-- 	Get a Basic Plan with DBMS_XPlan	--
+---------------------------------------------------
+
+COLOUR	   SHAPE      COLOUR	 RGB_HE
+---------- ---------- ---------- ------
+red	   cylinder   red	 FF0000
+blue	   cube       blue	 0000FF
+green	   cube       green	 00FF00
+red	   cylinder   red	 FF0000
+blue	   cube       blue	 0000FF
+green	   cube       green	 00FF00
+red	   cylinder   red	 FF0000
+blue	   cube       blue	 0000FF
+green	   cube       green	 00FF00
+red	   cylinder   red	 FF0000
+blue	   cube       blue	 0000FF
+green	   cube       green	 00FF00
+red	   cylinder   red	 FF0000
+blue	   cube       blue	 0000FF
+green	   cube       green	 00FF00
+red	   cylinder   red	 FF0000
+blue	   cube       blue	 0000FF
+green	   cube       green	 00FF00
+red	   cylinder   red	 FF0000
+blue	   cube       blue	 0000FF
+green	   cube       green	 00FF00
+red	   cylinder   red	 FF0000
+blue	   cube       blue	 0000FF
+green	   cube       green	 00FF00
+
+24 rows selected.
+
+
+PL/SQL procedure successfully completed.
+
+
+:LIVESQL_LAST_SQL_ID
+--------------------------------------------------------------------------------------------------------------------------------
+bhrapfvbrag71
+
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL_ID	bhrapfvbrag71, child number 0
+-------------------------------------
+select * from	bricks b join	colours c on	 b.colour = c.colour
+
+Plan hash value: 2784388402
+
+------------------------------------------------------------------------------
+| Id  | Operation	   | Name    | Rows  | Bytes | Cost (%CPU)| Time     |
+------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT   |	     |	     |	     |	   6 (100)|	     |
+|*  1 |  HASH JOIN	   |	     |	  24 |	 552 |	   6   (0)| 00:00:01 |
+|   2 |   TABLE ACCESS FULL| COLOURS |	   3 |	  36 |	   3   (0)| 00:00:01 |
+|   3 |   TABLE ACCESS FULL| BRICKS  |	  24 |	 264 |	   3   (0)| 00:00:01 |
+------------------------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   1 - access("B"."COLOUR"="C"."COLOUR")
+
+
+20 rows selected.
+
+---------------------------------------------------
+-- 	Reading a Four Table Join Plan		--
+---------------------------------------------------
+
+COLOUR	   RGB_HE PEN_TYPE   SHAPE	TOY_NAME
+---------- ------ ---------- ---------- --------------------
+blue	   0000FF ball point cube	Cuteasaurus
+blue	   0000FF permanent  cube	Cuteasaurus
+blue	   0000FF dry-wipe   cube	Cuteasaurus
+green	   00FF00 permanent  cube	Baby Turtle
+green	   00FF00 permanent  cube	Green Rabbit
+green	   00FF00 dry-wipe   cube	Baby Turtle
+green	   00FF00 dry-wipe   cube	Green Rabbit
+blue	   0000FF ball point cube	Cuteasaurus
+blue	   0000FF permanent  cube	Cuteasaurus
+blue	   0000FF dry-wipe   cube	Cuteasaurus
+green	   00FF00 permanent  cube	Baby Turtle
+green	   00FF00 permanent  cube	Green Rabbit
+green	   00FF00 dry-wipe   cube	Baby Turtle
+green	   00FF00 dry-wipe   cube	Green Rabbit
+blue	   0000FF ball point cube	Cuteasaurus
+blue	   0000FF permanent  cube	Cuteasaurus
+blue	   0000FF dry-wipe   cube	Cuteasaurus
+green	   00FF00 permanent  cube	Baby Turtle
+green	   00FF00 permanent  cube	Green Rabbit
+green	   00FF00 dry-wipe   cube	Baby Turtle
+green	   00FF00 dry-wipe   cube	Green Rabbit
+blue	   0000FF ball point cube	Cuteasaurus
+blue	   0000FF permanent  cube	Cuteasaurus
+blue	   0000FF dry-wipe   cube	Cuteasaurus
+green	   00FF00 permanent  cube	Baby Turtle
+green	   00FF00 permanent  cube	Green Rabbit
+green	   00FF00 dry-wipe   cube	Baby Turtle
+green	   00FF00 dry-wipe   cube	Green Rabbit
+blue	   0000FF ball point cube	Cuteasaurus
+blue	   0000FF permanent  cube	Cuteasaurus
+blue	   0000FF dry-wipe   cube	Cuteasaurus
+green	   00FF00 permanent  cube	Baby Turtle
+green	   00FF00 permanent  cube	Green Rabbit
+green	   00FF00 dry-wipe   cube	Baby Turtle
+green	   00FF00 dry-wipe   cube	Green Rabbit
+blue	   0000FF ball point cube	Cuteasaurus
+blue	   0000FF permanent  cube	Cuteasaurus
+blue	   0000FF dry-wipe   cube	Cuteasaurus
+green	   00FF00 permanent  cube	Baby Turtle
+green	   00FF00 permanent  cube	Green Rabbit
+green	   00FF00 dry-wipe   cube	Baby Turtle
+green	   00FF00 dry-wipe   cube	Green Rabbit
+blue	   0000FF ball point cube	Cuteasaurus
+blue	   0000FF permanent  cube	Cuteasaurus
+blue	   0000FF dry-wipe   cube	Cuteasaurus
+green	   00FF00 permanent  cube	Baby Turtle
+green	   00FF00 permanent  cube	Green Rabbit
+green	   00FF00 dry-wipe   cube	Baby Turtle
+green	   00FF00 dry-wipe   cube	Green Rabbit
+blue	   0000FF ball point cube	Cuteasaurus
+blue	   0000FF permanent  cube	Cuteasaurus
+blue	   0000FF dry-wipe   cube	Cuteasaurus
+green	   00FF00 permanent  cube	Baby Turtle
+green	   00FF00 permanent  cube	Green Rabbit
+green	   00FF00 dry-wipe   cube	Baby Turtle
+green	   00FF00 dry-wipe   cube	Green Rabbit
+
+56 rows selected.
+
+
+no rows selected
+
+BEGIN
+*
+ERROR at line 1:
+ORA-01403: no data found
+ORA-06512: at line 2
+
+
+
+X
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL_ID	bgdgguvkaj8dd, child number 0
+-------------------------------------
+SELECT :x x FROM SYS.DUAL
+
+Plan hash value: 1388734953
+
+-----------------------------------------------------------------
+| Id  | Operation	 | Name | Rows	| Cost (%CPU)| Time	|
+-----------------------------------------------------------------
+|   0 | SELECT STATEMENT |	|	|     2 (100)|		|
+|   1 |  FAST DUAL	 |	|     1 |     2   (0)| 00:00:01 |
+-----------------------------------------------------------------
+
+
+13 rows selected.
+

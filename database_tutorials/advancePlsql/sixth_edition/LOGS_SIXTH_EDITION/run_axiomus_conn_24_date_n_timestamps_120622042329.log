@@ -1,0 +1,33 @@
+[22-06-12 04:23:29]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_24_date_n_timestamps_120622042329.log
+[22-06-12 04:23:29]: INFO: Starting the script
+[22-06-12 04:23:29]: INFO: Script Directory: /u01/playground
+[22-06-12 04:23:29]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-12 04:23:29]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-12 04:23:29]: ----------------------------------------------------
+[22-06-12 04:23:29]:  DATABASE QUERY STARTS 
+[22-06-12 04:23:29]: 
+
+Session altered.
+
+---------------------------------------------------
+--     		Dates and Timestamps		--
+---------------------------------------------------
+
+PL/SQL procedure successfully completed.
+
+Session Timezone=+00:00
+Session Timestamp=12-JUN-22 04.23.30.763256000 AM +00:00
+DB Server Timestamp=12-JUN-22 04.23.30.764237000 AM +00:00
+DB Timezone=+00:00
+DB Timestamp=12-JUN-22 04.23.30.767108000 AM +00:00
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--     		CAST timestamps 		--
+---------------------------------------------------
+12-JUN-2022 04:23:30 AM
+12-JUN-2022 04:23:30 AM
+
+PL/SQL procedure successfully completed.
+

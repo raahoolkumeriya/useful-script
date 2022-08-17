@@ -1,0 +1,17 @@
+[22-05-07 17:19:18]: INFO: Log File name: /u01/scripts/LOGS/execute_query_10_explicit_cursor_070522171918.log
+[22-05-07 17:19:18]: INFO: Starting the script
+[22-05-07 17:19:18]: INFO: Script Directory: /u01/scripts
+[22-05-07 17:19:18]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-07 17:19:18]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-07 17:19:18]: ----------------------------------------------------
+[22-05-07 17:19:18]:  DATABASE QUERY STARTS 
+[22-05-07 17:19:18]: 
+1 Ramesh Ramesh
+2 Khilan Khilan
+3 kaushik kaushik
+4 Chaitali Chaitali
+5 Hardik Hardik
+6 Komal Komal
+
+PL/SQL procedure successfully completed.
+

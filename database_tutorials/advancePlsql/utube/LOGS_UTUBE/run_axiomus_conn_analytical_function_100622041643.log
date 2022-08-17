@@ -1,0 +1,72 @@
+[22-06-10 04:16:44]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_analytical_function_100622041643.log
+[22-06-10 04:16:44]: INFO: Starting the script
+[22-06-10 04:16:44]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 04:16:44]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 04:16:44]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 04:16:44]: ----------------------------------------------------
+[22-06-10 04:16:44]:  DATABASE QUERY STARTS 
+[22-06-10 04:16:44]: 
+---------------------------------------------------
+--     		ANALYTICAL Function		--
+---------------------------------------------------
+-- Analytical function are similar to Aggregate function
+-- Analytical function execute on each records unlike aggregate function
+---------------------------------------------------
+
+DEPARTMENT_ID AVG(SALARY)
+------------- -----------
+	   10  2916.66667
+	   20	     2175
+	   30  1566.66667
+	   50	    10000
+		     1300
+
+---------------------------------------------------
+-- Here with Agrregate function rows get reduced
+-- Analytical function always come with OVER clause
+-- With analytical function number reocrds will be the same as tabel records
+---------------------------------------------------
+
+EMPLOYEE_ID DEPARTMENT_ID     SALARY AVERAGE_SAL
+----------- ------------- ---------- -----------
+       7934	       10	1300  2916.66667
+       7839	       10	5000  2916.66667
+       7782	       10	2450  2916.66667
+       7902	       20	3000	    2175
+       7876	       20	1100	    2175
+       7566	       20	2975	    2175
+       7369	       20	 800	    2175
+       7788	       20	3000	    2175
+       7900	       30	 950  1566.66667
+       7844	       30	1500  1566.66667
+       7698	       30	2850  1566.66667
+       7654	       30	1250  1566.66667
+       7521	       30	1250  1566.66667
+       7499	       30	1600  1566.66667
+       1000	       50      10000	   10000
+       8888			1300	    1300
+
+16 rows selected.
+
+---------------------------------------------------
+Different analytical functions available
+---------------------------------------------------
+RANK(), DENSE_RANK(), row_number(), LAG, LEAD, first, least
+---------------------------------------------------
+analytic_fuc([arguments]) OVER(analytic_clause)
+OVER(partition_query [orderby [windowing]])
+---------------------------------------------------
+--- 2nd employee of the table ----
+
+EMPLOYEE_N DEPARTMENT_ID	 RN
+---------- ------------- ----------
+ALLEN		      30	  2
+
+--- 2nd employee from each department ---
+
+EMPLOYEE_N DEPARTMENT_ID	 RN
+---------- ------------- ----------
+KING		      10	  2
+JONES		      20	  2
+WARD		      30	  2
+

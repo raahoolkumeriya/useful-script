@@ -1,0 +1,49 @@
+[22-06-10 04:30:48]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_sequence_generator_100622043048.log
+[22-06-10 04:30:48]: INFO: Starting the script
+[22-06-10 04:30:48]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 04:30:48]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 04:30:48]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 04:30:48]: ----------------------------------------------------
+[22-06-10 04:30:48]:  DATABASE QUERY STARTS 
+[22-06-10 04:30:48]: 
+---------------------------------------------------
+--     		SEQUENCE generator		--
+---------------------------------------------------
+---------------------------------------------------
+Sequence Generator
+- Are nothing but the database object which will generate sequential/searial values
+- 2 Pseudo Columns:
+- NEXTVAL and CURRVAL
+- Advantage: It help to gnerate PRIMARY Key or serrogate KEY automatically
+-----------: All these serial numbers are fetched form RAM hence it is faster
+-----------: One Sequence generator can be use in N number of tables. it is reusable
+prompt ---------------------------------------------------
+-- Syntax:
+CREATE SEQUENCE seq_name
+START with 1
+increment by 10
+maxvalue 500   	-- optional
+cycle 		-- optional
+cache 20;	-- optional
+---------------------------------------------------
+CREATE sequence
+---------------------------------------------------
+
+Sequence created.
+
+---------------------------------------------------
+Create table and use seq value in insert
+---------------------------------------------------
+
+Table created.
+
+
+3 rows created.
+
+
+	ID NAME
+---------- ------------------------------
+	 1 raahool
+	 1 sanu
+	 1 Akanksha
+

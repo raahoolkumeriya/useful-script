@@ -1,0 +1,25 @@
+[22-06-26 07:52:30]: INFO: Log File name: /u01/playground/goodParts/LOGS_GOODPARTS/run_axiomus_conn_invoice_pkg.pks_260622075230.log
+[22-06-26 07:52:30]: INFO: Starting the script
+[22-06-26 07:52:30]: INFO: Script Directory: /u01/playground
+[22-06-26 07:52:30]: INFO: Query Directory: /u01/playground/goodParts
+[22-06-26 07:52:30]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-26 07:52:30]: ----------------------------------------------------
+[22-06-26 07:52:30]:  DATABASE QUERY STARTS 
+[22-06-26 07:52:30]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+Assertion package	
+---------------------------------------------------
+
+Package created.
+
+Elapsed: 00:00:00.02
+No errors.
+
+Package body created.
+
+Elapsed: 00:00:00.18
+No errors.

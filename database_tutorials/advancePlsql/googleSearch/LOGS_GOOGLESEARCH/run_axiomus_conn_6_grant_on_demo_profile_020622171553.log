@@ -1,0 +1,29 @@
+[22-06-02 17:15:53]: INFO: Log File name: /u01/advancePlsql/googleSearch/LOGS_GOOGLESEARCH/run_axiomus_conn_6_grant_on_demo_profile_020622171553.log
+[22-06-02 17:15:53]: INFO: Starting the script
+[22-06-02 17:15:53]: INFO: Script Directory: /u01/advancePlsql
+[22-06-02 17:15:53]: INFO: Query Directory: /u01/advancePlsql/googleSearch
+[22-06-02 17:15:53]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 17:15:53]: ----------------------------------------------------
+[22-06-02 17:15:53]:  DATABASE QUERY STARTS 
+[22-06-02 17:15:53]: 
+---------------------------------------------------
+--   GRANT all on DEMO_PROFILE		  --
+---------------------------------------------------
+
+PRIVILEGE
+----------------------------------------
+CREATE SESSION
+CREATE TABLE
+CREATE CLUSTER
+CREATE VIEW
+CREATE SEQUENCE
+CREATE PROCEDURE
+CREATE TRIGGER
+CREATE ANY DIRECTORY
+DROP ANY DIRECTORY
+CREATE TYPE
+CREATE OPERATOR
+CREATE INDEXTYPE
+
+12 rows selected.
+

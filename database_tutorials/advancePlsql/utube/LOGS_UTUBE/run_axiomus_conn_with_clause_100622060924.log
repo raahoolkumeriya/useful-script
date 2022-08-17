@@ -1,0 +1,44 @@
+[22-06-10 06:09:24]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_with_clause_100622060924.log
+[22-06-10 06:09:24]: INFO: Starting the script
+[22-06-10 06:09:24]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 06:09:24]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 06:09:24]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 06:09:24]: ----------------------------------------------------
+[22-06-10 06:09:24]:  DATABASE QUERY STARTS 
+[22-06-10 06:09:24]: 
+---------------------------------------------------
+--     		WITH Clause			--
+---------------------------------------------------
+-- Main purpose of WITH Clause is imporve performance of query
+-- It is very similar to temporary tables (GTT)
+-- it is use like temporary tables
+-- it alwasy start with WITH clause
+SYNTAX:
+WITH name_query AS
+(
+sql-----query-----
+)
+SELECT * FROM name_query;
+---------------------------------------------------
+-- math operation by dividing the salary of employee with total number of employee in each dpeartment
+
+EMPLOYEE_N SALARY/NO_EMP
+---------- -------------
+SMITH		     160
+ALLEN	      266.666667
+WARD	      208.333333
+JONES		     595
+MARTIN	      208.333333
+BLAKE		     475
+CLARK	      816.666667
+SCOTT		     600
+KING	      1666.66667
+TURNER		     250
+ADAMS		     220
+JAMES	      158.333333
+FORD		     600
+MILLER	      433.333333
+STALIN		   10000
+
+15 rows selected.
+

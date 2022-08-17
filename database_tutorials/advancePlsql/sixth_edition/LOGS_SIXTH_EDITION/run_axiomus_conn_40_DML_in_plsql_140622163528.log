@@ -1,0 +1,86 @@
+[22-06-14 16:35:28]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_40_DML_in_plsql_140622163528.log
+[22-06-14 16:35:28]: INFO: Starting the script
+[22-06-14 16:35:28]: INFO: Script Directory: /u01/playground
+[22-06-14 16:35:28]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 16:35:28]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 16:35:28]: ----------------------------------------------------
+[22-06-14 16:35:28]:  DATABASE QUERY STARTS 
+[22-06-14 16:35:28]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+--     		DML in PLSQL			--
+---------------------------------------------------
+
+Package created.
+
+Elapsed: 00:00:00.20
+No errors.
+
+Package body created.
+
+Elapsed: 00:00:00.16
+No errors.
+---> TABLE RESULT ---->
+
+	ID DESCRIPTIO
+---------- ----------
+	 1 One
+	 2 Two
+	 3 Three
+
+Elapsed: 00:00:00.02
+----- Unit testing for Insert statemtnt ------>
+table inserted with value 4 - value-4
+table inserted with value 5 - value-5
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.04
+---> AFTER INSERT RESULT ---->
+
+	ID DESCRIPTIO
+---------- ----------
+	 4 value-4
+	 5 value-5
+	 1 One
+	 2 Two
+	 3 Three
+
+Elapsed: 00:00:00.01
+----- Unit testing for Update statemtnt ------>
+table updated with value 4 - four
+table updated with value 5 - five
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.03
+---> AFTER UPDATE RESULT ---->
+
+	ID DESCRIPTIO
+---------- ----------
+	 4 four
+	 5 five
+	 1 One
+	 2 Two
+	 3 Three
+
+Elapsed: 00:00:00.01
+----- Unit testing for Delete statemtnt ------>
+record deleted with value 5
+record deleted with value four
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.02
+---> AFTER DELETE RESULT ---->
+
+	ID DESCRIPTIO
+---------- ----------
+	 1 One
+	 2 Two
+	 3 Three
+
+Elapsed: 00:00:00.01

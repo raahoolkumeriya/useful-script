@@ -1,0 +1,28 @@
+[22-06-14 02:56:36]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_30_std_collection.pkg_140622025636.log
+[22-06-14 02:56:36]: INFO: Starting the script
+[22-06-14 02:56:36]: INFO: Script Directory: /u01/playground
+[22-06-14 02:56:36]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 02:56:36]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 02:56:36]: ----------------------------------------------------
+[22-06-14 02:56:36]:  DATABASE QUERY STARTS 
+[22-06-14 02:56:36]: 
+
+Session altered.
+
+---------------------------------------------------
+--    Standard Collection type package	 	--
+---------------------------------------------------
+
+Package created.
+
+No errors.
+---------------------------------------------------
+--Changing a nested table of VARRAY characteristics --
+---------------------------------------------------
+CREATE OR REPLACE TYPE list_vat IS VARRAY(10) OF VARCHAR2(20);
+*
+ERROR at line 1:
+ORA-22308: operation not allowed on evolved type
+
+
+[22-06-14 02:56:37]: SQLERROR: Query error 36 in 30_std_collection.pkg

@@ -1,0 +1,16 @@
+[22-05-06 05:46:52]: INFO: Log File name: /u01/scripts/LOGS/execute_query_10_nested_block_060522054652.log
+[22-05-06 05:46:52]: INFO: Starting the script
+[22-05-06 05:46:52]: INFO: Script Directory: /u01/scripts
+[22-05-06 05:46:52]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 05:46:52]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 05:46:52]: ----------------------------------------------------
+[22-05-06 05:46:52]:  DATABASE QUERY STARTS 
+[22-05-06 05:46:52]: 
+
+Procedure created.
+
+0
+
+PL/SQL procedure successfully completed.
+
+No errors.

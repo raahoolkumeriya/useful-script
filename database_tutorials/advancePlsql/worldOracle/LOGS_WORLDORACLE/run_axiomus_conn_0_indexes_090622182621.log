@@ -1,0 +1,33 @@
+[22-06-09 18:26:21]: INFO: Log File name: /u01/advancePlsql/worldOracle/LOGS_WORLDORACLE/run_axiomus_conn_0_indexes_090622182621.log
+[22-06-09 18:26:21]: INFO: Starting the script
+[22-06-09 18:26:21]: INFO: Script Directory: /u01/advancePlsql
+[22-06-09 18:26:21]: INFO: Query Directory: /u01/advancePlsql/worldOracle
+[22-06-09 18:26:21]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-09 18:26:21]: ----------------------------------------------------
+[22-06-09 18:26:21]:  DATABASE QUERY STARTS 
+[22-06-09 18:26:21]: 
+---------------------------------------------------
+--     		INDEX				--
+---------------------------------------------------
+o SIMPLE INDEX: Creating for single column
+- e.g., CREATE INDEX INDX_NAME ON TABLE(COLUMN1)
+---------------------------------------------------
+o COMPOSITE INDEX: Creating for multiple columns
+SP2-0734: unknown command beginning "promtp - e..." - rest of line ignored.
+---------------------------------------------------
+o UNIQUE INDEXL Creating index on unique data (without duplicate row)(PK and UK)
+- e.g., CREATE UNIQUE INDEX INDX_NAME3 ON TABLE(COLUMN1)
+---------------------------------------------------
+o NON-UNIQUE INDEX: Creating index on non-unique data ( with duplicate rows)
+- e.g., CREATE INDEX INDX_NAME4 ON TABLE(COLUMN1)
+---------------------------------------------------
+o BITMAP INDEX: Column with less cardinality
+---------------------------------------------------
+o B-TREE INDEX: Columns with high cardinality
+---------------------------------------------------
+o FUNCTION-BASED INDEX : Creating index based on function like upper, lower
+---------------------------------------------------
+CARDINALITY = ( No. of Distinct rows ) / ( Total No. of Rows )
+> If cardinality value is 1 then data is highest cardinality -> B-Tree Index
+> If cardinality value is less than 1 that data is lowest cardinality -> BitMap Index
+---------------------------------------------------

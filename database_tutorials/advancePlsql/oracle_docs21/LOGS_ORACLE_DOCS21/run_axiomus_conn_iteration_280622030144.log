@@ -1,0 +1,36 @@
+[22-06-28 03:01:44]: INFO: Log File name: /u01/playground/oracle_docs21/LOGS_ORACLE_DOCS21/run_axiomus_conn_iteration_280622030144.log
+[22-06-28 03:01:44]: INFO: Starting the script
+[22-06-28 03:01:44]: INFO: Script Directory: /u01/playground
+[22-06-28 03:01:44]: INFO: Query Directory: /u01/playground/oracle_docs21
+[22-06-28 03:01:44]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-28 03:01:44]: ----------------------------------------------------
+[22-06-28 03:01:44]:  DATABASE QUERY STARTS 
+[22-06-28 03:01:44]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+ALL About Iterations		
+---------------------------------------------------
+1
+2
+3
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.01
+   FOR n NUMBER(5,1) IN 1.0 .. 3.0 BY 0.5 LOOP
+         *
+ERROR at line 2:
+ORA-06550: line 2, column 10:
+PLS-00103: Encountered the symbol "NUMBER" when expecting one of the following:
+in
+The symbol "in" was substituted for "NUMBER" to continue.
+ORA-06550: line 2, column 22:
+PLS-00103: Encountered the symbol "IN" when expecting one of the following:
+. ( * % & - + / at loop mod remainder rem ..
+<an exponent (**)> || multiset
+
+
+[22-06-28 03:01:45]: SQLERROR: Query error 150 in iteration.sql

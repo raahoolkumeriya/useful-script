@@ -1,0 +1,26 @@
+[22-07-08 15:30:47]: INFO: Log File name: /home/raahool.linux/database_tutorials/devgym/LOGS_DEVGYM/grant_dbms_xplan_access_080722153047.log
+[22-07-08 15:30:47]: INFO: Starting the script
+[22-07-08 15:30:47]: INFO: Script Directory: /home/raahool.linux/database_tutorials
+[22-07-08 15:30:47]: INFO: Query Directory: /home/raahool.linux/database_tutorials/devgym
+[22-07-08 15:30:47]: INFO: Spinning Connection with SYS@ORCLPDB1
+[22-07-08 15:30:47]: ----------------------------------------------------
+[22-07-08 15:30:47]:  DATABASE QUERY STARTS 
+[22-07-08 15:30:47]: 
+
+Session altered.
+
+---------------------------------------------------
+--	grant DBMS_XPLAN access			--
+---------------------------------------------------
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+

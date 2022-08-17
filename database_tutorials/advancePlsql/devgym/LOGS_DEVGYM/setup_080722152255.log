@@ -1,0 +1,110 @@
+[22-07-08 15:22:55]: INFO: Log File name: /home/raahool.linux/database_tutorials/devgym/LOGS_DEVGYM/setup_080722152255.log
+[22-07-08 15:22:55]: INFO: Starting the script
+[22-07-08 15:22:55]: INFO: Script Directory: /home/raahool.linux/database_tutorials
+[22-07-08 15:22:55]: INFO: Query Directory: /home/raahool.linux/database_tutorials/devgym
+[22-07-08 15:22:56]: INFO: Spinning Connection with AXIOMUS@ORCLPDB1
+[22-07-08 15:22:56]: ----------------------------------------------------
+[22-07-08 15:22:56]:  DATABASE QUERY STARTS 
+[22-07-08 15:22:56]: 
+
+Session altered.
+
+---------------------------------------------------
+--	Get and Read Execution Plans		--
+---------------------------------------------------
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+3 rows created.
+
+
+6 rows created.
+
+
+12 rows created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+

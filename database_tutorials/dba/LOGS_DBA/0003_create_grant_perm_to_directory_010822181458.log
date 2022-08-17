@@ -1,0 +1,58 @@
+[22-08-01 18:14:58]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/0003_create_grant_perm_to_directory_010822181458.log
+[22-08-01 18:14:58]: INFO: Starting the script
+[22-08-01 18:14:58]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-08-01 18:14:58]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-08-01 18:14:58]: INFO: Spinning Connection with SYS@ORA.world
+[22-08-01 18:14:58]: +---------------------------------+
+[22-08-01 18:14:58]: | database query execution begins |
+[22-08-01 18:14:58]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--Create and grant permission to directory in Oracle--
+---------------------------------------------------
+--- Create directory in Oracle Database
+
+Directory created.
+
+--- Grant read write permission to Directory
+--grant read permission
+
+Grant succeeded.
+
+--grant write permission
+
+Grant succeeded.
+
+-- grant both
+
+Grant succeeded.
+
+-- Revoke permission from directory
+-- revoke read permission
+
+Revoke succeeded.
+
+-- revoke write permission
+
+Revoke succeeded.
+
+-- revoke both
+-- Modify path of directory
+
+Directory created.
+
+
+Directory created.
+
+--- Drop the directory
+
+Directory dropped.
+
+
+Directory dropped.
+
+[22-08-01 18:14:59]: +---------------------------------+
+[22-08-01 18:14:59]: |     database query ends here    |
+[22-08-01 18:14:59]: +---------------------------------+

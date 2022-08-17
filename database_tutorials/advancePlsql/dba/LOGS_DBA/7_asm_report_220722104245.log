@@ -1,0 +1,31 @@
+[22-07-22 10:42:45]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/7_asm_report_220722104245.log
+[22-07-22 10:42:45]: INFO: Starting the script
+[22-07-22 10:42:45]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-07-22 10:42:45]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-07-22 10:42:45]: INFO: Spinning Connection with SYS@ORA.world
+[22-07-22 10:42:45]: +---------------------------------+
+[22-07-22 10:42:45]: | database query execution begins |
+[22-07-22 10:42:45]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+-- 	Automatic Storage Management		--
+---------------------------------------------------
+-- integrated, high-performance database file system and disk manager.
+-- ASM is based on the principle that the database should manage storage instead of requiring an administrator to do it.
+---------------------------------------------------
+===============
+ASM Disk Groups
+===============
+
+no rows selected
+
+truncating (as requested) before column CON_ID
+
+
+no rows selected
+
+[22-07-22 10:42:46]: +---------------------------------+
+[22-07-22 10:42:46]: |     database query ends here    |
+[22-07-22 10:42:46]: +---------------------------------+

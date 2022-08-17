@@ -1,0 +1,56 @@
+[22-07-27 14:50:20]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/11_check_open_mode_of_plg_database_270722145019.log
+[22-07-27 14:50:20]: INFO: Starting the script
+[22-07-27 14:50:20]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-07-27 14:50:20]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-07-27 14:50:20]: INFO: Spinning Connection with SYS@ORA.world
+[22-07-27 14:50:20]: +---------------------------------+
+[22-07-27 14:50:20]: | database query execution begins |
+[22-07-27 14:50:20]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+-- 	OPEN MODE of Pluggable database		--
+---------------------------------------------------
+
+NAME	   OPEN_MODE
+---------- ----------
+ORCLPDB1   READ WRITE
+
+---------------------------------------------------
+--  		Check PDB ? or CDB ?
+---------------------------------------------------
+
+NAME	   CDB
+---------- ---
+ORCLCDB    YES
+
+
+NAME	   LOG_MODE	OPEN_MODE  CDB
+---------- ------------ ---------- ---
+ORCLCDB    NOARCHIVELOG READ WRITE YES
+
+---------------------------------------------------
+--  	Save state of Plugglable database	--
+---------------------------------------------------
+ALTER PLUGGABLE DATABASE orclpdb1 OPEN
+ALTER PLUGGABLE DATABASE orclpdb1 SAVE STATE
+---------------------------------------------------
+--  	CLOSE the Plugglable database		--
+---------------------------------------------------
+ALTER PLUGGABLE DATABASE orclpdb1 CLOSE
+--- CLOSE ALl pluggable databases --
+ALTER PLUGGABLE DATABASE all CLOSE
+---------------------------------------------------
+--  	OPEN Plugglable database		--
+---------------------------------------------------
+ALTER PLUGGABLE DATABASE all OPEN
+ALTER PLUGGABLE DATABASE orclpdb1 OPEN
+---------------------------------------------------
+--  	Create common user in database		--
+---------------------------------------------------
+CREATE USER c##userName01 INDENTIFIED BY Password01 CONTAINER = all
+GRANT CREATE Session to c##userName01
+[22-07-27 14:50:21]: +---------------------------------+
+[22-07-27 14:50:21]: |     database query ends here    |
+[22-07-27 14:50:21]: +---------------------------------+

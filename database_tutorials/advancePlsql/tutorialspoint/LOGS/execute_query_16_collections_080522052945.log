@@ -1,0 +1,29 @@
+[22-05-08 05:29:45]: INFO: Log File name: /u01/scripts/LOGS/execute_query_16_collections_080522052945.log
+[22-05-08 05:29:45]: INFO: Starting the script
+[22-05-08 05:29:45]: INFO: Script Directory: /u01/scripts
+[22-05-08 05:29:45]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-08 05:29:45]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-08 05:29:45]: ----------------------------------------------------
+[22-05-08 05:29:45]:  DATABASE QUERY STARTS 
+[22-05-08 05:29:45]: 
+---------------------------------------------------------- prompt Collections: is an Ordered group of elements having the same data type
+------------> Each element is indentified by unique subscript that represnts its position in the collection
+---------------------------------------------------------- prompt --> Index-by tables or Associate Array
+--> Nested tables
+--> Variable-size array or VARRAY
+----------------------------------------------------------
+---------------------------------------------------------- prompt Both type of PLSQL table ie., index-by tables and nested tables have the same struture
+their rows are accessed using the Subscript notation.
+Nested table can be stored in database column and index-by tables cannot
+----------------------------------------------------------
+---------------------------------------------------------- prompt --> Index-by tables or Associate Array
+--------> is a set of KEY-VALUE pairs. Each key i sunique and is used to locate the corresponding value
+--------> can be string or an integer.
+----------------------------------------------------------
+Salary of Chaitu is 700000
+Salary of Ganesh is 500000
+Salary of Rahul is 3608500
+Salary of Satya is 900000
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,87 @@
+[22-06-09 19:46:35]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_global_temporary_table_090622194635.log
+[22-06-09 19:46:35]: INFO: Starting the script
+[22-06-09 19:46:36]: INFO: Script Directory: /u01/advancePlsql
+[22-06-09 19:46:36]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-09 19:46:36]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-09 19:46:36]: ----------------------------------------------------
+[22-06-09 19:46:36]:  DATABASE QUERY STARTS 
+[22-06-09 19:46:36]: 
+---------------------------------------------------
+--  GTT Global Temporary table/Temp table   	--
+---------------------------------------------------
+o data stored in table is temporary one
+o Data is stored in RAM and hence it is logical read which is faster
+---------------------------------------------------
+-- 		TYPE oF GTT			--
+o Transaction Specific GTT: The data will be there until we get the COMMIT/ROLLBACK keywords
+o Sesssion Specific GTT: Data will remain till the end of the session;
+---------------------------------------------------
+---------------------------------------------------
+--	Transaction Specific GTT		--
+---------------------------------------------------
+
+Table created.
+
+------------------------------
+Insert some data in GTT
+------------------------------
+
+3 rows created.
+
+------------------------------
+Check data in GTT1
+------------------------------
+
+	ID
+----------
+	 1
+	 2
+	 3
+
+------------------------------
+Issue commit
+------------------------------
+
+Commit complete.
+
+------------------------------
+Check data in GTT1 after commit
+------------------------------
+
+no rows selected
+
+---------------------------------------------------
+--	Session Specific GTT		--
+---------------------------------------------------
+
+Table created.
+
+
+3 rows created.
+
+------------------------------
+Check data in GTT2
+------------------------------
+
+	ID
+----------
+	 1
+	 2
+	 3
+
+------------------------------
+Issue commit
+------------------------------
+
+Commit complete.
+
+------------------------------
+Check data in GTT2 after commit
+------------------------------
+
+	ID
+----------
+	 1
+	 2
+	 3
+

@@ -1,0 +1,34 @@
+;;; 
+Export: Release 12.2.0.1.0 - Production on Tue Jun 7 16:52:24 2022
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+;;; **************************************************************************
+;;; Parfile values:
+;;;  parfile:  tables=employees
+;;;  parfile:  filesize=50K
+;;;  parfile:  logfile=employees_exp.log
+;;;  parfile:  dumpfile=employees_exp%U.dmp
+;;;  parfile:  directory=axiom_external
+;;;  parfile:  userid=axiomus/********@ORCLPDB1
+;;; **************************************************************************
+Starting "AXIOMUS"."SYS_EXPORT_TABLE_01":  axiomus/********@ORCLPDB1 parfile=employees.par 
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+Processing object type TABLE_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/MARKER
+Processing object type TABLE_EXPORT/TABLE/TABLE
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+. . exported "AXIOMUS"."EMPLOYEES"                       8.851 KB      15 rows
+Master table "AXIOMUS"."SYS_EXPORT_TABLE_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for AXIOMUS.SYS_EXPORT_TABLE_01 is:
+  /u01/STUFF/employees_exp01.dmp
+  /u01/STUFF/employees_exp02.dmp
+  /u01/STUFF/employees_exp03.dmp
+  /u01/STUFF/employees_exp04.dmp
+  /u01/STUFF/employees_exp05.dmp
+  /u01/STUFF/employees_exp06.dmp
+Job "AXIOMUS"."SYS_EXPORT_TABLE_01" successfully completed at Tue Jun 7 16:54:35 2022 elapsed 0 00:02:08

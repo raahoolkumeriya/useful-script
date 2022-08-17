@@ -1,0 +1,23 @@
+[22-05-27 10:59:26]: INFO: Log File name: /u01/profiler/LOGS_ORACLE_COLLECTIONS/run_axiomus_conn_1_oracle_collections_270522105926.log
+[22-05-27 10:59:26]: INFO: Starting the script
+[22-05-27 10:59:26]: INFO: Script Directory: /u01/profiler
+[22-05-27 10:59:26]: INFO: Query Directory: /u01/profiler/oracle_collections
+[22-05-27 10:59:26]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-27 10:59:26]: ----------------------------------------------------
+[22-05-27 10:59:26]:  DATABASE QUERY STARTS 
+[22-05-27 10:59:26]: 
+----------------------------------------------
+-- 		DATA TYPES		   --
+----------------------------------------------
+TYPE OF DATA TYPES:'
+|--> Scaler datatype : which hold only one independant value of particular datatype
+|--> Composite datatype : can hold more than one value in the same variable
+|--> reference types
+TYPES OF COMPOSITE DATA TYPES:
+|---> Record -> Hold only one row of data
+|--------------> TYPE  ( not the %TYPE ...both are different)
+|--------------> %ROWTYPE
+|---> Collection --> similar to ARRAY
+|---------------> VARRAY
+|---------------> Nested table
+|---------------> Associative Array

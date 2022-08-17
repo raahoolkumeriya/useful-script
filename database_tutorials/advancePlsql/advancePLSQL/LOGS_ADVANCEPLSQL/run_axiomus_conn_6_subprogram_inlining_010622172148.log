@@ -1,0 +1,57 @@
+[22-06-01 17:21:48]: INFO: Log File name: /u01/profiler/advancePLSQL/LOGS_ADVANCEPLSQL/run_axiomus_conn_6_subprogram_inlining_010622172148.log
+[22-06-01 17:21:48]: INFO: Starting the script
+[22-06-01 17:21:48]: INFO: Script Directory: /u01/profiler
+[22-06-01 17:21:48]: INFO: Query Directory: /u01/profiler/advancePLSQL
+[22-06-01 17:21:48]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-01 17:21:48]: ----------------------------------------------------
+[22-06-01 17:21:48]:  DATABASE QUERY STARTS 
+[22-06-01 17:21:48]: 
+---------------------------------------------------
+--    Subprogram inlining in PL/SQL		--
+---------------------------------------------------
+
+Procedure created.
+
+No errors.
+---------------------------------------
+CASE 1: When PLSQL_OPTIMIZE_LEVEL = 0
+---------------------------------------
+
+Session altered.
+
+
+Procedure altered.
+
+No errors.
+Execution time : 1866
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------
+CASE 2: When PLSQL_OPTIMIZE_LEVEL = 1
+---------------------------------------
+
+Procedure altered.
+
+No errors.
+Execution time : 1449
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------
+CASE 3: When PLSQL_OPTIMIZE_LEVEL = 2
+---------------------------------------
+
+SP2-0805: Procedure altered with compilation warnings
+
+Errors for PROCEDURE P_SUM_SERIES:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+8/2	 PLW-06006: uncalled procedure "F_CROSS" is removed.
+24/3	 PLW-06004: inlining of call of procedure 'F_CROSS' requested
+24/3	 PLW-06005: inlining of call of procedure 'F_CROSS' was done
+Execution time : 692
+
+PL/SQL procedure successfully completed.
+

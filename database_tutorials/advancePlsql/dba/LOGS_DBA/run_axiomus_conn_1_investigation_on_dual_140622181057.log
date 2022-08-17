@@ -1,0 +1,55 @@
+[22-06-14 18:10:57]: INFO: Log File name: /u01/playground/dba/LOGS_DBA/run_axiomus_conn_1_investigation_on_dual_140622181057.log
+[22-06-14 18:10:57]: INFO: Starting the script
+[22-06-14 18:10:57]: INFO: Script Directory: /u01/playground
+[22-06-14 18:10:57]: INFO: Query Directory: /u01/playground/dba
+[22-06-14 18:10:57]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 18:10:57]: ----------------------------------------------------
+[22-06-14 18:10:57]:  DATABASE QUERY STARTS 
+[22-06-14 18:10:57]: 
+
+Session altered.
+
+Elapsed: 00:00:00.01
+---------------------------------------------------
+--     	Performance Enhancements 		--
+---------------------------------------------------
+---------------------------------------------------
+--  EXPLAIN PLAN for dual table			--
+---------------------------------------------------
+
+Explained.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+--  Display plan details with pkg function	 --
+---------------------------------------------------
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plan hash value: 1388734953
+
+-----------------------------------------------------------------
+| Id  | Operation	 | Name | Rows	| Cost (%CPU)| Time	|
+-----------------------------------------------------------------
+|   0 | SELECT STATEMENT |	|     1 |     2   (0)| 00:00:01 |
+|   1 |  FAST DUAL	 |	|     1 |     2   (0)| 00:00:01 |
+-----------------------------------------------------------------
+
+8 rows selected.
+
+Elapsed: 00:00:00.13
+
+Statistics
+----------------------------------------------------------
+	 20  recursive calls
+	  0  db block gets
+	 12  consistent gets
+	  0  physical reads
+	  0  redo size
+       1055  bytes sent via SQL*Net to client
+	607  bytes received via SQL*Net from client
+	  2  SQL*Net roundtrips to/from client
+	  1  sorts (memory)
+	  0  sorts (disk)
+	  8  rows processed
+

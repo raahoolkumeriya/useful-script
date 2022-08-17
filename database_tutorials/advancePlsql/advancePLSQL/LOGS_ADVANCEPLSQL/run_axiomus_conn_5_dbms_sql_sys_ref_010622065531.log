@@ -1,0 +1,35 @@
+[22-06-01 06:55:31]: INFO: Log File name: /u01/profiler/advancePLSQL/LOGS_ADVANCEPLSQL/run_axiomus_conn_5_dbms_sql_sys_ref_010622065531.log
+[22-06-01 06:55:31]: INFO: Starting the script
+[22-06-01 06:55:31]: INFO: Script Directory: /u01/profiler
+[22-06-01 06:55:31]: INFO: Query Directory: /u01/profiler/advancePLSQL
+[22-06-01 06:55:31]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-01 06:55:31]: ----------------------------------------------------
+[22-06-01 06:55:31]:  DATABASE QUERY STARTS 
+[22-06-01 06:55:31]: 
+---------------------------------------------------
+-- Implicit statement results in Oracle Database 12c  --
+---------------------------------------------------
+SP2-0103: Nothing in SQL buffer to run.
+
+Procedure created.
+
+No errors.
+
+Procedure created.
+
+
+PL/SQL procedure successfully completed.
+
+ResultSet #1
+
+EMPLOYEE_ID JOB       GRAPH
+----------- --------- ----------------------------------------
+       7900 CLERK     ........*
+       7698 MANAGER   ...........................*
+       7844 SALESMAN  ..............*
+       7521 SALESMAN  ...........*
+       7499 SALESMAN  ...............*
+       7654 SALESMAN  ...........*
+
+6 rows selected.
+

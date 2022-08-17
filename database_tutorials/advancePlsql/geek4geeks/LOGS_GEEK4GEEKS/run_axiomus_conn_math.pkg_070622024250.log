@@ -1,0 +1,42 @@
+[22-06-07 02:42:50]: INFO: Log File name: /u01/advancePlsql/geek4geeks/LOGS_GEEK4GEEKS/run_axiomus_conn_math.pkg_070622024250.log
+[22-06-07 02:42:50]: INFO: Starting the script
+[22-06-07 02:42:50]: INFO: Script Directory: /u01/advancePlsql
+[22-06-07 02:42:50]: INFO: Query Directory: /u01/advancePlsql/geek4geeks
+[22-06-07 02:42:50]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-07 02:42:50]: ----------------------------------------------------
+[22-06-07 02:42:50]:  DATABASE QUERY STARTS 
+[22-06-07 02:42:50]: 
+---------------------------------------------------
+--     Geeks4Geeks - Math package		--
+---------------------------------------------------
+
+Package created.
+
+No errors.
+
+Warning: Package Body created with compilation errors.
+
+Errors for PACKAGE BODY MATH:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+5/10	 PLS-00103: Encountered the symbol "(" when expecting one of the
+	 following:
+	 constant exception <an identifier>
+	 <a double-quoted delimited-identifier> table columns long
+	 double ref char time timestamp interval date binary national
+	 character nchar
+	 The symbol "<an identifier>" was substituted for "(" to continue.
+
+
+6/2	 PLS-00103: Encountered the symbol "END" when expecting one of the
+	 following:
+	 begin function pragma procedure subtype type <an identifier>
+	 <a double-quoted delimited-identifier> current cursor delete
+	 exists prior
+	 The symbol "begin was inserted before "END" to continue.
+
+7/9	 PLS-00103: Encountered the symbol "end-of-file" when expecting
+	 one of the following:
+	 begin end function pragma procedure
+

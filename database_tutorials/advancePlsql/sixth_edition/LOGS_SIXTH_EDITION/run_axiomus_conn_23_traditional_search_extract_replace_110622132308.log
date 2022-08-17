@@ -1,0 +1,69 @@
+[22-06-11 13:23:08]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_23_traditional_search_extract_replace_110622132308.log
+[22-06-11 13:23:08]: INFO: Starting the script
+[22-06-11 13:23:08]: INFO: Script Directory: /u01/playground
+[22-06-11 13:23:08]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-11 13:23:08]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-11 13:23:08]: ----------------------------------------------------
+[22-06-11 13:23:08]:  DATABASE QUERY STARTS 
+[22-06-11 13:23:08]: 
+
+Session altered.
+
+---------------------------------------------------
+-- Traditional Searching, Extracting, and Replacing --
+---------------------------------------------------
+-- finds the locations of all the commas in a list of names --
+---------------------------------------------------
+Raahool,Aniket,Pintu,Sandeep,Chaitu,Ganesh,Satish,Sumya
+8
+15
+21
+29
+36
+43
+50
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--	 Let's extract the names instead 	--
+---------------------------------------------------
+Raahool,Aniket,Pintu,Sandeep,Chaitu,Ganesh,Satish,Sumya
+Raahool
+Aniket
+Pintu
+Sandeep
+Chaitu
+Ganesh
+Satish
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--	 Let's try with REPLACE		 	--
+---------------------------------------------------
+Raahool
+Aniket
+Pintu
+Sandeep
+Chaitu
+Ganesh
+Satish
+Sumya
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--	 	REGEXP_LIEK			--
+---------------------------------------------------
+1
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------------
+--	 	REGEXP_SUBSTR			--
+---------------------------------------------------
+The phone number is: 773-555-5253
+
+PL/SQL procedure successfully completed.
+

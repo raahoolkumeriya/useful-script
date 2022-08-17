@@ -1,0 +1,34 @@
+[22-06-02 16:38:43]: INFO: Log File name: /u01/advancePlsql/googleSearch/LOGS_GOOGLESEARCH/run_axiomus_conn_3_nominated_String_020622163843.log
+[22-06-02 16:38:43]: INFO: Starting the script
+[22-06-02 16:38:43]: INFO: Script Directory: /u01/advancePlsql
+[22-06-02 16:38:43]: INFO: Query Directory: /u01/advancePlsql/googleSearch
+[22-06-02 16:38:43]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 16:38:43]: ----------------------------------------------------
+[22-06-02 16:38:43]:  DATABASE QUERY STARTS 
+[22-06-02 16:38:43]: 
+---------------------------------------------------
+--     --
+---------------------------------------------------
+
+EMPLOYEE_ID EMPLOYEE_N JOB	 MANAGER_ID HIREDATE	  SALARY COMMISSION DEPARTMENT_ID DTE
+----------- ---------- --------- ---------- --------- ---------- ---------- ------------- ---------
+       7654 MARTIN     SALESMAN        7698 28-SEP-81	    1250       1400	       30 27-SEP-22
+       7698 BLAKE      MANAGER	       7839 01-MAY-81	    2850		       30 27-SEP-22
+       7782 CLARK      MANAGER	       7839 09-JUN-81	    2450		       10 27-SEP-22
+       7788 SCOTT      ANALYST	       7566 19-APR-87	    3000		       20 27-SEP-22
+
+
+Statistics
+----------------------------------------------------------
+	  9  recursive calls
+	 12  db block gets
+      23350  consistent gets
+      23334  physical reads
+       1184  redo size
+       1340  bytes sent via SQL*Net to client
+	607  bytes received via SQL*Net from client
+	  2  SQL*Net roundtrips to/from client
+	  0  sorts (memory)
+	  0  sorts (disk)
+	  4  rows processed
+

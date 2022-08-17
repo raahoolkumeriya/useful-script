@@ -1,0 +1,53 @@
+[22-06-09 19:32:52]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_read_only_tables_090622193252.log
+[22-06-09 19:32:52]: INFO: Starting the script
+[22-06-09 19:32:52]: INFO: Script Directory: /u01/advancePlsql
+[22-06-09 19:32:52]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-09 19:32:52]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-09 19:32:52]: ----------------------------------------------------
+[22-06-09 19:32:52]:  DATABASE QUERY STARTS 
+[22-06-09 19:32:52]: 
+---------------------------------------------------
+--     		Read only tables		--
+---------------------------------------------------
+
+Table dropped.
+
+
+Table created.
+
+
+3 rows created.
+
+
+Commit complete.
+
+
+	ID NAME
+---------- ------------------------------
+	 1 science
+	 2 social
+	 3 maths
+
+---------------------------------------------------
+--     Making table as Read only table		--
+---------------------------------------------------
+
+Table altered.
+
+---------------------------------------------------
+--     ONly certain OPERATION we can perform	--
+---------------------------------------------------
+---- Operation allowed
+o Select, rename the table, we can move table from one tablespace to another
+o Drop the table
+---- Operation NOT allowed
+o DML operation (insert,udpate,delete,merge)
+o We can not Trancate table
+o we can NOT remove,rename, add a new column
+o We can NOT flashback the table
+---------------------------------------------------
+--     Making table back to Read write table	--
+---------------------------------------------------
+
+Table altered.
+

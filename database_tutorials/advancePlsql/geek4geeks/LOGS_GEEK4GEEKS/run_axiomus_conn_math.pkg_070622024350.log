@@ -1,0 +1,28 @@
+[22-06-07 02:43:50]: INFO: Log File name: /u01/advancePlsql/geek4geeks/LOGS_GEEK4GEEKS/run_axiomus_conn_math.pkg_070622024350.log
+[22-06-07 02:43:50]: INFO: Starting the script
+[22-06-07 02:43:50]: INFO: Script Directory: /u01/advancePlsql
+[22-06-07 02:43:50]: INFO: Query Directory: /u01/advancePlsql/geek4geeks
+[22-06-07 02:43:50]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-07 02:43:50]: ----------------------------------------------------
+[22-06-07 02:43:50]:  DATABASE QUERY STARTS 
+[22-06-07 02:43:50]: 
+---------------------------------------------------
+--     Geeks4Geeks - Math package		--
+---------------------------------------------------
+
+Package created.
+
+No errors.
+
+Warning: Package Body created with compilation errors.
+
+Errors for PACKAGE BODY MATH:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+4/3	 PLS-00103: Encountered the symbol "OUTPUT" when expecting one of
+	 the following:
+	 . @ % ; is default authid as cluster order using external
+	 character deterministic parallel_enable pipelined aggregate
+	 result_cache accessible rewrite
+

@@ -1,0 +1,101 @@
+[22-06-14 10:56:04]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_39_collection_n_data_dict_140622105604.log
+[22-06-14 10:56:04]: INFO: Starting the script
+[22-06-14 10:56:04]: INFO: Script Directory: /u01/playground
+[22-06-14 10:56:04]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 10:56:04]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 10:56:04]: ----------------------------------------------------
+[22-06-14 10:56:04]:  DATABASE QUERY STARTS 
+[22-06-14 10:56:04]: 
+
+Session altered.
+
+Elapsed: 00:00:00.10
+---------------------------------------------------
+--     Collections and the Data Dictionary	--
+---------------------------------------------------
+------------------- ALL_TYPES ---------------------
+
+TYPE_NAME
+--------------------------------------------------------------------------------------------------------------------------------
+ANIMAL_NT
+AUTHORS_T
+CHILD_NAMES_T
+COLOR_TAB_T
+COUNTRY_TAB_T
+DEPENDENT_BIRTHDATE_T
+FIRST_NAMES_T
+LIBRARY_BOOK_T
+LIST_OF_NAMES_T
+LIST_VAT
+ST00001WKYTAs2knXgUwIAEax+8A=
+ST00001WKpSpHJkwngUwIAEayyfg=
+STOCKS_NT
+STRINGS_NT
+STRINGS_T
+TICKERS_NT
+T_EMPLOYEE_NAME_TAB
+VET_VISITS_T
+YES_NO_T
+
+19 rows selected.
+
+Elapsed: 00:00:02.70
+------------------ ALL_SOURCE --------------------
+
+TEXT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TYPE strings_t IS TABLE OF VARCHAR2(100);
+TYPE library_book_t IS TABLE of VARCHAR2(100);
+TYPE animal_ot IS OBJECT
+TYPE dependent_birthdate_t AS VARRAY(10) OF DATE;
+TYPE list_vat AS VARRAY(10) OF VARCHAR2(80)
+TYPE yes_no_t IS TABLE OF CHAR(1);
+TYPE first_names_t IS VARRAY(2) OF VARCHAR2(100);
+TYPE child_names_t IS VARRAY(1) OF VARCHAR2(100);
+TYPE authors_t IS TABLE OF VARCHAR2(100)
+TYPE vet_visits_t IS TABLE OF vet_visit_t;
+TYPE vet_visit_t
+TYPE list_of_names_t
+TYPE country_tab_t AS TABLE OF VARCHAR2(60);
+TYPE color_tab_t AS TABLE OF VARCHAR2(30)
+TYPE strings_nt IS TABLE OF VARCHAR2(100)
+TYPE pet_t
+TYPE stocks_nt AS TABLE OF stock_ot;
+TYPE stock_ot AUTHID DEFINER IS OBJECT
+TYPE tickers_nt AS TABLE OF ticker_ot;
+TYPE ticker_ot AUTHID DEFINER IS OBJECT
+TYPE animal_nt IS TABLE OF animal_ot;
+(
+	IS TABLE OF VARCHAR2(100);
+ ALTER TYPE list_vat MODIFY ELEMENT TYPE VARCHAR2(100) CASCADE
+	AUTHID DEFINER
+	AUTHID DEFINER
+(
+(
+IS OBJECT (
+IS OBJECT (
+	name VARCHAR2(10),
+	tikcer 	VARCHAR2(20),
+   ticker VARCHAR2 (20),
+   trade_date DATE,
+	tag_no	INTEGER,
+	species VARCHAR2(20),
+	pricedate DATE,
+		visit_date	DATE,
+	petname	VARCHAR2(60),
+	pricetype VARCHAR2(1),
+		reason		VARCHAR2(100)
+   open_price NUMBER,
+	date_of_birth DATE
+);
+	petcare	vet_visits_t,
+	price NUMBER
+	);
+   close_price NUMBER
+)
+);
+	MEMBER FUNCTION set_tag_no ( new_tag_no IN INTEGER ) RETURN pet_t );
+
+51 rows selected.
+
+Elapsed: 00:00:05.93

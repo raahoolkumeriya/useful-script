@@ -1,0 +1,81 @@
+[22-05-31 17:22:10]: INFO: Log File name: /u01/profiler/advancePLSQL/LOGS_ADVANCEPLSQL/run_axiomus_conn_1_identity_columns_310522172210.log
+[22-05-31 17:22:10]: INFO: Starting the script
+[22-05-31 17:22:10]: INFO: Script Directory: /u01/profiler
+[22-05-31 17:22:11]: INFO: Query Directory: /u01/profiler/advancePLSQL
+[22-05-31 17:22:11]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-31 17:22:11]: ----------------------------------------------------
+[22-05-31 17:22:11]:  DATABASE QUERY STARTS 
+[22-05-31 17:22:11]: 
+---------------------------------------------------
+--     INDENTITY Columns				--
+---------------------------------------------------
+SP2-0103: Nothing in SQL buffer to run.
+
+COLUMN_NAME		       DATA_DEFAULT		      USE IDENTITY_COLUMN
+------------------------------ ------------------------------ --- ------------------------------
+ID			       "AXIOMUS"."ISEQ$$_78075".nextv YES YES
+			       al
+
+NAME							      YES NO
+
+
+COLUMN_NAME		       DATA_DEFAULT		      USE IDENTITY_COLUMN
+------------------------------ ------------------------------ --- ------------------------------
+ID			       "AXIOMUS"."ISEQ$$_78075".nextv YES YES
+			       al
+
+NAME							      YES NO
+
+
+TABLE_NAME		       COLUMN_NAME		      GENERATION IDENTITY_OPTIONS
+------------------------------ ------------------------------ ---------- ------------------------------
+T_ID_COL		       ID			      ALWAYS	 START WITH: 1
+T_ID_COL		       ID			      ALWAYS	  INCREMENT BY: 1
+T_ID_COL		       ID			      ALWAYS	  MAX_VALUE: 999999999999999999
+									 9999999999
+
+T_ID_COL		       ID			      ALWAYS	  MIN_VALUE: 1
+T_ID_COL		       ID			      ALWAYS	  CYCLE_FLAG: N
+T_ID_COL		       ID			      ALWAYS	  CACHE_SIZE: 20
+T_ID_COL		       ID			      ALWAYS	  ORDER_FLAG: N
+
+7 rows selected.
+
+SP2-0734: unknown command beginning "*Insert te..." - rest of line ignored.
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+	ID NAME
+---------- --------------------
+	 7 Allen
+	 8 Matthew
+	 9 Peter
+	10 Allen
+	11 Matthew
+	12 Peter
+	13 Allen
+	14 Matthew
+	15 Peter
+	16 Allen
+	17 Matthew
+	18 Peter
+	 1 Allen
+	 2 Matthew
+	 3 Peter
+	 4 Allen
+	 5 Matthew
+	 6 Peter
+
+18 rows selected.
+
+INSERT INTO t_id_col VALUES (7,'Steyn')
+*
+ERROR at line 1:
+ORA-32795: cannot insert into a generated always identity column
+
+
+[22-05-31 17:22:11]: SQLERROR: Query error 27 in 1_identity_columns.sql

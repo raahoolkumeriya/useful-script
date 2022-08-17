@@ -1,0 +1,31 @@
+[22-06-14 18:13:00]: INFO: Log File name: /u01/playground/dba/LOGS_DBA/run_axiomus_conn_2_create_xdual_table_140622181300.log
+[22-06-14 18:13:01]: INFO: Starting the script
+[22-06-14 18:13:01]: INFO: Script Directory: /u01/playground
+[22-06-14 18:13:01]: INFO: Query Directory: /u01/playground/dba
+[22-06-14 18:13:01]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 18:13:01]: ----------------------------------------------------
+[22-06-14 18:13:01]:  DATABASE QUERY STARTS 
+[22-06-14 18:13:01]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+--   Create xdual tabel with Index on it  	--
+---------------------------------------------------
+
+Table created.
+
+Elapsed: 00:00:00.27
+
+1 row created.
+
+Elapsed: 00:00:00.28
+
+D
+-
+X
+
+Elapsed: 00:00:00.12
+
+

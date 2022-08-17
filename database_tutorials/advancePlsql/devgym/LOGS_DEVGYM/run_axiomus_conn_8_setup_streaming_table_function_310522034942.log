@@ -1,0 +1,25 @@
+[22-05-31 03:49:42]: INFO: Log File name: /u01/profiler/devgym/LOGS_DEVGYM/run_axiomus_conn_8_setup_streaming_table_function_310522034942.log
+[22-05-31 03:49:42]: INFO: Starting the script
+[22-05-31 03:49:42]: INFO: Script Directory: /u01/profiler
+[22-05-31 03:49:42]: INFO: Query Directory: /u01/profiler/devgym
+[22-05-31 03:49:42]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-31 03:49:42]: ----------------------------------------------------
+[22-05-31 03:49:42]:  DATABASE QUERY STARTS 
+[22-05-31 03:49:42]: 
+---------------------------------------------------
+--     Streaming Table function			--
+---------------------------------------------------
+-- A processing in which data is transfer form one step to another step in stream of events all stay in single sql statement
+
+Table created.
+
+			VLAUES ('STK'||indx,
+			        *
+ERROR at line 6:
+ORA-06550: line 6, column 12:
+PL/SQL: ORA-00928: missing SELECT keyword
+ORA-06550: line 5, column 3:
+PL/SQL: SQL Statement ignored
+
+
+[22-05-31 03:49:43]: SQLERROR: Query error 150 in 8_setup_streaming_table_function.sql

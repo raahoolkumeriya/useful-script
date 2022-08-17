@@ -1,0 +1,16 @@
+[22-06-01 05:29:16]: INFO: Log File name: /u01/profiler/advancePLSQL/LOGS_ADVANCEPLSQL/run_axiomus_conn_3_ref_cursor_010622052916.log
+[22-06-01 05:29:16]: INFO: Starting the script
+[22-06-01 05:29:16]: INFO: Script Directory: /u01/profiler
+[22-06-01 05:29:16]: INFO: Query Directory: /u01/profiler/advancePLSQL
+[22-06-01 05:29:16]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-01 05:29:16]: ----------------------------------------------------
+[22-06-01 05:29:16]:  DATABASE QUERY STARTS 
+[22-06-01 05:29:16]: 
+---------------------------------------------------
+--     		REF Cursor			--
+---------------------------------------------------
+Salary of SCOTT is 3000
+Department name Advertising for 50
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,20 @@
+[22-05-08 02:46:53]: INFO: Log File name: /u01/scripts/LOGS/execute_query_12_exception_handling_080522024653.log
+[22-05-08 02:46:53]: INFO: Starting the script
+[22-05-08 02:46:53]: INFO: Script Directory: /u01/scripts
+[22-05-08 02:46:53]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-08 02:46:53]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-08 02:46:53]: ----------------------------------------------------
+[22-05-08 02:46:53]:  DATABASE QUERY STARTS 
+[22-05-08 02:46:53]: 
+--> System-Defined Exceptions
+No such customer!
+
+PL/SQL procedure successfully completed.
+
+--> User-Define Exceptions
+old   2: 	c_id	tp_customers.id%TYPE	:= &cc_id;
+new   2: 	c_id	tp_customers.id%TYPE	:= -6;
+ID must be Greater than Zero!
+
+PL/SQL procedure successfully completed.
+

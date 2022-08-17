@@ -1,0 +1,25 @@
+[22-05-07 17:08:48]: INFO: Log File name: /u01/scripts/LOGS/execute_query_8_functions_070522170848.log
+[22-05-07 17:08:48]: INFO: Starting the script
+[22-05-07 17:08:48]: INFO: Script Directory: /u01/scripts
+[22-05-07 17:08:48]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-07 17:08:48]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-07 17:08:48]: ----------------------------------------------------
+[22-05-07 17:08:48]:  DATABASE QUERY STARTS 
+[22-05-07 17:08:48]: 
+
+Function created.
+
+
+ROWRETURN
+-----------------------------------------------------------------
+Total no. of Customers : 6
+
+Max number : 25
+
+PL/SQL procedure successfully completed.
+
+Recursive Function
+Factorial of 6 is : 720
+
+PL/SQL procedure successfully completed.
+

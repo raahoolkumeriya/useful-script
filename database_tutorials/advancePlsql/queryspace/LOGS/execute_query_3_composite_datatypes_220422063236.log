@@ -1,0 +1,49 @@
+[22-04-22 06:32:36]: INFO: Log File name: /u01/scripts/LOGS/execute_query_3_composite_datatypes_220422063236.log
+[22-04-22 06:32:36]: INFO: Starting the script
+[22-04-22 06:32:36]: INFO: Script Directory: /u01/scripts
+[22-04-22 06:32:36]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-22 06:32:36]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-04-22 06:32:36]: ----------------------------------------------------
+[22-04-22 06:32:36]:  DATABASE QUERY STARTS 
+[22-04-22 06:32:36]: 
+>>> COMPOSITE DATATYPES <<<
+- 1. Records
+-	- as k/as structure, typically contains a collection of related elements like a normalized database table
+- 2. Collections
+- 	- Collections are array and lists.
+-- 1. VARRAY
+-	- Index of varray is densely populated, You opt to use a varray when you know the number of itesm that will go in collection before declaring the variable.
+-	- VARRY cannot grow in size.
+-	- You cannot use DELETE method to remove an element after it is defined.
+-- 2. NESTED table
+-	- Index of NESTED table variables is densely populated. You should use nested table when you DON'T know the numebr of items that will go in the collection before declaring the variable.
+-	- NESTED table can grow in size after it is declared.
+-- 3. Associative Array / PLSQL table / Index-by Table
+-	- You can index an associate array with numbers or Unique strings. Index of associate array is SPARSELY populated. is Ideal when you DON'T know the number of items that will go in the collection before declaring the variable.
+-	- It is similar to NESTED table definition. It has one key difference: it specifies how the index is kept
+>>> >>>> records <<<
+[1][One]
+
+PL/SQL procedure successfully completed.
+
+>>> >>>> nested records <<<
+[1]
+[Raahool][kumeriya]
+
+PL/SQL procedure successfully completed.
+
+>>> >>>> VARRAY Datatypes <<<<
+[1][2][3][4][5][6][7][8][][]
+
+PL/SQL procedure successfully completed.
+
+>>> >>>> Nested Table dataType <<<<
+[1][3][4][5][6][7]
+
+PL/SQL procedure successfully completed.
+
+>>> >>>> Associate array <<<<
+[1][3][4][5]
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,35 @@
+[22-06-07 08:20:14]: INFO: Log File name: /u01/advancePlsql/geek4geeks/LOGS_GEEK4GEEKS/run_axiomus_conn_math.pkg_070622082014.log
+[22-06-07 08:20:14]: INFO: Starting the script
+[22-06-07 08:20:14]: INFO: Script Directory: /u01/advancePlsql
+[22-06-07 08:20:14]: INFO: Query Directory: /u01/advancePlsql/geek4geeks
+[22-06-07 08:20:14]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-07 08:20:14]: ----------------------------------------------------
+[22-06-07 08:20:14]:  DATABASE QUERY STARTS 
+[22-06-07 08:20:14]: 
+---------------------------------------------------
+--     Geeks4Geeks - Math package		--
+---------------------------------------------------
+
+Package created.
+
+No errors.
+
+Warning: Package Body created with compilation errors.
+
+Errors for PACKAGE BODY MATH:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+25/3	 PL/SQL: Statement ignored
+25/3	 PLS-00306: wrong number or types of arguments in call to
+	 'PUT_LINE'
+
+BEGIN
+*
+ERROR at line 1:
+ORA-04063: package body "AXIOMUS.MATH" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "AXIOMUS.MATH"
+ORA-06512: at line 2
+
+
+[22-06-07 08:20:15]: SQLERROR: Query error 223 in math.pkg

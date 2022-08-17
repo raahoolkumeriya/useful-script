@@ -1,0 +1,26 @@
+/*
+|	Program: Execute profiler 
+|	Author: Raahool Kumeriya
+|	Change history:
+|		27-MAY-2022 - Program Created
+*/
+
+SET SERVEROUTPUT ON;
+SET PAGES 1000 LINES 192;
+
+EXEC DBMS_PROFILER.START_PROFILER ('MY_TEST_PERFORMANCE_RUN1');
+EXEC proc_a;
+EXEC DBMS_PROFILER.STOP_PROFILER();
+
+COL UNIT_TYPE FORMAT A30;
+COL UNIT_OWNER FORMAT A30;
+COL UNIT_NAME FORMAT A30;
+
+select * from PLSQL_PROFILER_RUNS;
+
+select * from PLSQL_PROFILER_UNITS;
+
+select * from PLSQL_PROFILER_DATA;
+
+
+

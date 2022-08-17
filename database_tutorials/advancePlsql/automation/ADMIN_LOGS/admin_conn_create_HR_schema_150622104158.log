@@ -1,0 +1,1331 @@
+[22-06-15 10:41:58]: INFO: Log File name: /u01/playground/automation/ADMIN_LOGS/admin_conn_create_HR_schema_150622104158.log
+[22-06-15 10:41:58]: INFO: Starting the script
+[22-06-15 10:41:58]: INFO: Script Directory: /u01/playground
+[22-06-15 10:41:58]: INFO: Query Directory: /u01/playground/automation
+[22-06-15 10:41:58]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-15 10:41:58]: ----------------------------------------------------
+[22-06-15 10:41:58]:  DATABASE QUERY STARTS 
+[22-06-15 10:41:58]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+--     	HR Schema creation 			--
+---------------------------------------------------
+
+Session altered.
+
+Elapsed: 00:00:00.03
+
+specify password for HR as parameter 1:
+Enter value for 1: 
+specify default tablespeace for HR as parameter 2:
+Enter value for 2: 
+SP2-0546: User requested Interrupt or EOF detected.
+
+specify temporary tablespace for HR as parameter 3:
+Enter value for 3: 
+SP2-0546: User requested Interrupt or EOF detected.
+
+specify log path as parameter 4:
+Enter value for 4: 
+SP2-0546: User requested Interrupt or EOF detected.
+
+Enter value for log_path: 
+SP2-0546: User requested Interrupt or EOF detected.
+Enter value for spool_file: 
+SP2-0546: User requested Interrupt or EOF detected.
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.83
+CREATE USER hr IDENTIFIED BY exit;
+                                 *
+ERROR at line 1:
+ORA-00922: missing or invalid option
+
+
+Elapsed: 00:00:00.03
+Enter value for tbs: 
+SP2-0546: User requested Interrupt or EOF detected.
+Enter value for ttbs: 
+SP2-0546: User requested Interrupt or EOF detected.
+GRANT CREATE SESSION, CREATE VIEW, ALTER SESSION, CREATE SEQUENCE TO hr
+                                                                     *
+ERROR at line 1:
+ORA-01917: user or role 'HR' does not exist
+
+
+Elapsed: 00:00:00.27
+GRANT CREATE SYNONYM, CREATE DATABASE LINK, RESOURCE , UNLIMITED TABLESPACE TO hr
+                                                                               *
+ERROR at line 1:
+ORA-01917: user or role 'HR' does not exist
+
+
+Elapsed: 00:00:00.21
+ERROR:
+ORA-01435: user does not exist
+
+
+Elapsed: 00:00:00.00
+
+Session altered.
+
+Elapsed: 00:00:00.01
+
+Session altered.
+
+Elapsed: 00:00:00.01
+******  Creating REGIONS table ....
+
+Table created.
+
+Elapsed: 00:00:00.16
+
+Index created.
+
+Elapsed: 00:00:00.07
+
+Table altered.
+
+Elapsed: 00:00:00.08
+******  Creating COUNTRIES table ....
+
+Table created.
+
+Elapsed: 00:00:00.06
+
+Table altered.
+
+Elapsed: 00:00:00.13
+******  Creating LOCATIONS table ....
+
+Table created.
+
+Elapsed: 00:00:00.03
+
+Index created.
+
+Elapsed: 00:00:00.03
+
+Table altered.
+
+Elapsed: 00:00:00.07
+
+Sequence created.
+
+Elapsed: 00:00:00.02
+******  Creating DEPARTMENTS table ....
+
+Table created.
+
+Elapsed: 00:00:00.13
+
+Index created.
+
+Elapsed: 00:00:00.03
+
+Table altered.
+
+Elapsed: 00:00:00.07
+
+Sequence created.
+
+Elapsed: 00:00:00.02
+******  Creating JOBS table ....
+
+Table created.
+
+Elapsed: 00:00:00.03
+
+Index created.
+
+Elapsed: 00:00:00.04
+
+Table altered.
+
+Elapsed: 00:00:00.04
+******  Creating EMPLOYEES table ....
+
+Table created.
+
+Elapsed: 00:00:00.09
+
+Index created.
+
+Elapsed: 00:00:00.04
+
+Table altered.
+
+Elapsed: 00:00:00.13
+
+Table altered.
+
+Elapsed: 00:00:00.06
+
+Sequence created.
+
+Elapsed: 00:00:00.01
+******  Creating JOB_HISTORY table ....
+
+Table created.
+
+Elapsed: 00:00:00.07
+
+Index created.
+
+Elapsed: 00:00:00.03
+
+Table altered.
+
+Elapsed: 00:00:00.11
+******  Creating EMP_DETAILS_VIEW view ...
+
+View created.
+
+Elapsed: 00:00:00.06
+
+Commit complete.
+
+Elapsed: 00:00:00.00
+
+Session altered.
+
+Elapsed: 00:00:00.01
+******  Populating REGIONS table ....
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+******  Populating COUNTIRES table ....
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+******  Populating LOCATIONS table ....
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+******  Populating DEPARTMENTS table ....
+
+Table altered.
+
+Elapsed: 00:00:00.05
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+******  Populating JOBS table ....
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+******  Populating EMPLOYEES table ....
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+******  Populating JOB_HISTORY table ....
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+Table altered.
+
+Elapsed: 00:00:00.08
+
+Commit complete.
+
+Elapsed: 00:00:00.00
+
+Index created.
+
+Elapsed: 00:00:00.04
+
+Index created.
+
+Elapsed: 00:00:00.03
+
+Index created.
+
+Elapsed: 00:00:00.03
+
+Index created.
+
+Elapsed: 00:00:00.03
+
+Index created.
+
+Elapsed: 00:00:00.03
+
+Index created.
+
+Elapsed: 00:00:00.03
+
+Index created.
+
+Elapsed: 00:00:00.03
+
+Index created.
+
+Elapsed: 00:00:00.04
+
+Index created.
+
+Elapsed: 00:00:00.04
+
+Index created.
+
+Elapsed: 00:00:00.03
+
+Index created.
+
+Elapsed: 00:00:00.02
+
+Commit complete.
+
+Elapsed: 00:00:00.01
+
+Procedure created.
+
+Elapsed: 00:00:00.17
+CREATE OR REPLACE TRIGGER secure_employees
+                          *
+ERROR at line 1:
+ORA-04089: cannot create triggers on objects owned by SYS
+
+
+Elapsed: 00:00:00.05
+ALTER TRIGGER secure_employees DISABLE
+*
+ERROR at line 1:
+ORA-04080: trigger 'SECURE_EMPLOYEES' does not exist
+
+
+Elapsed: 00:00:00.01
+
+Procedure created.
+
+Elapsed: 00:00:00.08
+CREATE OR REPLACE TRIGGER update_job_history
+                          *
+ERROR at line 1:
+ORA-04089: cannot create triggers on objects owned by SYS
+
+
+Elapsed: 00:00:00.03
+
+Commit complete.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.00
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Comment created.
+
+Elapsed: 00:00:00.01
+
+Commit complete.
+
+Elapsed: 00:00:00.01
+BEGIN dbms_stats.gather_schema_stats(          'HR'                            ,                granularity => 'ALL'            ,                cascade => TRUE                 ,                block_sample => TRUE            ); END;
+
+*
+ERROR at line 1:
+ORA-20000: Schema "HR" does not exist or insufficient privileges
+ORA-06512: at "SYS.DBMS_STATS", line 38298
+ORA-06512: at "SYS.DBMS_STATS", line 38257
+ORA-06512: at "SYS.DBMS_STATS", line 8593
+ORA-06512: at "SYS.DBMS_STATS", line 38140
+ORA-06512: at "SYS.DBMS_STATS", line 38285
+ORA-06512: at line 1
+
+
+Elapsed: 00:00:00.04
+not spooling currently

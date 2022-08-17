@@ -1,0 +1,34 @@
+[22-06-09 18:06:30]: INFO: Log File name: /u01/advancePlsql/worldOracle/LOGS_WORLDORACLE/run_axiomus_conn_4_verification_of_index_090622180630.log
+[22-06-09 18:06:30]: INFO: Starting the script
+[22-06-09 18:06:30]: INFO: Script Directory: /u01/advancePlsql
+[22-06-09 18:06:30]: INFO: Query Directory: /u01/advancePlsql/worldOracle
+[22-06-09 18:06:30]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-09 18:06:30]: ----------------------------------------------------
+[22-06-09 18:06:30]:  DATABASE QUERY STARTS 
+[22-06-09 18:06:30]: 
+---------------------------------------------------
+--		 INDEX Options			 --
+---------------------------------------------------
+o A unique Index ensure that every indexed value is unique
+o An index can have its key values stored in ascending or descending order
+o A reverse key index index has its key value bytes stored in reverse order
+o A composite index is one that is based on more than one column
+o A function-based index is an index based on a function's return value
+o A compressed insex has repeated key values removed.
+---------------------------------------------------
+---------------------------------------------------
+--     		Verify Index			--
+---------------------------------------------------
+
+INDEX_NAME		       INDEX_TYPE		   UNIQUENES
+------------------------------ --------------------------- ---------
+PK_EMP_BK		       NORMAL			   UNIQUE
+IDX			       NORMAL			   NONUNIQUE
+CMPTINDX		       NORMAL			   NONUNIQUE
+FUNBIDX 		       FUNCTION-BASED NORMAL	   NONUNIQUE
+REVIDX			       NORMAL/REV		   NONUNIQUE
+BITMAPIDX		       BITMAP			   NONUNIQUE
+CMPRIDX 		       NORMAL			   NONUNIQUE
+
+7 rows selected.
+

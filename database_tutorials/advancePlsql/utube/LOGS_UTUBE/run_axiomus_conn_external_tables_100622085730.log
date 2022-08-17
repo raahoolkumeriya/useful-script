@@ -1,0 +1,69 @@
+[22-06-10 08:57:30]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_external_tables_100622085730.log
+[22-06-10 08:57:30]: INFO: Starting the script
+[22-06-10 08:57:30]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 08:57:30]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 08:57:30]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 08:57:30]: ----------------------------------------------------
+[22-06-10 08:57:30]:  DATABASE QUERY STARTS 
+[22-06-10 08:57:30]: 
+---------------------------------------------------
+--     		External tables			--
+---------------------------------------------------
+-- Read only table that point to the OS files
+-- we can Not index table, it does not store data
+-- Can NOT do any DML operations
+-- AdvantageS: - does not hold any memory
+-------------: - Different file can be laoded without changing logic.
+---------------------------------------------------
+
+OWNER		     DIRECTORY_NAME		    DIRECTORY_PATH							   ORIGIN_CON_ID
+-------------------- ------------------------------ ---------------------------------------------------------------------- -------------
+SYS		     AXIOM_EXTERNAL		    /u01/STUFF									       3
+SYS		     XMLDIR			    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/xml				       1
+SYS		     XSDDIR			    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/xml/schema			       1
+SYS		     ORA_DBMS_FCP_LOGDIR	    /u01/app/oracle/product/12.2.0/dbhome_1/cfgtoollogs 			       1
+SYS		     ORA_DBMS_FCP_ADMINDIR	    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/admin 			       1
+SYS		     OPATCH_INST_DIR		    /u01/app/oracle/product/12.2.0/dbhome_1/OPatch				       1
+SYS		     ORACLE_OCM_CONFIG_DIR	    /u01/app/oracle/product/12.2.0/dbhome_1/ccr/state				       1
+SYS		     DATA_PUMP_DIR		    /u01/app/oracle/admin/ORCL/dpdump/DF0681C38A75014FE053020011ACEF21		       1
+SYS		     ORACLE_OCM_CONFIG_DIR2	    /u01/app/oracle/product/12.2.0/dbhome_1/ccr/state				       1
+SYS		     OPATCH_SCRIPT_DIR		    /u01/app/oracle/product/12.2.0/dbhome_1/QOpatch				       1
+SYS		     OPATCH_LOG_DIR		    /u01/app/oracle/product/12.2.0/dbhome_1/rdbms/log				       1
+SYS		     ORACLE_BASE		    /u01/app/oracle								       1
+SYS		     ORACLE_HOME		    /u01/app/oracle/product/12.2.0/dbhome_1					       1
+
+13 rows selected.
+
+
+Table created.
+
+---------------------------------------------------
+Access external table
+---------------------------------------------------
+
+    EMP_ID ENAME		DNAME
+---------- -------------------- --------------------
+	10 jim			accounts
+	20 david		sales
+	30 tom			research
+
+---------------------------------------------------
+Show errors with reject limit 0
+---------------------------------------------------
+
+Table dropped.
+
+
+Table created.
+
+---------------------------------------------------
+Access external table
+---------------------------------------------------
+SELECT * from admins
+*
+ERROR at line 1:
+ORA-29913: error in executing ODCIEXTTABLEFETCH callout
+ORA-30653: reject limit reached
+
+
+[22-06-10 08:57:35]: SQLERROR: Query error 217 in external_tables.sql

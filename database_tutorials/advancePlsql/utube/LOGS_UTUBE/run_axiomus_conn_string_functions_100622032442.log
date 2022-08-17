@@ -1,0 +1,35 @@
+[22-06-10 03:24:42]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_string_functions_100622032442.log
+[22-06-10 03:24:42]: INFO: Starting the script
+[22-06-10 03:24:43]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 03:24:43]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 03:24:43]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 03:24:43]: ----------------------------------------------------
+[22-06-10 03:24:43]:  DATABASE QUERY STARTS 
+[22-06-10 03:24:43]: 
+---------------------------------------------------
+--     		String Functions		--
+---------------------------------------------------
+-- UPPER,LOWER,INITCAP,LENGTH,REVERSE,REPLACE	--
+---------------------------------------------------
+
+UPPER(EMPL LOWER(EMPL INITCAP(EM LENGTH(EMPLOYEE_NAME) REVERSE(EM REPLACE(EM
+---------- ---------- ---------- --------------------- ---------- ----------
+SMITH	   smith      Smith			     5 HTIMS	  SMITH
+ALLEN	   allen      Allen			     5 NELLA	  zLLEN
+WARD	   ward       Ward			     4 DRAW	  WzRD
+JONES	   jones      Jones			     5 SENOJ	  JONES
+MARTIN	   martin     Martin			     6 NITRAM	  MzRTIN
+BLAKE	   blake      Blake			     5 EKALB	  BLzKE
+CLARK	   clark      Clark			     5 KRALC	  CLzRK
+SCOTT	   scott      Scott			     5 TTOCS	  SCOTT
+KING	   king       King			     4 GNIK	  KING
+TURNER	   turner     Turner			     6 RENRUT	  TURNER
+ADAMS	   adams      Adams			     5 SMADA	  zDzMS
+JAMES	   james      James			     5 SEMAJ	  JzMES
+FORD	   ford       Ford			     4 DROF	  FORD
+MILLER	   miller     Miller			     6 RELLIM	  MILLER
+STALIN	   stalin     Stalin			     6 NILATS	  STzLIN
+JONES	   jones      Jones			     5 SENOJ	  JONES
+
+16 rows selected.
+

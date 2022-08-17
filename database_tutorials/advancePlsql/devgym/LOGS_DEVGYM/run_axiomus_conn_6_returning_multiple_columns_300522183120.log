@@ -1,0 +1,27 @@
+[22-05-30 18:31:20]: INFO: Log File name: /u01/profiler/devgym/LOGS_DEVGYM/run_axiomus_conn_6_returning_multiple_columns_300522183120.log
+[22-05-30 18:31:20]: INFO: Starting the script
+[22-05-30 18:31:20]: INFO: Script Directory: /u01/profiler
+[22-05-30 18:31:20]: INFO: Query Directory: /u01/profiler/devgym
+[22-05-30 18:31:20]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-30 18:31:20]: ----------------------------------------------------
+[22-05-30 18:31:20]:  DATABASE QUERY STARTS 
+[22-05-30 18:31:20]: 
+---------------------------------------------------
+--    returning multiple columns		 --
+---------------------------------------------------
+
+Table created.
+
+----------------------------------------------------------
+CREATE OR REPLACE TYPE animals_nt IS TABLE OF animals%ROWTYPE
+--> Schema-level type has illegal reference
+--> %ROWTYPE is a PLSQL construct and this is executing in the SQL environment, so it doesn't know about ROWTYPE
+----------------------------------------------------------
+---> What we can do instead creats a OBJECT that mimic the Table structure
+----------------------------------------------------------
+
+Type created.
+
+
+Type created.
+

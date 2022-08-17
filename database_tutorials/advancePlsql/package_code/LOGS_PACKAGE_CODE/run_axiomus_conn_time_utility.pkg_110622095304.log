@@ -1,0 +1,35 @@
+[22-06-11 09:53:04]: INFO: Log File name: /u01/playground/package_code/LOGS_PACKAGE_CODE/run_axiomus_conn_time_utility.pkg_110622095304.log
+[22-06-11 09:53:04]: INFO: Starting the script
+[22-06-11 09:53:04]: INFO: Script Directory: /u01/playground
+[22-06-11 09:53:04]: INFO: Query Directory: /u01/playground/package_code
+[22-06-11 09:53:04]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-11 09:53:04]: ----------------------------------------------------
+[22-06-11 09:53:04]:  DATABASE QUERY STARTS 
+[22-06-11 09:53:04]: 
+
+Session altered.
+
+---------------------------------------------------
+--	     Time Utility Package		 --
+---------------------------------------------------
+
+Package created.
+
+No errors.
+
+Package body created.
+
+No errors.
+---------------------------------------------------
+--	     Unit testing code 			--
+---------------------------------------------------
+	count_in := TimeUtility.getTIme();
+	            *
+ERROR at line 4:
+ORA-06550: line 4, column 14:
+PLS-00306: wrong number or types of arguments in call to 'GETTIME'
+ORA-06550: line 4, column 2:
+PL/SQL: Statement ignored
+
+
+[22-06-11 09:53:05]: SQLERROR: Query error 150 in time_utility.pkg

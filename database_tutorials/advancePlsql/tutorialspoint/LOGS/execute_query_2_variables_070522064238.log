@@ -1,0 +1,30 @@
+[22-05-07 06:42:38]: INFO: Log File name: /u01/scripts/LOGS/execute_query_2_variables_070522064238.log
+[22-05-07 06:42:38]: INFO: Starting the script
+[22-05-07 06:42:38]: INFO: Script Directory: /u01/scripts
+[22-05-07 06:42:38]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-07 06:42:38]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-07 06:42:38]: ----------------------------------------------------
+[22-05-07 06:42:38]:  DATABASE QUERY STARTS 
+[22-05-07 06:42:38]: 
+Value of C : 30
+Value of d : 23.33333333333333333333333333333333333333
+
+PL/SQL procedure successfully completed.
+
+Variable Scope In PLSQL
+varibale in Outter Block : 95
+variable in Outter block : 2
+Variable in inner block : 195
+Variable in inner block : 20
+
+PL/SQL procedure successfully completed.
+
+Assiging SQL query Result to PLSQl variables
+1
+
+PL/SQL procedure successfully completed.
+
+Customer Ramesh from Ahmedabad		       earns 2000
+
+PL/SQL procedure successfully completed.
+

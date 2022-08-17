@@ -1,0 +1,33 @@
+[22-06-15 03:31:31]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_42_building_autonomous_logging_mechanism_150622033131.log
+[22-06-15 03:31:31]: INFO: Starting the script
+[22-06-15 03:31:31]: INFO: Script Directory: /u01/playground
+[22-06-15 03:31:31]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-15 03:31:31]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-15 03:31:32]: ----------------------------------------------------
+[22-06-15 03:31:32]:  DATABASE QUERY STARTS 
+[22-06-15 03:31:32]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+-- Building an Autonomous Logging Mechanism    	--
+---------------------------------------------------
+o -------- Log table defined ----------------------
+
+Table created.
+
+Elapsed: 00:00:00.42
+o -- DOnt insert direct record to log table, instead, we should build a layer of code arround the table ( this is called Encapsulation)
+
+Package created.
+
+Elapsed: 00:00:00.29
+No errors.
+
+Package body created.
+
+Elapsed: 00:00:00.37
+No errors.
+
+

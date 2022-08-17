@@ -1,0 +1,32 @@
+[22-05-08 06:52:11]: INFO: Log File name: /u01/scripts/LOGS/execute_query_18_nested_tables_080522065211.log
+[22-05-08 06:52:11]: INFO: Starting the script
+[22-05-08 06:52:11]: INFO: Script Directory: /u01/scripts
+[22-05-08 06:52:11]: INFO: Query Directory: /u01/scripts/tutorialspoint
+[22-05-08 06:52:11]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-08 06:52:11]: ----------------------------------------------------
+[22-05-08 06:52:11]:  DATABASE QUERY STARTS 
+[22-05-08 06:52:11]: 
+-------------------------------------------- prompt Nested tables
+-----> Is like a One Dimensional array with an arbitary number of elements
+-- Differ from ARRAY
+-----> An array has a declared number of elements, but nested tabels does not. The size of nested table can increase dynamically
+-----> An array is always dense ie., it always has consecutive subscripts. A nested array is dense intitally, but it can become sparse when elements are deleted from it.
+--------------------------------------------
+Total Students :5
+Student Rahul Scores 78
+Student Vishal Scores 89
+Student Aniket Scores 79
+Student Sandy Scores 98
+Student pintu Scores 89
+
+PL/SQL procedure successfully completed.
+
+Customer(1): Ramesh
+Customer(2): Khilan
+Customer(3): kaushik
+Customer(4): Chaitali
+Customer(5): Hardik
+Customer(6): Komal
+
+PL/SQL procedure successfully completed.
+

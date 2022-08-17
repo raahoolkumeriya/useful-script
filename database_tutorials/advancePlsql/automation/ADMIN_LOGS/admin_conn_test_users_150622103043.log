@@ -1,0 +1,408 @@
+[22-06-15 10:30:43]: INFO: Log File name: /u01/playground/automation/ADMIN_LOGS/admin_conn_test_users_150622103043.log
+[22-06-15 10:30:44]: INFO: Starting the script
+[22-06-15 10:30:44]: INFO: Script Directory: /u01/playground
+[22-06-15 10:30:44]: INFO: Query Directory: /u01/playground/automation
+[22-06-15 10:30:44]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-15 10:30:44]: ----------------------------------------------------
+[22-06-15 10:30:44]:  DATABASE QUERY STARTS 
+[22-06-15 10:30:44]: 
+
+Session altered.
+
+Elapsed: 00:00:00.04
+---------------------------------------------------
+--     		USERS in database		--
+---------------------------------------------------
+
+USERNAME			  USER_ID CREATED   COM O INH DEFAULT_COLLATION 	     IMP ALL
+------------------------------ ---------- --------- --- - --- ------------------------------ --- ---
+SYS					0 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+AUDSYS					8 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+SYSTEM					9 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+SYSBACKUP		       2147483617 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+SYSDG			       2147483618 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+SYSKM			       2147483619 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+SYSRAC			       2147483620 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+OUTLN				       13 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+GSMADMIN_INTERNAL		       21 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+GSMUSER 			       22 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+DIP				       23 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+XS$NULL 		       2147483638 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+REMOTE_SCHEDULER_AGENT		       34 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+DBSFWUSER			       35 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+ORACLE_OCM			       39 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+SYS$UMF 			       46 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+DBSNMP				       54 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+APPQOSSYS			       55 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+GSMCATUSER			       59 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+GGSYS				       60 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+ANONYMOUS			       63 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+XDB				       62 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+WMSYS				       72 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+OJVMSYS 			       81 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+CTXSYS				       84 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+ORDSYS				       86 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+SI_INFORMTN_SCHEMA		       89 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+ORDPLUGINS			       88 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+ORDDATA 			       87 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+MDSYS				       90 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+OLAPSYS 			       93 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+MDDATA				       96 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+SPATIAL_CSW_ADMIN_USR		       98 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+LBACSYS 			      101 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+DVF				      103 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+DVSYS				  1279990 26-JAN-17 YES Y NO  USING_NLS_COMP		     NO  NO
+APEX_050000			      108 02-MAR-17 YES Y NO  USING_NLS_COMP		     NO  NO
+FLOWS_FILES			      106 02-MAR-17 YES Y NO  USING_NLS_COMP		     NO  NO
+APEX_PUBLIC_USER		      107 02-MAR-17 YES Y NO  USING_NLS_COMP		     NO  NO
+
+39 rows selected.
+
+Elapsed: 00:00:00.22
+
+USERNAME			  USER_ID
+------------------------------ ----------
+PASSWORD
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ACCOUNT_STATUS			 LOCK_DATE EXPIRY_DA DEFAULT_TABLESPACE 	    TEMPORARY_TABLESPACE	   LOCAL_TEMP_TABLESPACE	  CREATED
+-------------------------------- --------- --------- ------------------------------ ------------------------------ ------------------------------ ---------
+PROFILE
+--------------------------------------------------------------------------------------------------------------------------------
+INITIAL_RSRC_CONSUMER_GROUP
+--------------------------------------------------------------------------------------------------------------------------------
+EXTERNAL_NAME
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PASSWORD_VERSIONS E AUTHENTI P COM LAST_LOGIN								       O INH DEFAULT_COLLATION		    IMP ALL
+----------------- - -------- - --- --------------------------------------------------------------------------- - --- ------------------------------ --- ---
+SYS					0
+
+OPEN					   11-NOV-22 SYSTEM			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+SYS_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+SYSTEM					9
+
+OPEN					   11-NOV-22 SYSTEM			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+SYS_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+OUTLN				       13
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSTEM			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+LBACSYS 			      101
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSTEM			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+XS$NULL 		       2147483638
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSTEM			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+		  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+SYS$UMF 			       46
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSTEM			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+OJVMSYS 			       81
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSTEM			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+FLOWS_FILES			      106
+
+EXPIRED & LOCKED		 02-MAR-17 02-MAR-17 SYSAUX			    TEMP			   TEMP 			  02-MAR-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+SI_INFORMTN_SCHEMA		       89
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+GGSYS				       60
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+ORDDATA 			       87
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+OLAPSYS 			       93
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+ANONYMOUS			       63
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+		  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+ORDSYS				       86
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+DVF				      103
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+		  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+DBSNMP				       54
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+APEX_050000			      108
+
+EXPIRED & LOCKED		 02-MAR-17 02-MAR-17 SYSAUX			    TEMP			   TEMP 			  02-MAR-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+GSMADMIN_INTERNAL		       21
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+MDSYS				       90
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+XDB				       62
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+WMSYS				       72
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+CTXSYS				       84
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+DBSFWUSER			       35
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+ORDPLUGINS			       88
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+DVSYS				  1279990
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+		  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+APPQOSSYS			       55
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 SYSAUX			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+GSMUSER 			       22
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+MDDATA				       96
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+APEX_PUBLIC_USER		      107
+
+EXPIRED & LOCKED		 02-MAR-17 02-MAR-17 USERS			    TEMP			   TEMP 			  02-MAR-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+SYSDG			       2147483618
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+SYSKM			       2147483619
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+ORACLE_OCM			       39
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+GSMCATUSER			       59
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+SPATIAL_CSW_ADMIN_USR		       98
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+REMOTE_SCHEDULER_AGENT		       34
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+		  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+SYSBACKUP		       2147483617
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+SYSRAC			       2147483620
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+DIP				       23
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+AUDSYS					8
+
+EXPIRED & LOCKED		 26-JAN-17 26-JAN-17 USERS			    TEMP			   TEMP 			  26-JAN-17
+DEFAULT
+DEFAULT_CONSUMER_GROUP
+
+11G 12C 	  N PASSWORD N YES									       Y NO  USING_NLS_COMP		    NO	NO
+
+
+39 rows selected.
+
+Elapsed: 00:00:00.11
+
+USERNAME			  USER_ID ACCOUNT_STATUS		   LOCK_DATE EXPIRY_DA DEFAULT_TABLESPACE	      TEMPORARY_TABLESPACE	     LOCAL_TEMP_TABLESPACE
+------------------------------ ---------- -------------------------------- --------- --------- ------------------------------ ------------------------------ ------------------------------
+CREATED   INITIAL_RSRC_CONSUMER_GROUP
+--------- --------------------------------------------------------------------------------------------------------------------------------
+EXTERNAL_NAME
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+P COM O INH DEFAULT_COLLATION		   IMP ALL
+- --- - --- ------------------------------ --- ---
+SYS					0 OPEN					     11-NOV-22 SYSTEM			      TEMP			     TEMP
+26-JAN-17 SYS_GROUP
+
+N YES Y NO  USING_NLS_COMP		   NO  NO
+
+
+Elapsed: 00:00:00.01

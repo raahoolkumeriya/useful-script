@@ -1,0 +1,18 @@
+[22-06-02 17:19:39]: INFO: Log File name: /u01/advancePlsql/googleSearch/LOGS_GOOGLESEARCH/run_axiomus_conn_6_grant_on_demo_profile_020622171939.log
+[22-06-02 17:19:39]: INFO: Starting the script
+[22-06-02 17:19:39]: INFO: Script Directory: /u01/advancePlsql
+[22-06-02 17:19:39]: INFO: Query Directory: /u01/advancePlsql/googleSearch
+[22-06-02 17:19:39]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 17:19:39]: ----------------------------------------------------
+[22-06-02 17:19:39]:  DATABASE QUERY STARTS 
+[22-06-02 17:19:39]: 
+---------------------------------------------------
+--   GRANT all on DEMO_PROFILE		  --
+---------------------------------------------------
+select username from dba_users where username='axiomus'
+                     *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+[22-06-02 17:19:40]: SQLERROR: Query error 174 in 6_grant_on_demo_profile.sql

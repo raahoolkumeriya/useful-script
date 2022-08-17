@@ -1,0 +1,43 @@
+[22-06-27 16:25:07]: INFO: Log File name: /u01/playground/oracle_docs21/LOGS_ORACLE_DOCS21/run_axiomus_conn_math_debug.pkg_270622162507.log
+[22-06-27 16:25:07]: INFO: Starting the script
+[22-06-27 16:25:07]: INFO: Script Directory: /u01/playground
+[22-06-27 16:25:07]: INFO: Query Directory: /u01/playground/oracle_docs21
+[22-06-27 16:25:07]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-27 16:25:07]: ----------------------------------------------------
+[22-06-27 16:25:07]:  DATABASE QUERY STARTS 
+[22-06-27 16:25:07]: 
+
+Session altered.
+
+Elapsed: 00:00:00.01
+---------------------------------------------------
+MATH features			--
+---------------------------------------------------
+
+Session altered.
+
+Elapsed: 00:00:00.05
+
+SP2-0808: Package created with compilation warnings
+
+Elapsed: 00:00:00.16
+
+Package body created.
+
+Elapsed: 00:00:00.08
+
+Procedure created.
+
+Elapsed: 00:00:00.25
+PACKAGE my_pkg AUTHID DEFINER AS
+	SUBTYPE my_real IS
+	
+		BINARY_DOUBLE;
+	
+	my_pi my_real;
+	my_e  my_real;
+END my_pkg;
+
+Call completed.
+
+Elapsed: 00:00:00.49

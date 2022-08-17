@@ -1,0 +1,73 @@
+[22-06-14 10:50:18]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_38_nested_table_multiset_operations_140622105018.log
+[22-06-14 10:50:18]: INFO: Starting the script
+[22-06-14 10:50:18]: INFO: Script Directory: /u01/playground
+[22-06-14 10:50:18]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 10:50:18]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 10:50:18]: ----------------------------------------------------
+[22-06-14 10:50:18]:  DATABASE QUERY STARTS 
+[22-06-14 10:50:18]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+--     	Nested Table Multiset Operations	--
+---------------------------------------------------
+
+SP2-0808: Package created with compilation warnings
+
+Elapsed: 00:00:00.39
+Errors for PACKAGE AUTHORS_PKG:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+4/20	 PLW-06026: package specification exposes global variable
+5/19	 PLW-06026: package specification exposes global variable
+6/17	 PLW-06026: package specification exposes global variable
+7/13	 PLW-06026: package specification exposes global variable
+
+Package body created.
+
+Elapsed: 00:00:00.12
+No errors.
+---------------------------------------------------
+-- Testing Equality and Membership of Nested Tables
+---------------------------------------------------
+Group 1 != Group 2
+Group 2 = Group 3
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.01
+-----------------------------------------------------------
+-- 	Performing High-Level Set Operations		--
+-----------------------------------------------------------
+Amravati and Nagpur
+1 = Chaitanya S
+2 = Nitin K
+3 = Akshay T
+4 = Raahool K
+5 = Raahool K
+6 = Aniket P
+7 = Dinesh B
+_
+Amravati and Nagpur with DISTICT
+1 = Chaitanya S
+2 = Nitin K
+3 = Akshay T
+4 = Raahool K
+5 = Aniket P
+6 = Dinesh B
+_
+IN COMMON
+1 = Raahool K
+_
+ONLY Amravati's
+1 = Chaitanya S
+2 = Nitin K
+3 = Akshay T
+_
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.04

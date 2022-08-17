@@ -1,0 +1,34 @@
+[22-04-21 14:43:10]: INFO: Log File name: /u01/scripts/LOGS/execute_query_6_for_loop_210422144310.log
+[22-04-21 14:43:10]: INFO: Starting the script
+[22-04-21 14:43:10]: INFO: Script Directory: /u01/scripts
+[22-04-21 14:43:10]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-21 14:43:10]: INFO: Spinning Connection with axiomus@ORCLPDB1
+The index value is [1]
+The index value is [2]
+The index value is [3]
+The index value is [4]
+The index value is [5]
+The index value is [6]
+The index value is [7]
+The index value is [8]
+The index value is [9]
+The index value is [10]
+
+PL/SQL procedure successfully completed.
+
+"Explicit cursor in a FOR loop"
+The title is [SYSTEM_PRIVILEGE_MAP]
+The title is [TABLE_PRIVILEGE_MAP]
+The title is [USER_PRIVILEGE_MAP]
+The title is [STMT_AUDIT_OPTION_MAP]
+
+PL/SQL procedure successfully completed.
+
+"Implicit cursor in a FOR loop"
+The title is [SYSTEM_PRIVILEGE_MAP]
+The title is [TABLE_PRIVILEGE_MAP]
+The title is [USER_PRIVILEGE_MAP]
+The title is [STMT_AUDIT_OPTION_MAP]
+
+PL/SQL procedure successfully completed.
+

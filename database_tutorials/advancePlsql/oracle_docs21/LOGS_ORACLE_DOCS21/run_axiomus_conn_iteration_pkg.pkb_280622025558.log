@@ -1,0 +1,28 @@
+[22-06-28 02:55:58]: INFO: Log File name: /u01/playground/oracle_docs21/LOGS_ORACLE_DOCS21/run_axiomus_conn_iteration_pkg.pkb_280622025558.log
+[22-06-28 02:55:58]: INFO: Starting the script
+[22-06-28 02:55:58]: INFO: Script Directory: /u01/playground
+[22-06-28 02:55:58]: INFO: Query Directory: /u01/playground/oracle_docs21
+[22-06-28 02:55:58]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-28 02:55:58]: ----------------------------------------------------
+[22-06-28 02:55:58]:  DATABASE QUERY STARTS 
+[22-06-28 02:55:58]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+ALL About Iterations		
+---------------------------------------------------
+
+Warning: Package Body created with compilation errors.
+
+Elapsed: 00:00:00.16
+Errors for PACKAGE BODY ITERATION:
+
+LINE/COL ERROR
+-------- -----------------------------------------------------------------
+8/16	 PLS-00103: Encountered the symbol "," when expecting one of the
+	 following:
+	 * & - + / at loop mod remainder rem <an exponent (**)> ||
+	 multiset
+

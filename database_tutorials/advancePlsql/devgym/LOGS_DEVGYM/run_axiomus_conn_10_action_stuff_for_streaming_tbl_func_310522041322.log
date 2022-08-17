@@ -1,0 +1,35 @@
+[22-05-31 04:13:22]: INFO: Log File name: /u01/profiler/devgym/LOGS_DEVGYM/run_axiomus_conn_10_action_stuff_for_streaming_tbl_func_310522041322.log
+[22-05-31 04:13:22]: INFO: Starting the script
+[22-05-31 04:13:22]: INFO: Script Directory: /u01/profiler
+[22-05-31 04:13:22]: INFO: Query Directory: /u01/profiler/devgym
+[22-05-31 04:13:22]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-31 04:13:22]: ----------------------------------------------------
+[22-05-31 04:13:22]:  DATABASE QUERY STARTS 
+[22-05-31 04:13:22]: 
+---------------------------------------------------
+--   In action : streaming Tabel function	 --
+---------------------------------------------------
+
+2000 rows created.
+
+
+  COUNT(*)
+----------
+      2000
+
+
+TICKER		     PRICEDATE P      PRICE
+-------------------- --------- - ----------
+STK688		     31-MAY-22 C	703
+STK689		     31-MAY-22 O	689
+STK689		     31-MAY-22 C	704
+STK690		     31-MAY-22 O	690
+STK690		     31-MAY-22 C	705
+STK691		     31-MAY-22 O	691
+STK691		     31-MAY-22 C	706
+STK692		     31-MAY-22 O	692
+STK692		     31-MAY-22 C	707
+STK693		     31-MAY-22 O	693
+
+10 rows selected.
+

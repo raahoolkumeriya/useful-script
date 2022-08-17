@@ -1,0 +1,56 @@
+[22-06-14 10:03:06]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_37_sorting_collection_content_140622100306.log
+[22-06-14 10:03:06]: INFO: Starting the script
+[22-06-14 10:03:06]: INFO: Script Directory: /u01/playground
+[22-06-14 10:03:06]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 10:03:06]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 10:03:06]: ----------------------------------------------------
+[22-06-14 10:03:06]:  DATABASE QUERY STARTS 
+[22-06-14 10:03:06]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+--    Sorting contents of collections	 	--
+---------------------------------------------------
+
+Type created.
+
+Elapsed: 00:00:00.26
+
+Table created.
+
+Elapsed: 00:00:00.08
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.23
+
+AUTHOR_NAME
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Raahool Kumeriya
+Ganesh Pando
+Nitin Kapde
+
+Elapsed: 00:00:00.10
+-->Now I would like to blend this information with data from my PL/SQL program -->
+I recommned that you read books by :
+Chaitanya Shewatkar
+Ganesh Pando
+Nitin Kapde
+Raahool Kumeriya
+Satish Chopde
+Summit Kakani
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.12
+---> I can also apply this technique only to PL/SQL data to sort the contents being retrieved --->
+I recommned that you read books by :
+Chaitanya Shewatkar
+Satish Chopde
+Summit Kakani
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.04

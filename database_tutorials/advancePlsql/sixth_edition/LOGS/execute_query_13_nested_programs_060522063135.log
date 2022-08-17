@@ -1,0 +1,16 @@
+[22-05-06 06:31:35]: INFO: Log File name: /u01/scripts/LOGS/execute_query_13_nested_programs_060522063135.log
+[22-05-06 06:31:35]: INFO: Starting the script
+[22-05-06 06:31:35]: INFO: Script Directory: /u01/scripts
+[22-05-06 06:31:35]: INFO: Query Directory: /u01/scripts/sixth_edition
+[22-05-06 06:31:35]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-06 06:31:35]: ----------------------------------------------------
+[22-05-06 06:31:35]:  DATABASE QUERY STARTS 
+[22-05-06 06:31:35]: 
+
+Procedure created.
+
+No errors.
+Fudged total for years :78
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,87 @@
+[22-04-22 08:30:46]: INFO: Log File name: /u01/scripts/LOGS/execute_query_6_conditional_statements_220422083046.log
+[22-04-22 08:30:46]: INFO: Starting the script
+[22-04-22 08:30:46]: INFO: Script Directory: /u01/scripts
+[22-04-22 08:30:46]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-22 08:30:46]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-04-22 08:30:46]: ----------------------------------------------------
+[22-04-22 08:30:46]:  DATABASE QUERY STARTS 
+[22-04-22 08:30:46]: 
+>>>> Conditional statements <<<
+----- Comparison AND
+Conditional AND : True.
+
+PL/SQL procedure successfully completed.
+
+----- Comparison BETWEEN
+Conditional BETWEEN : In the range.
+
+PL/SQL procedure successfully completed.
+
+------ Comparison IN
+Conditional IN : in the set.
+
+PL/SQL procedure successfully completed.
+
+------ Comparison IS EMPTY
+Comparison IN EMPTY : "a" is empty.
+
+PL/SQL procedure successfully completed.
+
+------ Comparison IS NULL
+Comaprision IS NULL : It is null.
+
+PL/SQL procedure successfully completed.
+
+------ Comparison IS A SET
+Comparison IS A SET : "a" is a set.
+
+PL/SQL procedure successfully completed.
+
+------ Comparison LIKE
+
+PL/SQL procedure successfully completed.
+
+------ Comparison MEMBER OF
+Comparison MEMBER OF : "n" is member.
+
+PL/SQL procedure successfully completed.
+
+------- Comaprison NOT
+Comparison NOT : true.
+
+PL/SQL procedure successfully completed.
+
+------ COmparison OR
+Comparison OR : True.
+
+PL/SQL procedure successfully completed.
+
+------- Comparison SUBMULTISET
+Comparison SUBMULTISET : a is Subset.
+
+PL/SQL procedure successfully completed.
+
+---------------------------------------------
+IF-ELSIF-IF
+Condition one met!
+
+PL/SQL procedure successfully completed.
+
+>>>> SIMPLE CASE
+case 0!
+
+PL/SQL procedure successfully completed.
+
+>>> SEARCHED CASE
+Case [2 = 2]
+
+PL/SQL procedure successfully completed.
+
+>>>  Conditional Compilation Statements
+
+Session altered.
+
+Debug level 1 Enabled.
+
+PL/SQL procedure successfully completed.
+

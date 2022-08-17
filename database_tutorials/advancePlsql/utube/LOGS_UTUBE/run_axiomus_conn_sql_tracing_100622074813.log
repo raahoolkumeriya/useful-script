@@ -1,0 +1,61 @@
+[22-06-10 07:48:13]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_sql_tracing_100622074813.log
+[22-06-10 07:48:13]: INFO: Starting the script
+[22-06-10 07:48:13]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 07:48:13]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 07:48:13]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 07:48:13]: ----------------------------------------------------
+[22-06-10 07:48:13]:  DATABASE QUERY STARTS 
+[22-06-10 07:48:13]: 
+---------------------------------------------------
+--     		SQL Tracing 			--
+---------------------------------------------------
+--> Explain plan is mainly for SQL statements
+--> SQL Tracing will be used for SQL and PLSQL, it generate the execution plan and some CPU statistics
+--> In Explain plan, actual query will not executed, but it will statistics
+--> In SQL tracing , actual query get executed and then plan is given to us
+--> after SQL tracing, the output file is stroed at OS level. and file is called the Trace file.
+--> The trace file have .trc file which non-readabel format., we need to convert to readable format
+--> WE convert the trace file into readabel format with OS level utility "TKPROF"
+--> Transient kernal profile (TKPROF)
+---------------------------------------------------
+
+Session altered.
+
+
+EMPLOYEE_ID EMPLOYEE_N JOB	 MANAGER_ID HIREDATE	  SALARY COMMISSION DEPARTMENT_ID
+----------- ---------- --------- ---------- --------- ---------- ---------- -------------
+       7369 SMITH      CLERK	       7902 17-DEC-80	     800		       20
+       7566 JONES      MANAGER	       7839 02-APR-81	    2975		       20
+       7788 SCOTT      ANALYST	       7566 19-APR-87	    3000		       20
+       7876 ADAMS      CLERK	       7788 23-MAY-87	    1100		       20
+       7902 FORD       ANALYST	       7566 03-DEC-81	    3000		       20
+
+
+EMPLOYEE_ID EMPLOYEE_N JOB	 MANAGER_ID HIREDATE	  SALARY COMMISSION DEPARTMENT_ID
+----------- ---------- --------- ---------- --------- ---------- ---------- -------------
+       7499 ALLEN      SALESMAN        7698 20-FEB-81	    1600	300	       30
+       7521 WARD       SALESMAN        7698 22-FEB-81	    1250	500	       30
+       7654 MARTIN     SALESMAN        7698 28-SEP-81	    1250       1400	       30
+       7698 BLAKE      MANAGER	       7839 01-MAY-81	    2850		       30
+       7844 TURNER     SALESMAN        7698 08-SEP-81	    1500	  0	       30
+       7900 JAMES      CLERK	       7698 03-DEC-81	     950		       30
+
+6 rows selected.
+
+
+Procedure created.
+
+SCOTT
+
+PL/SQL procedure successfully completed.
+
+
+Procedure created.
+
+
+Session altered.
+
+ORA-00942: table or view does not exist
+
+
+[22-06-10 07:48:14]: SQLERROR: Query error 174 in sql_tracing.sql

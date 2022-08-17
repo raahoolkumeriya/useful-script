@@ -1,0 +1,34 @@
+[22-05-16 05:54:03]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_sql_11_lateral_inline_views_160522055402.log
+[22-05-16 05:54:03]: INFO: Starting the script
+[22-05-16 05:54:03]: INFO: Script Directory: /u01/docker
+[22-05-16 05:54:03]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-16 05:54:03]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 05:54:03]: ----------------------------------------------------
+[22-05-16 05:54:03]:  DATABASE QUERY STARTS 
+[22-05-16 05:54:03]: 
+---- LATERAL inline views -------
+-- Normally, it is not possible to reference tables outside of an inline view definition
+-------------------------------------------------------
+A LATERAL inline view allows us to reference the table on the left of the inline view definition in the FROM clause, allowing the inline view to be correlated.
+This is also known as left correlation.
+-------------------------------------------------------
+
+DEPARTMENT_NAM EMPLOYEE_N
+-------------- ----------
+ACCOUNTING     CLARK
+ACCOUNTING     KING
+ACCOUNTING     MILLER
+RESEARCH       ADAMS
+RESEARCH       FORD
+RESEARCH       JONES
+RESEARCH       SCOTT
+RESEARCH       SMITH
+SALES	       ALLEN
+SALES	       BLAKE
+SALES	       JAMES
+SALES	       MARTIN
+SALES	       TURNER
+SALES	       WARD
+
+14 rows selected.
+

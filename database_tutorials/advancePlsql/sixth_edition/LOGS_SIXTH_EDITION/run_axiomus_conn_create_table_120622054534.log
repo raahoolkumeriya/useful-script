@@ -1,0 +1,68 @@
+[22-06-12 05:45:34]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_create_table_120622054534.log
+[22-06-12 05:45:34]: INFO: Starting the script
+[22-06-12 05:45:34]: INFO: Script Directory: /u01/playground
+[22-06-12 05:45:34]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-12 05:45:34]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-12 05:45:34]: ----------------------------------------------------
+[22-06-12 05:45:34]:  DATABASE QUERY STARTS 
+[22-06-12 05:45:34]: 
+
+Session altered.
+
+---------------------------------------------------
+--     		CREATE TABLE books		--
+---------------------------------------------------
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+   BOOK_ID ISBN
+---------- -------------
+TITLE
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SUMMARY
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AUTHOR
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DATE_PUBL PAGE_COUNT
+--------- ----------
+	 1 1-56592-335-9
+Oracle PL/SQL Programming
+Reference for PL/SQL developers,including examples and best practice recommendations.
+Feuerstein,Steven, with Bill Pribyl
+01-SEP-97	 987
+
+	 2 0-596-00381-1
+Oracle PL/SQL Programming, Third Ed.
+Reference for PL/SQL developers,including examples and best practice recommendations. Third Edition
+Feuerstein,Steven, with Bill Pribyl
+01-DEC-00	1001
+
+	 3 0-596-00180-0
+Learning Oracle PL/SQL
+Basic PL/SQL developers,including examples and best practice recommendations.
+Bill Pribyl with Steven Feuerstein
+24-JAN-03	 567
+
+	 4 0-596-00680-2
+Oracle PL/SQL Language Pocket Reference, Third Ed.
+Quick PL/SQL developers,including examples and best practice recommendations.
+Bill Pribyl,Steven Feuerstein, Chip Dawas
+10-AUG-07	1382
+
+

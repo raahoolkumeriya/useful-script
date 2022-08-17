@@ -1,0 +1,35 @@
+[22-05-29 07:03:06]: INFO: Log File name: /u01/profiler/11g_oracle_docs/LOGS_11G_ORACLE_DOCS/run_axiomus_conn_4_predefine_inquiry_directives_290522070306.log
+[22-05-29 07:03:06]: INFO: Starting the script
+[22-05-29 07:03:06]: INFO: Script Directory: /u01/profiler
+[22-05-29 07:03:06]: INFO: Query Directory: /u01/profiler/11g_oracle_docs
+[22-05-29 07:03:06]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-29 07:03:06]: ----------------------------------------------------
+[22-05-29 07:03:06]:  DATABASE QUERY STARTS 
+[22-05-29 07:03:06]: 
+-----------------------------------------------------------------
+-- Predefined Inquiry Directives $$PLSQL_LINE and $$PLSQL_UNIT --
+-----------------------------------------------------------------
+
+Procedure created.
+
+Inside P
+i = 6
+$$PLSQL_LINE = 8
+$$PLSQL_UNIT = P
+Outside p
+$$PLSQL_UNIT =
+
+PL/SQL procedure successfully completed.
+
+-----------------------------------------------------------------
+-- Displaying Values of PL/SQL Compilation Parameters	      --
+-----------------------------------------------------------------
+$$PLSQL_SETTINGS =
+$$PLSQL_CCFLAGS =
+$$PLSQL_CODE_TYPE = INTERPRETED
+$$PLSQL_OPTIMIZE_LEVEL = 2
+$$PLSQL_WARNINGS = DISABLE:ALL
+$$NLS_LENGTH_SEMANTICS = BYTE
+
+PL/SQL procedure successfully completed.
+

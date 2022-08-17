@@ -1,0 +1,16 @@
+[22-04-22 07:05:13]: INFO: Log File name: /u01/scripts/LOGS/execute_query_5_variable_scope_220422070513.log
+[22-04-22 07:05:13]: INFO: Starting the script
+[22-04-22 07:05:13]: INFO: Script Directory: /u01/scripts
+[22-04-22 07:05:13]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-22 07:05:13]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-04-22 07:05:13]: ----------------------------------------------------
+[22-04-22 07:05:13]:  DATABASE QUERY STARTS 
+[22-04-22 07:05:13]: 
+>>> VARIABLE SCOPE <<<<
+[current_block][Outer]
+[current_block][Inner]
+[outer_block][Outer]
+[current_block][Outer]
+
+PL/SQL procedure successfully completed.
+

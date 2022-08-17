@@ -1,0 +1,56 @@
+[22-06-14 09:51:04]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_36_TABLE_pseudofunction_140622095104.log
+[22-06-14 09:51:04]: INFO: Starting the script
+[22-06-14 09:51:04]: INFO: Script Directory: /u01/playground
+[22-06-14 09:51:04]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-14 09:51:04]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-14 09:51:04]: ----------------------------------------------------
+[22-06-14 09:51:04]:  DATABASE QUERY STARTS 
+[22-06-14 09:51:04]: 
+
+Session altered.
+
+Elapsed: 00:00:00.03
+---------------------------------------------------
+--  	The TABLE pseudofunction 	  	--
+---------------------------------------------------
+
+Type created.
+
+Elapsed: 00:00:00.40
+Sanu
+father
+mother
+niyati
+rani
+rupa
+rutvik
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.46
+
+SP2-0808: Package created with compilation warnings
+
+Elapsed: 00:00:00.34
+Me
+You
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.18
+		       FROM TABLE (happyfamily)
+                                   *
+ERROR at line 9:
+ORA-06550: line 9, column 36:
+PLS-00382: expression is of wrong type
+ORA-06550: line 9, column 29:
+PL/SQL: ORA-22905: cannot access rows from a non-nested table item
+ORA-06550: line 8, column 22:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 12, column 33:
+PLS-00364: loop index variable 'REC' use is invalid
+ORA-06550: line 12, column 11:
+PL/SQL: Statement ignored
+
+
+[22-06-14 09:51:06]: SQLERROR: Query error 150 in 36_TABLE_pseudofunction.sql

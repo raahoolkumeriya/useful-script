@@ -1,0 +1,15 @@
+[22-05-05 11:48:06]: INFO: Log File name: /u01/scripts/LOGS/execute_query_3_create_tables_050522114806.log
+[22-05-05 11:48:06]: INFO: Starting the script
+[22-05-05 11:48:06]: INFO: Script Directory: /u01/scripts
+[22-05-05 11:48:06]: INFO: Query Directory: /u01/scripts/oracleSQL
+[22-05-05 11:48:06]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-05 11:48:06]: ----------------------------------------------------
+[22-05-05 11:48:06]:  DATABASE QUERY STARTS 
+[22-05-05 11:48:06]: 
+		,			CONSTRAINT E_SALES_CHK CHECK (DECODE(job,'SALEREP;,0,1) + NVL2(comm,1,0) = 1)
+		 			                                         *
+ERROR at line 12:
+ORA-01756: quoted string not properly terminated
+
+
+[22-05-05 11:48:07]: SQLERROR: Query error 220 in 3_create_tables.sql

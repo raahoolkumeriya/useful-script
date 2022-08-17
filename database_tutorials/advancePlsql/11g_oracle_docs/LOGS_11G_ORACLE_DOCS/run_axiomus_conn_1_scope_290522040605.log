@@ -1,0 +1,15 @@
+[22-05-29 04:06:05]: INFO: Log File name: /u01/profiler/11g_oracle_docs/LOGS_11G_ORACLE_DOCS/run_axiomus_conn_1_scope_290522040605.log
+[22-05-29 04:06:05]: INFO: Starting the script
+[22-05-29 04:06:05]: INFO: Script Directory: /u01/profiler
+[22-05-29 04:06:05]: INFO: Query Directory: /u01/profiler/11g_oracle_docs
+[22-05-29 04:06:05]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-29 04:06:05]: ----------------------------------------------------
+[22-05-29 04:06:05]:  DATABASE QUERY STARTS 
+[22-05-29 04:06:05]: 
+-----------------------------------------------------------------
+--   Qualifying redclared Global Indentifier with Block label  --
+-----------------------------------------------------------------
+Something different for Birthday
+
+PL/SQL procedure successfully completed.
+

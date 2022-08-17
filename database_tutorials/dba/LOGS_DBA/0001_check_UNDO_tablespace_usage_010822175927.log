@@ -1,0 +1,37 @@
+[22-08-01 17:59:27]: INFO: Log File name: /home/raahool.linux/codelocked/database_tutorials/dba/LOGS_DBA/0001_check_UNDO_tablespace_usage_010822175927.log
+[22-08-01 17:59:27]: INFO: Starting the script
+[22-08-01 17:59:27]: INFO: Script Directory: /home/raahool.linux/codelocked/database_tutorials
+[22-08-01 17:59:27]: INFO: Query Directory: /home/raahool.linux/codelocked/database_tutorials/dba
+[22-08-01 17:59:27]: INFO: Spinning Connection with SYS@ORA.world
+[22-08-01 17:59:28]: +---------------------------------+
+[22-08-01 17:59:28]: | database query execution begins |
+[22-08-01 17:59:28]: +---------------------------------+
+
+Session altered.
+
+---------------------------------------------------
+--  Check the Undo tablespace Usage in Oracle 	--
+---------------------------------------------------
+-- Check the undo tablespace total, free and used space(Size in MB) in Oracle --
+
+TABLESPACE_NAME 		   SIZEMB    USAGEMB	 FREEMB
+------------------------------ ---------- ---------- ----------
+UNDOTBS1			      180	  10	    170
+
+-- Check the Active, expired and unexpired transaction space usage in Undo Tablespace --
+---> ACTIVE: Status show us the active transaction going in database, utilizing the undo tablespace and cannot be truncated.
+---> EXPIRED: Status show us the transaction which is completed and complete the undo_retention time and now first candidate for trucated from undo tablespace.'
+---> UNEXPIRED: Status show us the transaction which is completed but not completed the undo retention time. It can be trucated if required.
+
+TABLESPACE		       STATUS	  SUM_IN_MB	COUNTS
+------------------------------ --------- ---------- ----------
+UNDOTBS1		       EXPIRED	     60.375	    81
+UNDOTBS1		       UNEXPIRED	 10	    10
+
+-- Check undo usage by User or schema
+
+no rows selected
+
+[22-08-01 17:59:29]: +---------------------------------+
+[22-08-01 17:59:29]: |     database query ends here    |
+[22-08-01 17:59:29]: +---------------------------------+

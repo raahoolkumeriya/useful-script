@@ -1,0 +1,38 @@
+[22-06-15 03:51:05]: INFO: Log File name: /u01/playground/sixth_edition/LOGS_SIXTH_EDITION/run_axiomus_conn_43_unit_test_log_mechanisum_150622035105.log
+[22-06-15 03:51:05]: INFO: Starting the script
+[22-06-15 03:51:05]: INFO: Script Directory: /u01/playground
+[22-06-15 03:51:05]: INFO: Query Directory: /u01/playground/sixth_edition
+[22-06-15 03:51:05]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-15 03:51:05]: ----------------------------------------------------
+[22-06-15 03:51:05]:  DATABASE QUERY STARTS 
+[22-06-15 03:51:05]: 
+
+Session altered.
+
+Elapsed: 00:00:00.02
+---------------------------------------------------
+--     		TEST log mechnisum		--
+---------------------------------------------------
+
+      CODE TEXT 					      CREATED_O CREATED_BY CHANGED_O CHANGED_BY
+---------- -------------------------------------------------- --------- ---------- --------- ----------
+     -1476 ORA-01476: divisor is equal to zero		      15-JUN-22 AXIOMUS    15-JUN-22 AXIOMUS
+
+Elapsed: 00:00:00.01
+
+OBJECT_NAME		       OBJECT_TYPE	    STATUS
+------------------------------ -------------------- --------------------
+LOG			       PACKAGE		    VALID
+
+Elapsed: 00:00:00.71
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.08
+
+      CODE TEXT 					      CREATED_O CREATED_BY CHANGED_O CHANGED_BY
+---------- -------------------------------------------------- --------- ---------- --------- ----------
+     -1476 ORA-01476: divisor is equal to zero		      15-JUN-22 AXIOMUS    15-JUN-22 AXIOMUS
+     -1476 ORA-01476: divisor is equal to zero		      15-JUN-22 AXIOMUS    15-JUN-22 AXIOMUS
+
+Elapsed: 00:00:00.01

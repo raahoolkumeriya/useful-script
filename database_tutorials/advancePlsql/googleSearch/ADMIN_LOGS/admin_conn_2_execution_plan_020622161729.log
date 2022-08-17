@@ -1,0 +1,74 @@
+[22-06-02 16:17:29]: INFO: Log File name: /u01/advancePlsql/googleSearch/ADMIN_LOGS/admin_conn_2_execution_plan_020622161729.log
+[22-06-02 16:17:29]: INFO: Starting the script
+[22-06-02 16:17:29]: INFO: Script Directory: /u01/advancePlsql
+[22-06-02 16:17:29]: INFO: Query Directory: /u01/advancePlsql/googleSearch
+[22-06-02 16:17:29]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-02 16:17:29]: ----------------------------------------------------
+[22-06-02 16:17:29]:  DATABASE QUERY STARTS 
+[22-06-02 16:17:29]: 
+---------------------------------------------------
+--    	Check for execution plan		--
+---------------------------------------------------
+
+Session altered.
+
+
+EMPLOYEE_ID EMPLOYEE_N JOB	 MANAGER_ID HIREDATE	  SALARY COMMISSION DEPARTMENT_ID DTE
+----------- ---------- --------- ---------- --------- ---------- ---------- ------------- ---------
+       7654 MARTIN     SALESMAN        7698 28-SEP-81	    1250       1400	       30 27-SEP-22
+       7698 BLAKE      MANAGER	       7839 01-MAY-81	    2850		       30 27-SEP-22
+       7782 CLARK      MANAGER	       7839 09-JUN-81	    2450		       10 27-SEP-22
+       7788 SCOTT      ANALYST	       7566 19-APR-87	    3000		       20 27-SEP-22
+
+
+Execution Plan
+----------------------------------------------------------
+Plan hash value: 3211818193
+
+-------------------------------------------------------------------------------------------------
+| Id  | Operation			    | Name	| Rows	| Bytes | Cost (%CPU)| Time	|
+-------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT		    |		|     4 |   188 |     3   (0)| 00:00:01 |
+|   1 |  TABLE ACCESS BY INDEX ROWID BATCHED| BIGTAB	|     4 |   188 |     3   (0)| 00:00:01 |
+|*  2 |   INDEX RANGE SCAN		    | BIGTAB_IX |     4 |	|     2   (0)| 00:00:01 |
+-------------------------------------------------------------------------------------------------
+
+Predicate Information (identified by operation id):
+---------------------------------------------------
+
+   2 - access("DTE">=TO_DATE(' 2022-09-27 00:00:00', 'syyyy-mm-dd hh24:mi:ss'))
+
+
+Statistics
+----------------------------------------------------------
+	  0  recursive calls
+	  0  db block gets
+	  5  consistent gets
+	  0  physical reads
+	  0  redo size
+       5404  bytes sent via SQL*Net to client
+	608  bytes received via SQL*Net from client
+	  2  SQL*Net roundtrips to/from client
+	  0  sorts (memory)
+	  0  sorts (disk)
+	  4  rows processed
+
+
+PLAN_TABLE_OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL_ID	2s9mmb6g8kbqb, child number 0
+-------------------------------------
+SELECT DECODE('A','A','1','2') FROM SYS.DUAL
+
+Plan hash value: 1388734953
+
+-----------------------------------------------------------------
+| Id  | Operation	 | Name | Rows	| Cost (%CPU)| Time	|
+-----------------------------------------------------------------
+|   0 | SELECT STATEMENT |	|	|     2 (100)|		|
+|   1 |  FAST DUAL	 |	|     1 |     2   (0)| 00:00:01 |
+-----------------------------------------------------------------
+
+
+13 rows selected.
+

@@ -1,0 +1,18 @@
+[22-05-31 04:12:05]: INFO: Log File name: /u01/profiler/devgym/LOGS_DEVGYM/run_axiomus_conn_9_streaming_table_function_310522041205.log
+[22-05-31 04:12:05]: INFO: Starting the script
+[22-05-31 04:12:05]: INFO: Script Directory: /u01/profiler
+[22-05-31 04:12:05]: INFO: Query Directory: /u01/profiler/devgym
+[22-05-31 04:12:05]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-31 04:12:05]: ----------------------------------------------------
+[22-05-31 04:12:05]:  DATABASE QUERY STARTS 
+[22-05-31 04:12:05]: 
+---------------------------------------------------
+--     Streaming Table function			--
+---------------------------------------------------
+-- A processing in which data is transfer form one step to another step in stream of events all stay in single sql statement
+
+Package created.
+
+
+Function created.
+

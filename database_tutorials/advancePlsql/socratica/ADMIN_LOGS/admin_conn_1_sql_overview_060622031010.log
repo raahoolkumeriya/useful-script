@@ -1,0 +1,26 @@
+[22-06-06 03:10:10]: INFO: Log File name: /u01/advancePlsql/socratica/ADMIN_LOGS/admin_conn_1_sql_overview_060622031010.log
+[22-06-06 03:10:10]: INFO: Starting the script
+[22-06-06 03:10:10]: INFO: Script Directory: /u01/advancePlsql
+[22-06-06 03:10:10]: INFO: Query Directory: /u01/advancePlsql/socratica
+[22-06-06 03:10:10]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-06 03:10:10]: ----------------------------------------------------
+[22-06-06 03:10:10]:  DATABASE QUERY STARTS 
+[22-06-06 03:10:10]: 
+---------------------------------------------------
+--     		SQL Overview			--
+---------------------------------------------------
+SQL is a language for handling database CURD ( create update read delete )
+With SQL you can create databases and tables. Select specific piece of data, make changes, remove data and much mode
+A Relational database consists of a collection of tables
+Each tables has a defined set of coluns and rows containg data. Each row called a RECORD
+The data between tables can be related to each other, This is why they are called "relational" databases
+The collection of tables in a database is called the SCHEMA.
+To begin with SQL, turn on server. It is running a database management system. DBMS for short.
+WE connect to DBMS and then we create a database
+CREATE DATABASE social_network
+*
+ERROR at line 1:
+ORA-01501: CREATE DATABASE failed
+ORA-01100: database already mounted
+
+

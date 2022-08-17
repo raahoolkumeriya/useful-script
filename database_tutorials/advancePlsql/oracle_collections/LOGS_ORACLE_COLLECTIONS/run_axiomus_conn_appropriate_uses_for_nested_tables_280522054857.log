@@ -1,0 +1,15 @@
+[22-05-28 05:48:57]: INFO: Log File name: /u01/profiler/oracle_collections/LOGS_ORACLE_COLLECTIONS/run_axiomus_conn_appropriate_uses_for_nested_tables_280522054857.log
+[22-05-28 05:48:57]: INFO: Starting the script
+[22-05-28 05:48:57]: INFO: Script Directory: /u01/profiler
+[22-05-28 05:48:57]: INFO: Query Directory: /u01/profiler/oracle_collections
+[22-05-28 05:48:58]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-28 05:48:58]: ----------------------------------------------------
+[22-05-28 05:48:58]:  DATABASE QUERY STARTS 
+[22-05-28 05:48:58]: 
+----------------------------------------
+-- Appropriate Uses for Nested tables --
+----------------------------------------
+> The number of element is Not set
+> Index values are not consecutive
+> You must delete or update some element, but not all elements simultaneously.
+------------------------------------------------------------------------------

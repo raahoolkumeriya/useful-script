@@ -1,0 +1,29 @@
+[22-05-27 05:05:47]: INFO: Log File name: /u01/profiler/LOGS/run_axiomus_conn_environment_setup_270522050547.log
+[22-05-27 05:05:47]: INFO: Starting the script
+[22-05-27 05:05:47]: INFO: Script Directory: /u01/profiler
+[22-05-27 05:05:47]: INFO: Query Directory: /u01/profiler/tunning
+[22-05-27 05:05:47]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-27 05:05:47]: ----------------------------------------------------
+[22-05-27 05:05:47]:  DATABASE QUERY STARTS 
+[22-05-27 05:05:47]: 
+
+Table created.
+
+
+Comment created.
+
+
+Table created.
+
+
+Comment created.
+
+
+Table created.
+
+
+Comment created.
+
+
+Sequence created.
+

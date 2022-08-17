@@ -1,0 +1,65 @@
+/*
+|	Program: Geeks4Geeks - Math package 
+|	Author: Raahool Kumeriya
+|	Change history:
+|		07-JUN-2022 - Program Created
+*/
+
+SET SERVEROUTPUT ON;
+SET PAGES 1000 LINES 192;
+
+prompt ---------------------------------------------------;
+prompt --     Geeks4Geeks - Math package		--;
+prompt ---------------------------------------------------;
+
+CREATE OR REPLACE PACKAGE math IS
+	FUNCTION sum_of_two_numbers ( num1 IN NUMBER, num2 IN NUMBER ) RETURN NUMBER;
+
+	FUNCTION centered_traingular_num ( num IN NUMBER) RETURN NUMBER;
+
+	FUNCTION reverse_number ( num IN NUMBER ) RETURN NUMBER;
+END math;
+/
+
+show errors;
+
+CREATE OR REPLACE PACKAGE BODY math IS
+	FUNCTION sum_of_two_numbers ( num1 IN NUMBER, num2 IN NUMBER )
+	RETURN NUMBER
+	IS 
+	BEGIN
+		RETURN num1 + num2;
+	END sum_of_two_numbers;
+
+	FUNCTION centered_traingular_num ( num IN NUMBER) 
+		RETURN NUMBER
+	IS 
+	BEGIN
+		RETURN ( 3 * num * num + 3 * num + 2 ) / 2 ;
+	END centered_traingular_num;
+
+
+	FUNCTION reverse_number ( num IN NUMBER ) 
+		RETURN NUMBER
+	IS 
+	BEGIN
+		FOR i IN REVERSE 1 .. LENGTH(TO_CHAR(num))
+		LOOP
+			DBMS_OUTPUT.put(i);
+		END LOOP;
+		DBMS_OUTPUT.PUT_line(' ');
+		RETURN 1;	
+	END reverse_number;
+END math;
+/
+
+show errors;
+
+BEGIN
+	DBMS_OUTPUT.PUT_LINE('Sum of two numbers : '||math.sum_of_two_numbers(2, 10));
+	DBMS_OUTPUT.PUT_LINE('Centered Traingular number : '||math.centered_traingular_num(10));
+	DBMS_OUTPUT.PUT_LINE('Reverse number : '||math.reverse_number(12345));
+
+END;
+/
+

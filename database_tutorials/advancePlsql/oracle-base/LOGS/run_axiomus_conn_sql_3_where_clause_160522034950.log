@@ -1,0 +1,40 @@
+[22-05-16 03:49:50]: INFO: Log File name: /u01/docker/LOGS/run_axiomus_conn_sql_3_where_clause_160522034950.log
+[22-05-16 03:49:50]: INFO: Starting the script
+[22-05-16 03:49:50]: INFO: Script Directory: /u01/docker
+[22-05-16 03:49:50]: INFO: Query Directory: /u01/docker/oracle-base
+[22-05-16 03:49:50]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-16 03:49:50]: ----------------------------------------------------
+[22-05-16 03:49:50]:  DATABASE QUERY STARTS 
+[22-05-16 03:49:50]: 
+------- ASCI join synatx, where clasue only contains filter condition --
+
+EMPLOYEE_N     SALARY DEPARTMENT_ID DEPARTMENT_NAM
+---------- ---------- ------------- --------------
+FORD		 3000		 20 RESEARCH
+JONES		 2975		 20 RESEARCH
+SCOTT		 3000		 20 RESEARCH
+
+------- IN Condition can be evaluated against the retuned by a subquery ---
+
+EMPLOYEE_N EMPLOYEE_ID DEPARTMENT_ID
+---------- ----------- -------------
+CLARK		  7782		  10
+KING		  7839		  10
+MILLER		  7934		  10
+SMITH		  7369		  20
+JONES		  7566		  20
+SCOTT		  7788		  20
+ADAMS		  7876		  20
+FORD		  7902		  20
+
+8 rows selected.
+
+----- EXISTS and NOT EXISTS Conditions -------
+--- EXISTS condition evaluates to TRUE if the subquery returns one or more rows--
+
+DEPARTMENT_ID DEPARTMENT_NAM
+------------- --------------
+	   10 ACCOUNTING
+	   20 RESEARCH
+	   30 SALES
+

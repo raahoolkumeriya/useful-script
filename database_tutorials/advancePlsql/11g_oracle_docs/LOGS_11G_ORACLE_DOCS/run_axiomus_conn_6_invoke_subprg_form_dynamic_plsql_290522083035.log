@@ -1,0 +1,38 @@
+[22-05-29 08:30:35]: INFO: Log File name: /u01/profiler/11g_oracle_docs/LOGS_11G_ORACLE_DOCS/run_axiomus_conn_6_invoke_subprg_form_dynamic_plsql_290522083035.log
+[22-05-29 08:30:35]: INFO: Starting the script
+[22-05-29 08:30:35]: INFO: Script Directory: /u01/profiler
+[22-05-29 08:30:35]: INFO: Query Directory: /u01/profiler/11g_oracle_docs
+[22-05-29 08:30:35]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-05-29 08:30:35]: ----------------------------------------------------
+[22-05-29 08:30:35]:  DATABASE QUERY STARTS 
+[22-05-29 08:30:35]: 
+---------------------------------------------------
+-- Invoking Subprogram from Dynamic PL/SQL Block --
+---------------------------------------------------
+
+DEPARTMENT_ID DEPARTMENT_NAM LOCATION
+------------- -------------- -------------
+	   10 ACCOUNTING     NEW YORK
+	   20 RESEARCH	     DALLAS
+	   30 SALES	     CHICAGO
+	   40 OPERATIONS     BOSTON
+	   50 Advertising    Mumbai
+
+
+Procedure created.
+
+
+PL/SQL procedure successfully completed.
+
+
+DEPARTMENT_ID DEPARTMENT_NAM LOCATION
+------------- -------------- -------------
+	   10 ACCOUNTING     NEW YORK
+	   20 RESEARCH	     DALLAS
+	   30 SALES	     CHICAGO
+	   40 OPERATIONS     BOSTON
+	   60 HR	     Pune
+	   50 Advertising    Mumbai
+
+6 rows selected.
+

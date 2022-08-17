@@ -1,0 +1,78 @@
+[22-06-10 03:21:17]: INFO: Log File name: /u01/advancePlsql/utube/LOGS_UTUBE/run_axiomus_conn_substr_function_100622032117.log
+[22-06-10 03:21:17]: INFO: Starting the script
+[22-06-10 03:21:18]: INFO: Script Directory: /u01/advancePlsql
+[22-06-10 03:21:18]: INFO: Query Directory: /u01/advancePlsql/utube
+[22-06-10 03:21:18]: INFO: Spinning Connection with axiomus@ORCLPDB1
+[22-06-10 03:21:18]: ----------------------------------------------------
+[22-06-10 03:21:18]:  DATABASE QUERY STARTS 
+[22-06-10 03:21:18]: 
+---------------------------------------------------
+--     		SUBSTR function			--
+---------------------------------------------------
+-- Help to extract goven numebr of charater from given string.
+
+EMPLOYEE_N SUBSTR(EMPLO
+---------- ------------
+SMITH	   SMI
+ALLEN	   ALL
+WARD	   WAR
+JONES	   JON
+MARTIN	   MAR
+BLAKE	   BLA
+CLARK	   CLA
+SCOTT	   SCO
+KING	   KIN
+TURNER	   TUR
+ADAMS	   ADA
+JAMES	   JAM
+FORD	   FOR
+MILLER	   MIL
+STALIN	   STA
+JONES	   JON
+
+16 rows selected.
+
+
+EMPLOYEE_N SUBSTR(EMPLO
+---------- ------------
+SMITH	   ITH
+ALLEN	   LEN
+WARD	   RD
+JONES	   NES
+MARTIN	   RTI
+BLAKE	   AKE
+CLARK	   ARK
+SCOTT	   OTT
+KING	   NG
+TURNER	   RNE
+ADAMS	   AMS
+JAMES	   MES
+FORD	   RD
+MILLER	   LLE
+STALIN	   ALI
+JONES	   NES
+
+16 rows selected.
+
+
+EMPLOYEE_N SUBSTR(EMPLO
+---------- ------------
+SMITH	   ITH
+ALLEN	   LEN
+WARD	   ARD
+JONES	   NES
+MARTIN	   TIN
+BLAKE	   AKE
+CLARK	   ARK
+SCOTT	   OTT
+KING	   ING
+TURNER	   NER
+ADAMS	   AMS
+JAMES	   MES
+FORD	   ORD
+MILLER	   LER
+STALIN	   LIN
+JONES	   NES
+
+16 rows selected.
+

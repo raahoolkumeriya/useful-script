@@ -1,0 +1,9 @@
+[22-04-21 14:23:17]: INFO: Log File name: /u01/scripts/LOGS/execute_query_5_case_statement_210422142317.log
+[22-04-21 14:23:17]: INFO: Starting the script
+[22-04-21 14:23:17]: INFO: Script Directory: /u01/scripts
+[22-04-21 14:23:17]: INFO: Query Directory: /u01/scripts/queryspace
+[22-04-21 14:23:17]: INFO: Spinning Connection with axiomus@ORCLPDB1
+Three is less then five.
+
+PL/SQL procedure successfully completed.
+
