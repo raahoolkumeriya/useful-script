@@ -1,0 +1,61 @@
++---------------------+
+| Exists PMON process |
++---------------------+
+
+PLAY [testing custom module | pmon_status] *************************************
+
+TASK [pmon process check for database instance] ********************************
+Wednesday 28 September 2022  16:04:20 +0000 (0:00:00.250)       0:00:00.251 *** 
+ok: [lima-default]
+
+TASK [debug] *******************************************************************
+Wednesday 28 September 2022  16:04:37 +0000 (0:00:16.798)       0:00:17.051 *** 
+ok: [lima-default] => {
+    "result": {
+        "ansible_facts": {
+            "discovered_interpreter_python": "/usr/bin/python3"
+        },
+        "changed": false,
+        "failed": false,
+        "msg": [
+            {
+                "CMD": "ora_pmon_SBCDB",
+                "TIME": "00:02:12",
+                "TTY": "?",
+                "effective_user_id": "54321",
+                "parent_process_id": "85186",
+                "process_id": "288628",
+                "processor_utilization": "0",
+                "start_time": "Sep27"
+            }
+        ]
+    }
+}
+
+PLAY RECAP *********************************************************************
+lima-default               : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Wednesday 28 September 2022  16:04:37 +0000 (0:00:00.588)       0:00:17.641 *** 
+=============================================================================== 
+pmon process check for database instance ------------------------------- 16.80s
+debug ------------------------------------------------------------------- 0.59s
+Playbook run took 0 days, 0 hours, 0 minutes, 17 seconds
+
++-----------------+
+| No PMON process |
++-----------------+
+
+PLAY [testing custom module | pmon_status] *************************************
+
+TASK [pmon process check for database instance] ********************************
+Wednesday 28 September 2022  16:04:45 +0000 (0:00:00.264)       0:00:00.265 *** 
+fatal: [lima-default]: FAILED! => {"ansible_facts": {"discovered_interpreter_python": "/usr/bin/python3"}, "changed": false, "message": "", "msg": "PMON process is NOT running on host server."}
+
+PLAY RECAP *********************************************************************
+lima-default               : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+Wednesday 28 September 2022  16:04:54 +0000 (0:00:08.967)       0:00:09.232 *** 
+=============================================================================== 
+pmon process check for database instance -------------------------------- 8.97s
+Playbook run took 0 days, 0 hours, 0 minutes, 9 seconds
+
