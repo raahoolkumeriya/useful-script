@@ -1,0 +1,20 @@
+---
+- name: "testing custom module | calculator"
+  hosts: "{{ remote_host }}"
+  remote_user: "{{ user }}"
+  gather_facts: false
+  tasks:
+  - name: Test that my calculator module works
+    calculator:
+      mode: "{{ item.mode }}"
+      x: "{{ item.x }}" 
+      y: "{{ item.y }}"
+    loop:
+      - { mode: "add", x: 10, y: 20}
+      - { mode: "sub", x: 10, y: 20}
+      - { mode: "mul", x: 10, y: 20}
+      - { mode: "div", x: 10, y: 20}
+      - { mode: "mod", x: 10, y: 20}
+    register: result
+
+  - debug: var=result.results
